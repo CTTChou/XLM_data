@@ -4,6 +4,7 @@ from requests import post
 import json
 import requests
 
+
 def llm_translation(ls):
     url = "https://api.droidtown.co/Loki/Call/"
     ls1 = ls
@@ -25,23 +26,15 @@ def llm_translation(ls):
     
     return translated_list   
 
-    
-def search_spec(htmlSTR, a, b):
-    ls = []
-    soup = BeautifulSoup(htmlSTR, "lxml")
-    aLIST = soup.find_all(a, class_=b)
-    for a in aLIST:
-        aSTR = a.get_text()
-        ls.append(aSTR)    
-    return ls
 
-def search(htmlSTR, a):
+def search_paragraphs_in_paragraph_div(htmlSTR):
+    """<p> tags inside <div class='paragraph'> and not <div class='author'>."""
     ls = []
     soup = BeautifulSoup(htmlSTR, "lxml")
-    aLIST = soup.find_all(a)
-    for a in aLIST:
-        aSTR = a.get_text()
-        ls.append(aSTR)    
+    paragraph_div = soup.find('div', class_='paragraph')
+    result = paragraph_div.find_all('p', recursive=False)
+    for i in result:
+        ls.append(i.get_text())
     return ls
 
 
@@ -57,8 +50,38 @@ if __name__ == "__main__":
     }    
     response = requests.get(url, headers=headers) 
     html_doc = response.text
-    ls = search(html_doc, "p")
+    ls = search_paragraphs_in_paragraph_div(html_doc)
     print("english news: ", ls)
     translatedLIST = llm_translation(ls)
     print("translated: ", translatedLIST)
+    
+    resultDICT = {}
+    for i in range(len(ls)):
+        resultDICT[ls[i]] = translatedLIST[i]
+    print(resultDICT)
+    with open("eng_results.json", "a", encoding="utf-8") as f:
+        f.write(url+"\n")
+        json.dump(resultDICT, f, ensure_ascii=False, indent=4)
+        f.write("\n")
+    
+    
+    
+'''def search_spec(htmlSTR, a, b):
+    ls = []
+    soup = BeautifulSoup(htmlSTR, "lxml")
+    aLIST = soup.find_all(a, class_=b)
+    for a in aLIST:
+        aSTR = a.get_text()
+        ls.append(aSTR)    
+    return ls
+
+def search(htmlSTR, a):
+    ls = []
+    soup = BeautifulSoup(htmlSTR, "lxml")
+    aLIST = soup.find_all(a)
+    for a in aLIST:
+        aSTR = a.get_text()
+        ls.append(aSTR)    
+    return ls'''
+
     
