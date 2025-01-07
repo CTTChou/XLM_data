@@ -1,3 +1,6 @@
+#!/user/bin/env python
+# -*- coding: utf-8 -*-
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from requests import post
@@ -44,7 +47,7 @@ def main():
 
 
 if __name__ == "__main__":
-    url = "https://focustaiwan.tw/politics/202501030001" 
+    url = "https://focustaiwan.tw/politics/202501060006" 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     }    
@@ -56,13 +59,25 @@ if __name__ == "__main__":
     print("translated: ", translatedLIST)
     
     resultDICT = {}
+    sentenceDICT = {}
+    sentenceLIST = []
+    '''for i in range(len(ls)):
+        sentenceDICT[ls[i]] = translatedLIST[i]
+    sentenceLIST.append(sentenceDICT)'''
     for i in range(len(ls)):
-        resultDICT[ls[i]] = translatedLIST[i]
-    print(resultDICT)
-    with open("eng_results.json", "a", encoding="utf-8") as f:
-        f.write(url+"\n")
-        json.dump(resultDICT, f, ensure_ascii=False, indent=4)
-        f.write("\n")
+        tempDICT = {}
+        tempDICT[ls[i]] = translatedLIST[i]
+        sentenceLIST.append(tempDICT)
+    #print(sentenceLIST)    
+    resultDICT["src"] = url
+    resultDICT["sentence"] = sentenceLIST
+    
+    with open('eng_results.json', 'r') as file:
+        dataLIST = json.load(file)
+        dataLIST.append(resultDICT)
+    
+    with open("eng_results.json", "w", encoding="utf-8") as f:
+        json.dump(dataLIST, f, ensure_ascii=False, indent=4)
     
     
     
