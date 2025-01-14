@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from requests import post
 import json
 import requests
+import re
 
 
 def llm_translate(inputLIST):
@@ -21,7 +22,7 @@ def llm_translate(inputLIST):
     url = "https://api.droidtown.co/Loki/Call/"
     translatedLIST = []
     
-    for i in inputLIST:
+    for i in inputLIST:         
         payload = {
           "username": "ganpeijie3@gmail.com",
           "func": "call_llm",
@@ -79,6 +80,8 @@ def main(url):
     response = requests.get(url, headers=headers) 
     html_doc = response.text
     chLIST = search_para(html_doc)
+    for i in chLIST:
+        chLIST[chLIST.index(i)] = re.sub("（中央社記者.*電）|（編輯：.*）\d*", '', i)     
     print("chinese news: ", chLIST)
     translatedLIST = llm_translate(chLIST)
     print("translated: ", translatedLIST)
