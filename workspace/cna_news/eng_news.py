@@ -32,9 +32,11 @@ def llm_translate(inputLIST):
             "user": "依上文，翻譯成台灣新聞常見的台灣繁體中文", # required
           }
         }
-        result = post(url, json=payload).json()
-        translatedLIST.append(result['result'][0]['message']['content'])
-    
+        try:
+            result = post(url, json=payload).json()
+            translatedLIST.append(result['result'][0]['message']['content'])
+        except Excption as e:
+            print(f"input: {i}, Error: {e}")
     return translatedLIST
 
 
@@ -58,24 +60,35 @@ def search_para(htmlSTR):
 
 
 def main(url): 
+    """
+    Fetches a web page from the provided URL, extracts news content, 
+    translates the content, and returns the result dictionary.
+    
+    Parameters:
+        url (str): The input url string.
+    
+    Returns:
+        dict: A dictionary with the following keys:
+            - "src": The original URL of the web page.
+            - "sentence": A list of dictionaries containing the original and translated news content.
+    """     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }    
+    }   
     response = requests.get(url, headers=headers) 
     html_doc = response.text
-    ls = search_para(html_doc)
-    print("english news: ", ls)
-    translatedLIST = llm_translate(ls)
+    engLIST = search_para(html_doc)
+    print("english news: ", engLIST)
+    translatedLIST = llm_translate(engLIST)
     print("translated: ", translatedLIST)
     
     resultDICT = {}
     sentenceDICT = {}
     sentenceLIST = []
-    for i in range(len(ls)):
+    for i in range(len(engLIST)):
         tempDICT = {}
-        tempDICT[ls[i]] = translatedLIST[i]
-        sentenceLIST.append(tempDICT)
-    #print(sentenceLIST)    
+        tempDICT[engLIST[i]] = translatedLIST[i]
+        sentenceLIST.append(tempDICT)  
     resultDICT["src"] = url
     resultDICT["sentence"] = sentenceLIST
       
@@ -86,9 +99,9 @@ if __name__ == "__main__":
     url = "https://focustaiwan.tw/politics/202501060006" 
     resultDICT = main(url)
     
-    with open('eng_results.json', 'r') as file:
+    with open('../../data/cna_news/english/eng_results.json', 'r') as file:
         dataLIST = json.load(file)
         dataLIST.append(resultDICT)
     
-    with open("eng_results.json", "w", encoding="utf-8") as f:
+    with open("../../data/cna_news/english/eng_results.json", "w", encoding="utf-8") as f:
         json.dump(dataLIST, f, ensure_ascii=False, indent=4)     
