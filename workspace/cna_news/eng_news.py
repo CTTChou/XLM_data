@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from requests import post
 import json
 import requests
+import re
 
 
 def llm_translate(inputLIST):
@@ -78,6 +79,8 @@ def main(url):
     response = requests.get(url, headers=headers) 
     html_doc = response.text
     engLIST = search_para(html_doc)
+    for i in engLIST:
+        engLIST[engLIST.index(i)] = re.sub(".*[(CNA)]\s", '', i)    
     print("english news: ", engLIST)
     translatedLIST = llm_translate(engLIST)
     print("translated: ", translatedLIST)
