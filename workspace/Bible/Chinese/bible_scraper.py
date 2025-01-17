@@ -3,10 +3,14 @@
 
 import json
 import os
+import re
 from bs4 import BeautifulSoup
 from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
+
+comPAT = re.compile(r"\( [^)]+\)|\n")
+
 
 def get_ChiBibleDICT(url):
     """
@@ -20,7 +24,7 @@ def get_ChiBibleDICT(url):
 
     字典格式範例:
     ChiBibleDICT={ 
-    "創世紀": {
+    "創世紀": [{
         "第1章": [
             {"1:1": "ChiSentence"},
             {"1:2": "ChiSentence"}
@@ -28,11 +32,13 @@ def get_ChiBibleDICT(url):
         "第40章": [
             {"40:1": "ChiSentence"},
             {"40:2": "ChiSentence"}]
-        }
+            }]
     }
     """
     ChiBibleDICT = {}
-    driver = webdriver.Chrome()
+    #driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
+    
     driver.get(url)
     
     # 等待頁面加載完成
@@ -54,6 +60,7 @@ def get_ChiBibleDICT(url):
     
     trTag = soup.find_all("tr")
     if trTag:
+        prev_senSTR = ""  # 用來保存上一個內文
         for tr in trTag[1:]:
             #章節 (e.g. 1:1)            
             tdTag = tr.find("td", align="center").find("b")
@@ -63,13 +70,21 @@ def get_ChiBibleDICT(url):
             for h2 in tdTag[1].find_all("h2"):
                 h2.decompose()
             senSTR = tdTag[1].get_text().strip()
+            senSTR = re.sub(comPAT, "", senSTR)
             
+            while senSTR == "【併於上節】":# 如果是 "【併於上節】"，持續回溯到上一個非 "【併於上節】" 的內文
+                senSTR = prev_senSTR
+            if senSTR != "【併於上節】":   # 如果不是 "【併於上節】"，更新 prev_senSTR
+                prev_senSTR = senSTR
+
             if bookSTR not in ChiBibleDICT:
-                ChiBibleDICT[bookSTR] ={}
-            if chSTR not in ChiBibleDICT[bookSTR]:
-                ChiBibleDICT[bookSTR][chSTR] = []
-            ChiBibleDICT[bookSTR][chSTR].append({secSTR: senSTR})
-    return ChiBibleDICT
+                ChiBibleDICT[bookSTR] = [{}]
+            if chSTR not in ChiBibleDICT[bookSTR][0]:
+                ChiBibleDICT[bookSTR][0][chSTR] = []
+            # 添加 secSTR 和 senSTR 到對應的章節
+            ChiBibleDICT[bookSTR][0][chSTR].append({secSTR: senSTR})
+            
+    return ChiBibleDICT, bookSTR
 
 def get_BookLIST(url):
     """
@@ -82,7 +97,8 @@ def get_BookLIST(url):
     返回:
         list: 包含所有書籍選項值的列表。
     """    
-    driver = webdriver.Chrome()
+    #driver = webdriver.Chrome()
+    driver = webdriver.Firefox()  
     driver.get(url)
     driver.implicitly_wait(10)
     htmlSTR = driver.page_source
@@ -91,7 +107,33 @@ def get_BookLIST(url):
     sbTag = soup.find("select", attrs={"name": "sb", "onchange": "setchap(1)"})    
     valueTag = sbTag.find_all("option")
     bookLIST = [v["value"] for v in valueTag]
+    print(f"bookLIST = {bookLIST}")    
     return bookLIST
+
+def get_ChapterLIST(bk_url):
+    """
+    使用 Selenium 驅動 Chrome 瀏覽器來訪問指定的 URL，並抓取 HTML 原始碼。
+    使用 BeautifulSoup 解析 HTML，從 `<select>` 標籤中提取所有書籍中的最後一章的選項值，並返回最後一章的數值。
+
+    參數:
+        url (str): 目標網頁的 URL。
+
+    返回:
+        int: 包含所有書籍中的最後一章的選項值。
+    """    
+    #driver = webdriver.Chrome()
+    driver = webdriver.Firefox()  
+    driver.get(bk_url)
+    driver.implicitly_wait(10)
+    htmlSTR = driver.page_source
+    driver.quit()
+    soup = BeautifulSoup(htmlSTR, "lxml")
+    scTag = soup.find("select", attrs={"name": "sc", "onchange": "gotochap()"})
+    valueTag = scTag.find_all("option")
+    chapterLIST = [v["value"] for v in valueTag]
+    chapterINT = int(chapterLIST[-1])
+    print(f"last chapter = {chapterINT}")    
+    return chapterINT
 
 def main(url):
     """
@@ -105,34 +147,64 @@ def main(url):
         list: 包含所有書籍中文聖經內容的列表。
     """    
     bookLIST = get_BookLIST(url)
-    all_ChiBibleLIST = []
+    one_ChiBibleLIST = []
     for b in bookLIST:
         ChiBibleLIST = []
         bookname = unquote(b)
+        book_jsonFILE = f"../../../data/Bible/Chinese/book/{bookname}.json"        
+        if os.path.exists(book_jsonFILE):
+            with open(book_jsonFILE, "r", encoding="utf-8") as f:
+                ChiBibleLIST = json.load(f)
+            bookSTR = list(ChiBibleLIST[0].keys())[0]
+            exist_chapter = len(ChiBibleLIST[0][bookSTR])
+        else:
+            exist_chapter = 0
+        
+        bk_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap=1&submit1=%E9%96%B1%E8%AE%80"
+        chapterINT = get_ChapterLIST(bk_url)
         try:
-            for i in range(1, 51):
+            for i in range(exist_chapter + 1, chapterINT + 1):
                 ch_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap={i}&submit1=%E9%96%B1%E8%AE%80"
-                ChiBibleDICT = get_ChiBibleDICT(ch_url)
+                ChiBibleDICT, bookSTR = get_ChiBibleDICT(ch_url)
                 pprint(ChiBibleDICT)
-                ChiBibleLIST.append(ChiBibleDICT)
+                existing_bookDICT = None
+                for bookDICT in ChiBibleLIST:
+                    if bookSTR in bookDICT:
+                        existing_bookDICT = bookDICT
+                        break
+                if existing_bookDICT:   # 合併 chapter
+                    existing_bookDICT[bookSTR].append(ChiBibleDICT[bookSTR][0])
+                else:   #合併 book
+                    ChiBibleLIST.append(ChiBibleDICT)             
+                pprint(ChiBibleLIST)            
         except IndexError:
-            continue
+            pass
         
         book_folder = "../../../data/Bible/Chinese/book"
         if not os.path.exists(book_folder):
             os.makedirs(book_folder)
-        book_jsonFILE = f"../../../data/Bible/Chinese/book/{bookname}.json"
         with open(book_jsonFILE, "w", encoding="utf-8") as f:
             json.dump(ChiBibleLIST, f, ensure_ascii=False, indent=4)
-            all_ChiBibleLIST.extend(ChiBibleLIST)
+            one_ChiBibleLIST.extend(ChiBibleLIST)
     
-    with open("./ChiBible.json", "w", encoding="utf-8") as f:
-        json.dump(all_ChiBibleLIST, f, ensure_ascii=False, indent=4)
-    
-    return all_ChiBibleLIST
+    return one_ChiBibleLIST
 
 if __name__ == "__main__":
-    url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%89%B5&chap=1&submit1=%E9%96%B1%E8%AE%80"
-    all_ChiBibleLIST = main(url)
-    pprint(all_ChiBibleLIST)
+    url_LIST = [
+        "https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%89%B5&chap=1&submit1=%E9%96%B1%E8%AE%80",
+        "https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%A4%AA&chap=1&submit1=%E9%96%B1%E8%AE%80"
+    ]
+    
+    all_ChiBibleLIST = []
+    for idx, url in enumerate(url_LIST):
+        one_ChiBibleLIST = main(url)
+        jsonFILE = f"./ChiBible_{idx}.json"
+        with open(jsonFILE, "w", encoding="utf-8") as f:
+            json.dump(one_ChiBibleLIST, f, ensure_ascii=False, indent=4)    
+            pprint(one_ChiBibleLIST)
+            all_ChiBibleLIST.extend(one_ChiBibleLIST)
+            
+    with open("./all_ChiBible.json", "w", encoding="utf-8") as f:
+        json.dump(all_ChiBibleLIST, f, ensure_ascii=False, indent=4)
+        pprint(all_ChiBibleLIST)
   
