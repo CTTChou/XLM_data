@@ -58,8 +58,8 @@ def main(url, chapter_num):
     
     Returns:
         dict: A dictionary with the following keys:
-            - "src": The original URL of the web page.
-            - "sentence": A list of dictionaries containing the original and translated news content.
+            - "Genesis": The book of the extracted content.
+            - "Chapter": A list of dictionaries containing the chapter content.
     """
     response = requests.get(url)
     html_doc = response.text
