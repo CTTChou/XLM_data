@@ -28,23 +28,34 @@ def search(htmlSTR, chapter):
         list: The list of searched content.
     """
     outputLIST = []
+    lineLIST = []
     start_line = find_lines(htmlSTR)[0]         #calls the find_lines(html_doc) function to get starting and ending lines.
     end_line = find_lines(htmlSTR)[1]
+    htmlSTR = re.sub("<h3>.*</h3>", "", htmlSTR)
     soup = BeautifulSoup(htmlSTR, "lxml")
-    paragraph = soup.find('p')
-    first_line = paragraph.find_all('span', class_= f"text Gen-{chapter}-1", recursive=False)  
+
+    first_line = soup.find_all('span', class_= f"text Gen-{chapter}-1")  
     for l in first_line:
-        outputLIST.append(l.get_text())    
+        outputLIST.append(l.get_text())
+        lineLIST.append(1)
     for start_line in range(end_line+1):
-        result = paragraph.find_all('span', id= f"en-GNT-{start_line}", recursive=False)  
+        result = soup.find_all('span', id= f"en-GNT-{start_line}")  
         for k in result:
-            outputLIST.append(k.get_text())        
-    for j in outputLIST:
+            tempSTR = k.get_text()
+            #print(tempSTR)
+            pattern = r'(\d+-\d+|\d+)'
+            line = re.findall(pattern, tempSTR)   
+            tempSTR2 = re.sub("\[\w\]|\(\w\)|^.{1,3}\s", "", tempSTR)
+            #print(tempSTR2)
+            outputLIST.append(tempSTR)
+            #print(line[0])
+            lineLIST.append(line[0])
+    '''for j in outputLIST:
         if chapter < 10:
             outputLIST[outputLIST.index(j)] = re.sub("\[\w\]|\(\w\)|^..", "", j)   
         else:
-            outputLIST[outputLIST.index(j)] = re.sub("\[\w\]|\(\w\)|^...", "", j)            
-    return outputLIST
+            outputLIST[outputLIST.index(j)] = re.sub("\[\w\]|\(\w\)|^...", "", j)'''         
+    return outputLIST, lineLIST
 
 
 def main(url, chapter_num): 
@@ -63,26 +74,29 @@ def main(url, chapter_num):
     """
     response = requests.get(url)
     html_doc = response.text
-    engLIST = search(html_doc, chapter_num)
+    engLIST = search(html_doc, chapter_num)[0]
+    lineLIST = search(html_doc, chapter_num)[1]
     print(f"English Bible Chapter {chapter_num}: ", engLIST)
+    print(len(lineLIST))
     
     resultDICT = {}
     sentenceDICT ={}
     sentenceLIST = []
-    for i in range(len(engLIST)):
-        tempDICT = {}
-        tempSTR = f"{chapter_num}:{i+1}"
-        tempDICT[tempSTR] = engLIST[i]
+    for i in range(len(lineLIST)):
+        tempDICT = {}              
+        tempSTR = f"{chapter_num}:{lineLIST[i]}"
+        tempDICT[tempSTR] = engLIST[i]        
         sentenceLIST.append(tempDICT)
     resultDICT["Genesis"] = sentenceDICT
     sentenceDICT[f"Chapter {chapter_num}"] = sentenceLIST
     print(resultDICT)
+    print("Hello World")
     
     return resultDICT
 
 
 if __name__ == "__main__":
-    for i in range(1,52):           #還需加上怎麼找有幾個章節的部分
+    for i in range(1,10):           #還需加上怎麼找有幾個章節的部分
         try:
             url = f"https://www.biblegateway.com/passage/?search=Genesis%20{i}&version=GNT"
             resultDICT = main(url, i)
