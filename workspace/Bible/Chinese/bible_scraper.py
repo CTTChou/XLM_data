@@ -9,7 +9,7 @@ from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
 
-comPAT = re.compile(r"\( [^)]+\)|\n")
+comPAT = re.compile(r"\( [^)]+\)|（ [^\）]+）|\n")
 
 
 def get_ChiBibleDICT(url):
@@ -147,13 +147,14 @@ def main(url):
         list: 包含所有書籍中文聖經內容的列表。
     """    
     bookLIST = get_BookLIST(url)
-    one_ChiBibleLIST = []
+    print(f"book 總數為： {len(bookLIST)}")
+    all_ChiBibleLIST = []
     for b in bookLIST:
         ChiBibleLIST = []
         bookname = unquote(b)
         book_jsonFILE = f"../../../data/Bible/Chinese/book/{bookname}.json"        
         if os.path.exists(book_jsonFILE):
-            with open(book_jsonFILE, "r", encoding="utf-8") as f:
+            with open(book_jsonFILE, "r", encoding="utf-8") as f:   #讀取已存在的 chapter，並從還未抓取的章節開始
                 ChiBibleLIST = json.load(f)
             bookSTR = list(ChiBibleLIST[0].keys())[0]
             exist_chapter = len(ChiBibleLIST[0][bookSTR])
@@ -162,49 +163,47 @@ def main(url):
         
         bk_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap=1&submit1=%E9%96%B1%E8%AE%80"
         chapterINT = get_ChapterLIST(bk_url)
-        try:
-            for i in range(exist_chapter + 1, chapterINT + 1):
-                ch_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap={i}&submit1=%E9%96%B1%E8%AE%80"
-                ChiBibleDICT, bookSTR = get_ChiBibleDICT(ch_url)
-                pprint(ChiBibleDICT)
-                existing_bookDICT = None
-                for bookDICT in ChiBibleLIST:
-                    if bookSTR in bookDICT:
-                        existing_bookDICT = bookDICT
-                        break
-                if existing_bookDICT:   # 合併 chapter
-                    existing_bookDICT[bookSTR].append(ChiBibleDICT[bookSTR][0])
-                else:   #合併 book
-                    ChiBibleLIST.append(ChiBibleDICT)             
-                pprint(ChiBibleLIST)            
-        except IndexError:
-            pass
-        
-        book_folder = "../../../data/Bible/Chinese/book"
-        if not os.path.exists(book_folder):
-            os.makedirs(book_folder)
-        with open(book_jsonFILE, "w", encoding="utf-8") as f:
+        for i in range(exist_chapter + 1, chapterINT + 1):  #根據每個 book 有的章節數量做迴圈
+            ch_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap={i}&submit1=%E9%96%B1%E8%AE%80"
+            ChiBibleDICT, bookSTR = get_ChiBibleDICT(ch_url)
+            pprint(ChiBibleDICT)
+            book_folder = "../../../data/Bible/Chinese/book"
+            if not os.path.exists(book_folder):
+                os.makedirs(book_folder)
+            with open(book_jsonFILE, "w", encoding="utf-8") as f:   #每次抓取新章節都更新 jsonFILE
+                json.dump(ChiBibleLIST, f, ensure_ascii=False, indent=4)
+            
+            existing_bookDICT = None
+            for bookDICT in ChiBibleLIST:
+                if bookSTR in bookDICT:
+                    existing_bookDICT = bookDICT
+                    break
+            if existing_bookDICT:   # 合併 chapter
+                existing_bookDICT[bookSTR].append(ChiBibleDICT[bookSTR][0])
+            else:   #合併 book
+                ChiBibleLIST.append(ChiBibleDICT)             
+            pprint(ChiBibleLIST)
+
+        with open(book_jsonFILE, "w", encoding="utf-8") as f:   #抓取完所有章節更新 jsonFILE
             json.dump(ChiBibleLIST, f, ensure_ascii=False, indent=4)
-            one_ChiBibleLIST.extend(ChiBibleLIST)
-    
-    return one_ChiBibleLIST
+        
+    book_folder = "../../../data/Bible/Chinese/book"
+    for FILEname in os.listdir(book_folder):
+        if FILEname.endswith(".json"):
+            filepath = os.path.join(book_folder, FILEname)
+            with open(filepath, "r", encoding="utf-8") as f:    #整合所有 book_jsonFILE
+                all_ChiBibleLIST.extend(json.load(f))
+                
+    with open("../../../data/Bible/Chinese/all_ChiBible.json", "w", encoding="utf-8") as f:
+        json.dump(all_ChiBibleLIST, f, ensure_ascii=False, indent=4)
+        
+    return all_ChiBibleLIST
 
 if __name__ == "__main__":
-    url_LIST = [
-        "https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%89%B5&chap=1&submit1=%E9%96%B1%E8%AE%80",
-        "https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%A4%AA&chap=1&submit1=%E9%96%B1%E8%AE%80"
-    ]
+    url = "https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%89%B5&chap=1&submit1=%E9%96%B1%E8%AE%80"
     
-    all_ChiBibleLIST = []
-    for idx, url in enumerate(url_LIST):
-        one_ChiBibleLIST = main(url)
-        jsonFILE = f"./ChiBible_{idx}.json"
-        with open(jsonFILE, "w", encoding="utf-8") as f:
-            json.dump(one_ChiBibleLIST, f, ensure_ascii=False, indent=4)    
-            pprint(one_ChiBibleLIST)
-            all_ChiBibleLIST.extend(one_ChiBibleLIST)
-            
-    with open("./all_ChiBible.json", "w", encoding="utf-8") as f:
-        json.dump(all_ChiBibleLIST, f, ensure_ascii=False, indent=4)
-        pprint(all_ChiBibleLIST)
+    all_ChiBibleLIST = main(url)
+    pprint(all_ChiBibleLIST)    
+        
+    
   
