@@ -30,12 +30,15 @@ def llm_translate(inputLIST):
             "model": "Llama3-8B", # [Gemma2-9B, Llama3-8B]
             "system": "你是一個專業的英文至台灣繁體中文新聞翻譯人員", # optional
             "assistant": i, # optional
-            "user": "依上文，翻譯成台灣新聞常見的台灣繁體中文", # required
+            #"user": "依上文，翻譯成台灣新聞常見的台灣繁體中文，不要出現中文以外的語言文字，請依照輸入的句子回傳句子內容的翻譯即可，不需額外加入註解，遇到名字時，如果後面已經有括號加入中文名稱，請直接使用原文括號內提供的中文，不需要繼續附上括號。", # required            
+            "user": "依上文，全部翻譯成台灣新聞常見的台灣繁體中文，不要回覆繁體中文以外的內容，名字國名也都要翻譯成繁體中文。", # required
           }
         }
         try:
             result = post(url, json=payload).json()
-            translatedLIST.append(result['result'][0]['message']['content'])
+            resultSTR = result['result'][0]['message']['content']
+            processedSTR = re.sub("Note.*|[(.*)]|[(.*]]|\n|[（.*）]", '', resultSTR)
+            translatedLIST.append(processedSTR)
         except Excption as e:
             print(f"input: {i}, Error: {e}")
     return translatedLIST
