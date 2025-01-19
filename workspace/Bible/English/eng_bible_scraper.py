@@ -39,7 +39,7 @@ def search(htmlSTR, chapter):
     first_line = soup.find_all('span', class_= f"text Gen-{chapter}-1")  
     for l in first_line:
         tempSTR = l.get_text()
-        tempSTR = re.sub("\[\w\]|\(\w\)|^(\d|-|\)){1,5}\s", "", tempSTR)
+        tempSTR = re.sub("\[\w\]|\(\w\)|^(\d|-|\)|\(){1,5}\s", "", tempSTR)
         outputLIST.append(tempSTR)
         lineLIST.append(1)
     for start_line in range(end_line+1):
@@ -48,7 +48,7 @@ def search(htmlSTR, chapter):
             tempSTR = k.get_text()
             pattern = r'(\d+-\d+|\d+)'
             line = re.findall(pattern, tempSTR)   
-            tempSTR2 = re.sub("\[\w\]|\(\w\)|^(\d|-|\)){1,5}\s", "", tempSTR)
+            tempSTR2 = re.sub("\[\w\]|\(\w\)|^(\d|-|\)|\(){1,5}\s", "", tempSTR)
             outputLIST.append(tempSTR2)
             lineLIST.append(line[0])
     '''for j in outputLIST:
@@ -72,12 +72,10 @@ def main(url, chapter_num):
         list: A list containing the dictionary of the content of the searched chapter.
     """
     response = requests.get(url)
-    html_doc = response.text
-    if f"text Gen-{chapter_num}-1" in str(html_doc):
-        print(f"text Gen-{chapter_num}-1")    
-
-    engLIST = search(html_doc, chapter_num)[0]
-    lineLIST = search(html_doc, chapter_num)[1]
+    html_doc = response.text  
+    searched_results = search(html_doc, chapter_num)
+    engLIST = searched_results[0]
+    lineLIST = searched_results[1]
     
     resultLIST = []
     sentenceDICT ={}
@@ -95,17 +93,34 @@ def main(url, chapter_num):
 
 
 if __name__ == "__main__":
-    resultLIST = []
-    for i in range(1,51):           #還需加上怎麼找有幾個章節的部分
-        try:
-            url = f"https://www.biblegateway.com/passage/?search=Genesis%20{i}&version=GNT"
-            resultLIST.append(main(url, i))
-            print(resultDICT)            
-        except Exception:
-            pass
-    resultDICT = {}
-    dataLIST = []
-    resultDICT["Genesis"] = resultLIST
-    dataLIST.append(resultDICT)
-    with open("../../../data/Bible/English/book/genesis.json", "w", encoding="utf-8") as f:
-        json.dump(dataLIST, f, ensure_ascii=False, indent=4)      
+    
+    bookLIST = []
+    url_main = "https://www.biblegateway.com/versions/Good-News-Translation-GNT-Bible/#booklist"
+    response = requests.get(url_main)
+    html = response.text
+    soup = BeautifulSoup(html, 'html.parser')
+    for span in soup.find_all('span'):
+        span.decompose()
+    book = soup.find_all('td', class_="toggle-collapse2 book-name")
+    for i in book:
+        name = i.get_text()
+        name = re.sub("\s", "", name)
+        bookLIST.append(name)
+    
+    for n in bookLIST:
+        resultLIST = []
+        for i in range(1,3):           #還需加上怎麼找有幾個章節的部分
+            try:
+                url = f"https://www.biblegateway.com/passage/?search={n}%20{i}&version=GNT"
+                resultLIST.append(main(url, i))
+                print(resultDICT)            
+            except Exception:
+                pass
+        resultDICT = {}
+        resultDICT[n] = resultLIST
+        #dataLIST.append(resultDICT)
+        with open("../../../data/Bible/English/book/genesis.json", "r", encoding="utf-8") as f:
+            dataLIST = json.load(f)
+            dataLIST.append(resultDICT)        
+        with open("../../../data/Bible/English/book/genesis.json", "w", encoding="utf-8") as f:
+            json.dump(dataLIST, f, ensure_ascii=False, indent=4)      
