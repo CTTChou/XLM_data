@@ -18,7 +18,8 @@ def find_lines(html_doc):
     
 def search(htmlSTR, chapter):
     """
-    Searches the specified chapter in the htmlSTR by obtaining the starting and ending lines and returns the result list.
+    Searches the specified chapter in the htmlSTR by obtaining the starting and 
+    ending lines and returns the content and line number list.
     
     Parameters:
         htmlSTR (str): The HTML string.
@@ -26,6 +27,7 @@ def search(htmlSTR, chapter):
     
     Returns:
         list: The list of searched content.
+        list: The list of line numbers.
     """
     outputLIST = []
     lineLIST = []
@@ -60,16 +62,14 @@ def search(htmlSTR, chapter):
 def main(url, chapter_num): 
     """
     Fetches a web page from the provided URL, extracts content, 
-    calls the search() function to obtain content of the specified chapter, and returns the result dictionary.
+    calls the search() function to obtain content of the specified chapter, and returns the result list.
     
     Parameters:
         url (str): The input url string.
         chapter_num (int): The specified Bible chapter.
     
     Returns:
-        dict: A dictionary with the following keys:
-            - "Genesis": The book of the extracted content.
-            - "Chapter": A list of dictionaries containing the chapter content.
+        list: A list containing the dictionary of the content of the searched chapter.
     """
     response = requests.get(url)
     html_doc = response.text
