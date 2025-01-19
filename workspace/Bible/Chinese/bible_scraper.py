@@ -9,7 +9,7 @@ from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
 
-comPAT = re.compile(r"\( [^)]+\)|（ [^\）]+）|\n")
+comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」")
 
 
 def get_ChiBibleDICT(url):
