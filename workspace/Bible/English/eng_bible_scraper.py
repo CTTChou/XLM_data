@@ -97,13 +97,22 @@ if __name__ == "__main__":
     
     for n in bookLIST:
         resultLIST = []
-        for j in range(1,151):           #還可以加上怎麼找有幾個章節的部分
-            try:
-                url = f"https://www.biblegateway.com/passage/?search={n}%20{j}&version=GNT"
-                resultLIST.append(main(url, j))
-                print(resultDICT)            
-            except Exception:
-                pass
+        chapterIntLIST = [int(m.getText()) for m in nums]    #取得每一卷的章節數量
+        for i, count in enumerate(chapterIntLIST): 
+            for j in range(count):                
+                try:
+                    url = f"https://www.biblegateway.com/passage/?search={n}%20{j}&version=GNT"
+                    resultLIST.append(main(url, j))
+                    print(resultDICT)            
+                except Exception:
+                   pass                
+        #for j in range(1,151):           #還可以加上怎麼找有幾個章節的部分
+            #try:
+                #url = f"https://www.biblegateway.com/passage/?search={n}%20{j}&version=GNT"
+                #resultLIST.append(main(url, j))
+                #print(resultDICT)            
+            #except Exception:
+                #pass
         resultDICT = {}
         resultDICT[n] = resultLIST
 
