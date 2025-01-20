@@ -39,7 +39,7 @@ def search(htmlSTR):
     for i, j in enumerate(outputLIST):
         pattern_start = r'(\d+)\xa0'
         match = re.findall(pattern_start, j)
-        print(match[0])
+        print(match)
         lineLIST.append(match[0])
         outputLIST[i] = re.sub(r'\d+\xa0|\[\w\]|\(\w\)|\(|\)|\“|\‘|\’|\”|\s$', "", j)
     lineLIST[0] = "1"   
@@ -74,10 +74,10 @@ def main(url, chapter_num):
         tempDICT[tempSTR] = engLIST[i]        
         sentenceLIST.append(tempDICT)
     sentenceDICT[f"Chapter {chapter_num}"] = sentenceLIST
-    resultLIST.append(sentenceDICT)
+    #resultLIST.append(sentenceDICT)
     print(resultLIST)
     
-    return resultLIST
+    return sentenceDICT
 
 
 if __name__ == "__main__":
@@ -97,7 +97,18 @@ if __name__ == "__main__":
     
     for n in bookLIST:
         resultLIST = []
-        chapterIntLIST = [int(m.getText()) for m in nums]    #取得每一卷的章節數量
+        pattern_start = r'\/passage\/\?search='+n+r'%20(\d+)&amp;version=GNT'
+        match = re.findall(pattern_start, str(html))
+        print(match)
+        for m in match:
+            try:
+                url = f"https://www.biblegateway.com/passage/?search={n}%20{m}&version=GNT"
+                resultLIST.append(main(url, m))
+                print(resultLIST)      
+            except Exception:
+                pass
+            
+        '''chapterIntLIST = [int(m) for m in match]        #取得每一卷的章節數量
         for i, count in enumerate(chapterIntLIST): 
             for j in range(count):                
                 try:
@@ -105,7 +116,7 @@ if __name__ == "__main__":
                     resultLIST.append(main(url, j))
                     print(resultDICT)            
                 except Exception:
-                   pass                
+                    pass    '''            
         #for j in range(1,151):           #還可以加上怎麼找有幾個章節的部分
             #try:
                 #url = f"https://www.biblegateway.com/passage/?search={n}%20{j}&version=GNT"
