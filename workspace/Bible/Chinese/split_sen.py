@@ -4,7 +4,6 @@
 import json
 import os
 import re
-from ArticutAPI import Articut
 
 def main(jsonFILE):
     """
@@ -45,7 +44,7 @@ def main(jsonFILE):
                             split_senLIST = []
                             print(senSTR)                        
                             split_senLIST = [s.strip() for s in re.split(r"[？！。，；：、「」『』（）─]", senSTR) if s ]
-                            print(split_senLIST)
+                            print(split_senLIST)                            
                     
                             processed_secDICT[secSTR] = split_senLIST
                         processed_secLIST.append(processed_secDICT)
@@ -61,8 +60,5 @@ def main(jsonFILE):
         json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    accountDICT = json.load(open("account.info",encoding="utf-8"))
-    articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
-    
     jsonFILE = "../../../data/Bible/Chinese/book/創.json"    
     main(jsonFILE)
