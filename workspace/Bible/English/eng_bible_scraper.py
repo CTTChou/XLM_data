@@ -37,12 +37,22 @@ def search(htmlSTR):
             outputLIST[-1] += i  
     lineLIST = []
     for i, j in enumerate(outputLIST):
-        pattern_start = r'(\d+)\xa0'
+        pattern_start = r'(\d+)\xa0|(\d\-\d)\xa0'
         match = re.findall(pattern_start, j)
         print(match)
-        lineLIST.append(match[0])
-        outputLIST[i] = re.sub(r'\d+\xa0|\[\w\]|\(\w\)|\(|\)|\“|\‘|\’|\”|\s$', "", j)
-    lineLIST[0] = "1"   
+        if match[0][0] != "":
+            lineLIST.append(match[0][0])
+        else:
+            lineLIST.append(match[0][1])
+        outputLIST[i] = re.sub(r'\d+\xa0|\[\w\]|\(\w\)|\(|\)|\“|\‘|\’|\”|\s$|\d\-\d\xa0', "", j)
+    lineLIST[0] = "1"
+    
+    for i, j in enumerate(lineLIST):
+        if "-" in lineLIST[i]:
+            pattern1 = r'(\d)\-\d'
+            pattern2 = r'\d\-(\d)'
+            num1 = re.findall(pattern1, j)    
+            num2 = re.findall(pattern2, j)
       
     return outputLIST, lineLIST
 
@@ -107,28 +117,12 @@ if __name__ == "__main__":
                 print(resultLIST)      
             except Exception:
                 pass
-            
-        '''chapterIntLIST = [int(m) for m in match]        #取得每一卷的章節數量
-        for i, count in enumerate(chapterIntLIST): 
-            for j in range(count):                
-                try:
-                    url = f"https://www.biblegateway.com/passage/?search={n}%20{j}&version=GNT"
-                    resultLIST.append(main(url, j))
-                    print(resultDICT)            
-                except Exception:
-                    pass    '''            
-        #for j in range(1,151):           #還可以加上怎麼找有幾個章節的部分
-            #try:
-                #url = f"https://www.biblegateway.com/passage/?search={n}%20{j}&version=GNT"
-                #resultLIST.append(main(url, j))
-                #print(resultDICT)            
-            #except Exception:
-                #pass
+        
         resultDICT = {}
         resultDICT[n] = resultLIST
 
-        with open("../../../data/Bible/English/book/genesis.json", "r", encoding="utf-8") as f:
+        with open("../../../data/Bible/English/all_EngBible.json", "r", encoding="utf-8") as f:
             dataLIST = json.load(f)
             dataLIST.append(resultDICT)        
-        with open("../../../data/Bible/English/book/genesis.json", "w", encoding="utf-8") as f:
+        with open("../../../data/Bible/English/all_EngBible.json", "w", encoding="utf-8") as f:
             json.dump(dataLIST, f, ensure_ascii=False, indent=4)      
