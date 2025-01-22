@@ -13,7 +13,7 @@ def content_extractor(bookLIST):
         resultLIST = []
         with open("../../../data/Bible/English/all_EngBible.json", "r", encoding="utf-8") as f:
             dataLIST = json.load(f)
-            dic = dataLIST[0]
+            dic = dataLIST[bookLIST.index(i)]
             resultLIST.append(dic)
         with open(f"../../../data/Bible/English/book/{book}.json", "w", encoding="utf-8") as f:
             json.dump(resultLIST, f, ensure_ascii=False, indent=4)
@@ -34,6 +34,7 @@ def main():
         name = re.sub("\s", "", name)
         bookLIST.append(name)   
     content_extractor(bookLIST)
+    print(f"{len(bookLIST)} books added.")
     return None
     
 if __name__ == "__main__":
