@@ -56,13 +56,34 @@ def main(jsonFILE):
     
     segment_folder = "../../../data/Bible/English/segment"
     os.makedirs(segment_folder, exist_ok=True)  # 確保資料夾存在
-    output_jsonFILE = "../../../data/Bible/English/segment/genesis.json"
-    with open(output_jsonFILE, "w", encoding="utf-8") as f:
-        json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
+    output_jsonFILE = "../../../data/Bible/Chinese/segment/Genesis.json"
+    #with open(output_jsonFILE, "w", encoding="utf-8") as f:
+        #json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
+    for json_file in os.listdir(book_folder):
+        jsonFILE = os.path.join(book_folder, json_file)
+        if os.path.isfile:
+            segment_folder = "../../../data/Bible/English/segment"
+            output_jsonFILE = os.path.join(segment_folder, json_file)        
+            with open(output_jsonFILE, "w", encoding="utf-8") as f:
+                json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
+           
+           
 
 if __name__ == "__main__":
     accountDICT = json.load(open("account.info",encoding="utf-8"))
     articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
+    #jsonFILE = "../../../data/Bible/English/book/genesis.json"
+    #main(jsonFILE)
+    book_folder = "../../../data/Bible/English/book"
+    for json_file in os.listdir(book_folder):
+        jsonFILE = os.path.join(book_folder, json_file)
+        if os.path.isfile:
+            segment_folder = "../../../data/Bible/English/segment"
+            output_jsonFILE = os.path.join(segment_folder, json_file)
+            with open(jsonFILE, "r", encoding="utf-8") as f:
+                main(jsonFILE)
     
-    jsonFILE = "../../../data/Bible/English/book/genesis.json"    
-    main(jsonFILE)
+    
+    
+    
+    
