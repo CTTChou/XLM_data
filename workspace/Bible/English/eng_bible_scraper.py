@@ -8,7 +8,6 @@ import json
 import requests
 import re
     
-    
 def search(htmlSTR):
     """
     Searches the the htmlSTR and returns the content and line number list.
@@ -28,31 +27,42 @@ def search(htmlSTR):
         result = j.find_all('span', recursive=False)
         for i in result:
             tempLIST.append(i.get_text())
+            
     outputLIST = []
     for i in tempLIST:
-        if "\xa0" in i:
+        if i[0].isdigit(): 
             outputLIST.append(i)
         else:
             outputLIST[-1] += " "
-            outputLIST[-1] += i  
+            outputLIST[-1] += i
+    
     lineLIST = []
     for i, j in enumerate(outputLIST):
-        pattern_start = r'(\d+)\xa0|(\d\-\d)\xa0'
+        outputLIST[i] = re.sub(r"(\xa0)|\[\w\]|\(\w\)|\(|\)|\“|\‘|\’|\”|\s$", "", j)
+        pattern_start = r"^(\d+-\d+)|^(\d+)"
         match = re.findall(pattern_start, j)
-        print(match)
         if match[0][0] != "":
             lineLIST.append(match[0][0])
         else:
             lineLIST.append(match[0][1])
-        outputLIST[i] = re.sub(r'\d+\xa0|\[\w\]|\(\w\)|\(|\)|\“|\‘|\’|\”|\s$|\d\-\d\xa0', "", j)
+        outputLIST[i] = re.sub(r"^(\d+)", "", outputLIST[i])
+        outputLIST[i] = re.sub(r"^(\-\d+)", "", outputLIST[i])
     lineLIST[0] = "1"
     
     for i, j in enumerate(lineLIST):
         if "-" in lineLIST[i]:
-            pattern1 = r'(\d)\-\d'
-            pattern2 = r'\d\-(\d)'
+            pattern1 = r'(\d+)\-\d+'
+            pattern2 = r'\d+\-(\d+)'
             num1 = re.findall(pattern1, j)    
             num2 = re.findall(pattern2, j)
+            lineLIST[i] = num1[0]
+            lineLIST.insert(i+1, num2[0])
+            outputLIST.insert(i+1, outputLIST[i])
+            n = int(num2[0])-int(num1[0])
+            if n > 1:
+                for m in range(n-1):
+                    lineLIST.insert(i+1, str(int(num1[0])+n-m-1))
+                    outputLIST.insert(i+1, outputLIST[i])
       
     return outputLIST, lineLIST
 
@@ -92,7 +102,7 @@ def main(url, chapter_num):
 
 if __name__ == "__main__":
     
-    bookLIST = []
+    bookLIST = []                                                                       # find list of all books
     url_main = "https://www.biblegateway.com/versions/Good-News-Translation-GNT-Bible/#booklist"
     response = requests.get(url_main)
     html = response.text
@@ -105,17 +115,26 @@ if __name__ == "__main__":
         name = re.sub("\s", "", name)
         bookLIST.append(name)
     
-    for n in bookLIST:
+    for n in bookLIST:                                                                  # loop through all books
         resultLIST = []
-        pattern_start = r'\/passage\/\?search='+n+r'%20(\d+)&amp;version=GNT'
-        match = re.findall(pattern_start, str(html))
-        print(match)
-        for m in match:
+        
+        temp_n = n                                                     
+        if n[0].isdigit():                                                             # for special book names (e.g. 1 Samuel)
+            temp_n = re.sub(r'^\d+', lambda m: m.group(0) + '%20', n)
+        if " " in n:
+            temp_n = re.sub(r"\s", "%20", n)        
+            
+        pattern_start = r'\/passage\/\?search='+temp_n+r'%20(\d+)&amp;version=GNT'      # find all chapters
+        chapter_match = re.findall(pattern_start, str(html))
+        print(chapter_match)
+   
+        for m in chapter_match:
             try:
-                url = f"https://www.biblegateway.com/passage/?search={n}%20{m}&version=GNT"
+                url = f"https://www.biblegateway.com/passage/?search={temp_n}%20{m}&version=GNT"
                 resultLIST.append(main(url, m))
                 print(resultLIST)      
-            except Exception:
+            except Exception as e:
+                print(e)
                 pass
         
         resultDICT = {}
