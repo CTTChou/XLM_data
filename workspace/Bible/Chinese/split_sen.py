@@ -4,6 +4,7 @@
 import json
 import os
 import re
+from glob import glob
 
 def main(jsonFILE):
     """
@@ -16,11 +17,10 @@ def main(jsonFILE):
     1. 讀取 JSON 檔案並加載內容到 `ChiBibleLIST`。
     2. 逐層遍歷 `ChiBibleLIST` 中的書卷、章節及小節資料。
     3. 對每一小節的內容進行分割，根據正則表達式將句子按標點符號進行拆分。
-    4. 將拆分後的句子清除前後空格後，存儲到新的結構中。
-    5. 最後將處理過的資料寫入新的 JSON 檔案，保存在指定資料夾。
+    4. 返回處理後的資料結構 `processed_LIST`，該資料結構與原始資料格式相同，只是其中的句子已經被分割並清理過。    
     
     輸出：
-    - 處理後的經文資料會寫入新的 JSON 檔案，並存儲於指定的資料夾中。
+    processed_LIST (list): 處理過斷句，放回原格式
     """
     with open (jsonFILE, "r", encoding="utf-8") as f:
         ChiBibleLIST = json.load(f)
@@ -53,12 +53,34 @@ def main(jsonFILE):
             processed_bookDICT[bookSTR] = processed_chLIST
         processed_LIST.append(processed_bookDICT)
     
-    segment_folder = "../../../data/Bible/Chinese/segment"
-    os.makedirs(segment_folder, exist_ok=True)  # 確保資料夾存在
-    output_jsonFILE = "../../../data/Bible/Chinese/segment/創.json"
-    with open(output_jsonFILE, "w", encoding="utf-8") as f:
-        json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
+    return processed_LIST
+
+def to_segment_LIST(segment_folder):
+    segment_LIST = []
+    segment_jsonFILE = glob(f"{segment_folder}/*.json")
+    for jsonFILE in segment_jsonFILE:
+        with open(jsonFILE, "r", encoding="utf=8") as f:
+            segment_LIST = json.load(f)
+            
+    filename ="../../../data/Bible/Chinese/segment_all_ChiBible.json"        
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(segment_LIST, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    jsonFILE = "../../../data/Bible/Chinese/book/創.json"    
-    main(jsonFILE)
+    #分別處理每個 book
+    book_folder = "../../../data/Bible/Chinese/book"
+    jsonFILE_LIST = glob(f"{book_folder}/*.json")
+    
+    segment_folder = "../../../data/Bible/Chinese/segment"
+    os.makedirs(segment_folder, exist_ok=True)  # 確保資料夾存在
+    
+    for jsonFILE in jsonFILE_LIST:
+        with open(jsonFILE, "r", encoding="utf-8") as f:
+            processed_LIST = main(jsonFILE)
+            
+            output_jsonFILE = os.path.join(segment_folder, os.path.basename(jsonFILE))
+            with open(output_jsonFILE, "w", encoding="utf-8") as f:
+                json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
+    
+    #統整在一個 JSON            
+    to_segment_LIST(segment_folder)
