@@ -28,8 +28,8 @@ def main(jsonFILE, articut):
     # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
     tmpLIST = []
     tmp_index = 0  # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
-    if os.path.exists("../../../data/Bible/Chinese/POS/tmpLIST.json"):
-        with open("../../../data/Bible/Chinese/POS/tmpLIST.json", "r", encoding="utf-8") as f:
+    if os.path.exists("../../../data/Bible/Chinese/POS/出tmpLIST.json"):
+        with open("../../../data/Bible/Chinese/POS/出tmpLIST.json", "r", encoding="utf-8") as f:
             tmpLIST = json.load(f)
             tmp_index = len(tmpLIST)  # 取得已經處理過的資料的數量            
     
@@ -38,7 +38,7 @@ def main(jsonFILE, articut):
 
     POS_folder = "../../../data/Bible/Chinese/POS"
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在
-    output_jsonFILE = "../../../data/Bible/Chinese/POS/創.json"
+    output_jsonFILE = "../../../data/Bible/Chinese/POS/出.json"
 
     processed_LIST = []
     all_split_senLIST = []
@@ -74,7 +74,7 @@ def main(jsonFILE, articut):
                             if parseLIST:
                                 tmpLIST.append(parseLIST)
                                 # 每次處理完後就儲存到 JSON 檔案
-                                with open("../../../data/Bible/Chinese/POS/tmpLIST.json", "w", encoding="utf-8") as f:
+                                with open("../../../data/Bible/Chinese/POS/出tmpLIST.json", "w", encoding="utf-8") as f:
                                     json.dump(tmpLIST, f, ensure_ascii=False, indent=4)                                    
                                                                                 
                             processed_secDICT[secSTR] = parseLIST
@@ -103,6 +103,6 @@ if __name__ == "__main__":
     accountDICT = json.load(open("account.info",encoding="utf-8"))
     articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
 
-    jsonFILE = "../../../data/Bible/Chinese/segment/創.json"    
+    jsonFILE = "../../../data/Bible/Chinese/segment/出.json"    
     main(jsonFILE, articut)
    

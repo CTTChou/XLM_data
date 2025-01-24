@@ -43,7 +43,7 @@ def main(jsonFILE):
                         for secSTR, senSTR in secDICT.items():
                             split_senLIST = []
                             print(senSTR)                        
-                            split_senLIST = [s.strip() for s in re.split(r"[？！。，；：、「」『』（）─]", senSTR) if s ]
+                            split_senLIST = [s.strip() for s in re.split(r"[？！。，；：、「」『』（）─]", senSTR) if s.strip() ]
                             print(split_senLIST)                            
                     
                             processed_secDICT[secSTR] = split_senLIST
