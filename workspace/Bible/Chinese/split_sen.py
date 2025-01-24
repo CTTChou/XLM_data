@@ -56,11 +56,25 @@ def main(jsonFILE):
     return processed_LIST
 
 def to_segment_LIST(segment_folder):
+    """
+    從指定資料夾中的所有 JSON 檔案讀取資料，將其合併到一個列表中，並將合併後的資料寫入新的 JSON 檔案。
+
+    參數:
+    segment_folder (str): 包含 JSON 檔案的資料夾路徑。
+
+    程式流程：
+    1. 遍歷指定資料夾中的所有 `.json` 檔案。
+    2. 對每個 JSON 檔案，將其內容讀取並追加到 `segment_LIST` 列表中。
+    3. 最後，將合併後的資料寫入一個名為 `segment_all_ChiBible.json` 的檔案，並儲存在指定路徑中。
+    
+    輸出：
+    - 一個新的 JSON 檔案 `segment_all_ChiBible.json`，包含了資料夾中所有 JSON 檔案合併後的內容。
+    """    
     segment_LIST = []
     segment_jsonFILE = glob(f"{segment_folder}/*.json")
     for jsonFILE in segment_jsonFILE:
         with open(jsonFILE, "r", encoding="utf=8") as f:
-            segment_LIST = json.load(f)
+            segment_LIST.extend(json.load(f))
             
     filename ="../../../data/Bible/Chinese/segment_all_ChiBible.json"        
     with open(filename, "w", encoding="utf-8") as f:
