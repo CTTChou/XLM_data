@@ -4,7 +4,7 @@
 import json
 import os
 import re
-from ArticutAPI import Articut
+from glob import glob
 
 def main(jsonFILE):
     """
@@ -21,7 +21,7 @@ def main(jsonFILE):
     5. 最後將處理過的資料寫入新的 JSON 檔案，保存在指定資料夾。
     
     輸出：
-    - 處理後的經文資料會寫入新的 JSON 檔案，並存儲於指定的資料夾中。
+    -回傳processed_LIST(list)
     """
     with open (jsonFILE, "r", encoding="utf-8") as f:
         EngBibleLIST = json.load(f)
@@ -54,36 +54,46 @@ def main(jsonFILE):
             processed_bookDICT[bookSTR] = processed_enLIST
         processed_LIST.append(processed_bookDICT)
     
-    segment_folder = "../../../data/Bible/English/segment"
-    os.makedirs(segment_folder, exist_ok=True)  # 確保資料夾存在
-    output_jsonFILE = "../../../data/Bible/Chinese/segment/Genesis.json"
-    #with open(output_jsonFILE, "w", encoding="utf-8") as f:
-        #json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
-    for json_file in os.listdir(book_folder):
-        jsonFILE = os.path.join(book_folder, json_file)
-        if os.path.isfile:
-            segment_folder = "../../../data/Bible/English/segment"
-            output_jsonFILE = os.path.join(segment_folder, json_file)        
-            with open(output_jsonFILE, "w", encoding="utf-8") as f:
-                json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
-           
-           
+    return processed_LIST
+    
+def to_segment_LIST(segment_folder):
+    """
+    從指定資料夾中的所有 JSON 檔案讀取資料，將其合併到一個列表中，並將合併後的資料寫入新的 JSON 檔案。
+
+    參數:
+    segment_folder (str): 包含 JSON 檔案的資料夾路徑。
+
+    程式流程：
+    1. 遍歷指定資料夾中的所有 `.json` 檔案。
+    2. 對每個 JSON 檔案，將其內容讀取並追加到 `segment_LIST` 列表中。
+    3. 最後，將合併後的資料寫入一個名為 `segment_all_English.json` 的檔案，並儲存在指定路徑中。
+    
+    輸出：
+    - 一個新的 JSON 檔案 `segment_all_English.json`，包含了資料夾中所有 JSON 檔案合併後的內容。
+    """    
+    segment_LIST = []
+    segment_jsonFILE = glob(f"{segment_folder}/*.json")
+    for jsonFILE in segment_jsonFILE:
+        with open(jsonFILE, "r", encoding="utf=8") as f:
+            segment_LIST.extend(json.load(f))
+            
+    filename ="../../../data/Bible/English/segment_all_EngBible.json"        
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(segment_LIST, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    accountDICT = json.load(open("account.info",encoding="utf-8"))
-    articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
-    #jsonFILE = "../../../data/Bible/English/book/genesis.json"
-    #main(jsonFILE)
     book_folder = "../../../data/Bible/English/book"
+    segment_folder = "../../../data/Bible/English/segment"
+    os.makedirs(segment_folder, exist_ok=True)
     for json_file in os.listdir(book_folder):
         jsonFILE = os.path.join(book_folder, json_file)
         if os.path.isfile:
-            segment_folder = "../../../data/Bible/English/segment"
-            output_jsonFILE = os.path.join(segment_folder, json_file)
             with open(jsonFILE, "r", encoding="utf-8") as f:
-                main(jsonFILE)
+                processed_LIST = main(jsonFILE)
+                output_jsonFILE = os.path.join(segment_folder, os.path.basename(jsonFILE))
+                with open(output_jsonFILE, "w", encoding="utf-8") as f:
+                    json.dump(processed_LIST, f, ensure_ascii=False, indent=4)            
     
-    
-    
-    
+    #統整在一個 JSON            
+    to_segment_LIST(segment_folder)
     
