@@ -26,21 +26,22 @@ def search(htmlSTR):
     for j in ps:
         result = j.find_all('span', recursive=False)
         for i in result:
-            tempLIST.append(i.get_text())
-            
+            tempLIST.append(i.get_text())       
     outputLIST = []
     for i in tempLIST:
         if i[0].isdigit(): 
             outputLIST.append(i)
         else:
-            outputLIST[-1] += " "
-            outputLIST[-1] += i
+            if len(outputLIST) !=0:
+                outputLIST[-1] += " "
+                outputLIST[-1] += i
     
     lineLIST = []
     for i, j in enumerate(outputLIST):
         outputLIST[i] = re.sub(r"(\xa0)|\[\w\]|\(\w\)|\(|\)|\“|\‘|\’|\”|\s$", "", j)
         pattern_start = r"^(\d+-\d+)|^(\d+)"
         match = re.findall(pattern_start, j)
+        print(match)
         if match[0][0] != "":
             lineLIST.append(match[0][0])
         else:
@@ -63,7 +64,23 @@ def search(htmlSTR):
                 for m in range(n-1):
                     lineLIST.insert(i+1, str(int(num1[0])+n-m-1))
                     outputLIST.insert(i+1, outputLIST[i])
-      
+    
+    footnotes_div = soup.find('div', class_="footnotes")
+    try:
+        ft = footnotes_div.find_all('span')  
+        for i in ft:
+            footnotes = i.get_text()
+            ft_pattern = r'verse\s(\d+):\s(.*)'
+            ft_result = re.findall(ft_pattern, footnotes)
+            if ft_result != []:
+                print("ft_result:", ft_result)
+                if ft_result[0][0] not in lineLIST:
+                    lineLIST.insert(int(ft_result[0][0])-1, ft_result[0][0])
+                    outputLIST.insert(int(ft_result[0][0])-1, ft_result[0][1])
+    except Exception:
+        pass
+    #print(len(lineLIST), lineLIST)
+    #print(len(outputLIST), outputLIST)
     return outputLIST, lineLIST
 
 
@@ -122,7 +139,9 @@ if __name__ == "__main__":
         if n[0].isdigit():                                                             # for special book names (e.g. 1 Samuel)
             temp_n = re.sub(r'^\d+', lambda m: m.group(0) + '%20', n)
         if " " in n:
-            temp_n = re.sub(r"\s", "%20", n)        
+            temp_n = re.sub(r"\s", "%20", n)   
+        if temp_n == "SongofSolomon":
+            temp_n = "Song%20of%20Solomon"        
             
         pattern_start = r'\/passage\/\?search='+temp_n+r'%20(\d+)&amp;version=GNT'      # find all chapters
         chapter_match = re.findall(pattern_start, str(html))
