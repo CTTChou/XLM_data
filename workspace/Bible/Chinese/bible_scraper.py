@@ -9,7 +9,7 @@ from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
 
-comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」|‧|\s")
+comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」|‧|\s|第[一二三四]卷|•[^•]+•")
 
 
 def get_ChiBibleDICT(url):
@@ -69,6 +69,8 @@ def get_ChiBibleDICT(url):
             tdTag = tr.find_all("td")
             for h2 in tdTag[1].find_all("h2"):
                 h2.decompose()
+            for b in tdTag[1].find_all("b"):
+                b.decompose()
             senSTR = tdTag[1].get_text().strip()
             senSTR = re.sub(comPAT, "", senSTR)
             
