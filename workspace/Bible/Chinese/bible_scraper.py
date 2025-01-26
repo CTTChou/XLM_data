@@ -9,7 +9,7 @@ from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
 
-comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」|‧|\s|第[一二三四]卷|•[^•]+•")
+comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」|‧|\s|第[一二三四]卷|•[^•]+•|\[|\]") #刪除的內容
 
 
 def get_ChiBibleDICT(url):
@@ -74,7 +74,7 @@ def get_ChiBibleDICT(url):
             senSTR = tdTag[1].get_text().strip()
             senSTR = re.sub(comPAT, "", senSTR)
             
-            while senSTR == "【併於上節】":# 如果是 "【併於上節】"，持續回溯到上一個非 "【併於上節】" 的內文
+            while senSTR == "【併於上節】" or senSTR == "a":  # 如果是 "【併於上節】" 或是 "a"，持續回溯到上一個非 "【併於上節】" 或非 "a" 的內文
                 senSTR = prev_senSTR
             if senSTR != "【併於上節】":   # 如果不是 "【併於上節】"，更新 prev_senSTR
                 prev_senSTR = senSTR
