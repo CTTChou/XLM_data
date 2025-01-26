@@ -83,6 +83,32 @@ def search(htmlSTR):
     #print(len(outputLIST), outputLIST)
     return outputLIST, lineLIST
 
+##########################here#######################
+#catch versenum & verse contents
+url_Ezra6 = "https://www.biblegateway.com/passage/?search=Ezra%206&version=GNT" #Ezra6
+
+response = requests.get(url_Ezra6)
+html = response.text
+soup = BeautifulSoup(html, "lxml")
+
+resultDICT = {}
+
+verse_spans_text = soup.find_all("span", class_=re.compile(r"text"))
+verse_spans_poetry = soup.find_all("span", class_=re.compile(r"poetry"))
+
+for span in verse_spans_text:
+    # 提取章節-經文號碼 (來自 <sup class="versenum"> 或其他文本)
+    sup = span.find("sup", class_="versenum")
+    
+    if sup :       
+        chapter_verse = sup.get_text(strip=True)
+        text = span.get_text(strip=True)
+        if sup:
+            text = text.replace(sup.get_text(strip=True), "")
+        
+        resultDICT[chapter_verse] = text
+#####################################################
+
 
 def main(url, chapter_num): 
     """
