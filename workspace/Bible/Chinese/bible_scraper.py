@@ -9,7 +9,7 @@ from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
 
-comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」|‧")
+comPAT = re.compile(r"\([^)]+\)|（[^\）]+）|\n|『|』|「|」|‧|\s")
 
 
 def get_ChiBibleDICT(url):
@@ -162,6 +162,7 @@ def main(url):
             exist_chapter = 0
         
         bk_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap=1&submit1=%E9%96%B1%E8%AE%80"
+        print(f"processing {bookname}...")
         chapterINT = get_ChapterLIST(bk_url)
         for i in range(exist_chapter + 1, chapterINT + 1):  #根據每個 book 有的章節數量做迴圈
             ch_url = f"https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses={b}&chap={i}&submit1=%E9%96%B1%E8%AE%80"
