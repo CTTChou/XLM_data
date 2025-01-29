@@ -96,6 +96,31 @@ def main(jsonFILE, filename, articut):
                                 
     return processed_LIST
 
+def to_POS_LIST(POS_folder):
+    """
+    從指定資料夾中的所有 JSON 檔案讀取資料，將其合併到一個列表中，並將合併後的資料寫入新的 JSON 檔案。
+
+    參數:
+    pos_folder (str): 包含 JSON 檔案的資料夾路徑。
+
+    程式流程：
+    1. 遍歷指定資料夾中的非tmpLIST的 `.json` 檔案。
+    2. 對每個 JSON 檔案，將其內容讀取並追加到 `pos_LIST` 列表中。
+    3. 最後，將合併後的資料寫入一個名為 `pos_all_ChiBible.json` 的檔案，並儲存在指定路徑中。
+    
+    輸出：
+    - 一個新的 JSON 檔案 `pos_all_ChiBible.json`，包含了資料夾中所有 JSON 檔案合併後的內容。
+    """    
+    POS_LIST = []
+    POS_jsonFILE = [file for file in glob(f"{POS_folder}/*.json") if "tmpLIST" not in file]
+    for jsonFILE in POS_jsonFILE:
+        with open(jsonFILE, "r", encoding="utf=8") as f:
+            POS_LIST.extend(json.load(f))
+            
+    filename ="../../../data/Bible/Chinese/POS_all_ChiBible.json"        
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
+
 if __name__ == "__main__":
     accountDICT = json.load(open("account.info",encoding="utf-8"))
     articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
@@ -123,3 +148,6 @@ if __name__ == "__main__":
                 
                 with open(output_jsonFILE, "w", encoding="utf-8") as f:
                     json.dump(processed_LIST, f, ensure_ascii=False, indent=4)            
+    
+    #統整在一個 JSON
+    to_POS_LIST(POS_folder)
