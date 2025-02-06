@@ -22,11 +22,19 @@ def search(htmlSTR):
     soup = BeautifulSoup(htmlSTR, 'lxml')
     tempLIST = []
     paragraph_div = soup.find('div', class_="version-GNT result-text-style-normal text-html")
-    ps = paragraph_div.find_all('p')
-    for j in ps:
-        result = j.find_all('span', recursive=False)
-        for i in result:
-            tempLIST.append(i.get_text())       
+    #ps = paragraph_div.find_all('p')                                    #在原始碼中找到<p> tag
+    verse_spans_text = soup.find_all("span", class_=re.compile(r"text")) #add
+    verse_spans_poetry = soup.find_all("span", class_=re.compile(r"poetry")) #add    
+    #for j in ps:
+    for j in paragraph_div:                             #add
+        if verse_spans_text:                            #add
+        #result = j.find_all('span', recursive=False)
+            result = verse_spans_text                   #add
+        elif verse_spans_poetry:                        #add
+        #result = j.find_all('span', recursive=False)
+            result = verse_spans_poetry                 #add
+            for i in result:                            #indent for if condition
+                tempLIST.append(i.get_text())           #indent for if condition
     outputLIST = []
     for i in tempLIST:
         if i[0].isdigit(): 
@@ -49,6 +57,9 @@ def search(htmlSTR):
         outputLIST[i] = re.sub(r"^(\d+)", "", outputLIST[i])
         outputLIST[i] = re.sub(r"^(\-\d+)", "", outputLIST[i])
     lineLIST[0] = "1"
+    #first_sen_hyphen = r"1-\d+"
+    #if 
+    #lineLIST[0] =     
     
     for i, j in enumerate(lineLIST):
         if "-" in lineLIST[i]:
