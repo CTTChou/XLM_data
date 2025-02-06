@@ -5,6 +5,7 @@ import json
 import os
 from time import sleep
 from requests import post
+from glob import glob
 
 url = "https://nlu.droidtown.co/Articut_EN/API/"
 
@@ -20,46 +21,43 @@ def articutEN(inputSTR: str) -> list:
     """
     payload = {
         "username": accountDICT["username"],
-        "api_key": accountDICT["api_key"],
+         "api_key": accountDICT["api_key"],
         "input_str": inputSTR
     }    
     response = post(url, json=payload).json()
     return response
 
-def main(jsonFILE, articut):
+def main(jsonFILE, flename, articut):
     """
-    從指定的 JSON 檔案讀取聖經內容，將經文按標點符號（如：問號、逗號等）進行分割，並將結果進行處理後寫回新的 JSON 檔案。
+    處理指定的 JSON 聖經檔案，將經文分段並使用 英文版Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
 
     參數:
     jsonFILE (str): 包含聖經資料的 JSON 檔案路徑。
+    filename (str): 處理過程中臨時檔案的 basename（用於保存中途結果的 tmpLIST）。
     articut (Articut): 透過 Articut API 進行中文分詞和詞性標註的實例。
 
-    程式流程：
-    1. 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空，並取得已經處理過的資料的數量。
-    2. 讀取傳入的 JSON 檔案並解析成 `EngBibleLIST` 變數，該變數包含聖經的書卷、章節和小節資料。
-    3. 遍歷 `EngBibleLIST` 中的所有書卷、章節和小節資料，對每個小節中的每個句子進行分詞和詞性標註。
-    4. 每處理完一個句子，就將結果暫時儲存在 `tmpLIST` 中並寫回檔案，確保處理過程的進度不會丟失。
-    5. 最後，將處理後的資料寫入新的 JSON 檔案 `Genesis.json` 中，保存在指定的資料夾中。
+    功能描述:
+    1. 嘗試讀取指定目錄下的臨時檔案 `tmpLIST`，該檔案用於保存已處理的經文片段，以便程序中斷後能從上次進度繼續。
+    2. 讀取原始 JSON 聖經檔案，提取每一書卷、章節、小節的經文資料。
+    3. 遍歷每一經文段落，按句子逐一進行分詞與詞性標註。
+    4. 每處理完成一段經文後，將結果即時追加至 `tmpLIST`，並寫回臨時檔案，確保資料已保存。
+    5. 經文處理完成後，整理成包含分詞結果的完整 JSON 結構，最終保存為新檔案。
+
 
     輸出：
-    - 處理後的經文資料會寫入新的 JSON 檔案，並存儲於指定資料夾。
-    - `tmpLIST` 檔案用來儲存已經處理過的資料，以便下次繼續處理未完成的部分。
+    - processed_LIST (list): 處理過斷句，放回原格式。
+    - 一個名為 `{filename}tmpLIST.json` 的臨時檔案，保存中途處理進度。
     """
     # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
     tmpLIST = []
     tmp_index = 0  # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
-    if os.path.exists("../../../data/Bible//POS/tmpLIST.json"):
-        with open("../../../data/Bible/English/POS/tmpLIST.json", "r", encoding="utf-8") as f:
+    if os.path.exists(f"../../../data/Bible//POS/{filename}tmpLIST.json"):
+        with open(f"../../../data/Bible/English/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
             tmpLIST = json.load(f)
             tmp_index = len(tmpLIST)  # 取得已經處理過的資料的數量            
     
     with open (jsonFILE, "r", encoding="utf-8") as f:
         EngBibleLIST = json.load(f)
-
-
-    POS_folder = "../../../data/Bible/English/POS"
-    os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在
-    output_jsonFILE = "../../../data/Bible/English/POS/Genesis.json"
 
     processed_LIST = []
     all_split_senLIST = []
@@ -116,9 +114,33 @@ def main(jsonFILE, articut):
                             if tmp_index < len(tmpLIST):
                                 secDICT[secSTR] = tmpLIST[tmp_index]
                                 tmp_index += 1
+                                
+    return processed_LIST
 
-    with open(output_jsonFILE, "w", encoding="utf-8") as f:
-        json.dump(processed_LIST, f, ensure_ascii=False, indent=4)
+def to_POS_LIST(POS_folder):
+    """
+    從指定資料夾中的所有 JSON 檔案讀取資料，將其合併到一個列表中，並將合併後的資料寫入新的 JSON 檔案。
+
+    參數:
+    pos_folder (str): 包含 JSON 檔案的資料夾路徑。
+
+    程式流程：
+    1. 遍歷指定資料夾中的非tmpLIST的 `.json` 檔案。
+    2. 對每個 JSON 檔案，將其內容讀取並追加到 `pos_LIST` 列表中。
+    3. 最後，將合併後的資料寫入一個名為 `pos_all_ChiBible.json` 的檔案，並儲存在指定路徑中。
+    
+    輸出：
+    - 一個新的 JSON 檔案 `pos_all_ChiBible.json`，包含了資料夾中所有 JSON 檔案合併後的內容。
+    """    
+    POS_LIST = []
+    POS_jsonFILE = [file for file in glob(f"{POS_folder}/*.json") if "tmpLIST" not in file]
+    for jsonFILE in POS_jsonFILE:
+        with open(jsonFILE, "r", encoding="utf=8") as f:
+            POS_LIST.extend(json.load(f))
+            
+    filename ="../../../data/Bible/English/POS_all_EngBible.json"        
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     try:
@@ -128,7 +150,32 @@ if __name__ == "__main__":
         accountDICT = {"username":"", "apikey":""}    
     
 
-    jsonFILE = "../../../data/Bible/English/segment/genesis.json"    
-    main(jsonFILE, articutEN)
+    #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
+    #main(jsonFILE, articutEN)
     
-   
+    segment_folder = "../../../data/Bible/English/segment" #read here
+    jsonFILE_LIST = glob(f"{segment_folder}/*.json")
+    sorted_LIST = sorted(jsonFILE_LIST)
+    
+    POS_folder = "../../../data/Bible/English/POS"  #write here
+    os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
+    
+    LIST1 = sorted_LIST[:23]
+    for jsonFILE in LIST1:  #first 23 books
+        filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
+        print(filename)
+    
+    #LIST2 = sorted_LIST[-22:]  #last 22 books
+    #for FILE in LIST2:
+        #filename = os.path.splitext(os.path.basename(FILE))[0]  # 拿到中文檔名
+    
+        output_jsonFILE = f"../../../data/Bible/English/POS/{filename}.json"        
+        if not os.path.exists(output_jsonFILE):
+            with open(jsonFILE, "r", encoding="utf-8") as f:
+                processed_LIST = main(jsonFILE, filename, articutEN)
+                
+                with open(output_jsonFILE, "w", encoding="utf-8") as f:
+                    json.dump(processed_LIST, f, ensure_ascii=False, indent=4)            
+    
+    #統整在一個 JSON
+    to_POS_LIST(POS_folder)   
