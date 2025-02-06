@@ -29,6 +29,7 @@ def search(htmlSTR):
             tempLIST.append(i.get_text())  
     outputLIST = []
     for i in tempLIST:
+        i= re.sub(r"^\(|\)$", "", tempLIST[tempLIST.index(i)])
         if i[0].isdigit(): 
             outputLIST.append(i)
         else:
