@@ -22,19 +22,11 @@ def search(htmlSTR):
     soup = BeautifulSoup(htmlSTR, 'lxml')
     tempLIST = []
     paragraph_div = soup.find('div', class_="version-GNT result-text-style-normal text-html")
-    #ps = paragraph_div.find_all('p')                                    #在原始碼中找到<p> tag
-    verse_spans_text = soup.find_all("span", class_=re.compile(r"text")) #add
-    verse_spans_poetry = soup.find_all("span", class_=re.compile(r"poetry")) #add    
-    #for j in ps:
-    for j in paragraph_div:                             #add
-        if verse_spans_text:                            #add
-        #result = j.find_all('span', recursive=False)
-            result = verse_spans_text                   #add
-        elif verse_spans_poetry:                        #add
-        #result = j.find_all('span', recursive=False)
-            result = verse_spans_poetry                 #add
-            for i in result:                            #indent for if condition
-                tempLIST.append(i.get_text())           #indent for if condition
+    ps = paragraph_div.find_all('p')
+    for j in ps:
+        result = j.find_all('span', class_=re.compile(r"text"))
+        for i in result:
+            tempLIST.append(i.get_text())  
     outputLIST = []
     for i in tempLIST:
         if i[0].isdigit(): 
@@ -93,32 +85,6 @@ def search(htmlSTR):
     #print(len(lineLIST), lineLIST)
     #print(len(outputLIST), outputLIST)
     return outputLIST, lineLIST
-
-##########################here#######################
-#catch versenum & verse contents
-url_Ezra6 = "https://www.biblegateway.com/passage/?search=Ezra%206&version=GNT" #Ezra6
-
-response = requests.get(url_Ezra6)
-html = response.text
-soup = BeautifulSoup(html, "lxml")
-
-resultDICT = {}
-
-verse_spans_text = soup.find_all("span", class_=re.compile(r"text"))
-verse_spans_poetry = soup.find_all("span", class_=re.compile(r"poetry"))
-
-for span in verse_spans_text:
-    # 提取章節-經文號碼 (來自 <sup class="versenum"> 或其他文本)
-    sup = span.find("sup", class_="versenum")
-    
-    if sup :       
-        chapter_verse = sup.get_text(strip=True)
-        text = span.get_text(strip=True)
-        if sup:
-            text = text.replace(sup.get_text(strip=True), "")
-        
-        resultDICT[chapter_verse] = text
-#####################################################
 
 
 def main(url, chapter_num): 
