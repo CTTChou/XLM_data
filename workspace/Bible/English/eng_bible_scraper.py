@@ -83,8 +83,16 @@ def search(htmlSTR):
                     outputLIST.insert(int(ft_result[0][0])-1, ft_result[0][1])
     except Exception:
         pass
-    #print(len(lineLIST), lineLIST)
-    #print(len(outputLIST), outputLIST)
+    
+    if int(lineLIST[1]) != 2:
+        lineLIST.insert(1, '2')
+        outputLIST.insert(1, outputLIST[0])
+        n = int(lineLIST[2])-1
+        if n > 1:
+            for m in range(n-2):
+                lineLIST.insert(2, str(n-m))
+                outputLIST.insert(2, outputLIST[0])    
+
     return outputLIST, lineLIST
 
 
