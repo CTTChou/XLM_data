@@ -46,7 +46,7 @@ def main(jsonFILE):
                             print(senSTR)                        
                             num_protectSTR = re.sub(r"(\d{1,3}(?:,\d{3})+)", lambda n: n.group(1).replace(",", "$"), senSTR) #將數字間的","替換為"$"避免數字被切開
                             print(num_protectSTR)
-                            split_senLIST = [s.replace("$", ",") for s in re.split(r"[?!.,:;、"")(]", num_protectSTR) if s ] #將"$"換回","並用標點符號切開句子
+                            split_senLIST = [s.replace("$", ",") for s in re.split(r"[\?|\!|\.|\,|\:|\;|\、|\"|\)|\(]", num_protectSTR) if s ] #將"$"換回","並用標點符號切開句子
                             print(split_senLIST)
                     
                             processed_secDICT[secSTR] = split_senLIST
