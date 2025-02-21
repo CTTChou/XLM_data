@@ -21,7 +21,7 @@ def articutEN(inputSTR: str) -> list:
     """
     payload = {
         "username": accountDICT["username"],
-         "api_key": accountDICT["api_key"],
+         "api_key": "ElbLYprJIMyum#x3lb^h+GL6eF2X_3c",#accountDICT["api_key"],
         "input_str": inputSTR
     }    
     response = post(url, json=payload).json()
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     POS_folder = "../../../data/Bible/English/POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
-    LIST1 = sorted_LIST[:23]
+    LIST1 = sorted_LIST[:15]
     for jsonFILE in LIST1:  #first 23 books
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
         print(filename)
