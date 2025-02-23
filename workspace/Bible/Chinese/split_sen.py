@@ -5,6 +5,7 @@ import json
 import os
 import re
 from glob import glob
+from pprint import pprint
 
 def main(jsonFILE):
     """
@@ -15,45 +16,27 @@ def main(jsonFILE):
 
     程式流程：
     1. 讀取 JSON 檔案並加載內容到 `ChiBibleLIST`。
-    2. 逐層遍歷 `ChiBibleLIST` 中的書卷、章節及小節資料。
-    3. 對每一小節的內容進行分割，根據正則表達式將句子按標點符號進行拆分。
-    4. 返回處理後的資料結構 `processed_LIST`，該資料結構與原始資料格式相同，只是其中的句子已經被分割並清理過。    
+    2. 對每一小節的內容進行分割，根據正則表達式將句子按標點符號進行拆分。
+    3. 返回處理後的資料結構 `ChiBibleLIST`，該資料結構與原始資料格式相同，只是其中的句子已經被分割並清理過。    
     
     輸出：
-    processed_LIST (list): 處理過斷句，放回原格式
+    ChiBibleLIST (list): 將每節經文的內容拆分為句子列表。
     """
     with open (jsonFILE, "r", encoding="utf-8") as f:
         ChiBibleLIST = json.load(f)
-    processed_LIST = []
-    for bookDICT in ChiBibleLIST:
-        processed_bookDICT = {}
-        
-        for bookSTR, chLIST in bookDICT.items():
-            processed_chLIST = []
-            
-            for chDICT in chLIST:
-                processed_chDICT = {}
-                
-                for chSTR, secLIST in chDICT.items():
-                    processed_secLIST = []
-                    
-                    for secDICT in secLIST:
-                        processed_secDICT = {}
-                        
-                        for secSTR, senSTR in secDICT.items():
-                            split_senLIST = []
-                            print(senSTR)                        
-                            split_senLIST = [s.strip() for s in re.split(r"[？！。，；：、「」『』（）─〕]", senSTR) if s.strip() ]
-                            print(split_senLIST)                            
-                    
-                            processed_secDICT[secSTR] = split_senLIST
-                        processed_secLIST.append(processed_secDICT)
-                    processed_chDICT[chSTR] = processed_secLIST
-                processed_chLIST.append(processed_chDICT)
-            processed_bookDICT[bookSTR] = processed_chLIST
-        processed_LIST.append(processed_bookDICT)
     
-    return processed_LIST
+    for bookDICT in ChiBibleLIST:
+        bookname_l = list(bookDICT.keys())   #每次 for loop 都拿到一個書名
+        for idx, chapterDICT in enumerate(bookDICT[bookname_l[0]]):
+            versesLIST = list(chapterDICT.values())[0]  #取得該章節所有 verse
+            for verseDICT in versesLIST:
+                senSTR = list(verseDICT.values())[0]    #內文
+                split_senLIST = [s.strip() for s in re.split(r"[？！。，；：、「」『』（）─〕]", senSTR) if s.strip() ]
+                pprint(split_senLIST)
+                for key in verseDICT:
+                    verseDICT[key] = split_senLIST
+    
+    return ChiBibleLIST
 
 def to_segment_LIST(segment_folder):
     """

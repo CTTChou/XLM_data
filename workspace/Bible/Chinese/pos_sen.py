@@ -5,6 +5,7 @@ import json
 import os
 from ArticutAPI import Articut
 from glob import glob
+from pprint import pprint
 from time import sleep
 
 def main(jsonFILE, filename, articut):
@@ -27,72 +28,53 @@ def main(jsonFILE, filename, articut):
     - processed_LIST (list): 處理過斷句，放回原格式。
     - 一個名為 `{filename}tmpLIST.json` 的臨時檔案，保存中途處理進度。
     """
-    # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
-    tmpLIST = []
-    tmp_index = 0  # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
+    tmpLIST = []    # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
+    tmp_index = 0   # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
     if os.path.exists(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json"):
         with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
             tmpLIST = json.load(f)
             tmp_index = len(tmpLIST)  # 取得已經處理過的資料的數量            
     
+    processed_LIST = []
+    all_senLIST = []
     with open (jsonFILE, "r", encoding="utf-8") as f:
         ChiBibleLIST = json.load(f)
 
-    processed_LIST = []
-    all_split_senLIST = []
-    for bookDICT in ChiBibleLIST:
-        processed_bookDICT = {}
-        
-        for bookSTR, chLIST in bookDICT.items():
-            processed_chLIST = []
-            
-            for chDICT in chLIST:
-                processed_chDICT = {}
-                
-                for chSTR, secLIST in chDICT.items():
-                    processed_secLIST = []
-                    
-                    for secDICT in secLIST:
-                        processed_secDICT = {}
-                        
-                        for secSTR, split_senLIST in secDICT.items():
-                            parseLIST = []
-                            print(split_senLIST)
-                            all_split_senLIST.append(split_senLIST)
-                            tmp_index = len(tmpLIST)
-                            for s_l in (all_split_senLIST[tmp_index:]):
-                                for item_s in s_l:                                   
-                                    resultDICT = articut.parse(item_s, level="lv1")
-                                    result_posLIST = resultDICT["result_pos"]
-                                    print(result_posLIST)   
-                                    parseLIST.append(result_posLIST)
-                                    sleep(1.5)
-                            print(parseLIST)
+        for bookDICT in ChiBibleLIST:
+            bookname_l = list(bookDICT.keys())   #每次 for loop 都拿到一個書名
+            for ch_idx, chapterDICT in enumerate(bookDICT[bookname_l[0]]):
+                chapter_l = list(chapterDICT.keys())    #拿章節
+                for v_idx, verseDICT in enumerate(chapterDICT[chapter_l[0]]):                    
+                    parseLIST = []                                                                                    
+                    senLIST = list(verseDICT.values())[0]    #已 segment 的內文
+                    all_senLIST.append(senLIST)                    
+                    tmp_index = len(tmpLIST)                    
+                    for senLIST in (all_senLIST[tmp_index:]):
+                        for s in senLIST:
+                            resultLIST = (articut.parse(s, level="lv1"))["result_pos"]  #單一內文 articut 結果
+                            pprint(resultLIST)   
+                            parseLIST.append(resultLIST)
+                            sleep(1.5)
                             
-                            if parseLIST:
-                                tmpLIST.append(parseLIST)
-                                # 每次處理完後就儲存到 JSON 檔案
-                                with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "w", encoding="utf-8") as f:
-                                    json.dump(tmpLIST, f, ensure_ascii=False, indent=4)                                    
-                                                                                
-                            processed_secDICT[secSTR] = parseLIST
-                        processed_secLIST.append(processed_secDICT)
-                    processed_chDICT[chSTR] = processed_secLIST
-                processed_chLIST.append(processed_chDICT)
-            processed_bookDICT[bookSTR] = processed_chLIST
-        processed_LIST.append(processed_bookDICT)
-    
-    # 最後將 tmpLIST 中的資料放回 processed_secDICT[secSTR]
-    tmp_index = 0  # 重設索引，這樣後續的處理可以正確填入
-    for bookDICT in processed_LIST:
-        for bookSTR, chLIST in bookDICT.items():
-            for chDICT in chLIST:
-                for chSTR, secLIST in chDICT.items():
-                    for secDICT in secLIST:
-                        for secSTR in secDICT:
-                            if tmp_index < len(tmpLIST):
-                                secDICT[secSTR] = tmpLIST[tmp_index]
-                                tmp_index += 1
+                    if parseLIST:                            
+                        tmpLIST.append(parseLIST)
+                        # 每次處理完後就儲存到 JSON 檔案
+                        with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "w", encoding="utf-8") as f:
+                            json.dump(tmpLIST, f, ensure_ascii=False, indent=4)
+                      
+        processed_LIST.append(bookDICT)
+                      
+                                
+        tmp_index = 0  # 重設索引，這樣後續的處理可以正確填入
+        for bookDICT in processed_LIST:
+            bookLIST = list(bookDICT.keys())   #拿到書名 
+            for versesLIST, chapterDICT in enumerate(bookDICT[bookLIST[0]]):
+                versesLIST = list(chapterDICT.values())[0]  # 取得 values 的第一個元素（列表）
+                for verseDICT in versesLIST:        
+                    for key in verseDICT:
+                        if tmp_index < len(tmpLIST):                        
+                            verseDICT[key] = tmpLIST[tmp_index] #最後將 tmpLIST 中的資料放回
+                            tmp_index += 1
                                 
     return processed_LIST
 
@@ -135,7 +117,7 @@ if __name__ == "__main__":
     LIST1 = sorted_LIST[:33]
     for jsonFILE in LIST1:  #first 33 books
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
-        print(filename)
+        print(f"處理：'{filename}'中")
     
     #LIST2 = sorted_LIST[-33:]  #last 33 books
     #for FILE in LIST2:
