@@ -26,8 +26,8 @@ def main(jsonFILE):
         ChiBibleLIST = json.load(f)
     
     for bookDICT in ChiBibleLIST:
-        bookname_l = list(bookDICT.keys())   #每次 for loop 都拿到一個書名
-        for idx, chapterDICT in enumerate(bookDICT[bookname_l[0]]):
+        booknameSTR = next(iter(bookDICT))  # 每次拿一個書名
+        for ch_idx, chapterDICT in enumerate(bookDICT[booknameSTR]):
             versesLIST = list(chapterDICT.values())[0]  #取得該章節所有 verse
             for verseDICT in versesLIST:
                 senSTR = list(verseDICT.values())[0]    #內文

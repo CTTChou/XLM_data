@@ -41,10 +41,10 @@ def main(jsonFILE, filename, articut):
         ChiBibleLIST = json.load(f)
 
         for bookDICT in ChiBibleLIST:
-            bookname_l = list(bookDICT.keys())   #每次 for loop 都拿到一個書名
-            for ch_idx, chapterDICT in enumerate(bookDICT[bookname_l[0]]):
-                chapter_l = list(chapterDICT.keys())    #拿章節
-                for v_idx, verseDICT in enumerate(chapterDICT[chapter_l[0]]):                    
+            booknameSTR = next(iter(bookDICT))  # 每次拿一個書名
+            for ch_idx, chapterDICT in enumerate(bookDICT[booknameSTR]):
+                chapterSTR = next(iter(chapterDICT))    #拿章節
+                for v_idx, verseDICT in enumerate(chapterDICT[chapterSTR]):                    
                     parseLIST = []                                                                                    
                     senLIST = list(verseDICT.values())[0]    #已 segment 的內文
                     all_senLIST.append(senLIST)                    
@@ -68,7 +68,7 @@ def main(jsonFILE, filename, articut):
         tmp_index = 0  # 重設索引，這樣後續的處理可以正確填入
         for bookDICT in processed_LIST:
             bookLIST = list(bookDICT.keys())   #拿到書名 
-            for versesLIST, chapterDICT in enumerate(bookDICT[bookLIST[0]]):
+            for v_idx, chapterDICT in enumerate(bookDICT[bookLIST[0]]):
                 versesLIST = list(chapterDICT.values())[0]  # 取得 values 的第一個元素（列表）
                 for verseDICT in versesLIST:        
                     for key in verseDICT:
