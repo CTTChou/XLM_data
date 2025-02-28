@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 
 import json
+import os
 from pprint import pprint
 
 def main(jsonFILE):
@@ -37,7 +38,9 @@ if __name__ == "__main__":
     all_versesLIST = main(jsonFILE)
     
     versesSTR = " ".join(all_versesLIST) #把所有內文接在一起
-    with open("../../../data/Bible/English/english_persons.json", "r", encoding="utf-8") as f:
+    names_folder = "../../../data/Bible/English/names"
+    os.makedirs(names_folder, exist_ok=True)    
+    with open("../../../data/Bible/English/names/english_persons.json", "r", encoding="utf-8") as f:
         nameLIST = json.load(f)
         print(f"可檢查的人名數量：{len(nameLIST)}")
         
