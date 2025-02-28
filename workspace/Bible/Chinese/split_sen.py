@@ -31,7 +31,7 @@ def main(jsonFILE):
             versesLIST = list(chapterDICT.values())[0]  #取得該章節所有 verse
             for verseDICT in versesLIST:
                 senSTR = list(verseDICT.values())[0]    #內文
-                split_senLIST = [s.strip() for s in re.split(r"[？！。，；：、「」『』（）─〕]", senSTR) if s.strip() ]
+                split_senLIST = [s.strip() for s in re.split(r"[？！!。，；：、「」『』（）─〕]", senSTR) if s.strip() ]
                 pprint(split_senLIST)
                 for key in verseDICT:
                     verseDICT[key] = split_senLIST
