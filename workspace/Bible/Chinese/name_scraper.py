@@ -3,20 +3,23 @@
 
 import json
 import os
+import re
 from bs4 import BeautifulSoup
 from pprint import pprint
 from selenium import webdriver
 from urllib.parse import unquote
 
+bookPAT = re.compile(r"(?<=《).*?(?=》)")
+
 def get_names(url):
     """
-    從指定的 URL 擷取表格中的帶有 <u> 標籤的名稱，並返回一個不重複的名稱集合。
+    從指定的 URL 擷取表格中的帶有 <u> 標籤的專有名詞，以及《》內的書名，並返回一個不重複的名稱集合。
 
     參數:
         url (str): 目標網頁的 URL。
 
     返回:
-        nameSET (set): 單一章節內所有名稱的集合。
+        nameSET (set): 單一章節內所有專有名詞的集合。
     """
     #driver = webdriver.Chrome()
     driver = webdriver.Firefox()
@@ -37,7 +40,17 @@ def get_names(url):
         for tr in trTag[1:]:
             #拿內文
             tdTag = tr.find_all("td")
-            nameTag = tdTag[1].find_all("u")
+            for h2 in tdTag[1].find_all("h2"):
+                h2.decompose()
+            for b in tdTag[1].find_all("b"):
+                b.decompose()
+
+            senSTR = tdTag[1].get_text().strip()
+            booknameSTR = re.search(bookPAT, senSTR)    #《》的書名
+            if booknameSTR:
+                nameSET.add(booknameSTR.group(0))
+                
+            nameTag = tdTag[1].find_all("u")    #有 underlined 的專有名詞
             if nameTag:
                 for n in nameTag:
                     nameSTR = n.get_text().strip()
