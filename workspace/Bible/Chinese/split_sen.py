@@ -7,6 +7,11 @@ import re
 from glob import glob
 from pprint import pprint
 
+delPAT = re.compile(r"\([^()]*?（見.?\d+）.*?\)|\([^()]*?\)|（(?:[^\d（）]+?\d+:\d+(?:-?\d*)?)+(?:-\d+(?:,\d+)+:?-?\d+)?）|（\d+:\d+-\d+:\d+）|（.\d+:\d+-\d+,\d+-\d+）|（..\d+）|（（[^（）]*?(?:從前叫|希伯來文)）")   #刪除的內容
+re_delPAT = re.compile(r"\d+-|[\u4e00-\u9fff]+\d+|\d+|22節由本章末段移到此段|詩篇四十二～七十二篇|詩篇七十三～八十九篇|詩篇九十～一零六篇|詩篇一零七～一五零篇|第五卷")    #刪除的內容
+zeroPAT = re.compile(r"○")  #改成國字「零」
+splitPAT = re.compile(r"[？！!。，；：、「」『』（）()─〕]")  #斷句符號
+
 def main(jsonFILE):
     """
     從指定的 JSON 檔案讀取聖經內容，將經文按標點符號（如：問號、逗號等）進行分割，並將結果寫回同一個 JSON 檔案。
@@ -31,10 +36,17 @@ def main(jsonFILE):
             versesLIST = list(chapterDICT.values())[0]  #取得該章節所有 verse
             for verseDICT in versesLIST:
                 senSTR = list(verseDICT.values())[0]    #內文
-                split_senLIST = [s.strip() for s in re.split(r"[？！!。，；：、「」『』（）─〕]", senSTR) if s.strip() ]
-                pprint(split_senLIST)
+                
+                #post-processing after scraping
+                senSTR = re.sub(delPAT, "", senSTR)      #需刪除的內容
+                senSTR = re.sub(zeroPAT, "零", senSTR)   #圓形符號改成國字
+ 
+                split_senLIST = [s.strip() for s in re.split(splitPAT, senSTR) if s.strip() ]   #split sentence
+                filtered_senLIST = [s for s in split_senLIST if not re.search(re_delPAT, s)]    #re-postprocessing
+                pprint(filtered_senLIST)
+                
                 for key in verseDICT:
-                    verseDICT[key] = split_senLIST
+                    verseDICT[key] = filtered_senLIST
     
     return ChiBibleLIST
 
