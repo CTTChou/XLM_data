@@ -122,7 +122,7 @@ if __name__ == "__main__":
         print(f"處理：'{filename}'中")
     
         output_jsonFILE = f"../../../data/Bible/Chinese/POS/{filename}.json"        
-        processed_LIST = main(jsonFILE, filename, articut)
+        #processed_LIST = main(jsonFILE, filename, articut)
         
         if not os.path.exists(output_jsonFILE):
             with open(jsonFILE, "r", encoding="utf-8") as f:
