@@ -6,9 +6,9 @@ import os
 from ArticutAPI import Articut
 from glob import glob
 from pprint import pprint
-from time import sleep
+#from time import sleep
 
-def main(jsonFILE, filename, articut):
+def main(jsonFILE, filename, articut, userDefined):
     """
     處理指定的 JSON 聖經檔案，將經文分段並使用 Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
 
@@ -16,6 +16,8 @@ def main(jsonFILE, filename, articut):
     jsonFILE (str): 包含聖經資料的 JSON 檔案路徑。
     filename (str): 處理過程中臨時檔案的 basename（用於保存中途結果的 tmpLIST）。
     articut (Articut): 透過 Articut API 進行中文分詞和詞性標註的實例。
+    userDefined (dict): 使用自定義字典。
+
 
     功能描述:
     1. 嘗試讀取指定目錄下的臨時檔案 `tmpLIST`，該檔案用於保存已處理的經文片段，以便程序中斷後能從上次進度繼續。
@@ -51,9 +53,7 @@ def main(jsonFILE, filename, articut):
                     tmp_index = len(tmpLIST)                    
                     for senLIST in (all_senLIST[tmp_index:]):
                         for s in senLIST:
-                            result = articut.parse(s, level="lv1")
-                            print(result)
-                            resultLIST = (articut.parse(s, level="lv1"))["result_pos"]  #單一內文 articut 結果
+                            resultLIST = (articut.parse(s, level="lv1", userDefinedDictFILE=userDefined))["result_pos"]  #單一內文 articut 結果
                             pprint(resultLIST)   
                             parseLIST.append(resultLIST)
                             #sleep(1.5)
@@ -107,7 +107,10 @@ def to_POS_LIST(POS_folder):
 
 if __name__ == "__main__":
     #accountDICT = json.load(open("account.info",encoding="utf-8"))
+    #articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
     articut = Articut(url="http://127.0.0.1:8964")
+    userDefined = "../../../data/Bible/Chinese/UserDefinedFile.json"
+    
    
     segment_folder = "../../../data/Bible/Chinese/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
@@ -122,7 +125,6 @@ if __name__ == "__main__":
         print(f"處理：'{filename}'中")
     
         output_jsonFILE = f"../../../data/Bible/Chinese/POS/{filename}.json"        
-        #processed_LIST = main(jsonFILE, filename, articut)
         
         if not os.path.exists(output_jsonFILE):
             with open(jsonFILE, "r", encoding="utf-8") as f:
