@@ -106,8 +106,8 @@ def to_POS_LIST(POS_folder):
         json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    accountDICT = json.load(open("account.info",encoding="utf-8"))
-    articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
+    #accountDICT = json.load(open("account.info",encoding="utf-8"))
+    articut = Articut(url="127.0.0.1:8964")
    
     segment_folder = "../../../data/Bible/Chinese/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
