@@ -117,12 +117,7 @@ if __name__ == "__main__":
     LIST1 = sorted_LIST[:33]
     for jsonFILE in LIST1:  #first 33 books
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
-        print(f"處理：'lv2_{filename}'中")
-    
-    #LIST2 = sorted_LIST[-33:]  #last 33 books
-    #for FILE in LIST2:
-        #filename = os.path.splitext(os.path.basename(FILE))[0]  # 拿到中文檔名
-        #print(f"處理：'lv2_{filename}'中")    
+        print(f"處理：'lv2_{filename}'中") 
     
         output_jsonFILE = f"../../../data/Bible/Chinese/lv2_POS/lv2_{filename}.json"        
         if not os.path.exists(output_jsonFILE):
