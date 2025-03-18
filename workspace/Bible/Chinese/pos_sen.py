@@ -56,7 +56,7 @@ def main(jsonFILE, filename, articut):
                             resultLIST = (articut.parse(s, level="lv1"))["result_pos"]  #單一內文 articut 結果
                             pprint(resultLIST)   
                             parseLIST.append(resultLIST)
-                            sleep(1.5)
+                            #sleep(1.5)
                             
                     if parseLIST:                            
                         tmpLIST.append(parseLIST)
@@ -107,7 +107,7 @@ def to_POS_LIST(POS_folder):
 
 if __name__ == "__main__":
     #accountDICT = json.load(open("account.info",encoding="utf-8"))
-    articut = Articut(url="127.0.0.1:8964")
+    articut = Articut(url="http://127.0.0.1:8964")
    
     segment_folder = "../../../data/Bible/Chinese/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
