@@ -114,8 +114,8 @@ if __name__ == "__main__":
     POS_folder = "../../../data/Bible/Chinese/POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
-    LIST1 = sorted_LIST[:33]
-    for jsonFILE in LIST1:  #first 33 books
+    LIST2 = sorted_LIST[-33:]  #last 33 books
+    for jsonFILE in LIST2:
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
         print(f"處理：'{filename}'中")
     

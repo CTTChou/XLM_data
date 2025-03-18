@@ -10,7 +10,7 @@ from time import sleep
 
 def main(jsonFILE, filename, articut):
     """
-    處理指定的 JSON 聖經檔案，將經文分段並使用 Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
+    處理指定的 JSON 聖經檔案，將經文分段並使用 Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。
 
     參數:
     jsonFILE (str): 包含聖經資料的 JSON 檔案路徑。
@@ -26,12 +26,12 @@ def main(jsonFILE, filename, articut):
 
     輸出：
     - processed_LIST (list): 處理過斷句，放回原格式。
-    - 一個名為 `{filename}tmpLIST.json` 的臨時檔案，保存中途處理進度。
+    - 一個名為 `lv2_{filename}tmpLIST.json` 的臨時檔案，保存中途處理進度。
     """
     tmpLIST = []    # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
     tmp_index = 0   # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
-    if os.path.exists(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json"):
-        with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
+    if os.path.exists(f"../../../data/Bible/Chinese/lv2_POS/lv2_{filename}tmpLIST.json"):
+        with open(f"../../../data/Bible/Chinese/lv2_POS/lv2_{filename}tmpLIST.json", "r", encoding="utf-8") as f:
             tmpLIST = json.load(f)
             tmp_index = len(tmpLIST)  # 取得已經處理過的資料的數量            
     
@@ -51,7 +51,7 @@ def main(jsonFILE, filename, articut):
                     tmp_index = len(tmpLIST)                    
                     for senLIST in (all_senLIST[tmp_index:]):
                         for s in senLIST:
-                            resultLIST = (articut.parse(s, level="lv1"))["result_pos"]  #單一內文 articut 結果
+                            resultLIST = (articut.parse(s, level="lv2"))["result_pos"]  #單一內文 articut 結果
                             pprint(resultLIST)   
                             parseLIST.append(resultLIST)
                             sleep(1.5)
@@ -59,7 +59,7 @@ def main(jsonFILE, filename, articut):
                     if parseLIST:                            
                         tmpLIST.append(parseLIST)
                         # 每次處理完後就儲存到 JSON 檔案
-                        with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "w", encoding="utf-8") as f:
+                        with open(f"../../../data/Bible/Chinese/lv2_POS/lv2_{filename}tmpLIST.json", "w", encoding="utf-8") as f:
                             json.dump(tmpLIST, f, ensure_ascii=False, indent=4)
                       
         processed_LIST.append(bookDICT)
@@ -88,10 +88,10 @@ def to_POS_LIST(POS_folder):
     程式流程：
     1. 遍歷指定資料夾中的非tmpLIST的 `.json` 檔案。
     2. 對每個 JSON 檔案，將其內容讀取並追加到 `pos_LIST` 列表中。
-    3. 最後，將合併後的資料寫入一個名為 `pos_all_ChiBible.json` 的檔案，並儲存在指定路徑中。
+    3. 最後，將合併後的資料寫入一個名為 `lv2_POS_all_ChiBible.json` 的檔案，並儲存在指定路徑中。
     
     輸出：
-    - 一個新的 JSON 檔案 `pos_all_ChiBible.json`，包含了資料夾中所有 JSON 檔案合併後的內容。
+    - 一個新的 JSON 檔案 `lv2_POS_all_ChiBible.json`，包含了資料夾中所有 JSON 檔案合併後的內容。
     """    
     POS_LIST = []
     POS_jsonFILE = [file for file in glob(f"{POS_folder}/*.json") if "tmpLIST" not in file]
@@ -99,7 +99,7 @@ def to_POS_LIST(POS_folder):
         with open(jsonFILE, "r", encoding="utf=8") as f:
             POS_LIST.extend(json.load(f))
             
-    filename ="../../../data/Bible/Chinese/POS_all_ChiBible.json"        
+    filename ="../../../data/Bible/Chinese/lv2_POS_all_ChiBible.json"        
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
 
@@ -111,15 +111,15 @@ if __name__ == "__main__":
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
     sorted_LIST = sorted(jsonFILE_LIST)
     
-    POS_folder = "../../../data/Bible/Chinese/POS"  #write here
+    POS_folder = "../../../data/Bible/Chinese/lv2_POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
-    LIST1 = sorted_LIST[:33]
-    for jsonFILE in LIST1:  #first 33 books
+    LIST2 = sorted_LIST[-33:]  #last 33 books
+    for jsonFILE in LIST2:
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
-        print(f"處理：'{filename}'中")
+        print(f"處理：'lv2_{filename}'中")    
     
-        output_jsonFILE = f"../../../data/Bible/Chinese/POS/{filename}.json"        
+        output_jsonFILE = f"../../../data/Bible/Chinese/lv2_POS/lv2_{filename}.json"        
         if not os.path.exists(output_jsonFILE):
             with open(jsonFILE, "r", encoding="utf-8") as f:
                 processed_LIST = main(jsonFILE, filename, articut)
