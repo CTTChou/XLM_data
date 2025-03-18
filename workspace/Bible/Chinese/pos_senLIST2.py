@@ -126,7 +126,7 @@ if __name__ == "__main__":
         output_jsonFILE = f"../../../data/Bible/Chinese/POS/{filename}.json"        
         if not os.path.exists(output_jsonFILE):
             with open(jsonFILE, "r", encoding="utf-8") as f:
-                processed_LIST = main(jsonFILE, filename, articut)
+                processed_LIST = main(jsonFILE, filename, articut, userDefined)
                 
                 with open(output_jsonFILE, "w", encoding="utf-8") as f:
                     json.dump(processed_LIST, f, ensure_ascii=False, indent=4)            
