@@ -51,6 +51,8 @@ def main(jsonFILE, filename, articut):
                     tmp_index = len(tmpLIST)                    
                     for senLIST in (all_senLIST[tmp_index:]):
                         for s in senLIST:
+                            result = articut.parse(s, level="lv1")
+                            print(result)
                             resultLIST = (articut.parse(s, level="lv1"))["result_pos"]  #單一內文 articut 結果
                             pprint(resultLIST)   
                             parseLIST.append(resultLIST)
