@@ -91,7 +91,7 @@
     ],
     [
         [
-            "<FUNC_inter>但是</FUNC_inter>"
+            "<UserDefined>但</UserDefined><AUX>是</AUX>"
         ],
         [
             "<FUNC_inter>如果</FUNC_inter><ENTITY_pronoun>我們</ENTITY_pronoun><ENTITY_nouny>生</ENTITY_nouny><ACTION_verb>活</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>光明</ENTITY_nouny><RANGE_locality>中</RANGE_locality>"
@@ -167,7 +167,7 @@
             "<ENTITY_oov>贖</ENTITY_oov><ASPECT>了</ASPECT><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
         ],
         [
-            "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><FUNC_inter>但</FUNC_inter><AUX>為</AUX><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
+            "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><UserDefined>但</UserDefined><AUX>為</AUX><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
         ],
         [
             "<MODIFIER>也</MODIFIER><AUX>為</AUX><QUANTIFIER>全</QUANTIFIER><ENTITY_noun>人類</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
@@ -200,7 +200,7 @@
     ],
     [
         [
-            "<FUNC_inter>但</FUNC_inter><FUNC_determiner>那</FUNC_determiner><ACTION_verb>遵守</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>道</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
+            "<UserDefined>但</UserDefined><FUNC_determiner>那</FUNC_determiner><ACTION_verb>遵守</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>道</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
         ],
         [
             "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>對</FUNC_inner><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ACTION_verb>愛</ACTION_verb><FUNC_inner>就</FUNC_inner><ACTION_verb>達到</ACTION_verb><QUANTIFIER>完全</QUANTIFIER>"
@@ -223,7 +223,25 @@
     ],
     [
         [
-            "<ENTITY_oov>a</ENTITY_oov>"
+            "<UserDefined>但</UserDefined><FUNC_determiner>那</FUNC_determiner><ACTION_verb>遵守</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>道</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
+        ],
+        [
+            "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>對</FUNC_inner><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ACTION_verb>愛</ACTION_verb><FUNC_inner>就</FUNC_inner><ACTION_verb>達到</ACTION_verb><QUANTIFIER>完全</QUANTIFIER>"
+        ],
+        [
+            "<FUNC_determiner>那</FUNC_determiner><ACTION_verb>說</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>有</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>生命</ENTITY_noun><FUNC_inner>的</FUNC_inner>"
+        ],
+        [
+            "<MODAL>應該</MODAL><ACTION_verb>照</ACTION_verb><CLAUSE_particle>耶</CLAUSE_particle><ENTITY_oov>穌基督</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_nouny>言行</ENTITY_nouny><ENTITY_noun>生活</ENTITY_noun>"
+        ],
+        [
+            "<FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>樣</ENTITY_classifier>"
+        ],
+        [
+            "<ENTITY_pronoun>我們</ENTITY_pronoun><MODAL>才</MODAL><ACTION_verb>有</ACTION_verb><ENTITY_noun>把握</ENTITY_noun><ACTION_verb>說</ACTION_verb>"
+        ],
+        [
+            "<ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>有</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>生命</ENTITY_noun>"
         ]
     ],
     [
@@ -416,7 +434,7 @@
             "<FUNC_determiner>這</FUNC_determiner><LOCATION>世界</LOCATION><FUNC_conjunction>和</FUNC_conjunction><QUANTIFIER>一切</QUANTIFIER><ACTION_verb>屬</ACTION_verb><ENTITY_nouny>世</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>慾望</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ASPECT>正在</ASPECT><ACTION_verb>消逝</ACTION_verb>"
         ],
         [
-            "<FUNC_inter>但是</FUNC_inter>"
+            "<UserDefined>但</UserDefined><AUX>是</AUX>"
         ],
         [
             "<ENTITY_oov>實行上帝旨意</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><ACTION_verb>要</ACTION_verb><TIME_justtime>永遠</TIME_justtime><ACTION_verb>生存</ACTION_verb>"
@@ -571,7 +589,7 @@
             "<FUNC_inter>所以</FUNC_inter>"
         ],
         [
-            "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>順從</ACTION_verb><MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>教導</ENTITY_nouny>"
+            "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>順從</ACTION_verb><UserDefined>聖靈</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>教導</ENTITY_nouny>"
         ],
         [
             "<MODIFIER>始終</MODIFIER><ACTION_verb>活</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>基督</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>生命</ENTITY_noun><RANGE_locality>裏</RANGE_locality>"
@@ -724,7 +742,7 @@
             "<ACTION_verb>遵行</ACTION_verb><ENTITY_nouny>公義</ENTITY_nouny><FUNC_inner>的</FUNC_inner>"
         ],
         [
-            "<MODAL>才</MODAL><AUX>是</AUX><ENTITY_nouny>義</ENTITY_nouny><ENTITY_noun>人</ENTITY_noun>"
+            "<MODAL>才</MODAL><AUX>是</AUX><ENTITY_noun>義人</ENTITY_noun>"
         ],
         [
             "<MODIFIER>正</MODIFIER><FUNC_inter>如</FUNC_inter><ENTITY_nouny>基督</ENTITY_nouny><AUX>是</AUX><ENTITY_nouny>公義</ENTITY_nouny><FUNC_inner>的</FUNC_inner>"
@@ -788,7 +806,7 @@
     ],
     [
         [
-            "<ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>要</ACTION_verb><AUX>像</AUX><MODAL>該</MODAL><ENTITY_oov>隱</ENTITY_oov>"
+            "<ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>要</ACTION_verb><AUX>像</AUX><UserDefined>該隱</UserDefined>"
         ],
         [
             "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>屬於</ACTION_verb><FUNC_determiner>那</FUNC_determiner><MODIFIER>邪惡</MODIFIER><ENTITY_nounHead>者</ENTITY_nounHead>"
@@ -971,7 +989,7 @@
             "<ENTITY_pronoun>我們</ENTITY_pronoun><CLAUSE_HowQ>怎樣</CLAUSE_HowQ><ACTION_verb>知道</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>生命</ENTITY_noun><RANGE_locality>裏</RANGE_locality><CLAUSE_particle>呢</CLAUSE_particle>"
         ],
         [
-            "<AUX>是</AUX><FUNC_inter>由於</FUNC_inter><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><ACTION_verb>賜給</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER>"
+            "<AUX>是</AUX><FUNC_inter>由於</FUNC_inter><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><ACTION_verb>賜給</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><UserDefined>聖靈</UserDefined>"
         ]
     ],
     [
@@ -979,7 +997,7 @@
             "<MODIFIER>親愛</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>朋友們</ENTITY_noun>"
         ],
         [
-            "<FUNC_inner>對於</FUNC_inner><ACTION_verb>自稱</ACTION_verb><ACTION_verb>有</ACTION_verb><MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER><FUNC_inner>的</FUNC_inner>"
+            "<FUNC_inner>對於</FUNC_inner><ACTION_verb>自稱</ACTION_verb><ACTION_verb>有</ACTION_verb><UserDefined>聖靈</UserDefined><FUNC_inner>的</FUNC_inner>"
         ],
         [
             "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>要</ACTION_verb><QUANTIFIER>都</QUANTIFIER><ACTION_verb>相信</ACTION_verb>"
@@ -988,7 +1006,7 @@
             "<MODIFIER>總</MODIFIER><ACTION_verb>要</ACTION_verb><ENTITY_nouny>察</ENTITY_nouny><ACTION_verb>驗</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>靈</MODIFIER><CLAUSE_AnotAQ>是不是</CLAUSE_AnotAQ><ACTION_verb>出於</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
         ],
         [
-            "<FUNC_inter>因為</FUNC_inter><ASPECT>已經</ASPECT><ACTION_verb>有</ACTION_verb><QUANTIFIER>許多</QUANTIFIER><MODIFIER>假</MODIFIER><MODIFIER>先</MODIFIER><ACTION_verb>知</ACTION_verb><MODIFIER>到處</MODIFIER><ACTION_verb>出現</ACTION_verb><ASPECT>了</ASPECT>"
+            "<FUNC_inter>因為</FUNC_inter><ASPECT>已經</ASPECT><ACTION_verb>有</ACTION_verb><QUANTIFIER>許多</QUANTIFIER><MODIFIER>假</MODIFIER><UserDefined>先知</UserDefined><MODIFIER>到處</MODIFIER><ACTION_verb>出現</ACTION_verb><ASPECT>了</ASPECT>"
         ]
     ],
     [
@@ -1016,7 +1034,7 @@
             "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>聽見</ACTION_verb><ASPECT>過</ASPECT><FUNC_determiner>這</FUNC_determiner><MODIFIER>靈</MODIFIER><ACTION_verb>要</ACTION_verb><ACTION_verb>來</ACTION_verb>"
         ],
         [
-            "<TIME_justtime>現在</TIME_justtime><ASPECT>已經</ASPECT><ACTION_verb>在世</ACTION_verb><RANGE_locality>上</RANGE_locality><ASPECT>了</ASPECT>"
+            "<TIME_justtime>現在</TIME_justtime><ASPECT>已經</ASPECT><FUNC_inner>在</FUNC_inner><ENTITY_nouny>世</ENTITY_nouny><RANGE_locality>上</RANGE_locality><ASPECT>了</ASPECT>"
         ]
     ],
     [
@@ -1030,7 +1048,7 @@
             "<ENTITY_pronoun>你們</ENTITY_pronoun><AUX>是</AUX><ACTION_verb>屬</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner>"
         ],
         [
-            "<FUNC_inter>而且</FUNC_inter><ASPECT>已經</ASPECT><ACTION_verb>勝過</ACTION_verb><ASPECT>了</ASPECT><MODIFIER>假</MODIFIER><MODIFIER>先</MODIFIER><ACTION_verb>知</ACTION_verb>"
+            "<FUNC_inter>而且</FUNC_inter><ASPECT>已經</ASPECT><ACTION_verb>勝過</ACTION_verb><ASPECT>了</ASPECT><MODIFIER>假</MODIFIER><UserDefined>先知</UserDefined>"
         ],
         [
             "<FUNC_inter>因為</FUNC_inter><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>你們</ENTITY_pronoun><RANGE_locality>裏面</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>靈</MODIFIER><ACTION_verb>比</ACTION_verb><FUNC_determiner>那</FUNC_determiner><ASPECT>在</ASPECT><ACTION_verb>屬</ACTION_verb><LOCATION>世界</LOCATION><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><RANGE_locality>裏面</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>靈</MODIFIER><MODIFIER>更</MODIFIER><ACTION_verb>有</ACTION_verb><ENTITY_noun>力量</ENTITY_noun>"
@@ -1049,7 +1067,7 @@
     ],
     [
         [
-            "<FUNC_inter>但是</FUNC_inter>"
+            "<UserDefined>但</UserDefined><AUX>是</AUX>"
         ],
         [
             "<ENTITY_pronoun>我們</ENTITY_pronoun><AUX>是</AUX><ACTION_verb>屬</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner>"
@@ -1100,7 +1118,7 @@
     ],
     [
         [
-            "<ENTITY_oov>上帝差</ENTITY_oov><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>獨子</ENTITY_noun><ACTION_verb>到</ACTION_verb><ENTITY_nouny>世</ENTITY_nouny><ACTION_verb>上來</ACTION_verb>"
+            "<ENTITY_oov>上帝</ENTITY_oov><ACTION_verb>差</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>獨子</ENTITY_noun><ACTION_verb>到</ACTION_verb><ENTITY_nouny>世</ENTITY_nouny><RANGE_locality>上</RANGE_locality><ACTION_verb>來</ACTION_verb>"
         ],
         [
             "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>藉</ACTION_verb><ASPECT>著</ASPECT><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>得到</ACTION_verb><ENTITY_noun>生命</ENTITY_noun>"
@@ -1145,7 +1163,7 @@
             "<FUNC_negation>沒有</FUNC_negation><ENTITY_noun>人</ENTITY_noun><ACTION_verb>看見</ACTION_verb><ASPECT>過</ASPECT><ENTITY_oov>上帝</ENTITY_oov>"
         ],
         [
-            "<FUNC_inter>但</FUNC_inter><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inter>若</FUNC_inter><ENTITY_pronoun>彼此</ENTITY_pronoun><ACTION_verb>相愛</ACTION_verb>"
+            "<UserDefined>但</UserDefined><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inter>若</FUNC_inter><ENTITY_pronoun>彼此</ENTITY_pronoun><ACTION_verb>相愛</ACTION_verb>"
         ],
         [
             "<ENTITY_oov>上帝</ENTITY_oov><FUNC_inner>就</FUNC_inner><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>生命</ENTITY_noun><RANGE_locality>裏</RANGE_locality>"
@@ -1170,7 +1188,7 @@
     ],
     [
         [
-            "<ENTITY_oov>天父差</ENTITY_oov><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>兒子</ENTITY_pronoun><ACTION_verb>來</ACTION_verb><ACTION_verb>作</ACTION_verb><LOCATION>世界</LOCATION><FUNC_inner>的</FUNC_inner><ACTION_verb>救</ACTION_verb><ENTITY_nouny>主</ENTITY_nouny>"
+            "<ENTITY_oov>天父</ENTITY_oov><ACTION_verb>差</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>兒子</ENTITY_pronoun><ACTION_verb>來</ACTION_verb><ACTION_verb>作</ACTION_verb><LOCATION>世界</LOCATION><FUNC_inner>的</FUNC_inner><ACTION_verb>救</ACTION_verb><ENTITY_nouny>主</ENTITY_nouny>"
         ],
         [
             "<FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>事</ENTITY_nouny><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><ASPECT>了</ASPECT>"
@@ -1343,15 +1361,15 @@
             "<FUNC_inter>而</FUNC_inter><AUX>是</AUX><ACTION_verb>用</ACTION_verb><ENTITY_nouny>水</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>血</ENTITY_nouny>"
         ],
         [
-            "<MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER><MODIFIER>也</MODIFIER><MODIFIER>親自</MODIFIER><ACTION_verb>見證</ACTION_verb><FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><MODIFIER>真實</MODIFIER><FUNC_inner>的</FUNC_inner>"
+            "<UserDefined>聖靈</UserDefined><MODIFIER>也</MODIFIER><MODIFIER>親自</MODIFIER><ACTION_verb>見證</ACTION_verb><FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><MODIFIER>真實</MODIFIER><FUNC_inner>的</FUNC_inner>"
         ],
         [
-            "<FUNC_inter>因為</FUNC_inter><MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER><FUNC_inner>就</FUNC_inner><AUX>是</AUX><MODIFIER>真</MODIFIER><ENTITY_noun>理</ENTITY_noun>"
+            "<FUNC_inter>因為</FUNC_inter><UserDefined>聖靈</UserDefined><FUNC_inner>就</FUNC_inner><AUX>是</AUX><MODIFIER>真</MODIFIER><ENTITY_noun>理</ENTITY_noun>"
         ]
     ],
     [
         [
-            "<MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER>"
+            "<UserDefined>聖靈</UserDefined>"
         ],
         [
             "<ENTITY_oov>水</ENTITY_oov>"
@@ -1365,7 +1383,7 @@
     ],
     [
         [
-            "<MODIFIER>聖</MODIFIER><MODIFIER>靈</MODIFIER>"
+            "<UserDefined>聖靈</UserDefined>"
         ],
         [
             "<ENTITY_oov>水</ENTITY_oov>"
@@ -1455,12 +1473,12 @@
             "<FUNC_inter>如果</FUNC_inter><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>照</ACTION_verb><ASPECT>著</ASPECT><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>旨意</ENTITY_nouny><ACTION_verb>求</ACTION_verb>"
         ],
         [
-            "<ENTITY_pronoun>他</ENTITY_pronoun><QUANTIFIER>都</QUANTIFIER><MODAL>會</MODAL><ENTITY_oov>垂</ENTITY_oov><ACTION_verb>聽</ACTION_verb>"
+            "<ENTITY_pronoun>他</ENTITY_pronoun><QUANTIFIER>都</QUANTIFIER><MODAL>會</MODAL><ACTION_verb>垂聽</ACTION_verb>"
         ]
     ],
     [
         [
-            "<FUNC_inter>既然</FUNC_inter><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>知道</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><ENTITY_nouny>垂</ENTITY_nouny><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><QUANTIFIER>一切</QUANTIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>祈求</ENTITY_nouny>"
+            "<FUNC_inter>既然</FUNC_inter><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>知道</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>垂聽</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><QUANTIFIER>一切</QUANTIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>祈求</ENTITY_nouny>"
         ],
         [
             "<MODIFIER>也</MODIFIER><FUNC_inner>就</FUNC_inner><ACTION_verb>知道</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><ACTION_verb>求</ACTION_verb><FUNC_inner>的</FUNC_inner>"
@@ -1483,7 +1501,7 @@
             "<FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><ACTION_verb>指</ACTION_verb><FUNC_determiner>那</FUNC_determiner><ENTITY_classifier>些</ENTITY_classifier><ACTION_verb>犯</ACTION_verb><ASPECT>了</ASPECT><FUNC_negation>不</FUNC_negation><FUNC_inner>至於</FUNC_inner><ACTION_verb>死</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><ACTION_verb>說</ACTION_verb><FUNC_inner>的</FUNC_inner>"
         ],
         [
-            "<FUNC_inter>但是</FUNC_inter>"
+            "<UserDefined>但</UserDefined><AUX>是</AUX>"
         ],
         [
             "<ACTION_verb>有</ACTION_verb><ENTITY_classifier>些</ENTITY_classifier><ENTITY_nouny>罪</ENTITY_nouny><MODAL>會</MODAL><ACTION_verb>導致</ACTION_verb><ACTION_verb>死亡</ACTION_verb>"
@@ -1497,7 +1515,7 @@
             "<QUANTIFIER>一切</QUANTIFIER><FUNC_negation>不</FUNC_negation><ENTITY_nouny>義</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>行為</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><AUX>是</AUX><ENTITY_nouny>罪</ENTITY_nouny>"
         ],
         [
-            "<FUNC_inter>但</FUNC_inter><MODIFIER>也</MODIFIER><ACTION_verb>有</ACTION_verb><FUNC_negation>不</FUNC_negation><FUNC_inner>至於</FUNC_inner><ACTION_verb>死</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
+            "<UserDefined>但</UserDefined><MODIFIER>也</MODIFIER><ACTION_verb>有</ACTION_verb><FUNC_negation>不</FUNC_negation><FUNC_inner>至於</FUNC_inner><ACTION_verb>死</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
         ]
     ],
     [
