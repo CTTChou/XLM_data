@@ -21,13 +21,13 @@ def articutEN(inputSTR: str) -> list:
     回傳:
         list: 詞性標記後的結果，返回 result_pos 內容。
     """
-    #payload = {
-        #"username": accountDICT["username"],
-         #"api_key": "ElbLYprJIMyum#x3lb^h+GL6eF2X_3c",#accountDICT["api_key"],
-        #"input_str": inputSTR
-    #}
-    #response = post(url, json=payload).json()
-    response = post(url).json()
+    payload = {
+        "username":"",
+        "api_key": "",
+        "input_str": inputSTR
+    }    
+   
+    response = post(url, json=payload).json()
     return response
 
 def main(jsonFILE, flename, articut):
