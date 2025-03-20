@@ -164,10 +164,9 @@ if __name__ == "__main__":
     POS_folder = "../../../data/Bible/English/POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
-    LIST1 = sorted_LIST[:33]
-    for jsonFILE in LIST1:  #first 33 books
+    LIST2 = sorted_LIST[-33:]  #last 33 books
+    for jsonFILE in LIST2:
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到英文檔名
-        print(filename)
     
         output_jsonFILE = f"../../../data/Bible/English/POS/{filename}.json"        
         if not os.path.exists(output_jsonFILE):
