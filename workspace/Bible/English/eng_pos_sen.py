@@ -27,11 +27,12 @@ def articutEN(inputSTR: str) -> list:
         "input_str": inputSTR
     }    
    
-    response = post(url, json=payload)#.json()
+    #response = post(url, json=payload).json()
+    response = post("{}/Articut_EN/BulkAPI/".format(url), json=payload)
     print(response)
     return response
 
-def main(jsonFILE, flename, articut):
+def main(jsonFILE, flename, articutEN):
     """
     處理指定的 JSON 聖經檔案，將經文分段並使用 英文版Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
 
