@@ -3,11 +3,13 @@
 
 import json
 import os
-from time import sleep
+#from time import sleep
 from requests import post
 from glob import glob
 
-url = "https://nlu.droidtown.co/Articut_EN/API/"
+#url = "https://nlu.droidtown.co/Articut_EN/API/"
+url = "http://127.0.0.1:8999"
+
 
 def articutEN(inputSTR: str) -> list:
     """
@@ -20,14 +22,17 @@ def articutEN(inputSTR: str) -> list:
         list: 詞性標記後的結果，返回 result_pos 內容。
     """
     payload = {
-        "username": accountDICT["username"],
-         "api_key": "ElbLYprJIMyum#x3lb^h+GL6eF2X_3c",#accountDICT["api_key"],
+        "username":"",
+        "api_key": "",
         "input_str": inputSTR
     }    
-    response = post(url, json=payload).json()
+   
+    #response = post(url, json=payload).json()
+    response = post("{}/Articut_EN/API/".format(url), json=payload).json()
+    print(response)
     return response
 
-def main(jsonFILE, flename, articut):
+def main(jsonFILE, flename, articutEN):
     """
     處理指定的 JSON 聖經檔案，將經文分段並使用 英文版Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
 
@@ -84,10 +89,11 @@ def main(jsonFILE, flename, articut):
                             for s_l in (all_split_senLIST[tmp_index:]):
                                 for item_s in s_l:                                   
                                     resultDICT = articutEN(item_s)
+                                    print(resultDICT)
                                     result_posLIST = resultDICT["result_pos"]
                                     print(result_posLIST)   
                                     parseLIST.append(result_posLIST)
-                                    sleep(1.5)
+                                    #sleep(1.5)
                             print(parseLIST)
                             
                             if parseLIST:
@@ -143,11 +149,12 @@ def to_POS_LIST(POS_folder):
         json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    try:
-        with open("./account.info", encoding="utf-8") as f:
-            accountDICT = json.load(f)
-    except:
-        accountDICT = {"username":"", "apikey":""}    
+    
+    #try:
+        #with open("./account.info", encoding="utf-8") as f:
+            #accountDICT = json.load(f)
+    #except:
+        #accountDICT = {"username":"", "apikey":""}    
     
 
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
@@ -160,14 +167,10 @@ if __name__ == "__main__":
     POS_folder = "../../../data/Bible/English/POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
-    LIST1 = sorted_LIST[:15]
-    for jsonFILE in LIST1:  #first 23 books
-        filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
+    LIST1 = sorted_LIST[:33]
+    for jsonFILE in LIST1:  #first 33 books
+        filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到英文檔名
         print(filename)
-    
-    #LIST2 = sorted_LIST[-22:]  #last 22 books
-    #for FILE in LIST2:
-        #filename = os.path.splitext(os.path.basename(FILE))[0]  # 拿到中文檔名
     
         output_jsonFILE = f"../../../data/Bible/English/POS/{filename}.json"        
         if not os.path.exists(output_jsonFILE):

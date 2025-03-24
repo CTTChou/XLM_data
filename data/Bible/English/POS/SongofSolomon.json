@@ -275,7 +275,7 @@
                     {
                         "2:6": [
                             [
-                                "<ENTITY_possessive>His</ENTITY_possessive> <ACTION_verb>left</ACTION_verb> <ENTITY_noun>hand</ENTITY_noun> <AUX>is</AUX> <RANGE_locality>under</RANGE_locality> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_noun>head</ENTITY_noun>"
+                                "<ENTITY_possessive>His</ENTITY_possessive> <MODIFIER>left</MODIFIER> <ENTITY_noun>hand</ENTITY_noun> <AUX>is</AUX> <RANGE_locality>under</RANGE_locality> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_noun>head</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>his</ENTITY_possessive> <MODIFIER>right</MODIFIER> <ENTITY_noun>hand</ENTITY_noun> <ENTITY_oov>caresses</ENTITY_oov> <ENTITY_pronoun>me</ENTITY_pronoun>"
@@ -498,7 +498,7 @@
                     {
                         "3:4": [
                             [
-                                "<FUNC_inter>As soon as</FUNC_inter> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>left</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>"
+                                "<FUNC_inner>As</FUNC_inner> <TIME_justtime>soon</TIME_justtime> <FUNC_inner>as</FUNC_inner> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>left</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>"
                             ],
                             [
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>found</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun>"
@@ -527,7 +527,7 @@
                     {
                         "3:6": [
                             [
-                                "<CLAUSE_WhatQ>What</CLAUSE_WhatQ> <AUX>is</AUX> <FUNC_determiner>this</FUNC_determiner> <MODIFIER>coming</MODIFIER> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>desert</ENTITY_noun> <ACTION_verb>like</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>column</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>smoke</ENTITY_noun>"
+                                "<CLAUSE_WhatQ>What</CLAUSE_WhatQ> <AUX>is</AUX> <FUNC_determiner>this</FUNC_determiner> <ENTITY_noun>coming</ENTITY_noun> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>desert</ENTITY_noun> <ACTION_verb>like</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>column</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>smoke</ENTITY_noun>"
                             ],
                             [
                                 "<MODIFIER>fragrant</MODIFIER> <FUNC_inner>with</FUNC_inner> <ENTITY_noun>incense</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>myrrh</ENTITY_oov>"
@@ -715,7 +715,7 @@
                                 "<ACTION_verb>come</ACTION_verb> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>me</ENTITY_pronoun> <FUNC_inner>from</FUNC_inner> <LOCATION>Lebanon</LOCATION>"
                             ],
                             [
-                                "<VerbP>Come down</VerbP> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>top</MODIFIER> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>Mount</ENTITY_noun> <ENTITY_oov>Amana</ENTITY_oov>"
+                                "<VerbP>Come down</VerbP> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>top</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>Mount</ENTITY_noun> <ENTITY_oov>Amana</ENTITY_oov>"
                             ],
                             [
                                 "<FUNC_inner>from</FUNC_inner> <LOCATION>Mount Senir</LOCATION> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_noun>Mount</ENTITY_noun> <ENTITY_oov>Hermon</ENTITY_oov>"
@@ -852,7 +852,7 @@
                                 "<ACTION_verb>fill</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>air</ENTITY_noun> <FUNC_inner>with</FUNC_inner> <ENTITY_nouny>fragrance</ENTITY_nouny>"
                             ],
                             [
-                                "<ACTION_verb>Let</ACTION_verb> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>lover</ENTITY_nouny> <VerbP>come to</VerbP> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>garden</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>eat</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>best</MODIFIER> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>its</ENTITY_possessive> <ENTITY_nouny>fruits</ENTITY_nouny>"
+                                "<ACTION_verb>Let</ACTION_verb> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>lover</ENTITY_nouny> <VerbP>come to</VerbP> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>garden</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>eat</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>best</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>its</ENTITY_possessive> <ENTITY_nouny>fruits</ENTITY_nouny>"
                             ]
                         ]
                     }
@@ -912,7 +912,7 @@
                                 "<ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>sweetheart</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_possessive>my</ENTITY_possessive> <ACTION_verb>dove</ACTION_verb>"
+                                "<ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>dove</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_possessive>My</ENTITY_possessive> <ENTITY_noun>head</ENTITY_noun> <AUX>is</AUX> <ACTION_verb>wet</ACTION_verb> <FUNC_inner>with</FUNC_inner> <ENTITY_oov>dew</ENTITY_oov>"
@@ -1519,7 +1519,7 @@
                     {
                         "8:3": [
                             [
-                                "<ENTITY_possessive>Your</ENTITY_possessive> <ACTION_verb>left</ACTION_verb> <ENTITY_noun>hand</ENTITY_noun> <AUX>is</AUX> <RANGE_locality>under</RANGE_locality> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_noun>head</ENTITY_noun>"
+                                "<ENTITY_possessive>Your</ENTITY_possessive> <MODIFIER>left</MODIFIER> <ENTITY_noun>hand</ENTITY_noun> <AUX>is</AUX> <RANGE_locality>under</RANGE_locality> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_noun>head</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>your</ENTITY_possessive> <MODIFIER>right</MODIFIER> <ENTITY_noun>hand</ENTITY_noun> <ENTITY_oov>caresses</ENTITY_oov> <ENTITY_pronoun>me</ENTITY_pronoun>"
@@ -1542,7 +1542,7 @@
                     {
                         "8:5": [
                             [
-                                "<CLAUSE_WhoQ>Who</CLAUSE_WhoQ> <AUX>is</AUX> <FUNC_determiner>this</FUNC_determiner> <MODIFIER>coming</MODIFIER> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>desert</ENTITY_noun>"
+                                "<CLAUSE_WhoQ>Who</CLAUSE_WhoQ> <AUX>is</AUX> <FUNC_determiner>this</FUNC_determiner> <ENTITY_noun>coming</ENTITY_noun> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>desert</ENTITY_noun>"
                             ],
                             [
                                 "<ACTION_verb>arm</ACTION_verb> <RANGE_locality>in</RANGE_locality> <ENTITY_noun>arm</ENTITY_noun> <FUNC_inner>with</FUNC_inner> <ENTITY_possessive>her</ENTITY_possessive> <ENTITY_nouny>lover</ENTITY_nouny>"
