@@ -28,7 +28,7 @@ def articutEN(inputSTR: str) -> list:
     }    
    
     #response = post(url, json=payload).json()
-    response = post("{}/Articut_EN/BulkAPI/".format(url), json=payload)
+    response = post("{}/Articut_EN/API/".format(url), json=payload)
     print(response)
     return response
 
