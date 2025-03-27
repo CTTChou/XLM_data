@@ -9,7 +9,7 @@
                                 "<ACTION_verb>有</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_noun>人</ENTITY_noun><ACTION_verb>名叫</ACTION_verb><UserDefined>約伯</UserDefined>"
                             ],
                             [
-                                "<ACTION_verb>住</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>烏斯地區</ENTITY_nouny>"
+                                "<ACTION_verb>住</ACTION_verb><FUNC_inner>在</FUNC_inner><UserDefined>烏斯</UserDefined><ENTITY_noun>地區</ENTITY_noun>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><AUX>是</AUX><ENTITY_classifier>一個</ENTITY_classifier><MODIFIER>正直</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>好人</ENTITY_nouny>"
@@ -79,7 +79,7 @@
                                 "<UserDefined>約伯</UserDefined><FUNC_inner>就</FUNC_inner><ENTITY_num>一</ENTITY_num><ACTION_verb>早起來</ACTION_verb>"
                             ],
                             [
-                                "<AUX>為</AUX><QUANTIFIER>每</QUANTIFIER><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_noun>兒女</ENTITY_noun><ACTION_verb>獻上</ACTION_verb><UserDefined>燒化祭</UserDefined>"
+                                "<AUX>為</AUX><QUANTIFIER>每</QUANTIFIER><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_noun>兒女</ENTITY_noun><ACTION_verb>獻上</ACTION_verb><ACTION_verb>燒</ACTION_verb><ENTITY_nouny>化祭</ENTITY_nouny>"
                             ],
                             [
                                 "<MODIFIER>行</MODIFIER><MODIFIER>潔淨</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>禮儀</ENTITY_nouny>"
@@ -104,20 +104,20 @@
                                 "<ENTITY_oov>天</ENTITY_oov><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>神子們</ENTITY_noun><ACTION_verb>侍立</ACTION_verb><FUNC_inner>在</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><RANGE_locality>面前</RANGE_locality>"
                             ],
                             [
-                                "<UserDefined>撒但</UserDefined><MODIFIER>也</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><RANGE_locality>當中</RANGE_locality>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><MODIFIER>也</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><RANGE_locality>當中</RANGE_locality>"
                             ]
                         ]
                     },
                     {
                         "1:7": [
                             [
-                                "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><ACTION_verb>問</ACTION_verb><UserDefined>撒但</UserDefined>"
+                                "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><ACTION_verb>問撒</ACTION_verb><UserDefined>但</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>到</ACTION_verb><CLAUSE_WhereQ>哪裏</CLAUSE_WhereQ><VerbP>去了</VerbP>"
                             ],
                             [
-                                "<UserDefined>撒但</UserDefined><ACTION_verb>回答</ACTION_verb>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><ACTION_verb>回答</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>漫游</ACTION_verb><ENTITY_nounHead>地</ENTITY_nounHead><RANGE_locality>上</RANGE_locality>"
@@ -155,7 +155,7 @@
                     {
                         "1:9": [
                             [
-                                "<UserDefined>撒但</UserDefined><ACTION_verb>回答</ACTION_verb>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><ACTION_verb>回答</ACTION_verb>"
                             ],
                             [
                                 "<ACTION_verb>要</ACTION_verb><FUNC_negation>不</FUNC_negation><AUX>是</AUX><IDIOM>有利可圖</IDIOM>"
@@ -203,7 +203,7 @@
                     {
                         "1:12": [
                             [
-                                "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>對</FUNC_inner><UserDefined>撒但</UserDefined><ACTION_verb>說</ACTION_verb>"
+                                "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>對</FUNC_inner><ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><ACTION_verb>說</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_degreeHead>好</FUNC_degreeHead><CLAUSE_particle>吧</CLAUSE_particle>"
@@ -218,7 +218,7 @@
                                 "<MODIFIER>只</MODIFIER><AUX>是</AUX><FUNC_negation>不</FUNC_negation><ACTION_verb>許</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>加害</ACTION_verb><ENTITY_possessive>他</ENTITY_possessive><ENTITY_pronoun>本身</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_inner>於是</FUNC_inner><UserDefined>撒但</UserDefined><FUNC_inner>從</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><RANGE_locality>面前</RANGE_locality><ACTION_verb>退出</ACTION_verb>"
+                                "<FUNC_inner>於是</FUNC_inner><ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><FUNC_inner>從</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><RANGE_locality>面前</RANGE_locality><ACTION_verb>退出</ACTION_verb>"
                             ]
                         ]
                     },
@@ -248,7 +248,7 @@
                     {
                         "1:15": [
                             [
-                                "<UserDefined>示巴人</UserDefined><MODIFIER>突然</MODIFIER><ACTION_verb>來襲</ACTION_verb>"
+                                "<UserDefined>示巴</UserDefined><ENTITY_noun>人</ENTITY_noun><MODIFIER>突然</MODIFIER><ACTION_verb>來襲</ACTION_verb>"
                             ],
                             [
                                 "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_nouny>牲口</ENTITY_nouny><QUANTIFIER>都</QUANTIFIER><VerbP>搶走了</VerbP>"
@@ -301,7 +301,7 @@
                                 "<ACTION_verb>說</ACTION_verb>"
                             ],
                             [
-                                "<UserDefined>迦勒</UserDefined><ENTITY_nouny>底人</ENTITY_nouny><ACTION_verb>分</ACTION_verb><ENTITY_classifier>三隊</ENTITY_classifier><ACTION_verb>襲擊</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun>"
+                                "<UserDefined>迦勒底</UserDefined><ENTITY_noun>人</ENTITY_noun><ACTION_verb>分</ACTION_verb><ENTITY_classifier>三隊</ENTITY_classifier><ACTION_verb>襲擊</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun>"
                             ],
                             [
                                 "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_nouny>駱駝</ENTITY_nouny><VerbP>搶走了</VerbP>"
@@ -416,7 +416,7 @@
                                 "<ENTITY_oov>天</ENTITY_oov><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>神子們</ENTITY_noun><MODIFIER>再</MODIFIER><ACTION_verb>侍立</ACTION_verb><FUNC_inner>在</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><RANGE_locality>面前</RANGE_locality>"
                             ],
                             [
-                                "<UserDefined>撒但</UserDefined><MODIFIER>也</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><RANGE_locality>當中</RANGE_locality>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><MODIFIER>也</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><RANGE_locality>當中</RANGE_locality>"
                             ]
                         ]
                     },
@@ -429,7 +429,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>到</ACTION_verb><CLAUSE_WhereQ>哪裏</CLAUSE_WhereQ><VerbP>去了</VerbP>"
                             ],
                             [
-                                "<UserDefined>撒但</UserDefined><ACTION_verb>回答</ACTION_verb>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><ACTION_verb>回答</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>漫游</ACTION_verb><ENTITY_nounHead>地</ENTITY_nounHead><RANGE_locality>上</RANGE_locality>"
@@ -476,7 +476,7 @@
                     {
                         "2:4": [
                             [
-                                "<UserDefined>撒但</UserDefined><ACTION_verb>回答</ACTION_verb>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><ACTION_verb>回答</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_inner>以</FUNC_inner><ENTITY_nouny>皮</ENTITY_nouny><VerbP>換皮</VerbP><FUNC_negation>不</FUNC_negation><ACTION_verb>吃虧</ACTION_verb>"
@@ -502,7 +502,7 @@
                     {
                         "2:6": [
                             [
-                                "<FUNC_inner>於是</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>對</FUNC_inner><UserDefined>撒但</UserDefined><ACTION_verb>說</ACTION_verb>"
+                                "<FUNC_inner>於是</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>對</FUNC_inner><ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><ACTION_verb>說</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_degreeHead>好</FUNC_degreeHead><CLAUSE_particle>吧</CLAUSE_particle>"
@@ -518,7 +518,7 @@
                     {
                         "2:7": [
                             [
-                                "<UserDefined>撒但</UserDefined><FUNC_inner>從</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><RANGE_locality>面前</RANGE_locality><ACTION_verb>退出</ACTION_verb>"
+                                "<ACTION_verb>撒</ACTION_verb><UserDefined>但</UserDefined><FUNC_inner>從</FUNC_inner><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><RANGE_locality>面前</RANGE_locality><ACTION_verb>退出</ACTION_verb>"
                             ],
                             [
                                 "<ACTION_verb>開始</ACTION_verb><ACTION_verb>打擊</ACTION_verb><UserDefined>約伯</UserDefined>"
@@ -585,13 +585,13 @@
                     {
                         "2:11": [
                             [
-                                "<UserDefined>約伯</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_classifier>三個</ENTITY_classifier><ENTITY_noun>朋友</ENTITY_noun><AUX>是</AUX><ACTION_verb>提</ACTION_verb><ENTITY_nouny>幔人</ENTITY_nouny><UserDefined>以利</UserDefined><ENTITY_oov>法</ENTITY_oov>"
+                                "<UserDefined>約伯</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_classifier>三個</ENTITY_classifier><ENTITY_noun>朋友</ENTITY_noun><AUX>是</AUX><UserDefined>提幔</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>以利法</UserDefined>"
                             ],
                             [
-                                "<ENTITY_nouny>書亞人</ENTITY_nouny><ACTION_verb>比</ACTION_verb><ACTION_verb>勒達</ACTION_verb>"
+                                "<UserDefined>書亞</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>比勒達</UserDefined>"
                             ],
                             [
-                                "<FUNC_conjunction>和</FUNC_conjunction><UserDefined>拿瑪</UserDefined><ENTITY_noun>人</ENTITY_noun><ENTITY_nounHead>瑣法</ENTITY_nounHead>"
+                                "<FUNC_conjunction>和</FUNC_conjunction><UserDefined>拿瑪</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>瑣法</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><VerbP>聽見了</VerbP><UserDefined>約伯</UserDefined><FUNC_inner>所</FUNC_inner><ACTION_verb>遭受</ACTION_verb><FUNC_inner>的</FUNC_inner><ACTION_quantifiedVerb>種種</ACTION_quantifiedVerb><ENTITY_oov>災禍</ENTITY_oov>"
@@ -600,7 +600,7 @@
                                 "<ACTION_verb>決定</ACTION_verb><MODIFIER>一同</MODIFIER><ACTION_verb>去</ACTION_verb><ACTION_verb>探望</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
                             ],
                             [
-                                "<ACTION_verb>安慰</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
+                                "<UserDefined>安</UserDefined><ENTITY_oov>慰</ENTITY_oov><ENTITY_pronoun>他</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -787,7 +787,7 @@
                                 "<ACTION_verb>要</ACTION_verb><AUX>是</AUX><ENTITY_pronoun>我</ENTITY_pronoun><TIME_justtime>那時候</TIME_justtime><ACTION_verb>死去</ACTION_verb>"
                             ],
                             [
-                                "<FUNC_inter>如今</FUNC_inter><FUNC_inner>就</FUNC_inner><ACTION_verb>得享</ACTION_verb><ACTION_verb>安息</ACTION_verb>"
+                                "<FUNC_inter>如今</FUNC_inter><FUNC_inner>就</FUNC_inner><ACTION_verb>得享</ACTION_verb><UserDefined>安</UserDefined><ENTITY_oov>息</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -827,14 +827,14 @@
                                 "<ENTITY_noun>壞人</ENTITY_noun><ACTION_verb>停止</ACTION_verb><VerbP>作惡</VerbP>"
                             ],
                             [
-                                "<MODIFIER>辛勞</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>工人</ENTITY_noun><ACTION_verb>得享</ACTION_verb><ACTION_verb>安息</ACTION_verb>"
+                                "<MODIFIER>辛勞</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>工人</ENTITY_noun><ACTION_verb>得享</ACTION_verb><UserDefined>安</UserDefined><ENTITY_oov>息</ENTITY_oov>"
                             ]
                         ]
                     },
                     {
                         "3:18": [
                             [
-                                "<FUNC_inner>連</FUNC_inner><ENTITY_nouny>囚犯</ENTITY_nouny><MODIFIER>也</MODIFIER><ACTION_verb>有</ACTION_verb><ENTITY_nouny>安寧</ENTITY_nouny>"
+                                "<FUNC_inner>連</FUNC_inner><ENTITY_nouny>囚犯</ENTITY_nouny><MODIFIER>也</MODIFIER><ACTION_verb>有</ACTION_verb><UserDefined>安</UserDefined><ENTITY_oov>寧</ENTITY_oov>"
                             ],
                             [
                                 "<MODIFIER>不再</MODIFIER><ACTION_verb>聽見</ACTION_verb><ACTION_verb>監工</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>責罵</ENTITY_nouny>"
@@ -923,10 +923,10 @@
                     {
                         "3:26": [
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>沒有</FUNC_negation><MODIFIER>平安</MODIFIER>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>沒有</FUNC_negation><MODIFIER>平</MODIFIER><UserDefined>安</UserDefined>"
                             ],
                             [
-                                "<ACTION_verb>得</ACTION_verb><FUNC_negation>不</FUNC_negation><ACTION_verb>到</ACTION_verb><ACTION_verb>安息</ACTION_verb>"
+                                "<ACTION_verb>得</ACTION_verb><FUNC_negation>不</FUNC_negation><ACTION_verb>到</ACTION_verb><UserDefined>安</UserDefined><ENTITY_oov>息</ENTITY_oov>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>煩惱</ACTION_verb><FUNC_negation>沒有</FUNC_negation><ENTITY_nouny>止境</ENTITY_nouny>"
@@ -940,7 +940,7 @@
                     {
                         "4:1": [
                             [
-                                "<ACTION_verb>提</ACTION_verb><ENTITY_nouny>幔人</ENTITY_nouny><UserDefined>以利</UserDefined><ENTITY_oov>法</ENTITY_oov><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>提幔</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>以利法</UserDefined><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -1216,7 +1216,7 @@
                     {
                         "5:3": [
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><ASPECT>曾</ASPECT><ACTION_verb>看見</ACTION_verb><MODIFIER>無知</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><MODIFIER>似乎</MODIFIER><MODIFIER>安穩</MODIFIER>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><ASPECT>曾</ASPECT><ACTION_verb>看見</ACTION_verb><MODIFIER>無知</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><MODIFIER>似乎</MODIFIER><UserDefined>安</UserDefined><MODIFIER>穩</MODIFIER>"
                             ],
                             [
                                 "<UserDefined>但</UserDefined><ENTITY_oov>災難</ENTITY_oov><MODIFIER>突然</MODIFIER><ACTION_verb>臨到</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>家</ENTITY_noun>"
@@ -1226,7 +1226,7 @@
                     {
                         "5:4": [
                             [
-                                "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>兒女</ENTITY_noun><FUNC_negation>無</FUNC_negation><MODIFIER>安全</MODIFIER><MODAL>可</MODAL><ACTION_verb>言</ACTION_verb>"
+                                "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>兒女</ENTITY_noun><FUNC_negation>無</FUNC_negation><UserDefined>安</UserDefined><QUANTIFIER>全</QUANTIFIER><MODAL>可</MODAL><ACTION_verb>言</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_inner>在</FUNC_inner><ENTITY_nouny>法庭</ENTITY_nouny><RANGE_locality>上</RANGE_locality><FUNC_negation>沒有</FUNC_negation><ENTITY_noun>人</ENTITY_noun><ACTION_verb>替</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>辯護</ACTION_verb>"
@@ -1239,7 +1239,7 @@
                                 "<ENTITY_nouny>愚妄人</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>農產物</ENTITY_nouny><ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>飢餓</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><VerbP>吃了</VerbP>"
                             ],
                             [
-                                "<FUNC_inner>連</FUNC_inner><ENTITY_DetPhrase>那些</ENTITY_DetPhrase><MODIFIER>長</MODIFIER><FUNC_inner>在</FUNC_inner><UserDefined>荊棘</UserDefined><RANGE_locality>中</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>也</MODIFIER><ACTION_verb>吃光</ACTION_verb>"
+                                "<FUNC_inner>連</FUNC_inner><ENTITY_DetPhrase>那些</ENTITY_DetPhrase><MODIFIER>長</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_nouny>荊棘</ENTITY_nouny><RANGE_locality>中</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>也</MODIFIER><ACTION_verb>吃光</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>財富</ENTITY_nouny><AUX>為</AUX><ACTION_verb>飢渴</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><FUNC_inner>所</FUNC_inner><ACTION_verb>吞</ACTION_verb><FUNC_negation>沒</FUNC_negation>"
@@ -1272,7 +1272,7 @@
                                 "<FUNC_inner>至於</FUNC_inner><ENTITY_pronoun>我</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>尋求</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><UserDefined>尋</UserDefined><ACTION_verb>求</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_inner>向</FUNC_inner><ENTITY_pronoun>他</ENTITY_pronoun><ENTITY_nouny>陳訴</ENTITY_nouny><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>問題</ENTITY_noun>"
@@ -1456,13 +1456,13 @@
                                 "<TIME_justtime>那時候</TIME_justtime>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>安居</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>帳棚</ENTITY_nouny><RANGE_locality>裏</RANGE_locality>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><UserDefined>安</UserDefined><ENTITY_oov>居</ENTITY_oov><FUNC_inner>在</FUNC_inner><ENTITY_nouny>帳棚</ENTITY_nouny><RANGE_locality>裏</RANGE_locality>"
                             ],
                             [
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>巡視</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>羊群</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_oov>羊</ENTITY_oov><QUANTIFIER>都</QUANTIFIER><MODIFIER>安全</MODIFIER>"
+                                "<ENTITY_oov>羊</ENTITY_oov><QUANTIFIER>都</QUANTIFIER><UserDefined>安</UserDefined><QUANTIFIER>全</QUANTIFIER>"
                             ]
                         ]
                     },
@@ -1706,7 +1706,7 @@
                     {
                         "6:18": [
                             [
-                                "<ENTITY_oov>商隊</ENTITY_oov><FUNC_inter>因</FUNC_inter><ACTION_verb>尋找</ACTION_verb><ENTITY_nouny>水源</ENTITY_nouny><FUNC_inner>而</FUNC_inner><ACTION_verb>失散</ACTION_verb>"
+                                "<ENTITY_oov>商隊</ENTITY_oov><FUNC_inter>因</FUNC_inter><UserDefined>尋</UserDefined><ACTION_verb>找</ACTION_verb><ENTITY_nouny>水源</ENTITY_nouny><FUNC_inner>而</FUNC_inner><ACTION_verb>失散</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>在</FUNC_inner><ENTITY_noun>荒野</ENTITY_noun><ACTION_verb>迷失</ACTION_verb>"
@@ -1719,10 +1719,10 @@
                     {
                         "6:19": [
                             [
-                                "<VerbP>示巴</VerbP><FUNC_inner>的</FUNC_inner><ENTITY_nouny>商隊</ENTITY_nouny><ACTION_verb>搜索</ACTION_verb>"
+                                "<UserDefined>示巴</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>商隊</ENTITY_nouny><ACTION_verb>搜索</ACTION_verb>"
                             ],
                             [
-                                "<VerbP>提瑪</VerbP><FUNC_inner>的</FUNC_inner><ENTITY_nouny>客旅</ENTITY_nouny><ACTION_verb>瞻望</ACTION_verb>"
+                                "<UserDefined>提瑪</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>客旅</ENTITY_nouny><ACTION_verb>瞻望</ACTION_verb>"
                             ]
                         ]
                     },
@@ -1778,7 +1778,7 @@
                                 "<ACTION_verb>請</ACTION_verb><ACTION_verb>指教</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODAL>會</MODAL><MODIFIER>安靜</MODIFIER><ACTION_verb>聆聽</ACTION_verb>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODAL>會</MODAL><UserDefined>安</UserDefined><MODIFIER>靜</MODIFIER><ACTION_verb>聆聽</ACTION_verb>"
                             ],
                             [
                                 "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>了解</ACTION_verb><ENTITY_pronoun>自己</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>錯誤</ENTITY_nouny>"
@@ -1929,7 +1929,7 @@
                     {
                         "7:6": [
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>日子</ENTITY_noun><ACTION_verb>比</ACTION_verb><ENTITY_nouny>梭</ENTITY_nouny><FUNC_inner>還</FUNC_inner><MODIFIER>快</MODIFIER>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>日子</ENTITY_noun><ACTION_verb>比</ACTION_verb><UserDefined>梭</UserDefined><FUNC_inner>還</FUNC_inner><MODIFIER>快</MODIFIER>"
                             ],
                             [
                                 "<QUANTIFIER>都</QUANTIFIER><FUNC_inner>在</FUNC_inner><MODIFIER>無望</MODIFIER><FUNC_inner>之</FUNC_inner><RANGE_locality>中</RANGE_locality><VerbP>飛逝</VerbP>"
@@ -2147,7 +2147,7 @@
                                 "<VerbP>接著</VerbP>"
                             ],
                             [
-                                "<ENTITY_nouny>書亞人</ENTITY_nouny><ACTION_verb>比</ACTION_verb><ACTION_verb>勒達</ACTION_verb><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>書亞</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>比勒達</UserDefined><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -2187,7 +2187,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><MODAL>應該</MODAL><ACTION_verb>轉</ACTION_verb><FUNC_inner>向</FUNC_inner><ENTITY_nouny>上帝</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_oov>懇</ENTITY_oov><ACTION_verb>切</ACTION_verb><ACTION_verb>尋求</ACTION_verb><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>能者</ENTITY_nouny>"
+                                "<ENTITY_oov>懇</ENTITY_oov><ACTION_verb>切</ACTION_verb><UserDefined>尋</UserDefined><ACTION_verb>求</ACTION_verb><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>能者</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -2240,7 +2240,7 @@
                     {
                         "8:10": [
                             [
-                                "<ACTION_verb>讓</ACTION_verb><ENTITY_nouny>先賢</ENTITY_nouny><ACTION_verb>教導</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><CLAUSE_particle>吧</CLAUSE_particle>"
+                                "<ACTION_verb>讓</ACTION_verb><MODIFIER>先</MODIFIER><UserDefined>賢</UserDefined><ACTION_verb>教導</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><CLAUSE_particle>吧</CLAUSE_particle>"
                             ],
                             [
                                 "<ACTION_verb>傾聽</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><ACTION_verb>說</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
@@ -2250,10 +2250,10 @@
                     {
                         "8:11": [
                             [
-                                "<UserDefined>蒲草</UserDefined><MODAL>能</MODAL><ACTION_verb>生長</ACTION_verb><FUNC_inner>在</FUNC_inner><FUNC_negation>無</FUNC_negation><ENTITY_nouny>水</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>地方</ENTITY_noun><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
+                                "<ENTITY_oov>蒲草</ENTITY_oov><MODAL>能</MODAL><ACTION_verb>生長</ACTION_verb><FUNC_inner>在</FUNC_inner><FUNC_negation>無</FUNC_negation><ENTITY_nouny>水</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>地方</ENTITY_noun><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
                             ],
                             [
-                                "<UserDefined>蘆葦</UserDefined><MODAL>能</MODAL><ACTION_verb>離開</ACTION_verb><ENTITY_nouny>池沼</ENTITY_nouny><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
+                                "<ENTITY_oov>蘆葦</ENTITY_oov><MODAL>能</MODAL><ACTION_verb>離開</ACTION_verb><ENTITY_nouny>池沼</ENTITY_nouny><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
                             ]
                         ]
                     },
@@ -2266,7 +2266,7 @@
                                 "<ENTITY_pronoun>它們</ENTITY_pronoun><DegreeP>最先枯</DegreeP><ENTITY_nounHead>萎</ENTITY_nounHead>"
                             ],
                             [
-                                "<FUNC_inter>因還</FUNC_inter><MODIFIER>幼嫩</MODIFIER>"
+                                "<FUNC_inter>因還</FUNC_inter><MODIFIER>幼</MODIFIER><UserDefined>嫩</UserDefined>"
                             ],
                             [
                                 "<FUNC_negation>不</FUNC_negation><MODAL>能</MODAL><ACTION_verb>割下</ACTION_verb><MODIFIER>備用</MODIFIER>"
@@ -2276,7 +2276,7 @@
                     {
                         "8:13": [
                             [
-                                "<FUNC_negation>不</FUNC_negation><ACTION_verb>敬拜</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><FUNC_conjunction>跟</FUNC_conjunction><UserDefined>蒲草</UserDefined><MODIFIER>一樣</MODIFIER>"
+                                "<FUNC_negation>不</FUNC_negation><ACTION_verb>敬拜</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><FUNC_conjunction>跟</FUNC_conjunction><ENTITY_nouny>蒲草</ENTITY_nouny><MODIFIER>一樣</MODIFIER>"
                             ],
                             [
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_num>一</ENTITY_num><ACTION_verb>忘記</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
@@ -2548,7 +2548,7 @@
                                 "<ENTITY_oov>上帝</ENTITY_oov><FUNC_inner>的</FUNC_inner><ACTION_verb>忿怒</ACTION_verb><FUNC_negation>不</FUNC_negation><ACTION_verb>止息</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_DetPhrase>那些</ENTITY_DetPhrase><ACTION_verb>幫助</ACTION_verb><ENTITY_nouny>海</ENTITY_nouny><ACTION_verb>怪拉</ACTION_verb><ENTITY_person>哈伯</ENTITY_person><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>屈服</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_possessive>他</ENTITY_possessive><ENTITY_noun>腳</ENTITY_noun><RANGE_locality>下</RANGE_locality>"
+                                "<ENTITY_DetPhrase>那些</ENTITY_DetPhrase><ACTION_verb>幫助</ACTION_verb><ENTITY_nouny>海</ENTITY_nouny><MODIFIER>怪</MODIFIER><UserDefined>拉哈伯</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>屈服</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_possessive>他</ENTITY_possessive><ENTITY_noun>腳</ENTITY_noun><RANGE_locality>下</RANGE_locality>"
                             ]
                         ]
                     },
@@ -2892,7 +2892,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><CLAUSE_WhyQ>為甚麼</CLAUSE_WhyQ><ACTION_verb>追究</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><CLAUSE_WhyQ>為甚麼</CLAUSE_WhyQ><VerbP>尋察</VerbP><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>過失</ENTITY_nouny>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><CLAUSE_WhyQ>為甚麼</CLAUSE_WhyQ><UserDefined>尋</UserDefined><ENTITY_oov>察</ENTITY_oov><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>過失</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -3062,7 +3062,7 @@
                                 "<FUNC_negation>不要</FUNC_negation><ENTITY_nouny>管</ENTITY_nouny><ENTITY_pronoun>我</ENTITY_pronoun>"
                             ],
                             [
-                                "<ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>在</FUNC_inner><ENTITY_nouny>餘</ENTITY_nouny><RANGE_locality>下</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>日子</ENTITY_noun><RANGE_locality>裏</RANGE_locality><ACTION_verb>有</ACTION_verb><QUANTIFIER>點</QUANTIFIER><MODIFIER>安樂</MODIFIER>"
+                                "<ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>在</FUNC_inner><ENTITY_nouny>餘</ENTITY_nouny><RANGE_locality>下</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>日子</ENTITY_noun><RANGE_locality>裏</RANGE_locality><ACTION_verb>有</ACTION_verb><QUANTIFIER>點</QUANTIFIER><UserDefined>安</UserDefined><ENTITY_oov>樂</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -3108,7 +3108,7 @@
                                 "<VerbP>接著</VerbP>"
                             ],
                             [
-                                "<UserDefined>拿瑪</UserDefined><ENTITY_noun>人</ENTITY_noun><ENTITY_nounHead>瑣法</ENTITY_nounHead><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>拿瑪</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>瑣法</UserDefined><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -3255,7 +3255,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><MODIFIER>存心</MODIFIER><MODIFIER>正直</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>尋求</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><UserDefined>尋</UserDefined><ACTION_verb>求</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -3311,7 +3311,7 @@
                     {
                         "11:18": [
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><MODAL>將</MODAL><ACTION_verb>享受</ACTION_verb><MODIFIER>安全</MODIFIER>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><MODAL>將</MODAL><ACTION_verb>享受</ACTION_verb><UserDefined>安</UserDefined><QUANTIFIER>全</QUANTIFIER>"
                             ],
                             [
                                 "<ACTION_verb>充滿</ACTION_verb><MODIFIER>希望</MODIFIER>"
@@ -3320,7 +3320,7 @@
                                 "<ENTITY_oov>上帝</ENTITY_oov><ACTION_verb>要</ACTION_verb><ACTION_verb>保護</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun>"
                             ],
                             [
-                                "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>你</ENTITY_pronoun><ENTITY_nouny>安寧</ENTITY_nouny>"
+                                "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>你</ENTITY_pronoun><UserDefined>安</UserDefined><ENTITY_oov>寧</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -3852,7 +3852,7 @@
                                 "<TIME_justtime>現在</TIME_justtime><ACTION_verb>請</ACTION_verb><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>說</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
                             ],
                             [
-                                "<ModifierP>安靜地</ModifierP><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>抗辯</ENTITY_nouny>"
+                                "<UserDefined>安</UserDefined><ModifierP>靜地</ModifierP><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>抗辯</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -4090,7 +4090,7 @@
                                 "<ENTITY_pronoun>它</ENTITY_pronoun><MODIFIER>可能</MODIFIER><ACTION_verb>回復</ACTION_verb><ENTITY_nouny>生機</ENTITY_nouny>"
                             ],
                             [
-                                "<ACTION_verb>長出</ACTION_verb><ENTITY_nouny>幼芽</ENTITY_nouny><ENTITY_nouny>嫩枝</ENTITY_nouny>"
+                                "<ACTION_verb>長出</ACTION_verb><ENTITY_nouny>幼芽</ENTITY_nouny><UserDefined>嫩</UserDefined><ENTITY_oov>枝</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -4290,7 +4290,7 @@
                     {
                         "15:1": [
                             [
-                                "<ACTION_verb>提</ACTION_verb><ENTITY_nouny>幔人</ENTITY_nouny><UserDefined>以利</UserDefined><ENTITY_oov>法</ENTITY_oov><VerbP>接著</VerbP><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>提幔</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>以利法</UserDefined><VerbP>接著</VerbP><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -4405,7 +4405,7 @@
                     {
                         "15:11": [
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>拒絕</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>安慰</ENTITY_nouny><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>拒絕</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><UserDefined>安</UserDefined><ENTITY_oov>慰</ENTITY_oov><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
                             ],
                             [
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>看</ACTION_verb><MODIFIER>輕</MODIFIER><ENTITY_pronoun>我們</ENTITY_pronoun><MODIFIER>溫和</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>勸慰</ENTITY_nouny><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
@@ -4490,7 +4490,7 @@
                     {
                         "15:18": [
                             [
-                                "<ENTITY_nouny>賢明人</ENTITY_nouny><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_noun>祖先</ENTITY_noun><ACTION_verb>傳授</ACTION_verb><ACTION_verb>下來</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>真理</ENTITY_nouny><ACTION_verb>教導</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
+                                "<UserDefined>賢</UserDefined><ENTITY_nouny>明人</ENTITY_nouny><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_noun>祖先</ENTITY_noun><ACTION_verb>傳授</ACTION_verb><ACTION_verb>下來</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>真理</ENTITY_nouny><ACTION_verb>教導</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
                             ],
                             [
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><CLAUSE_WhatQ>甚麼</CLAUSE_WhatQ><QUANTIFIER>都</QUANTIFIER><FUNC_negation>不</FUNC_negation><ACTION_verb>隱瞞</ACTION_verb>"
@@ -4520,7 +4520,7 @@
                                 "<MODIFIER>恐怖</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>聲音</ENTITY_noun><MODIFIER>常</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他</ENTITY_pronoun><ENTITY_nouny>耳</ENTITY_nouny><RANGE_locality>中</RANGE_locality>"
                             ],
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>以為</ACTION_verb><MODIFIER>安全</MODIFIER><FUNC_inner>的</FUNC_inner><TIME_justtime>時候</TIME_justtime><ENTITY_oov>盜賊</ENTITY_oov><ACTION_verb>來到</ACTION_verb>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>以為</ACTION_verb><UserDefined>安</UserDefined><QUANTIFIER>全</QUANTIFIER><FUNC_inner>的</FUNC_inner><TIME_justtime>時候</TIME_justtime><ENTITY_oov>盜賊</ENTITY_oov><ACTION_verb>來到</ACTION_verb>"
                             ]
                         ]
                     },
@@ -4661,13 +4661,13 @@
                     {
                         "15:33": [
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><AUX>像</AUX><UserDefined>葡萄樹</UserDefined>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><AUX>像</AUX><ENTITY_nouny>葡萄</ENTITY_nouny><ENTITY_nouny>樹</ENTITY_nouny>"
                             ],
                             [
                                 "<ACTION_verb>掉落</ACTION_verb><FUNC_negation>未</FUNC_negation><MODIFIER>成熟</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>葡萄</ENTITY_nouny>"
                             ],
                             [
-                                "<AUX>像</AUX><UserDefined>橄欖樹</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>花</ENTITY_nouny>"
+                                "<AUX>像</AUX><ENTITY_nouny>橄欖</ENTITY_nouny><ENTITY_nouny>樹</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>花</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_num>一</ENTITY_num><ACTION_verb>開</ACTION_verb><FUNC_inner>就</FUNC_inner><VerbP>凋謝了</VerbP>"
@@ -4714,7 +4714,7 @@
                                 "<ENTITY_DetPhrase>這樣</ENTITY_DetPhrase><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny><ENTITY_pronoun>我</ENTITY_pronoun><ASPECT>已經</ASPECT><VerbP>聽夠了</VerbP>"
                             ],
                             [
-                                "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>安慰</ACTION_verb><ENTITY_nouny>反而</ENTITY_nouny><ACTION_verb>帶來</ACTION_verb><ENTITY_nouny>愁</ENTITY_nouny><ACTION_verb>煩</ACTION_verb>"
+                                "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><UserDefined>安</UserDefined><ENTITY_oov>慰反而</ENTITY_oov><ACTION_verb>帶來</ACTION_verb><ENTITY_nouny>愁</ENTITY_nouny><ACTION_verb>煩</ACTION_verb>"
                             ]
                         ]
                     },
@@ -4750,7 +4750,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>曉得</ACTION_verb><CLAUSE_HowQ>怎樣</CLAUSE_HowQ><ACTION_verb>拿</ACTION_verb><MODIFIER>好聽</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny><ACTION_verb>鼓勵</ACTION_verb><ENTITY_pronoun>你們</ENTITY_pronoun>"
                             ],
                             [
-                                "<MODIFIER>也</MODIFIER><MODAL>會</MODAL><ENTITY_oov>鼓</ENTITY_oov><FUNC_inter>如</FUNC_inter><ENTITY_nouny>簧</ENTITY_nouny><FUNC_inner>之</FUNC_inner><ENTITY_nouny>舌</ENTITY_nouny><ACTION_verb>來</ACTION_verb><ACTION_verb>安慰</ACTION_verb><ENTITY_pronoun>你們</ENTITY_pronoun>"
+                                "<MODIFIER>也</MODIFIER><MODAL>會</MODAL><ENTITY_oov>鼓</ENTITY_oov><FUNC_inter>如</FUNC_inter><ENTITY_nouny>簧</ENTITY_nouny><FUNC_inner>之</FUNC_inner><ENTITY_nouny>舌</ENTITY_nouny><ACTION_verb>來</ACTION_verb><UserDefined>安</UserDefined><ENTITY_oov>慰</ENTITY_oov><ENTITY_pronoun>你們</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -4835,7 +4835,7 @@
                     {
                         "16:12": [
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>本來</MODIFIER><ENTITY_noun>生活</ENTITY_noun><MODIFIER>安逸</MODIFIER>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>本來</MODIFIER><ENTITY_noun>生活</ENTITY_noun><UserDefined>安</UserDefined><ENTITY_oov>逸</ENTITY_oov>"
                             ],
                             [
                                 "<UserDefined>但</UserDefined><ENTITY_oov>上帝</ENTITY_oov><ACTION_verb>折磨</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
@@ -5019,7 +5019,7 @@
                     {
                         "17:5": [
                             [
-                                "<ENTITY_nouny>古訓</ENTITY_nouny><ACTION_verb>說</ACTION_verb>"
+                                "<MODIFIER>古</MODIFIER><UserDefined>訓</UserDefined><ACTION_verb>說</ACTION_verb>"
                             ],
                             [
                                 "<AUX>為</AUX><ENTITY_noun>金錢</ENTITY_noun><ACTION_verb>出賣</ACTION_verb><ENTITY_noun>朋友</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
@@ -5075,7 +5075,7 @@
                                 "<FUNC_inter>可是</FUNC_inter><ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>來</ACTION_verb><ACTION_verb>站</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>我</ENTITY_pronoun><RANGE_locality>面前</RANGE_locality>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>實在</MODIFIER><ACTION_verb>找不出</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>賢明</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>實在</MODIFIER><ACTION_verb>找不出</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><UserDefined>賢</UserDefined><ENTITY_oov>明</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -5158,7 +5158,7 @@
                     {
                         "18:1": [
                             [
-                                "<ENTITY_nouny>書亞人</ENTITY_nouny><ACTION_verb>比</ACTION_verb><ACTION_verb>勒達</ACTION_verb><FUNC_inner>又</FUNC_inner><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>書亞</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>比勒達</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -5297,7 +5297,7 @@
                     {
                         "18:14": [
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>從</FUNC_inner><ACTION_verb>安居</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>帳棚</ENTITY_nouny><RANGE_locality>中</RANGE_locality><ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>拋出來</ACTION_verb>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>從</FUNC_inner><UserDefined>安</UserDefined><ENTITY_oov>居</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_nouny>帳棚</ENTITY_nouny><RANGE_locality>中</RANGE_locality><ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>拋出來</ACTION_verb>"
                             ],
                             [
                                 "<ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>帶到</ACTION_verb><ACTION_verb>死亡</ACTION_verb><FUNC_inner>之</FUNC_inner><ENTITY_nouny>王</ENTITY_nouny><RANGE_locality>面前</RANGE_locality>"
@@ -5418,7 +5418,7 @@
                     {
                         "19:5": [
                             [
-                                "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>自以為</ACTION_verb><ACTION_verb>比</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>良善</MODIFIER>"
+                                "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>自以為</ACTION_verb><ACTION_verb>比</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>良</MODIFIER><UserDefined>善</UserDefined>"
                             ],
                             [
                                 "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>禍</ENTITY_nouny><ACTION_verb>患</ACTION_verb><ACTION_verb>當作</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>犯罪</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>證據</ENTITY_nouny>"
@@ -5714,7 +5714,7 @@
                                 "<VerbP>接著</VerbP>"
                             ],
                             [
-                                "<UserDefined>拿瑪</UserDefined><ENTITY_noun>人</ENTITY_noun><ENTITY_nounHead>瑣法</ENTITY_nounHead><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>拿瑪</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>瑣法</UserDefined><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -5747,10 +5747,10 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><MODIFIER>當然</MODIFIER><ACTION_verb>知道</ACTION_verb>"
                             ],
                             [
-                                "<IDIOM>自古以來</IDIOM>"
+                                "<FUNC_inner>自</FUNC_inner><MODIFIER>古</MODIFIER><UserDefined>以來</UserDefined>"
                             ],
                             [
-                                "<FUNC_inner>從</FUNC_inner><ENTITY_noun>人類</ENTITY_noun><ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>安置</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>地</ENTITY_nouny><RANGE_locality>上</RANGE_locality><ACTION_verb>開始</ACTION_verb>"
+                                "<FUNC_inner>從</FUNC_inner><ENTITY_noun>人類</ENTITY_noun><ACTION_lightVerb>被</ACTION_lightVerb><UserDefined>安</UserDefined><ACTION_verb>置</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>地</ENTITY_nouny><RANGE_locality>上</RANGE_locality><ACTION_verb>開始</ACTION_verb>"
                             ]
                         ]
                     },
@@ -6045,7 +6045,7 @@
                                 "<ACTION_verb>請</ACTION_verb><ENTITY_pronoun>你們</ENTITY_pronoun><MODIFIER>仔細</MODIFIER><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><MODAL>能</MODAL><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>惟</MODIFIER><ENTITY_num>一</ENTITY_num><FUNC_inner>的</FUNC_inner><ENTITY_nouny>安慰</ENTITY_nouny>"
+                                "<FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><MODAL>能</MODAL><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>惟</MODIFIER><ENTITY_num>一</ENTITY_num><FUNC_inner>的</FUNC_inner><UserDefined>安</UserDefined><ENTITY_oov>慰</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -6127,7 +6127,7 @@
                     {
                         "21:9": [
                             [
-                                "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>家</ENTITY_noun><ENTITY_nouny>安寧</ENTITY_nouny>"
+                                "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>家</ENTITY_noun><UserDefined>安</UserDefined><ENTITY_oov>寧</ENTITY_oov>"
                             ],
                             [
                                 "<FUNC_negation>無</FUNC_negation><FUNC_inner>所</FUNC_inner><ENTITY_nouny>恐懼</ENTITY_nouny>"
@@ -6176,7 +6176,7 @@
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>一生</ENTITY_noun><IDIOM>風平浪靜</IDIOM>"
                             ],
                             [
-                                "<IDIOM>平平安安</IDIOM><FUNC_modifierHead>地</FUNC_modifierHead><ACTION_verb>進</ACTION_verb><ENTITY_nouny>墳墓</ENTITY_nouny>"
+                                "<MODIFIER>平平</MODIFIER><UserDefined>安</UserDefined><UserDefined>安</UserDefined><ENTITY_oov>地</ENTITY_oov><ACTION_verb>進</ACTION_verb><ENTITY_nouny>墳墓</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -6186,7 +6186,7 @@
                                 "<MODIFIER>邪惡</MODIFIER><ENTITY_noun>人</ENTITY_noun><ACTION_verb>要</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><ACTION_verb>遠離</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_num>一</ENTITY_num><ACTION_verb>生</ACTION_verb><FUNC_negation>不</FUNC_negation><ACTION_verb>願</ACTION_verb><ACTION_verb>尋求</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>旨意</ENTITY_nouny>"
+                                "<ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_num>一</ENTITY_num><ACTION_verb>生</ACTION_verb><FUNC_negation>不</FUNC_negation><ACTION_verb>願</ACTION_verb><UserDefined>尋</UserDefined><ACTION_verb>求</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>旨意</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -6294,7 +6294,7 @@
                                 "<ACTION_verb>有</ACTION_verb><ENTITY_noun>人</ENTITY_noun><ENTITY_noun>一生</ENTITY_noun><MODIFIER>健壯</MODIFIER>"
                             ],
                             [
-                                "<FUNC_inner>至</FUNC_inner><ACTION_verb>死</ACTION_verb><ACTION_verb>享受</ACTION_verb><MODIFIER>平安</MODIFIER><ENTITY_nouny>幸福</ENTITY_nouny>"
+                                "<FUNC_inner>至</FUNC_inner><ACTION_verb>死</ACTION_verb><ACTION_verb>享受</ACTION_verb><MODIFIER>平</MODIFIER><UserDefined>安</UserDefined><ENTITY_nouny>幸福</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -6410,7 +6410,7 @@
                                 "<ENTITY_pronoun>你們</ENTITY_pronoun><CLAUSE_particle>呢</CLAUSE_particle>"
                             ],
                             [
-                                "<MODIFIER>竟</MODIFIER><ACTION_verb>想用</ACTION_verb><ENTITY_nouny>空話</ENTITY_nouny><ACTION_verb>安慰</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
+                                "<MODIFIER>竟</MODIFIER><ACTION_verb>想用</ACTION_verb><ENTITY_nouny>空話</ENTITY_nouny><UserDefined>安</UserDefined><ENTITY_oov>慰</ENTITY_oov><ENTITY_pronoun>我</ENTITY_pronoun>"
                             ],
                             [
                                 "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>應答</ACTION_verb><ENTITY_nouny>句句</ENTITY_nouny><MODIFIER>荒謬</MODIFIER>"
@@ -6424,7 +6424,7 @@
                     {
                         "22:1": [
                             [
-                                "<ACTION_verb>提</ACTION_verb><ENTITY_nouny>幔人</ENTITY_nouny><UserDefined>以利</UserDefined><ENTITY_oov>法</ENTITY_oov><FUNC_inner>又</FUNC_inner><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>提幔</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>以利法</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -6444,7 +6444,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>正</MODIFIER><ACTION_verb>直行</ACTION_verb><ENTITY_nouny>為</ENTITY_nouny><FUNC_inner>於</FUNC_inner><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>能者</ENTITY_nouny><MODIFIER>有益</MODIFIER><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>良善</MODIFIER><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_nouny>上帝</ENTITY_nouny><ACTION_verb>得</ACTION_verb><ACTION_verb>幫助</ACTION_verb><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>良</MODIFIER><UserDefined>善</UserDefined><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_nouny>上帝</ENTITY_nouny><ACTION_verb>得</ACTION_verb><ACTION_verb>幫助</ACTION_verb><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
                             ]
                         ]
                     },
@@ -6654,7 +6654,7 @@
                                 "<UserDefined>約伯</UserDefined><CLAUSE_particle>啊</CLAUSE_particle>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>得</ACTION_verb><ACTION_verb>跟上</ACTION_verb><ENTITY_nouny>帝</ENTITY_nouny><ACTION_verb>親善</ACTION_verb><FUNC_conjunction>和</FUNC_conjunction><MODIFIER>好</MODIFIER>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>得</ACTION_verb><ACTION_verb>跟上</ACTION_verb><ENTITY_nouny>帝</ENTITY_nouny><ACTION_verb>親</ACTION_verb><UserDefined>善</UserDefined><FUNC_conjunction>和</FUNC_conjunction><MODIFIER>好</MODIFIER>"
                             ],
                             [
                                 "<ENTITY_DetPhrase>這樣</ENTITY_DetPhrase>"
@@ -6667,7 +6667,7 @@
                     {
                         "22:22": [
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>接受</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>教訓</ENTITY_nouny>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>接受</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>教</ACTION_verb><UserDefined>訓</UserDefined>"
                             ],
                             [
                                 "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny><MODIFIER>牢</MODIFIER><ACTION_verb>牢記</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>心</ENTITY_nouny><RANGE_locality>裏</RANGE_locality>"
@@ -6799,7 +6799,7 @@
                     {
                         "23:3": [
                             [
-                                "<UserDefined>但</UserDefined><ACTION_verb>願</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>知道</ACTION_verb><CLAUSE_WhereQ>哪裏</CLAUSE_WhereQ><ACTION_verb>去</ACTION_verb><ACTION_verb>尋找</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
+                                "<UserDefined>但</UserDefined><ACTION_verb>願</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>知道</ACTION_verb><CLAUSE_WhereQ>哪裏</CLAUSE_WhereQ><ACTION_verb>去</ACTION_verb><UserDefined>尋</UserDefined><ACTION_verb>找</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
                             ],
                             [
                                 "<ACTION_verb>知道</ACTION_verb><CLAUSE_HowQ>怎樣</CLAUSE_HowQ><ACTION_verb>找到</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>住處</ENTITY_nouny>"
@@ -6861,13 +6861,13 @@
                                 "<FUNC_inter>可是</FUNC_inter>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_nouny>東</ENTITY_nouny><ACTION_verb>找</ACTION_verb><ACTION_verb>尋</ACTION_verb>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_nouny>東</ENTITY_nouny><ACTION_verb>找</ACTION_verb><UserDefined>尋</UserDefined>"
                             ],
                             [
                                 "<ENTITY_oov>上帝</ENTITY_oov><FUNC_negation>不</FUNC_negation><FUNC_inner>在</FUNC_inner><LOCATION>那裏</LOCATION>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_nouny>西</ENTITY_nouny><ACTION_verb>找</ACTION_verb><ACTION_verb>尋</ACTION_verb>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_nouny>西</ENTITY_nouny><ACTION_verb>找</ACTION_verb><UserDefined>尋</UserDefined>"
                             ],
                             [
                                 "<MODIFIER>也</MODIFIER><ACTION_verb>找不到</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
@@ -7044,7 +7044,7 @@
                                 "<ENTITY_nouny>窮人像</ENTITY_nouny><ENTITY_nouny>野驢</ENTITY_nouny><MODIFIER>一樣</MODIFIER>"
                             ],
                             [
-                                "<FUNC_inner>在</FUNC_inner><ENTITY_noun>荒野</ENTITY_noun><ACTION_verb>搜尋</ACTION_verb><ENTITY_nouny>食物</ENTITY_nouny>"
+                                "<FUNC_inner>在</FUNC_inner><ENTITY_noun>荒野</ENTITY_noun><ACTION_verb>搜</ACTION_verb><UserDefined>尋</UserDefined><ENTITY_oov>食物</ENTITY_oov>"
                             ],
                             [
                                 "<FUNC_negation>沒有</FUNC_negation><MODIFIER>其他</MODIFIER><ENTITY_noun>地方</ENTITY_noun><FUNC_degreeHead>好</FUNC_degreeHead><ACTION_verb>替</ACTION_verb><ENTITY_noun>兒女</ENTITY_noun><ACTION_verb>覓食</ACTION_verb>"
@@ -7266,7 +7266,7 @@
                     {
                         "24:23": [
                             [
-                                "<ENTITY_oov>上帝</ENTITY_oov><TIME_justtime>暫時</TIME_justtime><ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><MODIFIER>平安</MODIFIER>"
+                                "<ENTITY_oov>上帝</ENTITY_oov><TIME_justtime>暫時</TIME_justtime><ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><MODIFIER>平</MODIFIER><UserDefined>安</UserDefined>"
                             ],
                             [
                                 "<FUNC_negation>沒有</FUNC_negation><ACTION_verb>憂慮</ACTION_verb>"
@@ -7306,7 +7306,7 @@
                     {
                         "25:1": [
                             [
-                                "<ENTITY_nouny>書亞人</ENTITY_nouny><ACTION_verb>比</ACTION_verb><ACTION_verb>勒</ACTION_verb><VerbP>達接著</VerbP><ACTION_verb>發言</ACTION_verb>"
+                                "<UserDefined>書亞</UserDefined><ENTITY_noun>人</ENTITY_noun><UserDefined>比勒達</UserDefined><VerbP>接著</VerbP><ACTION_verb>發言</ACTION_verb>"
                             ]
                         ]
                     },
@@ -7486,7 +7486,7 @@
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>大</MODIFIER><MODAL>能</MODAL><MODIFIER>平靜</MODIFIER><ASPECT>了</ASPECT><ENTITY_nouny>大海</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>技巧</ENTITY_nouny><VerbP>擊倒了</VerbP><ENTITY_oov>海</ENTITY_oov><ACTION_verb>怪拉</ACTION_verb><ENTITY_person>哈伯</ENTITY_person>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>技巧</ENTITY_nouny><VerbP>擊倒了</VerbP><ENTITY_oov>海</ENTITY_oov><MODIFIER>怪</MODIFIER><UserDefined>拉哈伯</UserDefined>"
                             ]
                         ]
                     },
@@ -7625,7 +7625,7 @@
                     {
                         "27:10": [
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><TIME_justtime>幾時</TIME_justtime><VerbP>尋求過</VerbP><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>能者</ENTITY_nouny><FUNC_inner>所</FUNC_inner><ACTION_verb>賜</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>喜樂</ENTITY_nouny>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><TIME_justtime>幾時</TIME_justtime><UserDefined>尋</UserDefined><VerbP>求過</VerbP><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>能者</ENTITY_nouny><FUNC_inner>所</FUNC_inner><ACTION_verb>賜</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>喜樂</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><TIME_justtime>幾時</TIME_justtime><ModifierP>不斷地</ModifierP><FUNC_inner>向</FUNC_inner><ENTITY_nouny>上帝</ENTITY_nouny><VerbP>求告過</VerbP>"
@@ -8167,7 +8167,7 @@
                                 "<ENTITY_oov>城</ENTITY_oov><RANGE_locality>裏</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_nouny>父</ENTITY_nouny><QUANTIFIER>老每</QUANTIFIER><ACTION_verb>有</ACTION_verb><ENTITY_nouny>聚會</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>就</FUNC_inner><ACTION_verb>坐</ACTION_verb><FUNC_inner>在</FUNC_inner><AUX>為</AUX><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>安排</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>座位</ENTITY_nouny><RANGE_locality>上</RANGE_locality>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>就</FUNC_inner><ACTION_verb>坐</ACTION_verb><FUNC_inner>在</FUNC_inner><AUX>為</AUX><ENTITY_pronoun>我</ENTITY_pronoun><UserDefined>安</UserDefined><ACTION_verb>排</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>座位</ENTITY_nouny><RANGE_locality>上</RANGE_locality>"
                             ]
                         ]
                     },
@@ -8349,7 +8349,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>微笑</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>和善</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>笑容</ENTITY_nouny><VerbP>鼓勵了</VerbP><ENTITY_pronoun>他們</ENTITY_pronoun>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_conjunction>和</FUNC_conjunction><UserDefined>善</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>笑容</ENTITY_nouny><VerbP>鼓勵了</VerbP><ENTITY_pronoun>他們</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -8368,7 +8368,7 @@
                                 "<AUX>像</AUX><ENTITY_nouny>君王</ENTITY_nouny><ACTION_verb>率領</ACTION_verb><ENTITY_nouny>軍旅</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>失望</ACTION_verb><FUNC_inner>時</FUNC_inner><ACTION_verb>安慰</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun>"
+                                "<FUNC_inner>在</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>失望</ACTION_verb><FUNC_inner>時</FUNC_inner><UserDefined>安</UserDefined><ENTITY_oov>慰</ENTITY_oov><ENTITY_pronoun>他們</ENTITY_pronoun>"
                             ]
                         ]
                     }
@@ -8438,7 +8438,7 @@
                     {
                         "30:6": [
                             [
-                                "<ENTITY_pronoun>他們</ENTITY_pronoun><MODIFIER>只</MODIFIER><ACTION_verb>得住</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>深谷</ENTITY_nouny><RANGE_locality>裏</RANGE_locality>"
+                                "<ENTITY_pronoun>他們</ENTITY_pronoun><MODIFIER>只</MODIFIER><ACTION_verb>得住</ACTION_verb><FUNC_inner>在</FUNC_inner><MODIFIER>深</MODIFIER><UserDefined>谷</UserDefined><RANGE_locality>裏</RANGE_locality>"
                             ],
                             [
                                 "<ACTION_verb>住</ACTION_verb><ENTITY_nouny>在地洞</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>巖穴</ENTITY_nouny><RANGE_locality>中</RANGE_locality>"
@@ -9158,7 +9158,7 @@
                     {
                         "31:40": [
                             [
-                                "<FUNC_inner>就</FUNC_inner><ACTION_verb>讓</ACTION_verb><UserDefined>蒺藜</UserDefined><ENTITY_nouny>野草</ENTITY_nouny><ACTION_verb>長滿</ACTION_verb><ENTITY_nouny>那地</ENTITY_nouny>"
+                                "<FUNC_inner>就</FUNC_inner><ACTION_verb>讓</ACTION_verb><ENTITY_nouny>蒺藜</ENTITY_nouny><ENTITY_nouny>野草</ENTITY_nouny><ACTION_verb>長滿</ACTION_verb><ENTITY_nouny>那地</ENTITY_nouny>"
                             ],
                             [
                                 "<MODIFIER>不再</MODIFIER><ACTION_verb>有</ACTION_verb><ENTITY_nouny>小麥</ENTITY_nouny>"
@@ -9191,7 +9191,7 @@
                                 "<UserDefined>但</UserDefined><ACTION_verb>有</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>旁觀者</ENTITY_nouny><ACTION_verb>名叫</ACTION_verb><UserDefined>以利戶</UserDefined>"
                             ],
                             [
-                                "<UserDefined>以利戶</UserDefined><AUX>是</AUX><ENTITY_nouny>布西</ENTITY_nouny><RANGE_locality>後</RANGE_locality><ENTITY_oov>代蘭</ENTITY_oov><ENTITY_nounHead>族人</ENTITY_nounHead><UserDefined>巴拉</UserDefined><ENTITY_oov>迦</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>兒子</ENTITY_pronoun>"
+                                "<UserDefined>以利戶</UserDefined><AUX>是</AUX><UserDefined>布西</UserDefined><RANGE_locality>後</RANGE_locality><ENTITY_oov>代</ENTITY_oov><UserDefined>蘭</UserDefined><ENTITY_nounHead>族人</ENTITY_nounHead><UserDefined>巴拉迦</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>兒子</ENTITY_pronoun>"
                             ],
                             [
                                 "<FUNC_inter>因</FUNC_inter><UserDefined>約伯</UserDefined><ACTION_verb>自以為</ACTION_verb><ENTITY_nouny>義</ENTITY_nouny><FUNC_inner>又</FUNC_inner><ACTION_verb>埋怨</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
@@ -9305,7 +9305,7 @@
                                 "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>談論</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><QUANTIFIER>都</QUANTIFIER><ENTITY_nouny>耐心</ENTITY_nouny><ACTION_verb>傾聽</ACTION_verb>"
                             ],
                             [
-                                "<ACTION_verb>等候</ACTION_verb><ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>搜尋</ACTION_verb><ENTITY_nouny>明智</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>言詞</ENTITY_noun>"
+                                "<ACTION_verb>等候</ACTION_verb><ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>搜</ACTION_verb><UserDefined>尋</UserDefined><ENTITY_oov>明智</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_noun>言詞</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -9810,7 +9810,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><MODIFIER>安靜</MODIFIER>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><UserDefined>安</UserDefined><MODIFIER>靜</MODIFIER>"
                             ],
                             [
                                 "<ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>說話</ACTION_verb>"
@@ -9839,7 +9839,7 @@
                                 "<FUNC_inter>如果</FUNC_inter><ENTITY_pronoun>你</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>說</ACTION_verb>"
                             ],
                             [
-                                "<FUNC_inner>就</FUNC_inner><MODIFIER>安靜</MODIFIER><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
+                                "<FUNC_inner>就</FUNC_inner><UserDefined>安</UserDefined><ACTION_verb>靜聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_noun>智慧</ENTITY_noun><ENTITY_noun>教授</ENTITY_noun><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun>"
@@ -9863,7 +9863,7 @@
                                 "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>有</ACTION_verb><ENTITY_noun>智慧</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><ACTION_verb>請</ACTION_verb><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>有</ACTION_verb><ENTITY_nouny>知識</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><ACTION_verb>請</ACTION_verb><ENTITY_nouny>側耳</ENTITY_nouny><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
+                                "<ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>有</ACTION_verb><ENTITY_nouny>知識</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><ACTION_verb>請</ACTION_verb><UserDefined>側耳</UserDefined><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -9886,7 +9886,7 @@
                                 "<ENTITY_noun>是非</ENTITY_noun><FUNC_inner>由</FUNC_inner><ENTITY_possessive>我們</ENTITY_possessive><ENTITY_pronoun>自己</ENTITY_pronoun><ACTION_verb>判斷</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_nouny>善惡</ENTITY_nouny><FUNC_inner>由</FUNC_inner><ENTITY_possessive>我們</ENTITY_possessive><ENTITY_pronoun>自己</ENTITY_pronoun><ACTION_verb>決定</ACTION_verb>"
+                                "<UserDefined>善</UserDefined><ENTITY_oov>惡</ENTITY_oov><FUNC_inner>由</FUNC_inner><ENTITY_possessive>我們</ENTITY_possessive><ENTITY_pronoun>自己</ENTITY_pronoun><ACTION_verb>決定</ACTION_verb>"
                             ]
                         ]
                     },
@@ -9949,7 +9949,7 @@
                     {
                         "34:10": [
                             [
-                                "<ENTITY_pronoun>你們</ENTITY_pronoun><ENTITY_DetPhrase>這些</ENTITY_DetPhrase><ENTITY_nouny>賢明人</ENTITY_nouny><FUNC_determiner>哪</FUNC_determiner>"
+                                "<ENTITY_pronoun>你們</ENTITY_pronoun><ENTITY_DetPhrase>這些</ENTITY_DetPhrase><UserDefined>賢</UserDefined><ENTITY_nouny>明人</ENTITY_nouny><FUNC_determiner>哪</FUNC_determiner>"
                             ],
                             [
                                 "<ACTION_verb>請</ACTION_verb><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>說</ACTION_verb>"
@@ -10015,7 +10015,7 @@
                     {
                         "34:16": [
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inter>若</FUNC_inter><ENTITY_nouny>賢明</ENTITY_nouny>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inter>若</FUNC_inter><UserDefined>賢</UserDefined><ENTITY_oov>明</ENTITY_oov>"
                             ],
                             [
                                 "<ACTION_verb>請</ACTION_verb><ACTION_verb>聽</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>說</ACTION_verb>"
@@ -10231,7 +10231,7 @@
                                 "<QUANTIFIER>任何</QUANTIFIER><MODIFIER>聰明</MODIFIER><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><MODAL>會</MODAL><ACTION_verb>同意</ACTION_verb>"
                             ],
                             [
-                                "<ACTION_verb>任</ACTION_verb><ENTITY_person>何賢達</ENTITY_person><ENTITY_noun>人</ENTITY_noun><VerbP>聽了</VerbP><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny><QUANTIFIER>都</QUANTIFIER><ACTION_verb>要</ACTION_verb><ACTION_verb>說</ACTION_verb>"
+                                "<QUANTIFIER>任何</QUANTIFIER><UserDefined>賢</UserDefined><ENTITY_nouny>達人</ENTITY_nouny><VerbP>聽了</VerbP><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny><QUANTIFIER>都</QUANTIFIER><ACTION_verb>要</ACTION_verb><ACTION_verb>說</ACTION_verb>"
                             ]
                         ]
                     },
@@ -10258,7 +10258,7 @@
                     {
                         "34:37": [
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>反抗</ACTION_verb><MODIFIER>更</MODIFIER><ACTION_verb>增加</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny><ACTION_verb>過</ACTION_verb>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>反抗</ACTION_verb><ACTION_verb>更增</ACTION_verb><UserDefined>加他</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny><ACTION_verb>過</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>在</FUNC_inner><ENTITY_noun>大家</ENTITY_noun><RANGE_locality>面前</RANGE_locality><ACTION_verb>侮辱</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
@@ -10357,7 +10357,7 @@
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>罪</ENTITY_nouny><MODIFIER>只</MODIFIER><ACTION_verb>叫</ACTION_verb><FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>你</ENTITY_pronoun><MODIFIER>同樣</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><ACTION_verb>受苦</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>善行</ENTITY_nouny><FUNC_inner>不過</FUNC_inner><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_nouny>世人</ENTITY_nouny><ACTION_verb>受益</ACTION_verb>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><UserDefined>善</UserDefined><MODIFIER>行</MODIFIER><FUNC_inner>不過</FUNC_inner><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_nouny>世人</ENTITY_nouny><ACTION_verb>受益</ACTION_verb>"
                             ]
                         ]
                     },
@@ -10578,7 +10578,7 @@
                                 "<ACTION_verb>事奉</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>就</FUNC_inner><MODAL>能</MODAL><ACTION_verb>安享</ACTION_verb><ENTITY_nouny>世</ENTITY_nouny><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>日子</ENTITY_noun>"
+                                "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>就</FUNC_inner><MODAL>能</MODAL><UserDefined>安</UserDefined><VerbP>享世</VerbP><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>日子</ENTITY_noun>"
                             ],
                             [
                                 "<ModifierP>幸福地</ModifierP><ACTION_verb>度過</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><TIME_year>歲月</TIME_year>"
@@ -10627,7 +10627,7 @@
                                 "<FUNC_inter>然而</FUNC_inter>"
                             ],
                             [
-                                "<ENTITY_oov>上帝</ENTITY_oov><FUNC_inner>以</FUNC_inner><MODIFIER>苦難</MODIFIER><ENTITY_nouny>教訓人</ENTITY_nouny>"
+                                "<ENTITY_oov>上帝</ENTITY_oov><FUNC_inner>以</FUNC_inner><MODIFIER>苦難</MODIFIER><ACTION_verb>教</ACTION_verb><UserDefined>訓</UserDefined><ENTITY_noun>人</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_inner>以</FUNC_inner><ENTITY_nouny>禍</ENTITY_nouny><ACTION_verb>患</ACTION_verb><ENTITY_nouny>開啟人</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>眼睛</ENTITY_nouny>"
@@ -10640,7 +10640,7 @@
                                 "<ENTITY_oov>上帝</ENTITY_oov><FUNC_inner>從</FUNC_inner><ACTION_verb>患難</ACTION_verb><RANGE_period>中</RANGE_period><ACTION_verb>救拔</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>出來</ACTION_verb>"
                             ],
                             [
-                                "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>享受</ACTION_verb><MODIFIER>平安</MODIFIER>"
+                                "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>享受</ACTION_verb><MODIFIER>平</MODIFIER><UserDefined>安</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>桌</ENTITY_nouny><RANGE_locality>上</RANGE_locality><VerbP>擺滿了</VerbP><MODIFIER>美味</MODIFIER>"
@@ -10990,7 +10990,7 @@
                                 "<ACTION_verb>留心</ACTION_verb><ACTION_verb>聽</ACTION_verb><CLAUSE_particle>吧</CLAUSE_particle>"
                             ],
                             [
-                                "<ACTION_verb>請</ACTION_verb><ENTITY_nouny>安靜片</ENTITY_nouny><FUNC_inner>時</FUNC_inner>"
+                                "<ACTION_verb>請</ACTION_verb><UserDefined>安</UserDefined><ENTITY_nouny>靜片</ENTITY_nouny><FUNC_inner>時</FUNC_inner>"
                             ],
                             [
                                 "<ENTITY_noun>思想</ENTITY_noun><ENTITY_nounHead>上帝奇</ENTITY_nounHead><MODIFIER>妙</MODIFIER><FUNC_inner>的</FUNC_inner><ACTION_verb>作為</ACTION_verb>"
@@ -11062,7 +11062,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>敢</ACTION_verb><ACTION_verb>要求</ACTION_verb><ACTION_verb>跟上</ACTION_verb><ENTITY_nouny>帝</ENTITY_nouny><ACTION_verb>說話</ACTION_verb>"
                             ],
                             [
-                                "<FUNC_inter>難道</FUNC_inter><ACTION_verb>有</ACTION_verb><ENTITY_noun>人</ENTITY_noun><ACTION_verb>自願</ACTION_verb><ACTION_verb>尋找</ACTION_verb><ACTION_verb>毀滅</ACTION_verb>"
+                                "<FUNC_inter>難道</FUNC_inter><ACTION_verb>有</ACTION_verb><ENTITY_noun>人</ENTITY_noun><ACTION_verb>自願</ACTION_verb><UserDefined>尋</UserDefined><ACTION_verb>找</ACTION_verb><ACTION_verb>毀滅</ACTION_verb>"
                             ]
                         ]
                     },
@@ -11193,7 +11193,7 @@
                                 "<ENTITY_noun>大地</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>支柱</ENTITY_noun><ACTION_verb>奠立</ACTION_verb><FUNC_inner>在</FUNC_inner><CLAUSE_WhatQ>何</CLAUSE_WhatQ><ENTITY_nouny>物</ENTITY_nouny><FUNC_inner>之</FUNC_inner><RANGE_locality>上</RANGE_locality>"
                             ],
                             [
-                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><AUX>為</AUX><LOCATION>世界</LOCATION><ACTION_verb>安放</ACTION_verb><ENTITY_nouny>基石</ENTITY_nouny>"
+                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><AUX>為</AUX><LOCATION>世界</LOCATION><UserDefined>安</UserDefined><ACTION_verb>放</ACTION_verb><ENTITY_nouny>基石</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -11226,7 +11226,7 @@
                     {
                         "38:9": [
                             [
-                                "<AUX>是</AUX><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>以</FUNC_inner><ENTITY_nouny>雲彩</ENTITY_nouny><ACTION_verb>掩蓋</ACTION_verb><ENTITY_nouny>大海</ENTITY_nouny>"
+                                "<AUX>是</AUX><ENTITY_pronoun>我</ENTITY_pronoun><UserDefined>以雲</UserDefined><ENTITY_oov>彩</ENTITY_oov><ACTION_verb>掩蓋</ACTION_verb><ENTITY_nouny>大海</ENTITY_nouny>"
                             ],
                             [
                                 "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_pronoun>它</ENTITY_pronoun><ENTITY_nouny>包裹</ENTITY_nouny><FUNC_inner>在</FUNC_inner><ENTITY_nouny>濃霧</ENTITY_nouny><RANGE_locality>中</RANGE_locality>"
@@ -11239,7 +11239,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><AUX>為</AUX><ENTITY_nouny>海水定</ENTITY_nouny><ASPECT>了</ASPECT><ENTITY_nounHead>界</ENTITY_nounHead><ENTITY_oov>限</ENTITY_oov>"
                             ],
                             [
-                                "<FUNC_inner>又</FUNC_inner><MODIFIER>安</MODIFIER><VerbP>設了</VerbP><ENTITY_oov>門閂</ENTITY_oov>"
+                                "<FUNC_inner>又</FUNC_inner><UserDefined>安</UserDefined><VerbP>設了</VerbP><ENTITY_oov>門閂</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -11285,7 +11285,7 @@
                     {
                         "38:14": [
                             [
-                                "<ENTITY_oov>日光</ENTITY_oov><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_nouny>山陵</ENTITY_nouny><ENTITY_nouny>丘谷</ENTITY_nouny><ACTION_verb>改觀</ACTION_verb>"
+                                "<ENTITY_oov>日光</ENTITY_oov><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_nouny>山陵</ENTITY_nouny><ENTITY_nouny>丘</ENTITY_nouny><UserDefined>谷</UserDefined><ACTION_verb>改觀</ACTION_verb>"
                             ],
                             [
                                 "<AUX>像</AUX><ACTION_verb>摺</ACTION_verb><FUNC_degreeHead>好</FUNC_degreeHead><FUNC_inner>的</FUNC_inner><ENTITY_noun>衣服</ENTITY_noun>"
@@ -11514,7 +11514,7 @@
                     {
                         "38:36": [
                             [
-                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><ACTION_verb>告訴</ACTION_verb><ENTITY_person>朱鷺</ENTITY_person><ENTITY_nouny>鳥尼</ENTITY_nouny><ENTITY_person>羅河</ENTITY_person><TIME_justtime>幾時</TIME_justtime><ENTITY_oov>水</ENTITY_oov><ACTION_verb>漲</ACTION_verb>"
+                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><ACTION_verb>告訴</ACTION_verb><ENTITY_person>朱鷺</ENTITY_person><ENTITY_nouny>鳥</ENTITY_nouny><UserDefined>尼羅河</UserDefined><TIME_justtime>幾時</TIME_justtime><ENTITY_oov>水</ENTITY_oov><ACTION_verb>漲</ACTION_verb>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><ACTION_verb>通知</ACTION_verb><ENTITY_nouny>雄雞</ENTITY_nouny><CLAUSE_WhenQ>何時</CLAUSE_WhenQ><ACTION_verb>下雨</ACTION_verb>"
@@ -11669,7 +11669,7 @@
                                 "<ENTITY_oov>山</ENTITY_oov><MODIFIER>野</MODIFIER><AUX>是</AUX><ACTION_verb>餵養</ACTION_verb><ENTITY_pronoun>牠們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nounHead>牧場</ENTITY_nounHead>"
                             ],
                             [
-                                "<ENTITY_pronoun>牠們</ENTITY_pronoun><FUNC_inner>在</FUNC_inner><LOCATION>那裏</LOCATION><ACTION_verb>找</ACTION_verb><ACTION_verb>尋</ACTION_verb><MODIFIER_color>青綠</MODIFIER_color><FUNC_inner>的</FUNC_inner><ENTITY_nouny>食料</ENTITY_nouny>"
+                                "<ENTITY_pronoun>牠們</ENTITY_pronoun><FUNC_inner>在</FUNC_inner><LOCATION>那裏</LOCATION><ACTION_verb>找</ACTION_verb><UserDefined>尋</UserDefined><MODIFIER_color>青綠</MODIFIER_color><FUNC_inner>的</FUNC_inner><ENTITY_nouny>食料</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -11799,7 +11799,7 @@
                     {
                         "39:21": [
                             [
-                                "<ENTITY_pronoun>牠們</ENTITY_pronoun><IDIOM>興高采烈</IDIOM><FUNC_modifierHead>地</FUNC_modifierHead><FUNC_inner>在</FUNC_inner><ENTITY_nouny>山谷</ENTITY_nouny><RANGE_locality>中</RANGE_locality><ACTION_verb>搔</ACTION_verb><ENTITY_nounHead>地</ENTITY_nounHead>"
+                                "<ENTITY_pronoun>牠們</ENTITY_pronoun><IDIOM>興高采烈</IDIOM><FUNC_modifierHead>地</FUNC_modifierHead><FUNC_inner>在</FUNC_inner><ENTITY_nouny>山</ENTITY_nouny><UserDefined>谷</UserDefined><RANGE_locality>中</RANGE_locality><ACTION_verb>搔</ACTION_verb><ENTITY_nounHead>地</ENTITY_nounHead>"
                             ],
                             [
                                 "<ENTITY_pronoun>牠們</ENTITY_pronoun><ENTITY_nouny>威武地</ENTITY_nouny><ACTION_verb>奔入</ACTION_verb><ENTITY_nouny>戰陣</ENTITY_nouny>"
@@ -11894,7 +11894,7 @@
                                 "<ENTITY_pronoun>牠</ENTITY_pronoun><FUNC_inner>從</FUNC_inner><LOCATION>那裏</LOCATION><ACTION_verb>俯視</ACTION_verb><MODIFIER>遠近</MODIFIER>"
                             ],
                             [
-                                "<ACTION_verb>尋找</ACTION_verb><MODAL>可</MODAL><ACTION_verb>捕殺</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>食物</ENTITY_nouny>"
+                                "<UserDefined>尋</UserDefined><ACTION_verb>找</ACTION_verb><MODAL>可</MODAL><ACTION_verb>捕殺</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>食物</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -12102,7 +12102,7 @@
                     {
                         "40:17": [
                             [
-                                "<ENTITY_pronoun>牠</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>尾巴</ENTITY_nouny><AUX>像</AUX><UserDefined>香柏樹</UserDefined><ACTION_verb>豎立</ACTION_verb>"
+                                "<ENTITY_pronoun>牠</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>尾巴</ENTITY_nouny><AUX>像</AUX><MODIFIER>香</MODIFIER><ENTITY_nounHead>柏樹</ENTITY_nounHead><ACTION_verb>豎立</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>牠</ENTITY_pronoun><ENTITY_nouny>大腿</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>肌肉</ENTITY_nouny><CLAUSE_HowQ>多麼</CLAUSE_HowQ><MODIFIER>健壯</MODIFIER>"
@@ -12142,20 +12142,20 @@
                     {
                         "40:21": [
                             [
-                                "<ENTITY_pronoun>牠</ENTITY_pronoun><ACTION_verb>躺臥</ACTION_verb><FUNC_inner>在</FUNC_inner><UserDefined>荊棘</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>叢林</ENTITY_noun><RANGE_locality>下</RANGE_locality>"
+                                "<ENTITY_pronoun>牠</ENTITY_pronoun><ACTION_verb>躺臥</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>荊棘</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>叢林</ENTITY_noun><RANGE_locality>下</RANGE_locality>"
                             ],
                             [
-                                "<ACTION_verb>潛伏</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>泥沼</ENTITY_nouny><FUNC_inner>的</FUNC_inner><UserDefined>蘆葦</UserDefined><ENTITY_oov>間</ENTITY_oov>"
+                                "<ACTION_verb>潛伏</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>泥沼</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>蘆葦</ENTITY_nouny><ENTITY_nouny>間</ENTITY_nouny>"
                             ]
                         ]
                     },
                     {
                         "40:22": [
                             [
-                                "<ENTITY_oov>溪邊</ENTITY_oov><FUNC_inner>的</FUNC_inner><UserDefined>柳樹</UserDefined><VerbP>環繞著</VerbP><ENTITY_pronoun>牠</ENTITY_pronoun>"
+                                "<ENTITY_oov>溪邊</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_noun>柳樹</ENTITY_noun><VerbP>環繞著</VerbP><ENTITY_pronoun>牠</ENTITY_pronoun>"
                             ],
                             [
-                                "<UserDefined>荊棘</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>叢林</ENTITY_noun><VerbP>遮蔽了</VerbP><ENTITY_pronoun>牠</ENTITY_pronoun>"
+                                "<ENTITY_oov>荊棘</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_noun>叢林</ENTITY_noun><VerbP>遮蔽了</VerbP><ENTITY_pronoun>牠</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -12165,7 +12165,7 @@
                                 "<ENTITY_oov>河水</ENTITY_oov><ACTION_verb>氾濫</ACTION_verb><FUNC_inner>時</FUNC_inner><ENTITY_pronoun>牠</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><MODIFIER>慌張</MODIFIER>"
                             ],
                             [
-                                "<LOCATION>約旦河</LOCATION><ENTITY_oov>水</ENTITY_oov><ACTION_verb>漲到</ACTION_verb><ENTITY_nouny>口邊</ENTITY_nouny>"
+                                "<UserDefined>約旦河</UserDefined><ENTITY_oov>水</ENTITY_oov><ACTION_verb>漲到</ACTION_verb><ENTITY_nouny>口邊</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_pronoun>牠</ENTITY_pronoun><MODIFIER>也</MODIFIER><FUNC_negation>不</FUNC_negation><ACTION_verb>怕</ACTION_verb>"
@@ -12295,7 +12295,7 @@
                     {
                         "41:11": [
                             [
-                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><MODAL>能</MODAL><ACTION_verb>攻打</ACTION_verb><ENTITY_pronoun>牠</ENTITY_pronoun><FUNC_inner>而</FUNC_inner><FUNC_inner>仍然</FUNC_inner><MODIFIER>安全</MODIFIER><CLAUSE_particle>呢</CLAUSE_particle>"
+                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><MODAL>能</MODAL><ACTION_verb>攻打</ACTION_verb><ENTITY_pronoun>牠</ENTITY_pronoun><FUNC_inner>而</FUNC_inner><FUNC_inner>仍然</FUNC_inner><UserDefined>安</UserDefined><QUANTIFIER>全</QUANTIFIER><CLAUSE_particle>呢</CLAUSE_particle>"
                             ],
                             [
                                 "<ENTITY_nouny>普天</ENTITY_nouny><FUNC_inner>之</FUNC_inner><ACTION_verb>下</ACTION_verb><FUNC_negation>沒有</FUNC_negation><ENTITY_noun>人</ENTITY_noun><ACTION_verb>做</ACTION_verb><ACTION_verb>得到</ACTION_verb><CLAUSE_particle>哇</CLAUSE_particle>"
@@ -12635,7 +12635,7 @@
                                 "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>對</FUNC_inner><UserDefined>約伯</UserDefined><VerbP>說了</VerbP><ENTITY_DetPhrase>這些</ENTITY_DetPhrase><ENTITY_nouny>話</ENTITY_nouny><RANGE_locality>後</RANGE_locality>"
                             ],
                             [
-                                "<FUNC_inner>就</FUNC_inner><FUNC_inner>對</FUNC_inner><UserDefined>以利</UserDefined><ENTITY_oov>法</ENTITY_oov><ACTION_verb>說</ACTION_verb>"
+                                "<FUNC_inner>就</FUNC_inner><FUNC_inner>對</FUNC_inner><UserDefined>以利法</UserDefined><ACTION_verb>說</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>對</FUNC_inner><ENTITY_pronoun>你</ENTITY_pronoun><FUNC_conjunction>和</FUNC_conjunction><ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_classifier>兩個</ENTITY_classifier><ENTITY_noun>朋友</ENTITY_noun><FUNC_degreeHead>很</FUNC_degreeHead><FUNC_negation>不</FUNC_negation><MODIFIER>滿意</MODIFIER>"
@@ -12660,7 +12660,7 @@
                                 "<ACTION_verb>到</ACTION_verb><UserDefined>約伯</UserDefined><LOCATION>那裏</LOCATION><ACTION_verb>去</ACTION_verb>"
                             ],
                             [
-                                "<AUX>為</AUX><ENTITY_possessive>你們</ENTITY_possessive><ENTITY_pronoun>自己</ENTITY_pronoun><ACTION_verb>獻上</ACTION_verb><UserDefined>燒化祭</UserDefined>"
+                                "<AUX>為</AUX><ENTITY_possessive>你們</ENTITY_possessive><ENTITY_pronoun>自己</ENTITY_pronoun><ACTION_verb>獻上</ACTION_verb><ACTION_verb>燒</ACTION_verb><ENTITY_nouny>化祭</ENTITY_nouny>"
                             ],
                             [
                                 "<UserDefined>約伯</UserDefined><ACTION_verb>要</ACTION_verb><AUX>為</AUX><ENTITY_pronoun>你們</ENTITY_pronoun><ACTION_verb>祈求</ACTION_verb>"
@@ -12682,13 +12682,13 @@
                     {
                         "42:9": [
                             [
-                                "<FUNC_inner>於是</FUNC_inner><UserDefined>以利</UserDefined><ENTITY_oov>法</ENTITY_oov>"
+                                "<FUNC_inner>於是</FUNC_inner><UserDefined>以利法</UserDefined>"
                             ],
                             [
-                                "<ACTION_verb>比</ACTION_verb><ACTION_verb>勒達</ACTION_verb>"
+                                "<UserDefined>比勒達</UserDefined>"
                             ],
                             [
-                                "<ENTITY_oov>瑣法</ENTITY_oov><ACTION_verb>按照</ACTION_verb><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>所</FUNC_inner><ACTION_verb>吩咐</ACTION_verb><FUNC_inner>的</FUNC_inner><VerbP>做了</VerbP>"
+                                "<UserDefined>瑣法</UserDefined><ACTION_verb>按照</ACTION_verb><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>所</FUNC_inner><ACTION_verb>吩咐</ACTION_verb><FUNC_inner>的</FUNC_inner><VerbP>做了</VerbP>"
                             ],
                             [
                                 "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><ACTION_verb>悅納</ACTION_verb><UserDefined>約伯</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>祈求</ENTITY_nouny>"
@@ -12745,7 +12745,7 @@
                                 "<RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><ACTION_verb>賜福</ACTION_verb><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
                             ],
                             [
-                                "<ACTION_verb>比</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><MODIFIER>早年</MODIFIER><ENTITY_noun>所得</ENTITY_noun><FUNC_inner>的</FUNC_inner><FUNC_inner>還</FUNC_inner><MODIFIER>多</MODIFIER>"
+                                "<UserDefined>比他</UserDefined><MODIFIER>早年</MODIFIER><ENTITY_noun>所得</ENTITY_noun><FUNC_inner>的</FUNC_inner><FUNC_inner>還</FUNC_inner><MODIFIER>多</MODIFIER>"
                             ],
                             [
                                 "<UserDefined>約伯</UserDefined><ACTION_verb>擁有</ACTION_verb><ENTITY_classifier>一萬四千隻</ENTITY_classifier><ENTITY_nouny>羊</ENTITY_nouny>"
@@ -12774,13 +12774,13 @@
                     {
                         "42:14": [
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>給長</ACTION_verb><ENTITY_nounHead>女</ENTITY_nounHead><ACTION_verb>取名</ACTION_verb><CLAUSE_particle>耶</CLAUSE_particle><ENTITY_oov>米瑪</ENTITY_oov>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>給長</ACTION_verb><ENTITY_nounHead>女</ENTITY_nounHead><ACTION_verb>取名</ACTION_verb><UserDefined>耶米瑪</UserDefined>"
                             ],
                             [
-                                "<ENTITY_noun>次女</ENTITY_noun><VerbP>叫基</VerbP><VerbP>洗亞</VerbP>"
+                                "<ENTITY_noun>次女</ENTITY_noun><ACTION_verb>叫</ACTION_verb><UserDefined>基洗亞</UserDefined>"
                             ],
                             [
-                                "<ENTITY_num>三</ENTITY_num><ENTITY_oov>女</ENTITY_oov><ACTION_verb>叫</ACTION_verb><ENTITY_nouny>基蓮</ENTITY_nouny><CLAUSE_particle>哈</CLAUSE_particle><ENTITY_oov>樸</ENTITY_oov>"
+                                "<ENTITY_num>三</ENTITY_num><ENTITY_oov>女</ENTITY_oov><ACTION_verb>叫</ACTION_verb><UserDefined>基蓮哈樸</UserDefined>"
                             ]
                         ]
                     },
@@ -12813,7 +12813,7 @@
                                 "<ENTITY_DetPhrase>這樣</ENTITY_DetPhrase>"
                             ],
                             [
-                                "<UserDefined>約伯</UserDefined><ENTITY_nouny>長壽</ENTITY_nouny><ACTION_verb>善終</ACTION_verb>"
+                                "<UserDefined>約伯</UserDefined><ENTITY_nouny>長壽</ENTITY_nouny><UserDefined>善</UserDefined><ENTITY_oov>終</ENTITY_oov>"
                             ]
                         ]
                     }
