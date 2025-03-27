@@ -14,7 +14,7 @@ def replace_tag(d, tag, name):
     elif isinstance(d, list):
         return [replace_tag(item, tag, name) for item in d]
     
-    elif isinstance(d, str) and "<UserDefined>" in d:
+    elif isinstance(d, str):
         return d.replace(f"<UserDefined>{name}</UserDefined>", f"<{tag}>{name}</{tag}>")
 
 def main(jsonFILE, userDefined):
@@ -36,7 +36,7 @@ def main(jsonFILE, userDefined):
     #完成處理後，寫回 JSON
     with open(jsonFILE, "w", encoding="utf-8") as f:
         json.dump(ChiBibleLIST, f, ensure_ascii=False, indent=4)            
-        pprint(ChiBibleLIST[:2])    #只印出處理檔案的前兩個元素看一下
+        pprint(ChiBibleLIST)    #只印出處理檔案的前兩個元素看一下
         
     pprint(f"{jsonFILE} tag changed")
       
@@ -46,8 +46,17 @@ def main(jsonFILE, userDefined):
 if __name__ == "__main__":
     userDefined = "../../../data/Bible/Chinese/names/fhl_names.json"    
     
+    all_Bible = "../../../data/Bible/Chinese/POS_all_ChiBible.json"
+    lv2_all_Bible = "../../../data/Bible/Chinese/lv2_POS_all_ChiBible.json"    
+    
     folderLIST = ["../../../data/Bible/Chinese/POS", "../../../data/Bible/Chinese/lv2_POS"]
+    
+    # 先將 all_Bible 和 lv2_all_Bible 加入 jsonFILE_LIST
+    jsonFILE_LIST = [all_Bible, lv2_all_Bible]
+    
+    # 然後遍歷 folderLIST，將所有 JSON 檔案加入 jsonFILE_LIST
     for folder in folderLIST:
-        jsonFILE_LIST = glob(f"{folder}/*.json")
-        for jsonFILE in jsonFILE_LIST:
-            main(jsonFILE, userDefined)        
+        jsonFILE_LIST += glob(f"{folder}/*.json")
+        
+    for jsonFILE in jsonFILE_LIST:
+        main(jsonFILE, userDefined)        
