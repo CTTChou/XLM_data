@@ -36,7 +36,7 @@ def main(jsonFILE, userDefined):
     #完成處理後，寫回 JSON
     with open(jsonFILE, "w", encoding="utf-8") as f:
         json.dump(ChiBibleLIST, f, ensure_ascii=False, indent=4)            
-        pprint(ChiBibleLIST)    #只印出處理檔案的前兩個元素看一下
+        pprint(ChiBibleLIST[:2])    #只印出處理檔案的前兩個元素看一下
         
     pprint(f"{jsonFILE} tag changed")
       
@@ -56,7 +56,10 @@ if __name__ == "__main__":
     
     # 然後遍歷 folderLIST，將所有 JSON 檔案加入 jsonFILE_LIST
     for folder in folderLIST:
-        jsonFILE_LIST += glob(f"{folder}/*.json")
+        # 過濾掉檔名中包含"tmpLIST"的檔案
+        files = glob(f"{folder}/*.json")
+        files = [f for f in files if "tmpLIST" not in f]        
+        jsonFILE_LIST += files
         
     for jsonFILE in jsonFILE_LIST:
         main(jsonFILE, userDefined)        
