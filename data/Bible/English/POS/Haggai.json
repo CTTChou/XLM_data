@@ -6,10 +6,10 @@
                     {
                         "1:1": [
                             [
-                                "<RANGE_period>During</RANGE_period> <ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <ENTITY_oov>year</ENTITY_oov> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Darius</ENTITY_noun> <AUX>was</AUX> <ENTITY_nouny>emperor</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Persia</ENTITY_oov>"
+                                "<RANGE_period>During</RANGE_period> <ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <TIME_year>year</TIME_year> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Darius</ENTITY_noun> <AUX>was</AUX> <ENTITY_nouny>emperor</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Persia</ENTITY_oov>"
                             ],
                             [
-                                "<RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the first</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the sixth</ENTITY_DetPhrase> <ENTITY_oov>month</ENTITY_oov>"
+                                "<RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the first</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the sixth</ENTITY_DetPhrase> <TIME_month>month</TIME_month>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>spoke</ACTION_verb> <FUNC_inner>through</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>prophet</ENTITY_nouny> <ENTITY_nouny>Haggai</ENTITY_nouny>"
@@ -230,7 +230,7 @@
                     {
                         "1:15": [
                             [
-                                "<RANGE_locality>on</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the sixth</ENTITY_DetPhrase> <ENTITY_oov>month</ENTITY_oov> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <ENTITY_oov>year</ENTITY_oov> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Darius</ENTITY_noun> <AUX>was</AUX> <ENTITY_nouny>emperor</ENTITY_nouny>"
+                                "<RANGE_locality>on</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the sixth</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <TIME_year>year</TIME_year> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Darius</ENTITY_noun> <AUX>was</AUX> <ENTITY_nouny>emperor</ENTITY_nouny>"
                             ]
                         ]
                     }
@@ -241,7 +241,7 @@
                     {
                         "2:1": [
                             [
-                                "<RANGE_locality>On</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-first</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <ENTITY_oov>month</ENTITY_oov> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>that</FUNC_determiner> <MODIFIER>same</MODIFIER> <ENTITY_nouny>year</ENTITY_nouny>"
+                                "<RANGE_locality>On</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-first</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>that</FUNC_determiner> <MODIFIER>same</MODIFIER> <TIME_year>year</TIME_year>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>spoke</ACTION_verb> <MODIFIER>again</MODIFIER> <FUNC_inner>through</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>prophet</ENTITY_nouny> <ENTITY_nouny>Haggai</ENTITY_nouny>"
@@ -361,7 +361,7 @@
                     {
                         "2:10": [
                             [
-                                "<RANGE_locality>On</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the ninth</ENTITY_DetPhrase> <ENTITY_oov>month</ENTITY_oov> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <ENTITY_oov>year</ENTITY_oov> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Darius</ENTITY_noun> <AUX>was</AUX> <ENTITY_nouny>emperor</ENTITY_nouny>"
+                                "<RANGE_locality>On</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the ninth</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <TIME_year>year</TIME_year> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Darius</ENTITY_noun> <AUX>was</AUX> <ENTITY_nouny>emperor</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_oov>Almighty</ENTITY_oov> <ACTION_verb>spoke</ACTION_verb> <MODIFIER>again</MODIFIER> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>prophet</ENTITY_nouny> <ENTITY_nouny>Haggai</ENTITY_nouny>"
@@ -489,7 +489,7 @@
                     {
                         "2:18": [
                             [
-                                "<TIME_day>Today</TIME_day> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the ninth</ENTITY_DetPhrase> <ENTITY_oov>month</ENTITY_oov>"
+                                "<TIME_day>Today</TIME_day> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the ninth</ENTITY_DetPhrase> <TIME_month>month</TIME_month>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>foundation</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <LOCATION>Temple</LOCATION> <ASPECT>has</ASPECT> <AUX>been</AUX> <ACTION_verb>completed</ACTION_verb>"
@@ -527,7 +527,7 @@
                                 "<RANGE_locality>On</RANGE_locality> <FUNC_determiner>that</FUNC_determiner> <MODIFIER>same</MODIFIER> <TIME_day>day</TIME_day>"
                             ],
                             [
-                                "<FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>month</ENTITY_nouny>"
+                                "<FUNC_determiner>the</FUNC_determiner> <ENTITY_measurement>twenty-fourth</ENTITY_measurement> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <TIME_month>month</TIME_month>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>gave</ACTION_verb> <ENTITY_nouny>Haggai</ENTITY_nouny> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>second</MODIFIER> <ENTITY_noun>message</ENTITY_noun>"
