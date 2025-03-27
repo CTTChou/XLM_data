@@ -21,7 +21,8 @@ def PlaceScrape():
         for j in liLIST:
             out = j.get_text()
             out = re.sub(r",.*", "", out)
-            out = re.sub(r"–.*", "", out)
+            out = re.sub(r"\s\–.*", "", out)
+            out = re.sub(r"\s\(Bible\)","", out)
             eng_placeLIST.append(out)                
     
     print(eng_placeLIST)
