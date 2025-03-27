@@ -15,7 +15,7 @@ def replace_tag(d, tag, name):
         return [replace_tag(item, tag, name) for item in d]
     
     elif isinstance(d, str):
-        return d.replace(f"<UserDefined>{name}</UserDefined>", f"<{tag}>{name}</{tag}>")
+        return d.replace(f"<as_Person>{name}</as_Person>", f"<{tag}>{name}</{tag}>")
 
 def main(jsonFILE, userDefined):
     """處理單個 JSON 檔案"""
