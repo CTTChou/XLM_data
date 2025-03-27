@@ -22,11 +22,13 @@ def PlaceScrape():
             out = j.get_text()
             out = re.sub(r",.*", "", out)
             out = re.sub(r"\s\–.*", "", out)
-            out = re.sub(r"\s\(Bible\)","", out)
-            eng_placeLIST.append(out)                
+            out = re.sub(r"\s\(Bible\)","", out)               
+            out = re.split(r"\/", out)
+            eng_placeLIST.extend(out)
     
     print(eng_placeLIST)
     return eng_placeLIST
+
 
 
 def main(eng_placeLIST):
@@ -38,3 +40,5 @@ def main(eng_placeLIST):
 if __name__ == "__main__":
     eng_placeLIST = []
     main(eng_placeLIST)
+    
+    
