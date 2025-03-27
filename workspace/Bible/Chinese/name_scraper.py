@@ -155,7 +155,7 @@ if __name__ == "__main__":
         userDefinedDICT = {}
         all_nameSET = main(url)
         nameLIST = sorted(list(all_nameSET), key=len)   #轉成列表後，依照元素長度排序
-        userDefinedDICT["as_Person"] = nameLIST         #再轉成 dict type for articut
+        userDefinedDICT["ENTITY_person"] = nameLIST     #再轉成 dict type for articut
                         
                            
         with open(jsonFILE, "w", encoding="utf-8") as f:    #寫出檔案並印出
@@ -164,7 +164,7 @@ if __name__ == "__main__":
     
     else:   #檔案存在就印出來看看
         with open(jsonFILE, "r", encoding="utf-8") as f:
-            userDefinedDICT = json.load(f)
+            userDefinedDICT = json.load(f)       
             pprint(userDefinedDICT)
         
     

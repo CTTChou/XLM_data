@@ -9,7 +9,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><AUX>是</AUX><ENTITY_noun>長老</ENTITY_noun>"
                             ],
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>寫信</ACTION_verb><ACTION_verb>給</ACTION_verb><MODIFIER>親愛</MODIFIER><FUNC_inner>的</FUNC_inner><as_Person>該猶</as_Person>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>寫信</ACTION_verb><ACTION_verb>給</ACTION_verb><MODIFIER>親愛</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_person>該猶</ENTITY_person>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ENTITY_nouny>誠心</ENTITY_nouny><FUNC_inner>所</FUNC_inner><ACTION_verb>愛</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>朋友</ENTITY_noun>"
@@ -116,7 +116,7 @@
                                 "<FUNC_inter>可是</FUNC_inter>"
                             ],
                             [
-                                "<ACTION_verb>想作</ACTION_verb><ENTITY_nouny>領袖</ENTITY_nouny><FUNC_inner>的</FUNC_inner><as_Person>狄特腓</as_Person><FUNC_negation>不</FUNC_negation><ACTION_verb>理會</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><ACTION_verb>說</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
+                                "<ACTION_verb>想作</ACTION_verb><ENTITY_nouny>領袖</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_person>狄特腓</ENTITY_person><FUNC_negation>不</FUNC_negation><ACTION_verb>理會</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>所</FUNC_inner><ACTION_verb>說</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>話</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -176,7 +176,7 @@
                     {
                         "1:12": [
                             [
-                                "<ENTITY_noun>大家</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>稱讚</ACTION_verb><as_Person>底米特</as_Person>"
+                                "<ENTITY_noun>大家</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>稱讚</ACTION_verb><ENTITY_person>底米特</ENTITY_person>"
                             ],
                             [
                                 "<ENTITY_nouny>真理</ENTITY_nouny><AUX>為</AUX><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>作證</ACTION_verb>"
@@ -195,7 +195,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_conjunction>還有</FUNC_conjunction><QUANTIFIER>許多</QUANTIFIER><ENTITY_nouny>話</ENTITY_nouny><ACTION_verb>要</ACTION_verb><ACTION_verb>告訴</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun>"
                             ],
                             [
-                                "<as_Person>但</as_Person><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>想</ACTION_verb><ACTION_verb>藉</ACTION_verb><ENTITY_nouny>筆墨</ENTITY_nouny><ACTION_verb>傳達</ACTION_verb>"
+                                "<ENTITY_person>但</ENTITY_person><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>想</ACTION_verb><ACTION_verb>藉</ACTION_verb><ENTITY_nouny>筆墨</ENTITY_nouny><ACTION_verb>傳達</ACTION_verb>"
                             ]
                         ]
                     },
@@ -212,13 +212,13 @@
                     {
                         "1:15": [
                             [
-                                "<ACTION_verb>願</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><MODIFIER>平</MODIFIER><as_Person>安</as_Person>"
+                                "<ACTION_verb>願</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><MODIFIER>平</MODIFIER><ENTITY_person>安</ENTITY_person>"
                             ],
                             [
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>朋友們</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>問候</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun>"
                             ],
                             [
-                                "<ACTION_verb>請</ACTION_verb><ACTION_verb>替</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_DetPhrase>各位</ENTITY_DetPhrase><ENTITY_noun>朋友</ENTITY_noun><ENTITY_num>一一</ENTITY_num><ACTION_verb>問</ACTION_verb><as_Person>安</as_Person>"
+                                "<ACTION_verb>請</ACTION_verb><ACTION_verb>替</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><ENTITY_DetPhrase>各位</ENTITY_DetPhrase><ENTITY_noun>朋友</ENTITY_noun><ENTITY_num>一一</ENTITY_num><ACTION_verb>問</ACTION_verb><ENTITY_person>安</ENTITY_person>"
                             ]
                         ]
                     }
