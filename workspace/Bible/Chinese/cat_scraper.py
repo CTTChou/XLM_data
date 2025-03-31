@@ -12,8 +12,16 @@ from time import sleep
 delPAT = re.compile(r"(?<= ).+畫(?= )|\([^\)]+\)")
 namePAT = re.compile(r"(?<=[a-z] )[^a-z]+(?= )")
 
-def main(url):
-    """"""
+def scrape_page(url):
+    """
+    擷取指定網址的名稱列表。
+
+    參數:
+        url (str): 目標網址。
+
+    回傳:
+        list: 從該頁面擷取的名稱列表。    
+    """
     nameLIST = []    
     
     response = requests.get(url)
@@ -35,29 +43,36 @@ def main(url):
     pprint(nameLIST)
     return nameLIST
 
+def main(categoryINT, lastINT):
+    """
+    爬取指定類別 (地名/人名) 的名稱並返回列表。
 
-if __name__ == "__main__":
-    locDICT = {"LOCATION": []}
-    personDICT = {"ENTITY_person": []}
+    參數:
+        categoryINT (int): 網頁分類 ID (6: 人名, 7: 地名)。
+        lastINT (int): 類別的總數量 (用於控制迴圈範圍)。
+
+    回傳:
+        list: 取得的名稱列表。    
+    """
+    nameLIST = []
     
     #找地名
-    #for i in range(0, 1170, 10):
-        #url = f"http://www.ch.fhl.net/xoops/modules/wordbook/category.php?categoryID=7&start={i}"
-        #print(i)        
-        #locLIST = main(url)
-        #locDICT["LOCATION"].extend(locLIST)
-        
-    #print(locDICT)
-    #with open("../../../data/Bible/Chinese/names/places.json", "w", encoding="utf-8") as f:
-        #json.dump(locDICT, f, ensure_ascii=False, indent=4)
+    for i in range(0, lastINT, 10):
+        url = f"http://www.ch.fhl.net/xoops/modules/wordbook/category.php?categoryID={categoryINT}&start={i}"
+        print(i)
+        nameLIST.extend(scrape_page(url))  
 
-    #找人名
-    for i in range(0, 1870, 10):
-        url = f"http://www.ch.fhl.net/xoops/modules/wordbook/category.php?categoryID=6&start={i}"
-        print(i)        
-        personLIST = main(url)
-        personDICT["ENTITY_person"].extend(personLIST)
-    
-    print(personDICT)
+    return nameLIST
+
+
+
+if __name__ == "__main__":
+    #找地名
+    locLIST = main(categoryINT=7, lastINT=1170)
+    with open("../../../data/Bible/Chinese/names/places.json", "w", encoding="utf-8") as f:
+        json.dump({"LOCATION": locLIST}, f, ensure_ascii=False, indent=4)
+        
+    #找人名        
+    perLIST = main(categoryINT=6, lastINT=1870)
     with open("../../../data/Bible/Chinese/names/persons.json", "w", encoding="utf-8") as f:
-        json.dump(personDICT, f, ensure_ascii=False, indent=4)    
+        json.dump({"ENTITY_person": perLIST}, f, ensure_ascii=False, indent=4)     
