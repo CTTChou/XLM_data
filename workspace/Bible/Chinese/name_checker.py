@@ -60,7 +60,7 @@ def extract_overlapping(comparedLIST, targetLIST, category):
             targetLIST.append(nameSTR)
     
     
-def adding_names(comparedLIST, locLIST, nounLIST):
+def adding_names(comparedLIST, locLIST, nounLIST, perLIST):
     """
     根據聖經經文檢查 `comparedLIST` 中的名稱是否應該加到 `locLIST` 或 `nounLIST` 中。
 
@@ -78,14 +78,16 @@ def adding_names(comparedLIST, locLIST, nounLIST):
            
     # 定義 location & noun 可能的後綴詞
     suffixDICT = {
-        "loc": ["鎮", "城", "河", "海", "山", "山脈", "平原", "谷"],
-        "noun": ["人", "王"]
+        #"loc": ["鎮", "城", "河", "海", "山", "山脈", "平原", "谷"],
+        #"noun": ["人"], 
+        "per": ["王"]
     }    
     
     # 儲存匹配到的名字
     havingDICT = {
         "loc": set(),
-        "noun": set()
+        "noun": set(),
+        "per": set()
     }
     
     #遍歷所有 "地名 + suffix"，檢查是否匹配聖經經文
@@ -93,13 +95,16 @@ def adding_names(comparedLIST, locLIST, nounLIST):
         for key, suffixLIST in suffixDICT.items():
             #如果 "地名"+"鎮" 也在 all_ChiBible.json，將 "xxx鎮" 放入 LOCATION                        
             #如果 "地名"+"人" 也在 all_ChiBible.json，將 "xxx人" 放入 ENTITY_noun
-            havingDICT.update(nameSTR + suffixSTR for suffixSTR in suffixLIST if (nameSTR + suffixSTR) in versesSTR)
+            for suffixSTR in suffixLIST:
+                combinedSTR = nameSTR + suffixSTR
+                if combinedSTR in versesSTR and combinedSTR not in f"{key}LIST":
+                    # 打印出匹配的 combined_name
+                    print(f"Adding {combinedSTR} to {key}")                    
+                    havingDICT[key].add(combinedSTR)             
                 
-    pprint(f"須添加的：{havingLIST}")    
-    print(f"和 all_ChiBible.json 的重疊數量：{len(havingLIST)}")
-
     locLIST.extend(havingDICT["loc"] - set(locLIST))    #如果 location 還不存在於 UserDefinedFile.json 就添加
-    nounLIST.extend(havingDICT["noun"] - set(nounLIST)) #如果 noun 還不存在於 UserDefinedFile.json 就添加        
+    nounLIST.extend(havingDICT["noun"] - set(nounLIST)) #如果 noun 還不存在於 UserDefinedFile.json 就添加
+    perLIST.extend(havingDICT["per"] - set(perLIST))    # 如果 per 還不存在於 UserDefinedFile.json 就添加
 
 if __name__ == "__main__":
     with open("../../../data/Bible/Chinese/UserDefinedFile.json", "r", encoding="utf-8") as f:
@@ -120,9 +125,8 @@ if __name__ == "__main__":
             comparedLIST = list(comparedDICT.values())[0]
             extract_overlapping(comparedLIST, targetLIST, category)
                 
-            if category == "place": #是地名的話，才檢查是否有 "地名"+"鎮" 類似的詞彙需添加
-                adding_names(comparedLIST, locLIST, nounLIST)
-                
+            #if category == "place": #是地名的話，才檢查是否有 "地名"+"鎮" 類似的詞彙需添加
+            adding_names(comparedLIST, locLIST, nounLIST, perLIST)
     
     with open("../../../data/Bible/Chinese/UserDefinedFile.json", "w", encoding="utf-8") as f:
         json.dump(userdefinedDICT, f, ensure_ascii=False, indent=4)
