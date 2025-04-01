@@ -6,7 +6,7 @@
                     {
                         "1:1": [
                             [
-                                "<FUNC_inner>以下</FUNC_inner><AUX>是</AUX><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>向</FUNC_inner><UserDefined>先知</UserDefined><UserDefined>哈巴谷</UserDefined><ENTITY_oov>啟示</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
+                                "<FUNC_inner>以下</FUNC_inner><AUX>是</AUX><RANGE_locality>上</RANGE_locality><ENTITY_oov>主</ENTITY_oov><FUNC_inner>向</FUNC_inner><ENTITY_noun>先知</ENTITY_noun><ENTITY_person>哈巴谷</ENTITY_person><ENTITY_oov>啟示</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -92,7 +92,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_lightVerb>使</ACTION_lightVerb><MODIFIER>凶猛</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_oov>殘暴</ENTITY_oov><FUNC_inner>的</FUNC_inner><UserDefined>巴比倫人</UserDefined><ENTITY_nouny>強盛</ENTITY_nouny><ACTION_verb>起來</ACTION_verb>"
+                                "<ENTITY_oov>殘暴</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_noun>巴比倫人</ENTITY_noun><ENTITY_nouny>強盛</ENTITY_nouny><ACTION_verb>起來</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><ACTION_verb>橫跨</ACTION_verb><LOCATION>世界</LOCATION>"
@@ -200,7 +200,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>保護</ACTION_verb><ENTITY_nounHead>者</ENTITY_nounHead><CLAUSE_particle>啊</CLAUSE_particle>"
                             ],
                             [
-                                "<ENTITY_pronoun>你</ENTITY_pronoun><VerbP>選擇了</VerbP><UserDefined>巴比倫人</UserDefined>"
+                                "<ENTITY_pronoun>你</ENTITY_pronoun><VerbP>選擇了</VerbP><ENTITY_noun>巴比倫人</ENTITY_noun>"
                             ],
                             [
                                 "<ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_nouny>強盛</ENTITY_nouny>"
@@ -254,7 +254,7 @@
                     {
                         "1:15": [
                             [
-                                "<UserDefined>巴比倫人</UserDefined><ACTION_verb>用</ACTION_verb><ENTITY_nouny>鉤子鉤</ENTITY_nouny><ENTITY_noun>人</ENTITY_noun>"
+                                "<ENTITY_noun>巴比倫人</ENTITY_noun><ACTION_verb>用</ACTION_verb><ENTITY_nouny>鉤子鉤</ENTITY_nouny><ENTITY_noun>人</ENTITY_noun>"
                             ],
                             [
                                 "<AUX>像</AUX><ACTION_verb>釣魚</ACTION_verb><MODIFIER>一樣</MODIFIER>"
@@ -642,7 +642,7 @@
                     {
                         "3:1": [
                             [
-                                "<FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><UserDefined>先知</UserDefined><UserDefined>哈巴谷</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>禱告</ENTITY_nouny>"
+                                "<FUNC_determiner>這</FUNC_determiner><AUX>是</AUX><ENTITY_noun>先知</ENTITY_noun><ENTITY_person>哈巴谷</ENTITY_person><FUNC_inner>的</FUNC_inner><ENTITY_nouny>禱告</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -668,10 +668,10 @@
                     {
                         "3:3": [
                             [
-                                "<ENTITY_oov>上帝</ENTITY_oov><ACTION_verb>要</ACTION_verb><MODIFIER>再</MODIFIER><FUNC_inner>從</FUNC_inner><UserDefined>以東</UserDefined><ACTION_verb>來</ACTION_verb>"
+                                "<ENTITY_oov>上帝</ENTITY_oov><ACTION_verb>要</ACTION_verb><MODIFIER>再</MODIFIER><FUNC_inner>從</FUNC_inner><LOCATION>以東</LOCATION><ACTION_verb>來</ACTION_verb>"
                             ],
                             [
-                                "<MODIFIER>神聖</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>上帝</ENTITY_nouny><ACTION_verb>要</ACTION_verb><FUNC_inner>從</FUNC_inner><UserDefined>巴蘭山</UserDefined><ACTION_verb>來</ACTION_verb>"
+                                "<MODIFIER>神聖</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>上帝</ENTITY_nouny><ACTION_verb>要</ACTION_verb><FUNC_inner>從</FUNC_inner><LOCATION>巴蘭山</LOCATION><ACTION_verb>來</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>榮耀</ENTITY_nouny><ACTION_verb>遮蓋</ACTION_verb><ENTITY_nouny>諸天</ENTITY_nouny>"
@@ -732,10 +732,10 @@
                     {
                         "3:7": [
                             [
-                                "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><UserDefined>古珊人</UserDefined><ENTITY_oov>恐懼</ENTITY_oov>"
+                                "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><ENTITY_noun>古珊人</ENTITY_noun><ENTITY_oov>恐懼</ENTITY_oov>"
                             ],
                             [
-                                "<UserDefined>米甸人</UserDefined><ACTION_verb>發抖</ACTION_verb>"
+                                "<ENTITY_noun>米甸人</ENTITY_noun><ACTION_verb>發抖</ACTION_verb>"
                             ]
                         ]
                     },
@@ -877,13 +877,13 @@
                     {
                         "3:17": [
                             [
-                                "<FUNC_inter>即使</FUNC_inter><UserDefined>無花果樹</UserDefined><FUNC_negation>不</FUNC_negation><ENTITY_nouny>結</ENTITY_nouny><ENTITY_noun>果子</ENTITY_noun>"
+                                "<FUNC_inter>即使</FUNC_inter><ENTITY_noun>無花果樹</ENTITY_noun><FUNC_negation>不</FUNC_negation><ENTITY_nouny>結</ENTITY_nouny><ENTITY_noun>果子</ENTITY_noun>"
                             ],
                             [
-                                "<UserDefined>葡萄樹</UserDefined><MODIFIER>也</MODIFIER><FUNC_negation>沒有</FUNC_negation><UserDefined>葡萄</UserDefined>"
+                                "<ENTITY_noun>葡萄樹</ENTITY_noun><MODIFIER>也</MODIFIER><FUNC_negation>沒有</FUNC_negation><ENTITY_noun>葡萄</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_inter>即使</FUNC_inter><UserDefined>橄欖樹</UserDefined><FUNC_negation>不</FUNC_negation><ACTION_verb>結</ACTION_verb><ENTITY_nouny>橄欖</ENTITY_nouny>"
+                                "<FUNC_inter>即使</FUNC_inter><ENTITY_noun>橄欖樹</ENTITY_noun><FUNC_negation>不</FUNC_negation><ACTION_verb>結</ACTION_verb><ENTITY_nouny>橄欖</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_oov>田地</ENTITY_oov><FUNC_negation>不</FUNC_negation><ENTITY_nouny>產</ENTITY_nouny><ENTITY_num>五</ENTITY_num><ENTITY_oov>榖</ENTITY_oov>"
