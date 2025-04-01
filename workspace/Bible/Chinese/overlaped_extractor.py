@@ -23,6 +23,7 @@ def main():
         userdefinedDICT = json.load(f)
         perLIST = userdefinedDICT["ENTITY_person"]
         locLIST = userdefinedDICT["LOCATION"]
+        nounLIST = userdefinedDICT["ENTITY_noun"]
     
     # 對每個 key 的 list 按長度排序    
     for keySTR in userdefinedDICT:
@@ -35,6 +36,16 @@ def main():
     for nameSTR in perLIST:
         if nameSTR in locLIST:
             overlapLIST.append(nameSTR)
+            
+    #可能漏編入字典的名字
+    with open("../../../data/Bible/Chinese/names/fhl_names.json", "r", encoding="utf-8") as f:
+        fhlDICT = json.load(f)
+        fhlnameLIST = fhlDICT["ENTITY_person"]
+    
+    print(f"可能漏編入字典的名字:")    
+    for nameSTR in fhlnameLIST:
+        if nameSTR not in perLIST and nameSTR not in locLIST and nameSTR not in nounLIST:
+            print(nameSTR)    
         
     return overlapLIST
 
