@@ -48,7 +48,7 @@ if __name__ == "__main__":
         json.dump({"LOCATION": locLIST}, f, ensure_ascii=False, indent=4)
     
     #人名
-    perLIST = main(categoryINT=7, lastINT=187)
+    perLIST = main(categoryINT=6, lastINT=187)
     with open("../../../data/Bible/English/names/persons.json", "w", encoding="utf-8") as f:
         json.dump({"ENTITY_person": perLIST}, f, ensure_ascii=False, indent=4)
 
