@@ -9,7 +9,7 @@ from pprint import pprint
 from requests import get
 from time import sleep
 
-def scrape_page(url):
+def scrape_page(url, categoryINT, i):
     """"""
     nameLIST = []
     
@@ -23,7 +23,32 @@ def scrape_page(url):
     for a in h4LIST:
         nameSTR = a.get_text()
         nameSTR = re.split(r'\s', nameSTR)[3]     #取得英文名字
-        nameLIST.append(nameSTR)    
+        if categoryINT == 7 and i <= 116:
+            if re.split(r'\s', nameSTR)[4] == "or":
+                nameLIST.append(re.split(r'\s', nameSTR)[3])
+                nameLIST.append(re.split(r'\s', nameSTR)[5])            
+            #nameSTR = re.split(r'\s', nameSTR)[3]     
+            #nameLIST.append(nameSTR)
+        if categoryINT == 7 and i == 117:
+            if re.split(r'\s', nameSTR)[3] == "or":
+                nameLIST.append(re.split(r'\s', nameSTR)[2])
+                nameLIST.append(re.split(r'\s', nameSTR)[4])
+            #nameSTR = re.split(r'\s', nameSTR)[2]     
+            #nameLIST.append(nameSTR)
+        elif categoryINT == 6 and i <= 165:
+            if re.split(r'\s', nameSTR)[4] == "or":
+                nameLIST.append(re.split(r'\s', nameSTR)[3])
+                nameLIST.append(re.split(r'\s', nameSTR)[5])            
+            #nameSTR = re.split(r'\s', nameSTR)[3]     
+            #nameLIST.append(nameSTR)
+        elif categoryINT == 6 and i > 165:
+            if re.split(r'\s', nameSTR)[3] == "or":
+                nameLIST.append(re.split(r'\s', nameSTR)[2])
+                nameLIST.append(re.split(r'\s', nameSTR)[4])
+            #nameSTR = re.split(r'\s', nameSTR)[2]     
+            #nameLIST.append(nameSTR)
+        else:
+            print("Check categoryINT:", categoryINT, ",page", i) 
     
     pprint(nameLIST)
     return nameLIST
