@@ -22,31 +22,22 @@ def scrape_page(url, categoryINT, i):
     h4LIST = soup.find_all('h4')                  #找網頁中所有h4
     for a in h4LIST:
         nameSTR = a.get_text()
-        nameSTR = re.split(r'\s', nameSTR)[3]     #取得英文名字
         if categoryINT == 7 and i <= 116:
-            if re.split(r'\s', nameSTR)[4] == "or":
-                nameLIST.append(re.split(r'\s', nameSTR)[3])
-                nameLIST.append(re.split(r'\s', nameSTR)[5])            
-            #nameSTR = re.split(r'\s', nameSTR)[3]     
-            #nameLIST.append(nameSTR)
-        if categoryINT == 7 and i == 117:
-            if re.split(r'\s', nameSTR)[3] == "or":
-                nameLIST.append(re.split(r'\s', nameSTR)[2])
-                nameLIST.append(re.split(r'\s', nameSTR)[4])
-            #nameSTR = re.split(r'\s', nameSTR)[2]     
-            #nameLIST.append(nameSTR)
+            nameSTR = re.split(r'\s', nameSTR)[3]     
+            nameLIST.append(nameSTR)
+        elif categoryINT == 7 and i == 117:
+            nameSTR = re.split(r'\s', nameSTR)[2]     
+            nameLIST.append(nameSTR)
         elif categoryINT == 6 and i <= 165:
-            if re.split(r'\s', nameSTR)[4] == "or":
-                nameLIST.append(re.split(r'\s', nameSTR)[3])
-                nameLIST.append(re.split(r'\s', nameSTR)[5])            
-            #nameSTR = re.split(r'\s', nameSTR)[3]     
-            #nameLIST.append(nameSTR)
+            nameSTR = re.split(r'\s', nameSTR)[3]     
+            nameLIST.append(nameSTR)
         elif categoryINT == 6 and i > 165:
             if re.split(r'\s', nameSTR)[3] == "or":
                 nameLIST.append(re.split(r'\s', nameSTR)[2])
                 nameLIST.append(re.split(r'\s', nameSTR)[4])
-            #nameSTR = re.split(r'\s', nameSTR)[2]     
-            #nameLIST.append(nameSTR)
+            else:
+                nameSTR = re.split(r'\s', nameSTR)[2]     
+                nameLIST.append(nameSTR)
         else:
             print("Check categoryINT:", categoryINT, ",page", i) 
     
