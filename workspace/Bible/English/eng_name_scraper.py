@@ -58,7 +58,7 @@ def main(categoryINT, lastINT):
     nameLIST = []
     for i in range(0, lastINT, 1):
         url = f"http://www.ch.fhl.net/xoops/modules/wordbook/category.php?categoryID={categoryINT}&start={i}0"
-        nameLIST.extend(scrape_page(url))
+        nameLIST.extend(scrape_page(url, categoryINT, i))
         if categoryINT == 7 :
             print("目前位置: LOCATION 第", i+1, "頁")
         if categoryINT == 6 :
