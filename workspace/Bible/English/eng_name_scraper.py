@@ -10,7 +10,17 @@ from requests import get
 from time import sleep
 
 def scrape_page(url, categoryINT, i):
-    """"""
+    """
+    擷取指定網址的名稱列表。
+
+    參數:
+        url (str): 目標網址。
+        categoryINT (int): 網頁分類 ID (6: 人名, 7: 地名)。
+        i (int): 網頁頁數。
+
+    回傳:
+        list: 從該頁面擷取的名稱列表。  
+    """
     nameLIST = []
     
     resp = get(url)
@@ -21,10 +31,10 @@ def scrape_page(url, categoryINT, i):
     
     h4LIST = soup.find_all('h4')                  #找網頁中所有h4
     for a in h4LIST:
-        nameSTR = a.get_text()
+        nameSTR = a.get_text()                    #擷取h4內文
         if categoryINT == 7 and i <= 116:
-            nameSTR = re.split(r'\s', nameSTR)[3]     
-            nameLIST.append(nameSTR)
+            nameSTR = re.split(r'\s', nameSTR)[3] #從擷取內文中找需要的英文名    
+            nameLIST.append(nameSTR)              #將找到的英文名添加到 nameLIST
         elif categoryINT == 7 and i == 117:
             nameSTR = re.split(r'\s', nameSTR)[2]     
             nameLIST.append(nameSTR)
@@ -45,7 +55,16 @@ def scrape_page(url, categoryINT, i):
     return nameLIST
 
 def main(categoryINT, lastINT):
-    """"""
+    """
+    爬取指定類別 (地名/人名) 的名稱並返回列表。
+
+    參數:
+        categoryINT (int): 網頁分類 ID (6: 人名, 7: 地名)。
+        lastINT (int): 類別的總數量 (用於控制迴圈範圍)。
+
+    回傳:
+        list: 取得的名稱列表。
+    """
     nameLIST = []
     for i in range(0, lastINT, 1):
         url = f"http://www.ch.fhl.net/xoops/modules/wordbook/category.php?categoryID={categoryINT}&start={i}0"
