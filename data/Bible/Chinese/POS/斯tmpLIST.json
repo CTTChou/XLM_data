@@ -35,7 +35,7 @@
             "<ENTITY_pronoun>他</ENTITY_pronoun><AUX>為</AUX><QUANTIFIER>所有</QUANTIFIER><FUNC_inner>的</FUNC_inner><MODIFIER>貴</MODIFIER><ENTITY_nounHead>族</ENTITY_nounHead><FUNC_conjunction>和</FUNC_conjunction><ENTITY_noun>行政</ENTITY_noun><ENTITY_nounHead>官員</ENTITY_nounHead><ACTION_verb>舉行</ACTION_verb><ASPECT>了</ASPECT><MODIFIER>大</MODIFIER><ENTITY_nounHead>宴會</ENTITY_nounHead>"
         ],
         [
-            "<UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>米底</ENTITY_nouny><ENTITY_nouny>亞</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>將領</ENTITY_nouny>"
+            "<UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><UserDefined>米底亞</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>將領</ENTITY_nouny>"
         ],
         [
             "<QUANTIFIER>各</QUANTIFIER><ENTITY_nouny>省</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nounHead>省長</ENTITY_nounHead>"
@@ -116,7 +116,7 @@
             "<FUNC_inner>在</FUNC_inner><ENTITY_nouny>王宮</ENTITY_nouny><RANGE_locality>裏</RANGE_locality>"
         ],
         [
-            "<ENTITY_person>王后華</ENTITY_person><ENTITY_nouny>實蒂</ENTITY_nouny><MODIFIER>也</MODIFIER><AUX>為</AUX><ENTITY_noun>婦女們</ENTITY_noun><ACTION_verb>舉行</ACTION_verb><ENTITY_nouny>宴會</ENTITY_nouny>"
+            "<ENTITY_oov>王后</ENTITY_oov><UserDefined>華實蒂</UserDefined><MODIFIER>也</MODIFIER><AUX>為</AUX><ENTITY_noun>婦女們</ENTITY_noun><ACTION_verb>舉行</ACTION_verb><ENTITY_nouny>宴會</ENTITY_nouny>"
         ]
     ],
     [
@@ -150,7 +150,7 @@
     ],
     [
         [
-            "<ACTION_verb>去</ACTION_verb><ACTION_verb>請</ACTION_verb><ENTITY_person>王后華</ENTITY_person><ENTITY_nouny>實蒂</ENTITY_nouny><ACTION_verb>戴</ACTION_verb><ASPECT>著</ASPECT><ENTITY_oov>后冠</ENTITY_oov><ACTION_verb>進來</ACTION_verb>"
+            "<ACTION_verb>去</ACTION_verb><ACTION_verb>請</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><UserDefined>華實蒂</UserDefined><ACTION_verb>戴</ACTION_verb><ASPECT>著</ASPECT><ENTITY_oov>后冠</ENTITY_oov><ACTION_verb>進來</ACTION_verb>"
         ],
         [
             "<ENTITY_oov>王后</ENTITY_oov><AUX>是</AUX><ENTITY_classifier>個</ENTITY_classifier><FUNC_degreeHead>非常</FUNC_degreeHead><MODIFIER>美麗</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>女人</ENTITY_noun>"
@@ -164,7 +164,7 @@
             "<FUNC_inter>可是</FUNC_inter>"
         ],
         [
-            "<ACTION_verb>當</ACTION_verb><FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_oov>監</ENTITY_oov><FUNC_inner>向</FUNC_inner><ENTITY_person>王后華</ENTITY_person><ENTITY_nouny>實蒂</ENTITY_nouny><ACTION_verb>傳達</ACTION_verb><ENTITY_pronoun>王</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>命令</ENTITY_nouny><FUNC_inner>時</FUNC_inner>"
+            "<ACTION_verb>當</ACTION_verb><FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_oov>監</ENTITY_oov><FUNC_inner>向</FUNC_inner><ENTITY_nouny>王后</ENTITY_nouny><UserDefined>華實蒂</UserDefined><ACTION_verb>傳達</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>命令</ENTITY_nouny><FUNC_inner>時</FUNC_inner>"
         ],
         [
             "<ENTITY_pronoun>她</ENTITY_pronoun><ACTION_verb>拒絕</ACTION_verb><ASPECT>了</ASPECT>"
@@ -213,10 +213,10 @@
             "<UserDefined>瑪西拿</UserDefined>"
         ],
         [
-            "<ENTITY_oov>米慕干</ENTITY_oov>"
+            "<UserDefined>米慕干</UserDefined>"
         ],
         [
-            "<FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>些</ENTITY_classifier><ENTITY_noun>人</ENTITY_noun><AUX>是</AUX><UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>米底</ENTITY_nouny><ENTITY_nouny>亞</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_classifier>七個</ENTITY_classifier><MODIFIER>大</MODIFIER><ENTITY_nounHead>臣</ENTITY_nounHead>"
+            "<FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>些</ENTITY_classifier><ENTITY_noun>人</ENTITY_noun><AUX>是</AUX><UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><UserDefined>米底亞</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_classifier>七個</ENTITY_classifier><MODIFIER>大</MODIFIER><ENTITY_nounHead>臣</ENTITY_nounHead>"
         ],
         [
             "<TIME_justtime>常常</TIME_justtime><ACTION_verb>接近</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny>"
@@ -233,7 +233,7 @@
             "<ENTITY_pronoun>我</ENTITY_pronoun>"
         ],
         [
-            "<UserDefined>亞哈隨魯王</UserDefined><ASPECT>曾經</ASPECT><ENTITY_oov>派</ENTITY_oov><FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_oov>監</ENTITY_oov><ACTION_verb>傳</ACTION_verb><ENTITY_nouny>令</ENTITY_nouny><ACTION_verb>給</ACTION_verb><ENTITY_person>王后華</ENTITY_person><ENTITY_nouny>實蒂</ENTITY_nouny>"
+            "<UserDefined>亞哈隨魯王</UserDefined><ASPECT>曾經</ASPECT><ENTITY_oov>派</ENTITY_oov><FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_oov>監</ENTITY_oov><ACTION_verb>傳</ACTION_verb><ENTITY_nouny>令</ENTITY_nouny><ACTION_verb>給</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><UserDefined>華實蒂</UserDefined>"
         ],
         [
             "<ENTITY_pronoun>她</ENTITY_pronoun><MODIFIER>竟</MODIFIER><ACTION_verb>拒絕</ACTION_verb><ACTION_verb>聽從</ACTION_verb>"
@@ -247,10 +247,10 @@
     ],
     [
         [
-            "<ENTITY_oov>米慕干</ENTITY_oov><FUNC_inner>對</FUNC_inner><ENTITY_nouny>王</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><MODIFIER>其他</MODIFIER><ENTITY_nounHead>官員</ENTITY_nounHead><ACTION_verb>說</ACTION_verb>"
+            "<UserDefined>米慕干</UserDefined><FUNC_inner>對</FUNC_inner><ENTITY_nouny>王</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><MODIFIER>其他</MODIFIER><ENTITY_nounHead>官員</ENTITY_nounHead><ACTION_verb>說</ACTION_verb>"
         ],
         [
-            "<ENTITY_person>王后華</ENTITY_person><ENTITY_nouny>實蒂</ENTITY_nouny><FUNC_negation>不</FUNC_negation><FUNC_inter>但</FUNC_inter><ACTION_verb>侮辱</ACTION_verb><ASPECT>了</ASPECT><ENTITY_oov>王</ENTITY_oov>"
+            "<ENTITY_oov>王后</ENTITY_oov><UserDefined>華實蒂</UserDefined><FUNC_negation>不</FUNC_negation><FUNC_inter>但</FUNC_inter><ACTION_verb>侮辱</ACTION_verb><ASPECT>了</ASPECT><ENTITY_oov>王</ENTITY_oov>"
         ],
         [
             "<MODIFIER>也</MODIFIER><ACTION_verb>侮辱</ACTION_verb><ASPECT>了</ASPECT><ENTITY_oov>王</ENTITY_oov><QUANTIFIER>各</QUANTIFIER><ENTITY_nouny>省</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>臣民</ENTITY_nouny>"
@@ -264,7 +264,7 @@
             "<ENTITY_pronoun>她們</ENTITY_pronoun><MODAL>會</MODAL><ACTION_verb>說</ACTION_verb>"
         ],
         [
-            "<UserDefined>亞哈隨魯王</UserDefined><ACTION_verb>命令</ACTION_verb><ENTITY_person>王后華</ENTITY_person><ENTITY_nouny>實蒂</ENTITY_nouny><ACTION_verb>去</ACTION_verb><ACTION_verb>見</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
+            "<UserDefined>亞哈隨魯王</UserDefined><ACTION_verb>命令</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><UserDefined>華實蒂</UserDefined><ACTION_verb>去</ACTION_verb><ACTION_verb>見</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
         ],
         [
             "<ENTITY_pronoun>她</ENTITY_pronoun><MODIFIER>竟</MODIFIER><ACTION_verb>拒絕</ACTION_verb><ASPECT>了</ASPECT>"
@@ -272,7 +272,7 @@
     ],
     [
         [
-            "<UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>米底</ENTITY_nouny><ENTITY_nouny>亞</ENTITY_nouny><FUNC_inner>的</FUNC_inner><MODIFIER>貴</MODIFIER><ENTITY_nounHead>婦們</ENTITY_nounHead><ENTITY_num>一</ENTITY_num><ACTION_verb>聽到</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>種</ENTITY_classifier><ENTITY_noun>行為</ENTITY_noun>"
+            "<UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><UserDefined>米底亞</UserDefined><FUNC_inner>的</FUNC_inner><MODIFIER>貴</MODIFIER><ENTITY_nounHead>婦們</ENTITY_nounHead><ENTITY_num>一</ENTITY_num><ACTION_verb>聽到</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>種</ENTITY_classifier><ENTITY_noun>行為</ENTITY_noun>"
         ],
         [
             "<FUNC_degreeHead>很</FUNC_degreeHead><MODIFIER>快</MODIFIER><FUNC_inner>就</FUNC_inner><MODAL>會</MODAL><ACTION_lightVerb>把</ACTION_lightVerb><FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>件</ENTITY_classifier><ENTITY_nouny>事</ENTITY_nouny><ACTION_verb>告訴</ACTION_verb><ENTITY_pronoun>她們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>丈夫</ENTITY_pronoun>"
@@ -292,13 +292,13 @@
             "<TIME_justtime>從今以後</TIME_justtime>"
         ],
         [
-            "<ENTITY_oov>華實蒂</ENTITY_oov><FUNC_negation>不</FUNC_negation><ACTION_verb>准</ACTION_verb><ACTION_verb>再見</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny>"
+            "<UserDefined>華實蒂</UserDefined><FUNC_negation>不</FUNC_negation><ACTION_verb>准</ACTION_verb><ACTION_verb>再見</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny>"
         ],
         [
             "<FUNC_inter>並且</FUNC_inter><ACTION_lightVerb>把</ACTION_lightVerb><FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>御旨</ENTITY_nouny><ACTION_verb>寫下</ACTION_verb><ACTION_verb>來</ACTION_verb>"
         ],
         [
-            "<ACTION_verb>定為</ACTION_verb><UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>米底</ENTITY_nouny><ENTITY_nouny>亞</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>法律</ENTITY_noun>"
+            "<ACTION_verb>定為</ACTION_verb><UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><UserDefined>米底亞</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>法律</ENTITY_noun>"
         ],
         [
             "<TIME_justtime>永遠</TIME_justtime><FUNC_negation>不</FUNC_negation><MODAL>得</MODAL><ACTION_verb>更改</ACTION_verb>"
@@ -329,7 +329,7 @@
             "<ENTITY_nouny>王</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>大</MODIFIER><ENTITY_nounHead>臣</ENTITY_nounHead><QUANTIFIER>都</QUANTIFIER><ACTION_verb>認為</ACTION_verb><FUNC_determiner>這</FUNC_determiner><ENTITY_noun>意見</ENTITY_noun><FUNC_degreeHead>很</FUNC_degreeHead><MODIFIER>好</MODIFIER>"
         ],
         [
-            "<FUNC_inner>就</FUNC_inner><ACTION_verb>照</ACTION_verb><ASPECT>著</ASPECT><ENTITY_oov>米慕干</ENTITY_oov><FUNC_inner>的</FUNC_inner><ACTION_verb>建議</ACTION_verb><ACTION_verb>做</ACTION_verb><ASPECT>了</ASPECT>"
+            "<FUNC_inner>就</FUNC_inner><ACTION_verb>照</ACTION_verb><ASPECT>著</ASPECT><UserDefined>米慕干</UserDefined><FUNC_inner>的</FUNC_inner><ACTION_verb>建議</ACTION_verb><ACTION_verb>做</ACTION_verb><ASPECT>了</ASPECT>"
         ]
     ],
     [
@@ -351,7 +351,7 @@
             "<ENTITY_nouny>王</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>怒氣</ENTITY_nouny><ACTION_verb>消</ACTION_verb><ASPECT>了</ASPECT>"
         ],
         [
-            "<FUNC_inner>就</FUNC_inner><TIME_justtime>一直</TIME_justtime><ACTION_verb>想念</ACTION_verb><ENTITY_nouny>華實蒂</ENTITY_nouny>"
+            "<FUNC_inner>就</FUNC_inner><TIME_justtime>一直</TIME_justtime><ACTION_verb>想念</ACTION_verb><UserDefined>華實蒂</UserDefined>"
         ],
         [
             "<FUNC_inner>又</FUNC_inner><ACTION_verb>想起</ACTION_verb><ENTITY_pronoun>她</ENTITY_pronoun><ACTION_verb>違抗</ACTION_verb><ACTION_verb>命令</ACTION_verb><FUNC_conjunction>和</FUNC_conjunction><ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>廢</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>事</ENTITY_nouny>"
@@ -390,7 +390,7 @@
             "<ENTITY_oov>立</ENTITY_oov><ACTION_verb>作</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny>"
         ],
         [
-            "<ACTION_verb>來</ACTION_verb><ACTION_verb>替代</ACTION_verb><ENTITY_nouny>華實蒂</ENTITY_nouny>"
+            "<ACTION_verb>來</ACTION_verb><ACTION_verb>替代</ACTION_verb><UserDefined>華實蒂</UserDefined>"
         ],
         [
             "<ENTITY_nouny>王</ENTITY_nouny><ACTION_verb>喜歡</ACTION_verb><FUNC_determiner>這</FUNC_determiner><ENTITY_classifier>個</ENTITY_classifier><ENTITY_nouny>建議</ENTITY_nouny>"
@@ -602,7 +602,7 @@
             "<ENTITY_oov>立</ENTITY_oov><ENTITY_pronoun>她</ENTITY_pronoun><AUX>為</AUX><ENTITY_nouny>后</ENTITY_nouny>"
         ],
         [
-            "<ACTION_verb>替代</ACTION_verb><ENTITY_nouny>華實蒂</ENTITY_nouny>"
+            "<ACTION_verb>替代</ACTION_verb><UserDefined>華實蒂</UserDefined>"
         ]
     ],
     [
@@ -2698,7 +2698,7 @@
             "<FUNC_conjunction>以及</FUNC_conjunction><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>提拔</ACTION_verb><UserDefined>末底改</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>事</ENTITY_nouny>"
         ],
         [
-            "<QUANTIFIER>都</QUANTIFIER><ACTION_verb>記載</ACTION_verb><FUNC_inner>在</FUNC_inner><UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>米底</ENTITY_nouny><ENTITY_nouny>亞王</ENTITY_nouny><FUNC_inner>的</FUNC_inner><MODIFIER>官方</MODIFIER><ENTITY_nounHead>史</ENTITY_nounHead><ACTION_verb>錄</ACTION_verb><RANGE_locality>上</RANGE_locality>"
+            "<QUANTIFIER>都</QUANTIFIER><ACTION_verb>記載</ACTION_verb><FUNC_inner>在</FUNC_inner><UserDefined>波斯</UserDefined><FUNC_conjunction>和</FUNC_conjunction><UserDefined>米底亞</UserDefined><ENTITY_oov>王</ENTITY_oov><FUNC_inner>的</FUNC_inner><MODIFIER>官方</MODIFIER><ENTITY_nounHead>史</ENTITY_nounHead><ACTION_verb>錄</ACTION_verb><RANGE_locality>上</RANGE_locality>"
         ]
     ],
     [

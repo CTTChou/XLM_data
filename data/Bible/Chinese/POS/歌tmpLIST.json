@@ -562,7 +562,7 @@
     ],
     [
         [
-            "<UserDefined>所羅門王</UserDefined><ACTION_verb>用</ACTION_verb><LOCATION>黎巴嫩</LOCATION><ENTITY_oov>木</ENTITY_oov>"
+            "<UserDefined>所羅門王</UserDefined><ACTION_verb>用</ACTION_verb><UserDefined>黎巴嫩</UserDefined><ENTITY_oov>木</ENTITY_oov>"
         ],
         [
             "<AUX>為</AUX><ENTITY_pronoun>自己</ENTITY_pronoun><ACTION_verb>製造</ACTION_verb><ENTITY_noun>車子</ENTITY_noun>"
@@ -699,10 +699,10 @@
             "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><MODIFIER>新</MODIFIER><ENTITY_nounHead>娘</ENTITY_nounHead>"
         ],
         [
-            "<ACTION_verb>請</ACTION_verb><FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>一起</MODIFIER><ACTION_verb>離開</ACTION_verb><LOCATION>黎巴嫩山</LOCATION>"
+            "<ACTION_verb>請</ACTION_verb><FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>一起</MODIFIER><ACTION_verb>離開</ACTION_verb><UserDefined>黎巴嫩山</UserDefined>"
         ],
         [
-            "<FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>一起</MODIFIER><FUNC_inner>從</FUNC_inner><LOCATION>黎巴嫩</LOCATION><ACTION_verb>下來</ACTION_verb>"
+            "<FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>一起</MODIFIER><FUNC_inner>從</FUNC_inner><UserDefined>黎巴嫩</UserDefined><ACTION_verb>下來</ACTION_verb>"
         ],
         [
             "<ACTION_verb>請</ACTION_verb><FUNC_inner>從</FUNC_inner><UserDefined>亞瑪拿山</UserDefined><RANGE_locality>頂</RANGE_locality>"
@@ -762,7 +762,7 @@
             "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>舌頭</ENTITY_nouny><ACTION_verb>有</ACTION_verb><ENTITY_nouny>蜜</ENTITY_nouny><ACTION_verb>有</ACTION_verb><ENTITY_nouny>奶</ENTITY_nouny>"
         ],
         [
-            "<ENTITY_pronoun>你</ENTITY_pronoun><ENTITY_nouny>衣裳</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>芬芳</ENTITY_nouny><MODIFIER>正</MODIFIER><AUX>像</AUX><LOCATION>黎巴嫩</LOCATION><FUNC_inner>的</FUNC_inner><ENTITY_nouny>香氣</ENTITY_nouny>"
+            "<ENTITY_pronoun>你</ENTITY_pronoun><ENTITY_nouny>衣裳</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>芬芳</ENTITY_nouny><MODIFIER>正</MODIFIER><AUX>像</AUX><UserDefined>黎巴嫩</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>香氣</ENTITY_nouny>"
         ]
     ],
     [
@@ -827,7 +827,7 @@
             "<AUX>是</AUX><IDIOM>滔滔不絕</IDIOM><FUNC_inner>的</FUNC_inner><ENTITY_nouny>流水</ENTITY_nouny>"
         ],
         [
-            "<AUX>是</AUX><FUNC_inner>從</FUNC_inner><LOCATION>黎巴嫩山</LOCATION><ACTION_verb>湧</ACTION_verb><ACTION_verb>流下來</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>溪水</ENTITY_nouny>"
+            "<AUX>是</AUX><FUNC_inner>從</FUNC_inner><UserDefined>黎巴嫩山</UserDefined><ACTION_verb>湧</ACTION_verb><ACTION_verb>流下來</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>溪水</ENTITY_nouny>"
         ]
     ],
     [
@@ -1090,7 +1090,7 @@
             "<MODIFIER>安</MODIFIER><ASPECT>在</ASPECT><ACTION_verb>煉</ACTION_verb><MODIFIER>淨</MODIFIER><FUNC_inner>的</FUNC_inner><MODIFIER_color>金</MODIFIER_color><ENTITY_nounHead>座</ENTITY_nounHead><RANGE_locality>上</RANGE_locality>"
         ],
         [
-            "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>儀表</ENTITY_nouny><AUX>像</AUX><LOCATION>黎巴嫩山</LOCATION><FUNC_degreeHead>那麼</FUNC_degreeHead><MODIFIER>雄偉</MODIFIER>"
+            "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>儀表</ENTITY_nouny><AUX>像</AUX><UserDefined>黎巴嫩山</UserDefined><FUNC_degreeHead>那麼</FUNC_degreeHead><MODIFIER>雄偉</MODIFIER>"
         ],
         [
             "<AUX>像</AUX><MODIFIER>高聳</MODIFIER><FUNC_inner>的</FUNC_inner><UserDefined>香柏樹</UserDefined>"
@@ -1286,7 +1286,7 @@
             "<ENTITY_oov>舞</ENTITY_oov><CLAUSE_particle>吧</CLAUSE_particle>"
         ],
         [
-            "<ENTITY_noun>書</ENTITY_noun><ACTION_verb>拉</ACTION_verb><ENTITY_nouny>蜜</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>女子</ENTITY_noun><CLAUSE_particle>啊</CLAUSE_particle>"
+            "<UserDefined>書拉蜜</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>女子</ENTITY_noun><CLAUSE_particle>啊</CLAUSE_particle>"
         ],
         [
             "<ENTITY_pronoun>你</ENTITY_pronoun><ENTITY_nouny>舞蹈</ENTITY_nouny><CLAUSE_particle>吧</CLAUSE_particle>"
@@ -1345,7 +1345,7 @@
             "<ACTION_verb>靠近</ACTION_verb><FUNC_determiner>那</FUNC_determiner><MODIFIER>著名</MODIFIER><ENTITY_noun>城市</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>門邊</ENTITY_nouny>"
         ],
         [
-            "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>鼻子</ENTITY_noun><AUX>像</AUX><LOCATION>黎巴嫩</LOCATION><ENTITY_nounHead>塔</ENTITY_nounHead><FUNC_degreeHead>那麼</FUNC_degreeHead><MODIFIER>可愛</MODIFIER>"
+            "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>鼻子</ENTITY_noun><AUX>像</AUX><UserDefined>黎巴嫩</UserDefined><ENTITY_oov>塔</ENTITY_oov><FUNC_degreeHead>那麼</FUNC_degreeHead><MODIFIER>可愛</MODIFIER>"
         ],
         [
             "<ACTION_verb>朝</ACTION_verb><ASPECT>著</ASPECT><UserDefined>大馬士革</UserDefined><ACTION_verb>屹立</ACTION_verb>"
