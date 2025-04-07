@@ -77,7 +77,7 @@
                                 "<ENTITY_pronoun>他們</ENTITY_pronoun><ASPECT>曾</ASPECT><FUNC_inner>向</FUNC_inner><FUNC_determiner>這</FUNC_determiner><RANGE_locality>裏</RANGE_locality><FUNC_inner>的</FUNC_inner><ACTION_verb>教會</ACTION_verb><ACTION_verb>提起</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>愛心</ENTITY_nouny>"
                             ],
                             [
-                                "<ACTION_verb>請</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>照</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny><FUNC_inner>所</FUNC_inner><ACTION_verb>喜歡</ACTION_verb><FUNC_inner>的</FUNC_inner>"
+                                "<ACTION_verb>請</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_verb>照</ACTION_verb><ENTITY_noun>上帝</ENTITY_noun><FUNC_inner>所</FUNC_inner><ACTION_verb>喜歡</ACTION_verb><FUNC_inner>的</FUNC_inner>"
                             ],
                             [
                                 "<ACTION_verb>幫助</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>繼續</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>旅程</ENTITY_noun>"
@@ -163,13 +163,13 @@
                                 "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><ACTION_verb>有</ACTION_verb><FUNC_degreeHead>好</FUNC_degreeHead><ENTITY_noun>行為</ENTITY_noun>"
                             ],
                             [
-                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><FUNC_inner>就</FUNC_inner><AUX>是</AUX><ACTION_verb>屬</ACTION_verb><ENTITY_nouny>上帝</ENTITY_nouny>"
+                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><FUNC_inner>就</FUNC_inner><AUX>是</AUX><ACTION_verb>屬</ACTION_verb><ENTITY_noun>上帝</ENTITY_noun>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><ACTION_verb>作</ACTION_verb><ENTITY_nouny>惡</ENTITY_nouny>"
                             ],
                             [
-                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><FUNC_inner>就</FUNC_inner><AUX>是</AUX><FUNC_negation>沒有</FUNC_negation><ACTION_verb>見</ACTION_verb><ASPECT>過</ASPECT><ENTITY_oov>上帝</ENTITY_oov>"
+                                "<CLAUSE_WhoQ>誰</CLAUSE_WhoQ><FUNC_inner>就</FUNC_inner><AUX>是</AUX><FUNC_negation>沒有</FUNC_negation><ACTION_verb>見</ACTION_verb><ASPECT>過</ASPECT><ENTITY_noun>上帝</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -195,7 +195,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>還</FUNC_inner><ACTION_verb>有</ACTION_verb><QUANTIFIER>許多</QUANTIFIER><ENTITY_nouny>話</ENTITY_nouny><ACTION_verb>要</ACTION_verb><ACTION_verb>告訴</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_person>但</ENTITY_person><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>想</ACTION_verb><ACTION_verb>藉</ACTION_verb><ENTITY_nouny>筆墨</ENTITY_nouny><ACTION_verb>傳達</ACTION_verb>"
+                                "<FUNC_inter>但</FUNC_inter><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>想</ACTION_verb><ACTION_verb>藉</ACTION_verb><ENTITY_nouny>筆墨</ENTITY_nouny><ACTION_verb>傳達</ACTION_verb>"
                             ]
                         ]
                     },
@@ -212,13 +212,13 @@
                     {
                         "1:15": [
                             [
-                                "<ACTION_verb>願</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><MODIFIER>平</MODIFIER><ENTITY_person>安</ENTITY_person>"
+                                "<ACTION_verb>願</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><MODIFIER>平安</MODIFIER>"
                             ],
                             [
                                 "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>朋友們</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>問候</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun>"
                             ],
                             [
-                                "<ACTION_verb>請</ACTION_verb><ACTION_verb>替</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><QUANTIFIER>各</QUANTIFIER><ENTITY_classifier>位</ENTITY_classifier><ENTITY_noun>朋友</ENTITY_noun><ENTITY_num>一一</ENTITY_num><ACTION_verb>問</ACTION_verb><ENTITY_person>安</ENTITY_person>"
+                                "<ACTION_verb>請</ACTION_verb><ACTION_verb>替</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>向</FUNC_inner><QUANTIFIER>各</QUANTIFIER><ENTITY_classifier>位</ENTITY_classifier><ENTITY_noun>朋友</ENTITY_noun><ENTITY_num>一一</ENTITY_num><ACTION_verb>問</ACTION_verb><MODIFIER>安</MODIFIER>"
                             ]
                         ]
                     }
