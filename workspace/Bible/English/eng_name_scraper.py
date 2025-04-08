@@ -9,6 +9,8 @@ from pprint import pprint
 from requests import get
 from time import sleep
 
+namePAT = re.compile(r"[A-Za-z][A-Za-z \，()\-]*")
+
 def scrape_page(url, categoryINT, i):
     """
     擷取指定網址的名稱列表。
@@ -31,25 +33,14 @@ def scrape_page(url, categoryINT, i):
     
     h4LIST = soup.find_all('h4')                  #找網頁中所有h4
     for a in h4LIST:
-        nameSTR = a.get_text()                    #擷取h4內文
-        if categoryINT == 7 and i <= 116:
-            nameSTR = re.split(r'\s', nameSTR)[3] #從擷取內文中找需要的英文名    
-            nameLIST.append(nameSTR)              #將找到的英文名添加到 nameLIST
-        elif categoryINT == 7 and i == 117:
-            nameSTR = re.split(r'\s', nameSTR)[2]     
+
+        aSTR = a.get_text()
+        aLIST = []
+        aLIST.append(aSTR)
+        for nameSTR in aLIST:
+            nameSTR = ''.join(re.findall(namePAT, nameSTR))  #找到英文部分
+            nameSTR = re.sub(r"\s+$", "", nameSTR)           #添加到nameLIST
             nameLIST.append(nameSTR)
-        elif categoryINT == 6 and i <= 165:
-            nameSTR = re.split(r'\s', nameSTR)[3]     
-            nameLIST.append(nameSTR)
-        elif categoryINT == 6 and i > 165:
-            if re.split(r'\s', nameSTR)[3] == "or":
-                nameLIST.append(re.split(r'\s', nameSTR)[2])
-                nameLIST.append(re.split(r'\s', nameSTR)[4])
-            else:
-                nameSTR = re.split(r'\s', nameSTR)[2]     
-                nameLIST.append(nameSTR)
-        else:
-            print("Check categoryINT:", categoryINT, ",page", i) 
     
     pprint(nameLIST)
     return nameLIST
