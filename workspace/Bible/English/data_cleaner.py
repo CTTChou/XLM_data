@@ -19,7 +19,7 @@ def main(placesDICT, processLIST):
     #for nameSTR in personsDICT["ENTITY_person"]:
     for nameSTR in placesDICT["LOCATION"]:
         split_namesSTR = re.split(splitPAT, nameSTR)     #將名字切開為獨立string
-        nameSTR = re.sub(r"\)|\，", "", nameSTR)         
+        nameSTR = re.sub(r"\)", "", nameSTR)         
         processLIST.extend([s.strip() for s in split_namesSTR if s.strip()])
     
     #personsDICT["ENTITY_person"] = processLIST           #更新原始檔案
