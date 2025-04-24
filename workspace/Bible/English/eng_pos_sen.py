@@ -11,7 +11,7 @@ from glob import glob
 url = "http://127.0.0.1:8999"
 
 
-def articutEN(inputSTR: str) -> list:
+def articutEN(inputSTR: str, userDefined) -> list:
     """
     使用 Articut 英文版 StandardAPI 對輸入的文字進行詞性標記 (POS)。
     
@@ -24,7 +24,8 @@ def articutEN(inputSTR: str) -> list:
     payload = {
         "username":"",
         "api_key": "",
-        "input_str": inputSTR
+        "input_str": inputSTR,
+        "userDefiinedDICT": userDefined
     }    
    
     #response = post(url, json=payload).json()
@@ -159,6 +160,8 @@ if __name__ == "__main__":
 
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
     #main(jsonFILE, articutEN)
+    
+    userDefined = "../../../data/Bible/English/UserDefinedFILE.json"
     
     segment_folder = "../../../data/Bible/English/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
