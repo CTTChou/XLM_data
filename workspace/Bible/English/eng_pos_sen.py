@@ -89,7 +89,7 @@ def main(jsonFILE, flename, articutEN):
                             tmp_index = len(tmpLIST)
                             for s_l in (all_split_senLIST[tmp_index:]):
                                 for item_s in s_l:                                   
-                                    resultDICT = articutEN(item_s)
+                                    resultDICT = articutEN(item_s, userDefined)
                                     print(resultDICT)
                                     result_posLIST = resultDICT["result_pos"]
                                     print(result_posLIST)   
