@@ -25,7 +25,7 @@ def articutEN(inputSTR: str, userDefined) -> list:
        "username":"",
        "api_key": "",
        "input_str": inputSTR,
-       "userDefiinedDICT": userDefined
+       "userDefinedDICT": userDefined
     }    
    
     #response = post(url, json=payload).json()
@@ -34,7 +34,7 @@ def articutEN(inputSTR: str, userDefined) -> list:
     return response
 
 
-def main(jsonFILE, flename, articutEN):
+def main(jsonFILE, filename, articutEN):
     """
     處理指定的 JSON 聖經檔案，將經文分段並使用 英文版Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
 
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
     #main(jsonFILE, articutEN)
     
-    userDefined = "../../../data/Bible/English/UserDefinedFILE.json"
+    userDefined = "../../../data/Bible/English/UserDefinedFile.json"
     
     segment_folder = "../../../data/Bible/English/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
