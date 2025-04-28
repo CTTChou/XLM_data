@@ -25,7 +25,9 @@ def articutEN(inputSTR: str, userDefined) -> list:
         "username":"",
         "api_key": "",
         "input_str": inputSTR,
-        "userDefinedDICT": userDefined
+        "data": {
+            "userDefinedDICT": userDefined
+            }
     }    
    
     #response = post(url, json=payload).json()
