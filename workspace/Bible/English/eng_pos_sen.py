@@ -25,8 +25,8 @@ def articutEN(inputSTR: str, userDefined) -> list:
         "username":"",
         "api_key": "",
         "input_str": inputSTR,
-        "data": {
-            "userDefinedDICT": userDefined
+        "user_defined_dict_file": {
+            userDefined
             }
     }    
    
