@@ -161,7 +161,9 @@ if __name__ == "__main__":
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
     #main(jsonFILE, articutEN)
     
-    userDefined = "../../../data/Bible/English/UserDefinedFile.json"
+    userDefinedFILE = "../../../data/Bible/English/UserDefinedFile.json"
+    with open(userDefinedFILE, "r", encoding="utf-8") as f:
+        userDefined =json.load(f) 
     
     segment_folder = "../../../data/Bible/English/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
