@@ -17,6 +17,7 @@ def articutEN(inputSTR: str, userDefined) -> list:
     
     參數:
         inputSTR (str): 需要進行詞性標記的英文文字。
+        userDefined (dict)：使用自定義字典。
     
     回傳:
         list: 詞性標記後的結果，返回 result_pos 內容。
@@ -25,7 +26,7 @@ def articutEN(inputSTR: str, userDefined) -> list:
        "username":"",
        "api_key": "",
        "input_str": inputSTR,
-       "userDefinedDICT": userDefined
+       "user_defined_dict_file": userDefined
     }    
    
     #response = post(url, json=payload).json()
@@ -161,7 +162,9 @@ if __name__ == "__main__":
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
     #main(jsonFILE, articutEN)
     
-    userDefined = "../../../data/Bible/English/UserDefinedFile.json"
+    userDefinedFILE = "../../../data/Bible/English/UserDefinedFile.json"
+    with open(userDefinedFILE, "r", encoding="utf-8") as f:
+        userDefined =json.load(f)     
     
     segment_folder = "../../../data/Bible/English/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")

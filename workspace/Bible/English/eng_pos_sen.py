@@ -17,6 +17,7 @@ def articutEN(inputSTR: str, userDefined) -> list:
     
     參數:
         inputSTR (str): 需要進行詞性標記的英文文字。
+        userDefined (dict)：使用自定義字典。
     
     回傳:
         list: 詞性標記後的結果，返回 result_pos 內容。
