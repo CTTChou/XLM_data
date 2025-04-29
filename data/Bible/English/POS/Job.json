@@ -6,10 +6,10 @@
                     {
                         "1:1": [
                             [
-                                "<LOCATION>There</LOCATION> <AUX>was</AUX> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>man</ENTITY_nouny> <ACTION_verb>named</ACTION_verb> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<LOCATION>There</LOCATION> <AUX>was</AUX> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>man</ENTITY_nouny> <ACTION_verb>named</ACTION_verb> <UserDefined>Job</UserDefined>"
                             ],
                             [
-                                "<VerbP>living in</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>land</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Uz</ENTITY_oov>"
+                                "<VerbP>living in</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>land</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <UserDefined>Uz</UserDefined>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <MODIFIER>worshiped</MODIFIER> <ENTITY_nouny>God</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <AUX>was</AUX> <MODIFIER>faithful</MODIFIER> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>him</ENTITY_pronoun>"
@@ -67,7 +67,7 @@
                                 "<FUNC_determiner>The</FUNC_determiner> <TIME_justtime>morning</TIME_justtime> <RANGE_period>after</RANGE_period> <QUANTIFIER>each</QUANTIFIER> <ENTITY_noun>feast</ENTITY_noun>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <MODAL>would</MODAL> <VerbP>get up</VerbP> <MODIFIER>early</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>offer</MODIFIER> <ENTITY_oov>sacrifices</ENTITY_oov> <FUNC_inner>for</FUNC_inner> <QUANTIFIER>each</QUANTIFIER> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_pronoun>children</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <ENTITY_noun>order</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>purify</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>"
+                                "<UserDefined>Job</UserDefined> <MODAL>would</MODAL> <VerbP>get up</VerbP> <MODIFIER>early</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>offer</MODIFIER> <ENTITY_oov>sacrifices</ENTITY_oov> <FUNC_inner>for</FUNC_inner> <QUANTIFIER>each</QUANTIFIER> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_pronoun>children</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <ENTITY_noun>order</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>purify</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>"
                             ],
                             [
                                 "<ENTITY_pronoun>He</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>did</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <FUNC_inter>because</FUNC_inter> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>thought</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>one</ENTITY_pronoun> <FUNC_inner>of</FUNC_inner> <ENTITY_pronoun>them</ENTITY_pronoun> <MODAL>might</MODAL> <ACTION_verb>have</ACTION_verb> <MODIFIER>sinned</MODIFIER> <FUNC_inner>by</FUNC_inner> <ACTION_verb>insulting</ACTION_verb> <ENTITY_oov>God</ENTITY_oov> <MODIFIER>unintentionally</MODIFIER>"
@@ -106,7 +106,7 @@
                     {
                         "1:8": [
                             [
-                                "<CLAUSE_YesNoQ>Did</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>notice</ACTION_verb> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>servant</ENTITY_nouny> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<CLAUSE_YesNoQ>Did</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>notice</ACTION_verb> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>servant</ENTITY_nouny> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>asked</ACTION_verb>"
@@ -125,7 +125,7 @@
                                 "<ENTITY_nouny>Satan</ENTITY_nouny> <ACTION_verb>replied</ACTION_verb>"
                             ],
                             [
-                                "<MODAL>Would</MODAL> <ENTITY_oov>Job</ENTITY_oov> <ENTITY_nouny>worship</ENTITY_nouny> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inter>if</FUNC_inter> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>got</ACTION_verb> <FUNC_negation>nothing</FUNC_negation> <RANGE_locality>out</RANGE_locality> <FUNC_inner>of</FUNC_inner> <ENTITY_pronoun>it</ENTITY_pronoun>"
+                                "<MODAL>Would</MODAL> <UserDefined>Job</UserDefined> <ENTITY_nouny>worship</ENTITY_nouny> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inter>if</FUNC_inter> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>got</ACTION_verb> <FUNC_negation>nothing</FUNC_negation> <RANGE_locality>out</RANGE_locality> <FUNC_inner>of</FUNC_inner> <ENTITY_pronoun>it</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -163,10 +163,10 @@
                                 "<ENTITY_nouny>everything</ENTITY_nouny> <ENTITY_pronoun>he</ENTITY_pronoun> <ENTITY_nouny>has</ENTITY_nouny> <AUX>is</AUX> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>power</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>must</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>hurt</ACTION_verb> <ENTITY_oov>Job</ENTITY_oov> <ENTITY_pronoun>himself</ENTITY_pronoun>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>must</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>hurt</ACTION_verb> <UserDefined>Job</UserDefined> <ENTITY_pronoun>himself</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_inter>So</FUNC_inter> <ENTITY_nouny>Satan</ENTITY_nouny> <ACTION_verb>left</ACTION_verb>"
+                                "<UserDefined>So</UserDefined> <ENTITY_nouny>Satan</ENTITY_nouny> <ACTION_verb>left</ACTION_verb>"
                             ]
                         ]
                     },
@@ -180,7 +180,7 @@
                     {
                         "1:14": [
                             [
-                                "<FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>messenger</ENTITY_nouny> <ACTION_verb>came</ACTION_verb> <VerbP>running to</VerbP> <LOCATION>Job</LOCATION>"
+                                "<FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>messenger</ENTITY_nouny> <ACTION_verb>came</ACTION_verb> <VerbP>running to</VerbP> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <AUX>were</AUX> <ACTION_verb>plowing</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>fields</ENTITY_nouny> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>oxen</ENTITY_nouny>"
@@ -273,7 +273,7 @@
                     {
                         "1:20": [
                             [
-                                "<FUNC_inter>Then</FUNC_inter> <ENTITY_oov>Job</ENTITY_oov> <VerbP>got up</VerbP> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>tore</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>clothes</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_oov>grief</ENTITY_oov>"
+                                "<FUNC_inter>Then</FUNC_inter> <UserDefined>Job</UserDefined> <VerbP>got up</VerbP> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>tore</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>clothes</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_oov>grief</ENTITY_oov>"
                             ],
                             [
                                 "<ENTITY_pronoun>He</ENTITY_pronoun> <ACTION_verb>shaved</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>head</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>threw</ACTION_verb> <ENTITY_pronoun>himself</ENTITY_pronoun> <ACTION_verb>face</ACTION_verb> <FUNC_inner>downward</FUNC_inner> <RANGE_locality>on</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>ground</ENTITY_noun>"
@@ -308,7 +308,7 @@
                                 "<RANGE_locality>In</RANGE_locality> <ENTITY_noun>spite</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_nouny>everything</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <ASPECT>had</ASPECT> <ACTION_verb>happened</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>did</ACTION_verb> <FUNC_negation>not</FUNC_negation> <ENTITY_oov>sin</ENTITY_oov> <FUNC_inner>by</FUNC_inner> <ENTITY_nouny>blaming</ENTITY_nouny> <ENTITY_oov>God</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>did</ACTION_verb> <FUNC_negation>not</FUNC_negation> <ENTITY_oov>sin</ENTITY_oov> <FUNC_inner>by</FUNC_inner> <ENTITY_nouny>blaming</ENTITY_nouny> <ENTITY_oov>God</ENTITY_oov>"
                             ]
                         ]
                     }
@@ -348,7 +348,7 @@
                     {
                         "2:3": [
                             [
-                                "<CLAUSE_YesNoQ>Did</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>notice</ACTION_verb> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>servant</ENTITY_nouny> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<CLAUSE_YesNoQ>Did</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>notice</ACTION_verb> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>servant</ENTITY_nouny> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>asked</ACTION_verb>"
@@ -363,7 +363,7 @@
                                 "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>persuaded</ACTION_verb> <ENTITY_pronoun>me</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_lightVerb>let</ACTION_lightVerb> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>attack</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>for</FUNC_inner> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>reason</ENTITY_noun> <FUNC_inner>at</FUNC_inner> <QUANTIFIER>all</QUANTIFIER>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <ENTITY_oov>Job</ENTITY_oov> <AUX>is</AUX> <MODIFIER>still</MODIFIER> <FUNC_inner>as</FUNC_inner> <MODIFIER>faithful</MODIFIER> <FUNC_inner>as</FUNC_inner> <MODIFIER>ever</MODIFIER>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <UserDefined>Job</UserDefined> <AUX>is</AUX> <MODIFIER>still</MODIFIER> <FUNC_inner>as</FUNC_inner> <MODIFIER>faithful</MODIFIER> <FUNC_inner>as</FUNC_inner> <MODIFIER>ever</MODIFIER>"
                             ]
                         ]
                     },
@@ -389,7 +389,7 @@
                     {
                         "2:6": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>said</ACTION_verb> <FUNC_inner>to</FUNC_inner> <LOCATION>Satan</LOCATION>"
+                                "<UserDefined>So</UserDefined> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>said</ACTION_verb> <FUNC_inner>to</FUNC_inner> <LOCATION>Satan</LOCATION>"
                             ],
                             [
                                 "<QUANTIFIER>All</QUANTIFIER> <MODIFIER>right</MODIFIER>"
@@ -412,7 +412,7 @@
                     {
                         "2:8": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>went</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <TIME_week>sat</TIME_week> <FUNC_inner>by</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>garbage</ENTITY_nouny> <ACTION_verb>dump</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>took</ACTION_verb> <ENTITY_classifier>a piece of</ENTITY_classifier> <MODIFIER>broken</MODIFIER> <ENTITY_nouny>pottery</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <ENTITY_oov>scrape</ENTITY_oov> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>sores</ENTITY_nouny>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>went</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <TIME_week>sat</TIME_week> <FUNC_inner>by</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>garbage</ENTITY_nouny> <ACTION_verb>dump</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>took</ACTION_verb> <ENTITY_classifier>a piece of</ENTITY_classifier> <MODIFIER>broken</MODIFIER> <ENTITY_nouny>pottery</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <ENTITY_oov>scrape</ENTITY_oov> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>sores</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -435,7 +435,7 @@
                     {
                         "2:10": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>answered</ACTION_verb>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>answered</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>You</ENTITY_pronoun> <AUX>are</AUX> <ACTION_verb>talking</ACTION_verb> <MODIFIER>nonsense</MODIFIER>"
@@ -450,32 +450,32 @@
                                 "<CLAUSE_HowQ>How</CLAUSE_HowQ> <MODAL>can</MODAL> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>complain</ACTION_verb> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>sends</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <ACTION_verb>trouble</ACTION_verb>"
                             ],
                             [
-                                "<MODIFIER>Even</MODIFIER> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>this</FUNC_determiner> <MODIFIER>suffering</MODIFIER> <ENTITY_noun>Job</ENTITY_noun> <ACTION_verb>said</ACTION_verb> <FUNC_negation>nothing</FUNC_negation> <FUNC_inner>against</FUNC_inner> <ENTITY_oov>God</ENTITY_oov>"
+                                "<MODIFIER>Even</MODIFIER> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>this</FUNC_determiner> <MODIFIER>suffering</MODIFIER> <UserDefined>Job</UserDefined> <ACTION_verb>said</ACTION_verb> <FUNC_negation>nothing</FUNC_negation> <FUNC_inner>against</FUNC_inner> <ENTITY_oov>God</ENTITY_oov>"
                             ]
                         ]
                     },
                     {
                         "2:11": [
                             [
-                                "<ENTITY_num>Three</ENTITY_num> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>Job's</ENTITY_possessive> <ENTITY_nouny>friends</ENTITY_nouny> <AUX>were</AUX> <ENTITY_oov>Eliphaz</ENTITY_oov>"
+                                "<ENTITY_num>Three</ENTITY_num> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>Job's</ENTITY_possessive> <ENTITY_nouny>friends</ENTITY_nouny> <AUX>were</AUX> <UserDefined>Eliphaz</UserDefined>"
                             ],
                             [
-                                "<FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>city</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_nouny>Teman</ENTITY_nouny>"
+                                "<FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>city</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <UserDefined>Teman</UserDefined>"
                             ],
                             [
-                                "<ENTITY_nouny>Bildad</ENTITY_nouny>"
+                                "<UserDefined>Bildad</UserDefined>"
                             ],
                             [
-                                "<FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>land</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Shuah</ENTITY_oov>"
+                                "<FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>land</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <UserDefined>Shuah</UserDefined>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>Zophar</ENTITY_oov>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <UserDefined>Zophar</UserDefined>"
                             ],
                             [
-                                "<FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>land</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Naamah</ENTITY_oov>"
+                                "<FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>land</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <UserDefined>Naamah</UserDefined>"
                             ],
                             [
-                                "<CLAUSE_WhenQ>When</CLAUSE_WhenQ> <ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>heard</ACTION_verb> <CLAUSE_HowQ>how</CLAUSE_HowQ> <QUANTIFIER>much</QUANTIFIER> <ENTITY_oov>Job</ENTITY_oov> <ASPECT>had</ASPECT> <AUX>been</AUX> <ACTION_verb>suffering</ACTION_verb>"
+                                "<CLAUSE_WhenQ>When</CLAUSE_WhenQ> <ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>heard</ACTION_verb> <CLAUSE_HowQ>how</CLAUSE_HowQ> <QUANTIFIER>much</QUANTIFIER> <UserDefined>Job</UserDefined> <ASPECT>had</ASPECT> <AUX>been</AUX> <ACTION_verb>suffering</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>decided</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ACTION_verb>go</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>comfort</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun>"
@@ -485,7 +485,7 @@
                     {
                         "2:12": [
                             [
-                                "<FUNC_inter>While</FUNC_inter> <ENTITY_pronoun>they</ENTITY_pronoun> <AUX>were</AUX> <MODIFIER>still</MODIFIER> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>long</MODIFIER> <ENTITY_nouny>way</ENTITY_nouny> <FUNC_inner>off</FUNC_inner> <ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>saw</ACTION_verb> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<FUNC_inter>While</FUNC_inter> <ENTITY_pronoun>they</ENTITY_pronoun> <AUX>were</AUX> <MODIFIER>still</MODIFIER> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>long</MODIFIER> <ENTITY_nouny>way</ENTITY_nouny> <FUNC_inner>off</FUNC_inner> <ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>saw</ACTION_verb> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>but</FUNC_conjunction> <MODAL>did</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>recognize</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun>"
@@ -518,7 +518,7 @@
                     {
                         "3:1": [
                             [
-                                "<FUNC_inter>Finally</FUNC_inter> <ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>broke</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>silence</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>cursed</MODIFIER> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_locality>on</RANGE_locality> <CLAUSE_WhichQ>which</CLAUSE_WhichQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ASPECT>had</ASPECT> <AUX>been</AUX> <ACTION_verb>born</ACTION_verb>"
+                                "<FUNC_inter>Finally</FUNC_inter> <UserDefined>Job</UserDefined> <ACTION_verb>broke</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>silence</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>cursed</MODIFIER> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_locality>on</RANGE_locality> <CLAUSE_WhichQ>which</CLAUSE_WhichQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ASPECT>had</ASPECT> <AUX>been</AUX> <ACTION_verb>born</ACTION_verb>"
                             ]
                         ]
                     },
@@ -785,7 +785,7 @@
                     {
                         "4:1": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<CLAUSE_YesNoQ>will</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <AUX>be</AUX> <ACTION_verb>annoyed</ACTION_verb> <FUNC_inter>if</FUNC_inter> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>speak</ACTION_verb>"
@@ -798,7 +798,7 @@
                     {
                         "4:2": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<CLAUSE_YesNoQ>will</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <AUX>be</AUX> <ACTION_verb>annoyed</ACTION_verb> <FUNC_inter>if</FUNC_inter> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>speak</ACTION_verb>"
@@ -1017,7 +1017,7 @@
                                 "<VerbP>Call out</VerbP>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>See</ACTION_verb> <FUNC_inter>if</FUNC_inter> <ENTITY_oov>anyone</ENTITY_oov> <ACTION_verb>answers</ACTION_verb>"
@@ -1281,7 +1281,7 @@
                     {
                         "5:27": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>we</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>learned</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <FUNC_inner>by</FUNC_inner> <MODIFIER>long</MODIFIER> <ENTITY_nouny>study</ENTITY_nouny>"
@@ -1486,7 +1486,7 @@
                     {
                         "6:19": [
                             [
-                                "<ENTITY_oov>Caravans</ENTITY_oov> <FUNC_inner>from</FUNC_inner> <ENTITY_person>Sheba</ENTITY_person> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_person>Tema</ENTITY_person> <ACTION_verb>search</ACTION_verb>"
+                                "<ENTITY_oov>Caravans</ENTITY_oov> <FUNC_inner>from</FUNC_inner> <UserDefined>Sheba</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <UserDefined>Tema</UserDefined> <ACTION_verb>search</ACTION_verb>"
                             ]
                         ]
                     },
@@ -2219,7 +2219,7 @@
                                 "<ENTITY_possessive>God's</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny> <AUX>is</AUX> <MODIFIER>constant</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_pronoun>He</ENTITY_pronoun> <ACTION_verb>crushed</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>enemies</ENTITY_nouny> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>helped</ACTION_verb> <ENTITY_oov>Rahab</ENTITY_oov>"
+                                "<ENTITY_pronoun>He</ENTITY_pronoun> <ACTION_verb>crushed</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>enemies</ENTITY_nouny> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>helped</ACTION_verb> <UserDefined>Rahab</UserDefined>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>sea</ENTITY_nouny> <ENTITY_nouny>monster</ENTITY_nouny>"
@@ -2232,7 +2232,7 @@
                     {
                         "9:14": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <CLAUSE_HowQ>how</CLAUSE_HowQ> <MODAL>can</MODAL> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>find</ACTION_verb> <ENTITY_oov>words</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>answer</ACTION_verb> <ENTITY_oov>God</ENTITY_oov>"
+                                "<UserDefined>So</UserDefined> <CLAUSE_HowQ>how</CLAUSE_HowQ> <MODAL>can</MODAL> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>find</ACTION_verb> <ENTITY_oov>words</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>answer</ACTION_verb> <ENTITY_oov>God</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -2764,7 +2764,7 @@
                     {
                         "11:3": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>do</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>think</ACTION_verb> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>can</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>answer</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
@@ -2867,10 +2867,10 @@
                     {
                         "11:13": [
                             [
-                                "<ACTION_verb>Put</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>heart</ENTITY_noun> <MODIFIER>right</MODIFIER>"
+                                "<UserDefined>Put</UserDefined> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>heart</ENTITY_noun> <MODIFIER>right</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<VerbP>Reach out to</VerbP> <LOCATION>God</LOCATION>"
@@ -2880,7 +2880,7 @@
                     {
                         "11:14": [
                             [
-                                "<VerbP>Put away</VerbP> <MODIFIER>evil</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>wrong</MODIFIER> <FUNC_inner>from</FUNC_inner> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>home</ENTITY_nouny>"
+                                "<UserDefined>Put</UserDefined> <MODIFIER>away</MODIFIER> <MODIFIER>evil</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>wrong</MODIFIER> <FUNC_inner>from</FUNC_inner> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>home</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -3804,7 +3804,7 @@
                                 "<ACTION_verb>Empty</ACTION_verb> <ENTITY_oov>words</ENTITY_oov>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>Empty</ACTION_verb> <ENTITY_oov>words</ENTITY_oov>"
@@ -3817,7 +3817,7 @@
                                 "<ACTION_verb>Empty</ACTION_verb> <ENTITY_oov>words</ENTITY_oov>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>Empty</ACTION_verb> <ENTITY_oov>words</ENTITY_oov>"
@@ -3975,7 +3975,7 @@
                                 "<TIME_justtime>Now</TIME_justtime> <ACTION_verb>listen</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_inner>to</FUNC_inner> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb>"
@@ -4577,7 +4577,7 @@
                     {
                         "18:1": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<MODAL>can</MODAL> <FUNC_negation>not</FUNC_negation> <ENTITY_noun>people</ENTITY_noun> <ACTION_verb>like</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>ever</MODIFIER> <AUX>be</AUX> <MODIFIER>quiet</MODIFIER>"
@@ -4593,7 +4593,7 @@
                     {
                         "18:2": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<MODAL>can</MODAL> <FUNC_negation>not</FUNC_negation> <ENTITY_noun>people</ENTITY_noun> <ACTION_verb>like</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>ever</MODIFIER> <AUX>be</AUX> <MODIFIER>quiet</MODIFIER>"
@@ -5084,7 +5084,7 @@
                     {
                         "20:1": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>upset</ACTION_verb> <ENTITY_pronoun>me</ENTITY_pronoun>"
@@ -5097,7 +5097,7 @@
                     {
                         "20:2": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>upset</ACTION_verb> <ENTITY_pronoun>me</ENTITY_pronoun>"
@@ -5815,7 +5815,7 @@
                     {
                         "22:10": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <TIME_justtime>now</TIME_justtime> <LOCATION>there</LOCATION> <AUX>are</AUX> <ENTITY_oov>pitfalls</ENTITY_oov> <QUANTIFIER>all</QUANTIFIER> <FUNC_inner>around</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<UserDefined>So</UserDefined> <TIME_justtime>now</TIME_justtime> <LOCATION>there</LOCATION> <AUX>are</AUX> <ENTITY_oov>pitfalls</ENTITY_oov> <QUANTIFIER>all</QUANTIFIER> <FUNC_inner>around</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>suddenly</MODIFIER> <ENTITY_pronoun>you</ENTITY_pronoun> <AUX>are</AUX> <MODIFIER>full</MODIFIER> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>fear</ENTITY_noun>"
@@ -5923,7 +5923,7 @@
                                 "<TIME_justtime>Now</TIME_justtime>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>make</ACTION_verb> <ENTITY_noun>peace</ENTITY_noun> <FUNC_inner>with</FUNC_inner> <ENTITY_oov>God</ENTITY_oov> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>stop</ACTION_verb> <ACTION_verb>treating</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <ACTION_verb>like</ACTION_verb> <FUNC_determiner>an</FUNC_determiner> <ENTITY_nouny>enemy</ENTITY_nouny>"
@@ -6266,7 +6266,7 @@
                     {
                         "24:5": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>poor</ENTITY_noun>"
+                                "<UserDefined>So</UserDefined> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>poor</ENTITY_noun>"
                             ],
                             [
                                 "<AUX>like</AUX> <MODIFIER>wild</MODIFIER> <ENTITY_nouny>donkeys</ENTITY_nouny>"
@@ -6669,7 +6669,7 @@
                                 "<ENTITY_pronoun>It</ENTITY_pronoun> <AUX>is</AUX> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>strength</ENTITY_noun> <FUNC_determiner>that</FUNC_determiner> <ACTION_verb>conquered</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>sea</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_inner>by</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>skill</ENTITY_noun> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>destroyed</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>monster</ENTITY_nouny> <ENTITY_oov>Rahab</ENTITY_oov>"
+                                "<FUNC_inner>by</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>skill</ENTITY_noun> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>destroyed</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>monster</ENTITY_nouny> <UserDefined>Rahab</UserDefined>"
                             ]
                         ]
                     },
@@ -7204,7 +7204,7 @@
                     {
                         "29:1": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>began</ACTION_verb> <ACTION_verb>speaking</ACTION_verb> <MODIFIER>again</MODIFIER>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>began</ACTION_verb> <ACTION_verb>speaking</ACTION_verb> <MODIFIER>again</MODIFIER>"
                             ]
                         ]
                     },
@@ -8112,7 +8112,7 @@
                                 "<TIME_month>may</TIME_month> <ENTITY_oov>weeds</ENTITY_oov> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>thistles</ENTITY_oov> <ACTION_verb>grow</ACTION_verb>"
                             ],
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_classifier>words of</ENTITY_classifier> <ENTITY_oov>Job</ENTITY_oov> <AUX>are</AUX> <ACTION_verb>ended</ACTION_verb>"
+                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_classifier>words of</ENTITY_classifier> <UserDefined>Job</UserDefined> <AUX>are</AUX> <ACTION_verb>ended</ACTION_verb>"
                             ]
                         ]
                     }
@@ -8123,7 +8123,7 @@
                     {
                         "32:1": [
                             [
-                                "<FUNC_inter>Because</FUNC_inter> <ENTITY_oov>Job</ENTITY_oov> <AUX>was</AUX> <ACTION_verb>convinced</ACTION_verb> <FUNC_inner>of</FUNC_inner> <MODIFIER>his own</MODIFIER> <ENTITY_nouny>innocence</ENTITY_nouny>"
+                                "<FUNC_inter>Because</FUNC_inter> <UserDefined>Job</UserDefined> <AUX>was</AUX> <ACTION_verb>convinced</ACTION_verb> <FUNC_inner>of</FUNC_inner> <MODIFIER>his own</MODIFIER> <ENTITY_nouny>innocence</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_num>three</ENTITY_num> <ENTITY_nouny>men</ENTITY_nouny> <VerbP>gave up</VerbP> <ACTION_verb>trying</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ACTION_verb>answer</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun>"
@@ -8133,19 +8133,19 @@
                     {
                         "32:2": [
                             [
-                                "<FUNC_conjunction>But</FUNC_conjunction> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>bystander</ENTITY_nouny> <ACTION_verb>named</ACTION_verb> <ENTITY_oov>Elihu</ENTITY_oov> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>control</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny> <QUANTIFIER>any</QUANTIFIER> <MODIFIER>longer</MODIFIER>"
+                                "<FUNC_conjunction>But</FUNC_conjunction> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>bystander</ENTITY_nouny> <ACTION_verb>named</ACTION_verb> <UserDefined>Elihu</UserDefined> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>control</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny> <QUANTIFIER>any</QUANTIFIER> <MODIFIER>longer</MODIFIER>"
                             ],
                             [
-                                "<FUNC_inter>because</FUNC_inter> <ENTITY_oov>Job</ENTITY_oov> <AUX>was</AUX> <ACTION_verb>justifying</ACTION_verb> <ENTITY_pronoun>himself</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_nouny>blaming</ENTITY_nouny> <ENTITY_oov>God</ENTITY_oov>"
+                                "<FUNC_inter>because</FUNC_inter> <UserDefined>Job</UserDefined> <AUX>was</AUX> <ACTION_verb>justifying</ACTION_verb> <ENTITY_pronoun>himself</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_nouny>blaming</ENTITY_nouny> <ENTITY_oov>God</ENTITY_oov>"
                             ],
                             [
-                                "<ENTITY_oov>Elihu</ENTITY_oov> <AUX>was</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_pronoun>son</ENTITY_pronoun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Barakel</ENTITY_oov>"
+                                "<UserDefined>Elihu</UserDefined> <AUX>was</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_pronoun>son</ENTITY_pronoun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Barakel</ENTITY_oov>"
                             ],
                             [
-                                "<FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>descendant</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Buz</ENTITY_oov>"
+                                "<FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>descendant</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <UserDefined>Buz</UserDefined>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <VerbP>belonged to</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>clan</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>Ram</ENTITY_noun>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <VerbP>belonged to</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>clan</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <UserDefined>Ram</UserDefined>"
                             ]
                         ]
                     },
@@ -8155,7 +8155,7 @@
                                 "<ENTITY_pronoun>He</ENTITY_pronoun> <AUX>was</AUX> <MODIFIER>also</MODIFIER> <MODIFIER>angry</MODIFIER> <FUNC_inner>with</FUNC_inner> <ENTITY_possessive>Job's</ENTITY_possessive> <ENTITY_num>three</ENTITY_num> <ENTITY_nouny>friends</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>They</ENTITY_pronoun> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>find</ACTION_verb> <QUANTIFIER>any</QUANTIFIER> <ENTITY_oov>way</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>answer</ACTION_verb> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<ENTITY_pronoun>They</ENTITY_pronoun> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>find</ACTION_verb> <QUANTIFIER>any</QUANTIFIER> <ENTITY_oov>way</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>answer</ACTION_verb> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>this</FUNC_determiner> <ACTION_verb>made</ACTION_verb> <ENTITY_pronoun>it</ENTITY_pronoun> <ACTION_verb>appear</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_nouny>God</ENTITY_nouny> <AUX>was</AUX> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>wrong</ENTITY_noun>"
@@ -8165,7 +8165,7 @@
                     {
                         "32:4": [
                             [
-                                "<FUNC_inter>Because</FUNC_inter> <ENTITY_oov>Elihu</ENTITY_oov> <AUX>was</AUX> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>youngest</MODIFIER> <ENTITY_pronoun>one</ENTITY_pronoun> <LOCATION>there</LOCATION>"
+                                "<FUNC_inter>Because</FUNC_inter> <UserDefined>Elihu</UserDefined> <AUX>was</AUX> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>youngest</MODIFIER> <ENTITY_pronoun>one</ENTITY_pronoun> <LOCATION>there</LOCATION>"
                             ],
                             [
                                 "<ENTITY_pronoun>he</ENTITY_pronoun> <ASPECT>had</ASPECT> <ACTION_verb>waited</ACTION_verb> <RANGE_period>until</RANGE_period> <ENTITY_oov>everyone</ENTITY_oov> <ACTION_verb>finished</ACTION_verb> <ACTION_verb>speaking</ACTION_verb>"
@@ -8175,7 +8175,7 @@
                     {
                         "32:5": [
                             [
-                                "<CLAUSE_WhenQ>When</CLAUSE_WhenQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>saw</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_num>three</ENTITY_num> <ENTITY_nouny>men</ENTITY_nouny> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>answer</ACTION_verb> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<CLAUSE_WhenQ>When</CLAUSE_WhenQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>saw</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_num>three</ENTITY_num> <ENTITY_nouny>men</ENTITY_nouny> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>answer</ACTION_verb> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>he</ENTITY_pronoun> <AUX>was</AUX> <MODIFIER>angry</MODIFIER>"
@@ -8225,7 +8225,7 @@
                     {
                         "32:10": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <TIME_justtime>now</TIME_justtime> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>want</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>listen</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>me</ENTITY_pronoun>"
+                                "<UserDefined>So</UserDefined> <TIME_justtime>now</TIME_justtime> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>want</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>listen</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>me</ENTITY_pronoun>"
                             ],
                             [
                                 "<ACTION_lightVerb>let</ACTION_lightVerb> <ENTITY_pronoun>me</ENTITY_pronoun> <ACTION_verb>tell</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>think</ACTION_verb>"
@@ -8245,7 +8245,7 @@
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>paid</ACTION_verb> <MODIFIER>close</MODIFIER> <ENTITY_nouny>attention</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>heard</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>fail</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_pronoun>you</ENTITY_pronoun> <ASPECT>have</ASPECT> <FUNC_negation>not</FUNC_negation> <ACTION_verb>disproved</ACTION_verb> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <ENTITY_oov>Job</ENTITY_oov> <ASPECT>has</ASPECT> <ACTION_verb>said</ACTION_verb>"
+                                "<ENTITY_pronoun>you</ENTITY_pronoun> <ASPECT>have</ASPECT> <FUNC_negation>not</FUNC_negation> <ACTION_verb>disproved</ACTION_verb> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <UserDefined>Job</UserDefined> <ASPECT>has</ASPECT> <ACTION_verb>said</ACTION_verb>"
                             ]
                         ]
                     },
@@ -8255,7 +8255,7 @@
                                 "<CLAUSE_HowQ>How</CLAUSE_HowQ> <MODAL>can</MODAL> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>claim</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>discovered</ACTION_verb> <ENTITY_nouny>wisdom</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_oov>God</ENTITY_oov> <MODAL>must</MODAL> <ACTION_verb>answer</ACTION_verb> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<ENTITY_oov>God</ENTITY_oov> <MODAL>must</MODAL> <ACTION_verb>answer</ACTION_verb> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>failed</ACTION_verb>"
@@ -8265,7 +8265,7 @@
                     {
                         "32:14": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <AUX>was</AUX> <VerbP>speaking to</VerbP> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<UserDefined>Job</UserDefined> <AUX>was</AUX> <VerbP>speaking to</VerbP> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
                                 "<FUNC_negation>not</FUNC_negation> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>me</ENTITY_pronoun>"
@@ -8281,7 +8281,7 @@
                                 "<ENTITY_oov>Words</ENTITY_oov> <ASPECT>have</ASPECT> <ACTION_verb>failed</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>have</ACTION_verb> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>answer</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
@@ -8368,7 +8368,7 @@
                                 "<FUNC_conjunction>And</FUNC_conjunction> <TIME_justtime>now</TIME_justtime>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>listen</ACTION_verb> <MODIFIER>carefully</MODIFIER> <FUNC_inner>to</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>I</ENTITY_pronoun> <MODAL>have</MODAL> <FUNC_inner>to</FUNC_inner> <ACTION_verb>say</ACTION_verb>"
@@ -8422,7 +8422,7 @@
                     {
                         "33:7": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>have</ACTION_verb> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>reason</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>fear</ACTION_verb> <ENTITY_pronoun>me</ENTITY_pronoun>"
+                                "<UserDefined>So</UserDefined> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>have</ACTION_verb> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>reason</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>fear</ACTION_verb> <ENTITY_pronoun>me</ENTITY_pronoun>"
                             ],
                             [
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <MODAL>will</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>overpower</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
@@ -8472,7 +8472,7 @@
                                 "<FUNC_conjunction>But</FUNC_conjunction> <ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>tell</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <AUX>are</AUX> <MODIFIER>wrong</MODIFIER>"
@@ -8670,7 +8670,7 @@
                                 "<TIME_justtime>Now</TIME_justtime>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>listen</ACTION_verb> <FUNC_inner>to</FUNC_inner> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <ENTITY_pronoun>I</ENTITY_pronoun> <AUX>am</AUX> <ACTION_verb>saying</ACTION_verb>"
@@ -8756,7 +8756,7 @@
                     {
                         "34:5": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>claims</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <AUX>is</AUX> <MODIFIER>innocent</MODIFIER>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>claims</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <AUX>is</AUX> <MODIFIER>innocent</MODIFIER>"
                             ],
                             [
                                 "<FUNC_determiner>that</FUNC_determiner> <ENTITY_nouny>God</ENTITY_nouny> <ACTION_verb>refuses</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ACTION_verb>give</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <ENTITY_nouny>justice</ENTITY_nouny>"
@@ -8782,7 +8782,7 @@
                     {
                         "34:7": [
                             [
-                                "<CLAUSE_YesNoQ>Have</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>ever</MODIFIER> <ACTION_verb>seen</ACTION_verb> <ENTITY_oov>anyone</ENTITY_oov> <ACTION_verb>like</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>man</ENTITY_nouny> <ENTITY_oov>Job</ENTITY_oov>"
+                                "<CLAUSE_YesNoQ>Have</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>ever</MODIFIER> <ACTION_verb>seen</ACTION_verb> <ENTITY_oov>anyone</ENTITY_oov> <ACTION_verb>like</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>man</ENTITY_nouny> <UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>He</ENTITY_pronoun> <FUNC_negation>never</FUNC_negation> <ACTION_verb>shows</ACTION_verb> <ENTITY_noun>respect</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_oov>God</ENTITY_oov>"
@@ -8995,7 +8995,7 @@
                     {
                         "34:31": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<CLAUSE_YesNoQ>have</CLAUSE_YesNoQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>confessed</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>sins</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <LOCATION>God</LOCATION> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>promised</ACTION_verb> <FUNC_negation>not</FUNC_negation> <FUNC_inner>to</FUNC_inner> <ENTITY_oov>sin</ENTITY_oov> <MODIFIER>again</MODIFIER>"
@@ -9044,14 +9044,14 @@
                     {
                         "34:35": [
                             [
-                                "<FUNC_determiner>that</FUNC_determiner> <ENTITY_nouny>Job</ENTITY_nouny> <AUX>is</AUX> <ACTION_verb>speaking</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_nouny>ignorance</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>that</FUNC_determiner> <FUNC_negation>nothing</FUNC_negation> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>says</ACTION_verb> <ENTITY_oov>makes</ENTITY_oov> <ENTITY_nouny>sense</ENTITY_nouny> "
+                                "<FUNC_determiner>that</FUNC_determiner> <UserDefined>Job</UserDefined> <AUX>is</AUX> <ACTION_verb>speaking</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_nouny>ignorance</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>that</FUNC_determiner> <FUNC_negation>nothing</FUNC_negation> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>says</ACTION_verb> <ENTITY_oov>makes</ENTITY_oov> <ENTITY_nouny>sense</ENTITY_nouny> "
                             ]
                         ]
                     },
                     {
                         "34:36": [
                             [
-                                "<VerbP>Think through</VerbP> <ENTITY_nouny>everything</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>Job</ENTITY_noun> <ACTION_verb>says</ACTION_verb>"
+                                "<VerbP>Think through</VerbP> <ENTITY_nouny>everything</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <UserDefined>Job</UserDefined> <ACTION_verb>says</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>will</MODAL> <ACTION_verb>see</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>talks</ACTION_verb> <AUX>like</AUX> <FUNC_determiner>an</FUNC_determiner> <MODIFIER>evil</MODIFIER> <ENTITY_nouny>man</ENTITY_nouny>"
@@ -9078,7 +9078,7 @@
                                 "<ENTITY_pronoun>It</ENTITY_pronoun> <AUX>is</AUX> <FUNC_negation>not</FUNC_negation> <MODIFIER>right</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>say</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>you</ENTITY_pronoun> <AUX>are</AUX> <MODIFIER>innocent</MODIFIER> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>God's</ENTITY_possessive> <ENTITY_noun>sight</ENTITY_noun>"
@@ -9091,7 +9091,7 @@
                                 "<ENTITY_pronoun>It</ENTITY_pronoun> <AUX>is</AUX> <FUNC_negation>not</FUNC_negation> <MODIFIER>right</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>say</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>you</ENTITY_pronoun> <AUX>are</AUX> <MODIFIER>innocent</MODIFIER> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>God's</ENTITY_possessive> <ENTITY_noun>sight</ENTITY_noun>"
@@ -9229,7 +9229,7 @@
                     {
                         "35:14": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>say</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>can</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>see</ACTION_verb> <ENTITY_oov>God</ENTITY_oov>"
@@ -9720,7 +9720,7 @@
                                 "<ACTION_verb>Pause</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>moment</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>listen</ACTION_verb>"
@@ -9843,7 +9843,7 @@
                     {
                         "38:1": [
                             [
-                                "<FUNC_inter>Then</FUNC_inter> <FUNC_inner>out of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>storm</ENTITY_noun> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <VerbP>spoke to</VerbP> <LOCATION>Job</LOCATION>"
+                                "<FUNC_inter>Then</FUNC_inter> <FUNC_inner>out of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>storm</ENTITY_noun> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <VerbP>spoke to</VerbP> <UserDefined>Job</UserDefined>"
                             ]
                         ]
                     },
@@ -9937,7 +9937,7 @@
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>told</ACTION_verb> <ENTITY_pronoun>it</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_inter>So</FUNC_inter> <MODIFIER>far</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_negation>no</FUNC_negation> <MODIFIER>farther</MODIFIER>"
+                                "<UserDefined>So</UserDefined> <MODIFIER>far</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_negation>no</FUNC_negation> <MODIFIER>farther</MODIFIER>"
                             ],
                             [
                                 "<LOCATION>Here</LOCATION> <ENTITY_possessive>your</ENTITY_possessive> <MODIFIER>powerful</MODIFIER> <ENTITY_nouny>waves</ENTITY_nouny> <MODAL>must</MODAL> <ACTION_verb>stop</ACTION_verb>"
@@ -9947,7 +9947,7 @@
                     {
                         "38:12": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>have</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>ever</MODIFIER> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>all</QUANTIFIER> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <ACTION_verb>commanded</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <TIME_day>day</TIME_day> <FUNC_inner>to</FUNC_inner> <TIME_justtime>dawn</TIME_justtime>"
@@ -10154,7 +10154,7 @@
                     {
                         "38:36": [
                             [
-                                "<CLAUSE_WhoQ>Who</CLAUSE_WhoQ> <ACTION_verb>tells</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>ibis</ENTITY_nouny> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Nile</ENTITY_noun> <MODAL>will</MODAL> <ACTION_verb>flood</ACTION_verb>"
+                                "<CLAUSE_WhoQ>Who</CLAUSE_WhoQ> <ACTION_verb>tells</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>ibis</ENTITY_nouny> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Nile</UserDefined> <MODAL>will</MODAL> <ACTION_verb>flood</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_conjunction>or</FUNC_conjunction> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>tells</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>rooster</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>rain</ENTITY_noun> <MODAL>will</MODAL> <TIME_season>fall</TIME_season>"
@@ -10377,7 +10377,7 @@
                                 "<CLAUSE_YesNoQ>Was</CLAUSE_YesNoQ> <ENTITY_pronoun>it</ENTITY_pronoun> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>made</ACTION_verb> <ENTITY_oov>horses</ENTITY_oov> <ModifierP>so strong</ModifierP> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>gave</MODIFIER> <ENTITY_pronoun>them</ENTITY_pronoun> <ENTITY_possessive>their</ENTITY_possessive> <ENTITY_nouny>flowing</ENTITY_nouny> <ENTITY_oov>manes</ENTITY_oov>"
@@ -10492,7 +10492,7 @@
                     {
                         "40:1": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>challenged</ACTION_verb> <ENTITY_oov>Almighty</ENTITY_oov> <ENTITY_oov>God</ENTITY_oov>"
@@ -10508,7 +10508,7 @@
                     {
                         "40:2": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov>"
+                                "<UserDefined>Job</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>challenged</ACTION_verb> <ENTITY_oov>Almighty</ENTITY_oov> <ENTITY_oov>God</ENTITY_oov>"
@@ -10563,7 +10563,7 @@
                     {
                         "40:6": [
                             [
-                                "<FUNC_inter>Then</FUNC_inter> <FUNC_inner>out of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>storm</ENTITY_noun> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <VerbP>spoke to</VerbP> <LOCATION>Job</LOCATION> <MODIFIER>once</MODIFIER> <MODIFIER>again</MODIFIER>"
+                                "<FUNC_inter>Then</FUNC_inter> <FUNC_inner>out of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>storm</ENTITY_noun> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <VerbP>spoke to</VerbP> <UserDefined>Job</UserDefined> <MODIFIER>once</MODIFIER> <MODIFIER>again</MODIFIER>"
                             ]
                         ]
                     },
@@ -10729,7 +10729,7 @@
                                 "<ENTITY_pronoun>He</ENTITY_pronoun> <AUX>is</AUX> <FUNC_negation>not</FUNC_negation> <MODIFIER>afraid</MODIFIER> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>rushing</MODIFIER> <ENTITY_nouny>river</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>he</ENTITY_pronoun> <AUX>is</AUX> <ENTITY_noun>calm</ENTITY_noun> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <FUNC_determiner>the</FUNC_determiner> <LOCATION>Jordan</LOCATION> <ACTION_verb>dashes</ACTION_verb> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>face</ENTITY_noun>"
+                                "<ENTITY_pronoun>he</ENTITY_pronoun> <AUX>is</AUX> <ENTITY_noun>calm</ENTITY_noun> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Jordan</UserDefined> <ACTION_verb>dashes</ACTION_verb> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>face</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -11067,7 +11067,7 @@
                     {
                         "42:1": [
                             [
-                                "<FUNC_inter>Then</FUNC_inter> <ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>answered</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun>"
+                                "<FUNC_inter>Then</FUNC_inter> <UserDefined>Job</UserDefined> <ACTION_verb>answered</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -11120,17 +11120,17 @@
                     {
                         "42:6": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>I</ENTITY_pronoun> <AUX>am</AUX> <MODIFIER>ashamed</MODIFIER> <FUNC_inner>of</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_pronoun>I</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>said</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>repent</ENTITY_oov> <RANGE_locality>in</RANGE_locality> <ENTITY_noun>dust</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>ashes</ENTITY_oov>"
+                                "<UserDefined>So</UserDefined> <ENTITY_pronoun>I</ENTITY_pronoun> <AUX>am</AUX> <MODIFIER>ashamed</MODIFIER> <FUNC_inner>of</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_pronoun>I</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>said</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>repent</ENTITY_oov> <RANGE_locality>in</RANGE_locality> <ENTITY_noun>dust</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>ashes</ENTITY_oov>"
                             ]
                         ]
                     },
                     {
                         "42:7": [
                             [
-                                "<RANGE_period>After</RANGE_period> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ASPECT>had</ASPECT> <ACTION_verb>finished</ACTION_verb> <VerbP>speaking to</VerbP> <LOCATION>Job</LOCATION>"
+                                "<RANGE_period>After</RANGE_period> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ASPECT>had</ASPECT> <ACTION_verb>finished</ACTION_verb> <VerbP>speaking to</VerbP> <UserDefined>Job</UserDefined>"
                             ],
                             [
-                                "<ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>said</ACTION_verb> <FUNC_inner>to</FUNC_inner> <LOCATION>Eliphaz</LOCATION>"
+                                "<ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>said</ACTION_verb> <FUNC_inner>to</FUNC_inner> <UserDefined>Eliphaz</UserDefined>"
                             ],
                             [
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <AUX>am</AUX> <MODIFIER>angry</MODIFIER> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_num>two</ENTITY_num> <ENTITY_nouny>friends</ENTITY_nouny>"
@@ -11139,17 +11139,17 @@
                                 "<FUNC_inter>because</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>did</ACTION_verb> <FUNC_negation>not</FUNC_negation> <ACTION_verb>speak</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>truth</ENTITY_noun> <FUNC_inner>about</FUNC_inner> <ENTITY_pronoun>me</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>servant</ENTITY_nouny> <ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>did</ACTION_verb>"
+                                "<FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <ENTITY_possessive>my</ENTITY_possessive> <ENTITY_nouny>servant</ENTITY_nouny> <UserDefined>Job</UserDefined> <ACTION_verb>did</ACTION_verb>"
                             ]
                         ]
                     },
                     {
                         "42:8": [
                             [
-                                "<TIME_justtime>Now</TIME_justtime> <ACTION_verb>take</ACTION_verb> <ENTITY_num>seven</ENTITY_num> <ENTITY_nouny>bulls</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_num>seven</ENTITY_num> <ENTITY_nouny>rams</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <LOCATION>Job</LOCATION> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>offer</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_inner>as</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>sacrifice</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>yourselves</ENTITY_pronoun>"
+                                "<TIME_justtime>Now</TIME_justtime> <ACTION_verb>take</ACTION_verb> <ENTITY_num>seven</ENTITY_num> <ENTITY_nouny>bulls</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_num>seven</ENTITY_num> <ENTITY_nouny>rams</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <UserDefined>Job</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>offer</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_inner>as</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>sacrifice</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>yourselves</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <MODAL>will</MODAL> <ACTION_verb>pray</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<UserDefined>Job</UserDefined> <MODAL>will</MODAL> <ACTION_verb>pray</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>I</ENTITY_pronoun> <MODAL>will</MODAL> <ACTION_verb>answer</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>prayer</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_negation>not</FUNC_negation> <ENTITY_nouny>disgrace</ENTITY_nouny> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>deserve</ACTION_verb>"
@@ -11162,13 +11162,13 @@
                     {
                         "42:9": [
                             [
-                                "<ENTITY_oov>Eliphaz</ENTITY_oov>"
+                                "<UserDefined>Eliphaz</UserDefined>"
                             ],
                             [
-                                "<ENTITY_nouny>Bildad</ENTITY_nouny>"
+                                "<UserDefined>Bildad</UserDefined>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>Zophar</ENTITY_oov> <ACTION_verb>did</ACTION_verb> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ASPECT>had</ASPECT> <ACTION_verb>told</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>do</ACTION_verb>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <UserDefined>Zophar</UserDefined> <ACTION_verb>did</ACTION_verb> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ASPECT>had</ASPECT> <ACTION_verb>told</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>do</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>answered</ACTION_verb> <ENTITY_possessive>Job's</ENTITY_possessive> <ENTITY_nouny>prayer</ENTITY_nouny>"
@@ -11181,7 +11181,7 @@
                                 "<FUNC_inter>Then</FUNC_inter>"
                             ],
                             [
-                                "<RANGE_period>after</RANGE_period> <ENTITY_oov>Job</ENTITY_oov> <ASPECT>had</ASPECT> <ACTION_verb>prayed</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_num>three</ENTITY_num> <ENTITY_nouny>friends</ENTITY_nouny>"
+                                "<RANGE_period>after</RANGE_period> <UserDefined>Job</UserDefined> <ASPECT>had</ASPECT> <ACTION_verb>prayed</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_num>three</ENTITY_num> <ENTITY_nouny>friends</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>made</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <MODIFIER>prosperous</MODIFIER> <ENTITY_oov>again</ENTITY_oov> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>gave</MODIFIER> <ENTITY_pronoun>him</ENTITY_pronoun> <MODIFIER>twice</MODIFIER> <FUNC_inner>as</FUNC_inner> <QUANTIFIER>much</QUANTIFIER> <FUNC_inner>as</FUNC_inner> <ENTITY_pronoun>he</ENTITY_pronoun> <ENTITY_nouny>had</ENTITY_nouny> <ACTION_verb>had</ACTION_verb> <RANGE_period>before</RANGE_period>"
@@ -11207,7 +11207,7 @@
                                 "<FUNC_determiner>The</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>blessed</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>last</MODIFIER> <ENTITY_nouny>part</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>Job's</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <MODIFIER>even</MODIFIER> <QUANTIFIER>more</QUANTIFIER> <FUNC_inner>than</FUNC_inner> <ENTITY_pronoun>he</ENTITY_pronoun> <ASPECT>had</ASPECT> <ACTION_verb>blessed</ACTION_verb> <ENTITY_DetPhrase>the first</ENTITY_DetPhrase>"
                             ],
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>owned</ACTION_verb> <ENTITY_num>fourteen thousand</ENTITY_num> <ENTITY_nouny>sheep</ENTITY_nouny>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>owned</ACTION_verb> <ENTITY_num>fourteen thousand</ENTITY_num> <ENTITY_nouny>sheep</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_num>six thousand</ENTITY_num> <ENTITY_nouny>camels</ENTITY_nouny>"
@@ -11230,10 +11230,10 @@
                     {
                         "42:14": [
                             [
-                                "<ENTITY_pronoun>He</ENTITY_pronoun> <ACTION_verb>called</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>oldest</MODIFIER> <ENTITY_pronoun>daughter</ENTITY_pronoun> <ENTITY_nouny>Jemimah</ENTITY_nouny>"
+                                "<ENTITY_pronoun>He</ENTITY_pronoun> <ACTION_verb>called</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>oldest</MODIFIER> <ENTITY_pronoun>daughter</ENTITY_pronoun> <UserDefined>Jemimah</UserDefined>"
                             ],
                             [
-                                "<ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <ENTITY_oov>Keziah</ENTITY_oov>"
+                                "<ENTITY_DetPhrase>the second</ENTITY_DetPhrase> <UserDefined>Keziah</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>youngest</MODIFIER> <ENTITY_noun>Keren</ENTITY_noun> <ENTITY_oov>Happuch</ENTITY_oov>"
@@ -11253,7 +11253,7 @@
                     {
                         "42:16": [
                             [
-                                "<ENTITY_oov>Job</ENTITY_oov> <ACTION_verb>lived</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_num>hundred</ENTITY_num> <FUNC_conjunction>and</FUNC_conjunction> <TIME_year>forty years</TIME_year> <RANGE_period>after</RANGE_period> <FUNC_determiner>this</FUNC_determiner>"
+                                "<UserDefined>Job</UserDefined> <ACTION_verb>lived</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_num>hundred</ENTITY_num> <FUNC_conjunction>and</FUNC_conjunction> <TIME_year>forty years</TIME_year> <RANGE_period>after</RANGE_period> <FUNC_determiner>this</FUNC_determiner>"
                             ],
                             [
                                 "<MODIFIER>long</MODIFIER> <QUANTIFIER>enough</QUANTIFIER> <FUNC_inner>to</FUNC_inner> <ACTION_verb>see</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>grandchildren</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>great-grandchildren</MODIFIER>"
