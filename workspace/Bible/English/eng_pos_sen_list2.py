@@ -11,12 +11,13 @@ from glob import glob
 url = "http://127.0.0.1:8999"
 
 
-def articutEN(inputSTR: str) -> list:
+def articutEN(inputSTR: str, userDefined) -> list:
     """
     使用 Articut 英文版 StandardAPI 對輸入的文字進行詞性標記 (POS)。
     
     參數:
         inputSTR (str): 需要進行詞性標記的英文文字。
+        userDefined (dict)：使用自定義字典。
     
     回傳:
         list: 詞性標記後的結果，返回 result_pos 內容。
@@ -24,7 +25,8 @@ def articutEN(inputSTR: str) -> list:
     payload = {
        "username":"",
        "api_key": "",
-       "input_str": inputSTR
+       "input_str": inputSTR,
+       "user_defined_dict_file": userDefined
     }    
    
     #response = post(url, json=payload).json()
@@ -33,7 +35,7 @@ def articutEN(inputSTR: str) -> list:
     return response
 
 
-def main(jsonFILE, flename, articut):
+def main(jsonFILE, filename, articutEN):
     """
     處理指定的 JSON 聖經檔案，將經文分段並使用 英文版Articut 進行分詞與詞性標註，最後將結果儲存為新的 JSON 檔案。。
 
@@ -89,7 +91,7 @@ def main(jsonFILE, flename, articut):
                             tmp_index = len(tmpLIST)
                             for s_l in (all_split_senLIST[tmp_index:]):
                                 for item_s in s_l:                                   
-                                    resultDICT = articutEN(item_s)
+                                    resultDICT = articutEN(item_s, userDefined)
                                     result_posLIST = resultDICT["result_pos"]
                                     print(result_posLIST)   
                                     parseLIST.append(result_posLIST)
@@ -159,6 +161,10 @@ if __name__ == "__main__":
 
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
     #main(jsonFILE, articutEN)
+    
+    userDefinedFILE = "../../../data/Bible/English/UserDefinedFile.json"
+    with open(userDefinedFILE, "r", encoding="utf-8") as f:
+        userDefined =json.load(f)     
     
     segment_folder = "../../../data/Bible/English/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
