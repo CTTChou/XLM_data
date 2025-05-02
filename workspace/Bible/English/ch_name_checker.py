@@ -49,7 +49,7 @@ def main():
                             checkDICT["LOCATION"].append("--No names--")
                         
         
-    with open(f"../../../data/Bible/English/ChNamePOS_checklist", "w", encoding="utf-8") as f:
+    with open(f"../../../data/Bible/English/names/ChNamePOS_checklist.json", "w", encoding="utf-8") as f:
         json.dump(checkDICT, f, ensure_ascii=False, indent=4)       
         
     pprint(checkDICT)
