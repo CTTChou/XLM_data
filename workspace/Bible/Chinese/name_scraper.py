@@ -150,8 +150,21 @@ def main(url):
 if __name__ == "__main__":
     url = "https://bible.fhl.net/new/read.php?VERSION4=tcv95&strongflag=0&TABFLAG=1&chineses=%E5%89%B5&chap=1&submit1=%E9%96%B1%E8%AE%80"
     
-    all_nameSET = main(url)
-    with open("../../../data/Bible/Chinese/names/fhl_names.json", "w", encoding="utf-8") as f:
-        json.dump(list(all_nameSET), f, ensure_ascii=False, indent=4)        
+    jsonFILE = "../../../data/Bible/Chinese/names/fhl_names.json"
+    if not os.path.exists(jsonFILE):    #如果還不存在檔案才呼叫 main() 爬蟲
+        userDefinedDICT = {}
+        all_nameSET = main(url)
+        nameLIST = sorted(list(all_nameSET), key=len)   #轉成列表後，依照元素長度排序
+        userDefinedDICT["ENTITY_person"] = nameLIST     #再轉成 dict type for articut
+                        
+                           
+        with open(jsonFILE, "w", encoding="utf-8") as f:    #寫出檔案並印出
+            json.dump(userDefinedDICT, f, ensure_ascii=False, indent=4)
+            pprint(userDefinedDICT)
+    
+    else:   #檔案存在就印出來看看
+        with open(jsonFILE, "r", encoding="utf-8") as f:
+            userDefinedDICT = json.load(f)       
+            pprint(userDefinedDICT)
         
     
