@@ -14,7 +14,7 @@ def searchEngName():
     回傳：
         dictionary: 找到的所有以UserDefined標記的名詞，返回 EngcheckDICT 內容。
     """
-    jsonFILE = f"./data/POS_all_EngBible.json"
+    jsonFILE = f"../../../data/Bible/English/POS_all_EngBible.json"
     with open (jsonFILE, "r", encoding="utf-8") as f:
         dataLIST = json.load(f)     
     
