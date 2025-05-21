@@ -53,8 +53,9 @@
                                 "<ENTITY_pronoun>They</ENTITY_pronoun> <VerbP>live in</VerbP> <MODIFIER>other</MODIFIER> <ENTITY_nouny>lands</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_inner>with</FUNC_inner> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>place</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>call</ACTION_verb> <MODIFIER>their own</MODIFIER>",
-                                "—",
+                                "<FUNC_inner>with</FUNC_inner> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>place</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>call</ACTION_verb> <MODIFIER>their own</MODIFIER>"
+                            ],
+                            [
                                 "<ACTION_verb>Surrounded</ACTION_verb> <FUNC_inner>by</FUNC_inner> <ENTITY_oov>enemies</ENTITY_oov>"
                             ],
                             [
@@ -477,7 +478,7 @@
                                 "<ENTITY_pronoun>He</ENTITY_pronoun> <MODIFIER>smashed</MODIFIER> <FUNC_inner>to</FUNC_inner> <ENTITY_oov>pieces</ENTITY_oov> <FUNC_determiner>the</FUNC_determiner> <LOCATION>Temple</LOCATION> <CLAUSE_WhereQ>where</CLAUSE_WhereQ> <ENTITY_pronoun>we</ENTITY_pronoun> <MODIFIER>worshiped</MODIFIER> <ENTITY_pronoun>him</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_pronoun>He</ENTITY_pronoun> <ASPECT>has</ASPECT> <ACTION_verb>put</ACTION_verb> <FUNC_determiner>an</FUNC_determiner> <ENTITY_noun>end</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <MODIFIER>holy</MODIFIER> <TIME_day>days</TIME_day> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_oov>Sabbaths</ENTITY_oov>"
+                                "<ENTITY_pronoun>He</ENTITY_pronoun> <ASPECT>has</ASPECT> <ACTION_verb>put</ACTION_verb> <FUNC_determiner>an</FUNC_determiner> <ENTITY_noun>end</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <MODIFIER>holy</MODIFIER> <TIME_day>days</TIME_day> <FUNC_conjunction>and</FUNC_conjunction> <UserDefined>Sabbaths</UserDefined>"
                             ],
                             [
                                 "<ENTITY_nouny>King</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_noun>priest</ENTITY_noun> <MODIFIER>alike</MODIFIER> <ASPECT>have</ASPECT> <ACTION_verb>felt</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>force</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny>"
@@ -685,8 +686,9 @@
                                 "<QUANTIFIER>All</QUANTIFIER> <FUNC_inner>through</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <TIME_justtime>night</TIME_justtime> <VerbP>get up</VerbP> <MODIFIER>again</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>again</MODIFIER> <FUNC_inner>to</FUNC_inner> <VerbP>cry out</VerbP> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
                             ],
                             [
-                                "<ACTION_verb>Pour</ACTION_verb> <RANGE_locality>out</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>heart</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>beg</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>for</FUNC_inner> <ENTITY_oov>mercy</ENTITY_oov> <RANGE_locality>on</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_pronoun>children</ENTITY_pronoun>",
-                                "—",
+                                "<ACTION_verb>Pour</ACTION_verb> <RANGE_locality>out</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>heart</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>beg</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>for</FUNC_inner> <ENTITY_oov>mercy</ENTITY_oov> <RANGE_locality>on</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_pronoun>children</ENTITY_pronoun>"
+                            ],
+                            [
                                 "<ENTITY_pronoun>Children</ENTITY_pronoun> <ACTION_verb>starving</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_oov>death</ENTITY_oov> <RANGE_locality>on</RANGE_locality> <QUANTIFIER>every</QUANTIFIER> <ENTITY_oov>street</ENTITY_oov> <ENTITY_nouny>corner</ENTITY_nouny>"
                             ]
                         ]
@@ -966,10 +968,10 @@
                     {
                         "3:26": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>it</ENTITY_pronoun> <AUX>is</AUX> <MODIFIER>best</MODIFIER> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>wait in</VerbP> <ENTITY_nouny>patience</ENTITY_nouny>",
-                                "—",
-                                "<FUNC_inner>to</FUNC_inner> <ACTION_verb>wait</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>save</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun>",
-                                "—"
+                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>it</ENTITY_pronoun> <AUX>is</AUX> <MODIFIER>best</MODIFIER> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>wait in</VerbP> <ENTITY_nouny>patience</ENTITY_nouny>"
+                            ],
+                            [
+                                "<FUNC_inner>to</FUNC_inner> <ACTION_verb>wait</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>save</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun>"
                             ]
                         ]
                     },

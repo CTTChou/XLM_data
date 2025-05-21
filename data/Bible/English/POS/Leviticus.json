@@ -6840,7 +6840,7 @@
                                 "<QUANTIFIER>Each</QUANTIFIER> <FUNC_inner>of</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>must</MODAL> <ACTION_verb>respect</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_pronoun>mother</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_pronoun>father</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <MODAL>must</MODAL> <ACTION_verb>keep</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Sabbath</ENTITY_nouny>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <MODAL>must</MODAL> <ACTION_verb>keep</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Sabbath</UserDefined>"
                             ],
                             [
                                 "<FUNC_inner>as</FUNC_inner> <ENTITY_pronoun>I</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>commanded</ACTION_verb>"
@@ -7167,7 +7167,7 @@
                     {
                         "19:30": [
                             [
-                                "<ACTION_verb>Keep</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Sabbath</ENTITY_nouny>"
+                                "<ACTION_verb>Keep</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Sabbath</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_nouny>honor</ENTITY_nouny> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>place</ENTITY_noun> <CLAUSE_WhereQ>where</CLAUSE_WhereQ> <ENTITY_pronoun>I</ENTITY_pronoun> <AUX>am</AUX> <MODIFIER>worshiped</MODIFIER>"
@@ -8012,8 +8012,9 @@
                                 "<QUANTIFIER>Only</QUANTIFIER> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>member</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>priestly</MODIFIER> <ENTITY_noun>family</ENTITY_noun> <TIME_month>may</TIME_month> <ACTION_verb>eat</ACTION_verb> <QUANTIFIER>any</QUANTIFIER> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>sacred</MODIFIER> <ENTITY_nouny>offerings</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_negation>no</FUNC_negation> <ENTITY_num>one</ENTITY_num> <MODIFIER>else</MODIFIER> <TIME_month>may</TIME_month> <ACTION_verb>eat</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>",
-                                "—",
+                                "<FUNC_negation>no</FUNC_negation> <ENTITY_num>one</ENTITY_num> <MODIFIER>else</MODIFIER> <TIME_month>may</TIME_month> <ACTION_verb>eat</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun>"
+                            ],
+                            [
                                 "<FUNC_negation>not</FUNC_negation> <MODIFIER>even</MODIFIER> <ENTITY_nouny>someone</ENTITY_nouny> <ACTION_verb>staying</ACTION_verb> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <ENTITY_noun>priest</ENTITY_noun> <FUNC_conjunction>or</FUNC_conjunction> <ACTION_verb>hired</ACTION_verb> <FUNC_inner>by</FUNC_inner> <ENTITY_pronoun>him</ENTITY_pronoun>"
                             ]
                         ]
@@ -8302,7 +8303,7 @@
                                 "<FUNC_conjunction>but</FUNC_conjunction> <ACTION_verb>remember</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_day>day</TIME_day>"
                             ],
                             [
-                                "<FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Sabbath</ENTITY_nouny>"
+                                "<FUNC_determiner>the</FUNC_determiner> <UserDefined>Sabbath</UserDefined>"
                             ],
                             [
                                 "<CLAUSE_YesNoQ>is</CLAUSE_YesNoQ> <FUNC_determiner>a</FUNC_determiner> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>rest</ENTITY_noun>"
@@ -8314,7 +8315,7 @@
                                 "<FUNC_conjunction>but</FUNC_conjunction> <ACTION_verb>gather</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_nouny>worship</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_nouny>Sabbath</ENTITY_nouny> <VerbP>belongs to</VerbP> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
+                                "<FUNC_determiner>The</FUNC_determiner> <UserDefined>Sabbath</UserDefined> <VerbP>belongs to</VerbP> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
                             ],
                             [
                                 "<FUNC_negation>no</FUNC_negation> <ENTITY_noun>matter</ENTITY_noun> <CLAUSE_WhereQ>where</CLAUSE_WhereQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>live</ACTION_verb>"
@@ -8344,7 +8345,7 @@
                     {
                         "23:6": [
                             [
-                                "<RANGE_locality>On</RANGE_locality> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Festival</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <MODIFIER>Unleavened</MODIFIER> <ENTITY_nouny>Bread</ENTITY_nouny> <ACTION_verb>begins</ACTION_verb>"
+                                "<RANGE_locality>On</RANGE_locality> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Festival of Unleavened Bread</UserDefined> <ACTION_verb>begins</ACTION_verb>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_inner>for</FUNC_inner> <TIME_day>seven days</TIME_day> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>must</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>eat</ACTION_verb> <QUANTIFIER>any</QUANTIFIER> <ENTITY_oov>bread</ENTITY_oov> <VerbP>made with</VerbP> <ENTITY_oov>yeast</ENTITY_oov>"
@@ -8400,7 +8401,7 @@
                                 "<FUNC_inter>so</FUNC_inter> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>you</ENTITY_pronoun> <TIME_month>may</TIME_month> <AUX>be</AUX> <ACTION_verb>accepted</ACTION_verb>"
                             ],
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_noun>priest</ENTITY_noun> <MODAL>shall</MODAL> <MODIFIER>present</MODIFIER> <ENTITY_pronoun>it</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_period>after</RANGE_period> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Sabbath</ENTITY_nouny>"
+                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_noun>priest</ENTITY_noun> <MODAL>shall</MODAL> <MODIFIER>present</MODIFIER> <ENTITY_pronoun>it</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_period>after</RANGE_period> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Sabbath</UserDefined>"
                             ]
                         ]
                     },
@@ -8452,7 +8453,7 @@
                     {
                         "23:15": [
                             [
-                                "<ACTION_verb>Count</ACTION_verb> <ENTITY_num>seven</ENTITY_num> <MODIFIER>full</MODIFIER> <TIME_week>weeks</TIME_week> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_period>after</RANGE_period> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Sabbath</ENTITY_nouny> <RANGE_locality>on</RANGE_locality> <CLAUSE_WhichQ>which</CLAUSE_WhichQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>bring</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_classifier>sheaf of</ENTITY_classifier> <ENTITY_oov>grain</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>present</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
+                                "<ACTION_verb>Count</ACTION_verb> <ENTITY_num>seven</ENTITY_num> <MODIFIER>full</MODIFIER> <TIME_week>weeks</TIME_week> <FUNC_inner>from</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_period>after</RANGE_period> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Sabbath</UserDefined> <RANGE_locality>on</RANGE_locality> <CLAUSE_WhichQ>which</CLAUSE_WhichQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>bring</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_classifier>sheaf of</ENTITY_classifier> <ENTITY_oov>grain</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>present</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
                             ]
                         ]
                     },
@@ -8462,7 +8463,7 @@
                                 "<RANGE_locality>On</RANGE_locality> <ENTITY_DetPhrase>the fiftieth</ENTITY_DetPhrase> <TIME_day>day</TIME_day>"
                             ],
                             [
-                                "<FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_period>after</RANGE_period> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <ENTITY_oov>Sabbath</ENTITY_oov>"
+                                "<FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <RANGE_period>after</RANGE_period> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <UserDefined>Sabbath</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>present</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <MODIFIER>another</MODIFIER> <MODIFIER>new</MODIFIER> <ENTITY_nouny>offering</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>grain</ENTITY_oov>"
@@ -8665,14 +8666,14 @@
                     {
                         "23:33": [
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_nouny>Festival</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Shelters</ENTITY_oov> <ACTION_verb>begins</ACTION_verb> <RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>continues</ACTION_verb> <FUNC_inner>for</FUNC_inner> <TIME_day>seven days</TIME_day>"
+                                "<FUNC_determiner>The</FUNC_determiner> <UserDefined>Festival of Shelters</UserDefined> <ACTION_verb>begins</ACTION_verb> <RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>continues</ACTION_verb> <FUNC_inner>for</FUNC_inner> <TIME_day>seven days</TIME_day>"
                             ]
                         ]
                     },
                     {
                         "23:34": [
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_nouny>Festival</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Shelters</ENTITY_oov> <ACTION_verb>begins</ACTION_verb> <RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>continues</ACTION_verb> <FUNC_inner>for</FUNC_inner> <TIME_day>seven days</TIME_day>"
+                                "<FUNC_determiner>The</FUNC_determiner> <UserDefined>Festival of Shelters</UserDefined> <ACTION_verb>begins</ACTION_verb> <RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_month>month</TIME_month> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>continues</ACTION_verb> <FUNC_inner>for</FUNC_inner> <TIME_day>seven days</TIME_day>"
                             ]
                         ]
                     },
@@ -8724,7 +8725,7 @@
                     {
                         "23:38": [
                             [
-                                "<FUNC_determiner>These</FUNC_determiner> <ENTITY_nouny>festivals</ENTITY_nouny> <AUX>are</AUX> <FUNC_inter>in addition to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>regular</MODIFIER> <ENTITY_nouny>Sabbaths</ENTITY_nouny>"
+                                "<FUNC_determiner>These</FUNC_determiner> <ENTITY_nouny>festivals</ENTITY_nouny> <AUX>are</AUX> <FUNC_inter>in addition to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>regular</MODIFIER> <UserDefined>Sabbaths</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>these</FUNC_determiner> <ENTITY_nouny>offerings</ENTITY_nouny> <AUX>are</AUX> <FUNC_inter>in addition to</FUNC_inter> <ENTITY_possessive>your</ENTITY_possessive> <MODIFIER>regular</MODIFIER> <ENTITY_nouny>gifts</ENTITY_nouny>"
@@ -8883,7 +8884,7 @@
                     {
                         "24:8": [
                             [
-                                "<QUANTIFIER>Every</QUANTIFIER> <ENTITY_oov>Sabbath</ENTITY_oov>"
+                                "<QUANTIFIER>Every</QUANTIFIER> <UserDefined>Sabbath</UserDefined>"
                             ],
                             [
                                 "<FUNC_inner>for</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_noun>time</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>come</ACTION_verb>"
@@ -9196,7 +9197,7 @@
                                 "<RANGE_locality>on</RANGE_locality> <ENTITY_DetPhrase>the tenth</ENTITY_DetPhrase> <TIME_day>day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_DetPhrase>the seventh</ENTITY_DetPhrase> <TIME_month>month</TIME_month>"
                             ],
                             [
-                                "<FUNC_determiner>the</FUNC_determiner> <TIME_day>Day</TIME_day> <FUNC_inner>of</FUNC_inner> <ENTITY_nouny>Atonement</ENTITY_nouny>"
+                                "<FUNC_determiner>the</FUNC_determiner> <UserDefined>Day of Atonement</UserDefined>"
                             ],
                             [
                                 "<ACTION_verb>send</ACTION_verb> <ENTITY_oov>someone</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ACTION_verb>blow</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_noun>trumpet</ENTITY_noun> <FUNC_inner>throughout</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>whole</MODIFIER> <ENTITY_nouny>land</ENTITY_nouny>"
@@ -9880,8 +9881,9 @@
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <MODAL>will</MODAL> <ACTION_verb>punish</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
-                                "<ENTITY_pronoun>I</ENTITY_pronoun> <MODAL>will</MODAL> <ACTION_verb>bring</ACTION_verb> <ENTITY_nouny>disaster</ENTITY_nouny> <RANGE_locality>on</RANGE_locality> <ENTITY_pronoun>you</ENTITY_pronoun>",
-                                "—",
+                                "<ENTITY_pronoun>I</ENTITY_pronoun> <MODAL>will</MODAL> <ACTION_verb>bring</ACTION_verb> <ENTITY_nouny>disaster</ENTITY_nouny> <RANGE_locality>on</RANGE_locality> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                            ],
+                            [
                                 "<MODIFIER>incurable</MODIFIER> <ENTITY_nouny>diseases</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>fevers</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_nouny>will</ENTITY_nouny> <ACTION_verb>make</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>blind</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>cause</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <VerbP>waste away</VerbP>"
                             ],
                             [
@@ -10276,7 +10278,6 @@
                                 "<FUNC_inter>according to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>official</MODIFIER> <ENTITY_oov>standard</ENTITY_oov>"
                             ],
                             [
-                                "",
                                 "–",
                                 "<MODIFIER>adult</MODIFIER> <MODIFIER>male</MODIFIER>"
                             ],
@@ -10332,7 +10333,6 @@
                                 "<FUNC_inter>according to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>official</MODIFIER> <ENTITY_oov>standard</ENTITY_oov>"
                             ],
                             [
-                                "",
                                 "–",
                                 "<MODIFIER>adult</MODIFIER> <MODIFIER>male</MODIFIER>"
                             ],
@@ -10388,7 +10388,6 @@
                                 "<FUNC_inter>according to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>official</MODIFIER> <ENTITY_oov>standard</ENTITY_oov>"
                             ],
                             [
-                                "",
                                 "–",
                                 "<MODIFIER>adult</MODIFIER> <MODIFIER>male</MODIFIER>"
                             ],
@@ -10444,7 +10443,6 @@
                                 "<FUNC_inter>according to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>official</MODIFIER> <ENTITY_oov>standard</ENTITY_oov>"
                             ],
                             [
-                                "",
                                 "–",
                                 "<MODIFIER>adult</MODIFIER> <MODIFIER>male</MODIFIER>"
                             ],
@@ -10500,7 +10498,6 @@
                                 "<FUNC_inter>according to</FUNC_inter> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>official</MODIFIER> <ENTITY_oov>standard</ENTITY_oov>"
                             ],
                             [
-                                "",
                                 "–",
                                 "<MODIFIER>adult</MODIFIER> <MODIFIER>male</MODIFIER>"
                             ],
