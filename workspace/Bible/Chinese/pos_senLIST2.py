@@ -108,7 +108,7 @@ def to_POS_LIST(POS_folder):
 if __name__ == "__main__":
     #accountDICT = json.load(open("account.info",encoding="utf-8"))
     #articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
-    articut = Articut(url="http://127.0.0.1:8964")
+    articut = Articut(url="http://127.0.0.1:8991")
     userDefined = "../../../data/Bible/Chinese/UserDefinedFile.json"
    
     segment_folder = "../../../data/Bible/Chinese/segment" #read here
