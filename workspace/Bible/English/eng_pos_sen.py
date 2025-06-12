@@ -8,7 +8,7 @@ from requests import post
 from glob import glob
 
 #url = "https://nlu.droidtown.co/Articut_EN/API/"
-url = "http://127.0.0.1:8999"
+url = "http://127.0.0.1:8964"
 
 
 def articutEN(inputSTR: str, userDefined) -> list:
