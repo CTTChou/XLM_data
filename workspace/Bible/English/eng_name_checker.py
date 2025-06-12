@@ -40,12 +40,12 @@ if __name__ == "__main__":
     versesSTR = " ".join(all_versesLIST) #把所有內文接在一起
     names_folder = "../../../data/Bible/English/names"
     os.makedirs(names_folder, exist_ok=True)    
-    with open("../../../data/Bible/English/names/english_persons.json", "r", encoding="utf-8") as f:
+    with open("../../../data/Bible/English/names/persons.json", "r", encoding="utf-8") as f:
         nameLIST = json.load(f)
-        print(f"可檢查的人名數量：{len(nameLIST)}")
+        print(f"可檢查的人名數量：{len(nameLIST['ENTITY_person'])}")
         
         not_haveLIST = []
-        for name in nameLIST:
+        for name in nameLIST['ENTITY_person']:
             if name not in versesSTR:   #比對 english_persons.json 裡的人名是否在 all_EngBible.json
                 not_haveLIST.append(name)  #不需要的人名 
         print(f"不需要的人名數量：{len(not_haveLIST)}")
