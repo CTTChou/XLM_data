@@ -53,7 +53,10 @@ def main(jsonFILE, filename, articut, userDefined):
                     tmp_index = len(tmpLIST)                    
                     for senLIST in (all_senLIST[tmp_index:]):
                         for s in senLIST:
-                            resultLIST = (articut.parse(s, level="lv1", userDefinedDictFILE=userDefined))["result_pos"]  #單一內文 articut 結果
+                            resultDICT = articut.parse(s, level="lv1", userDefinedDictFILE=userDefined)
+                            print(resultDICT)
+                            resultLIST = resultDICT["result_pos"]
+                            #resultLIST = (articut.parse(s, level="lv1", userDefinedDictFILE=userDefined))["result_pos"]  #單一內文 articut 結果
                             pprint(resultLIST)   
                             parseLIST.append(resultLIST)
                             #sleep(1.5)
@@ -108,7 +111,7 @@ def to_POS_LIST(POS_folder):
 if __name__ == "__main__":
     #accountDICT = json.load(open("account.info",encoding="utf-8"))
     #articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
-    articut = Articut(url="http://127.0.0.1:8964")
+    articut = Articut(url="http://127.0.0.1:8991")
     userDefined = "../../../data/Bible/Chinese/UserDefinedFile.json"
     
    
