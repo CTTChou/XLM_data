@@ -891,7 +891,7 @@
                     {
                         "2:1": [
                             [
-                                "<FUNC_inner>At</FUNC_inner> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>time</ENTITY_noun> <ENTITY_nouny>Emperor</ENTITY_nouny> <UserDefined>Augustus</UserDefined> <ACTION_verb>ordered</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>census</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <ACTION_verb>taken</ACTION_verb> <FUNC_inner>throughout</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Roman Empire</ENTITY_noun>"
+                                "<FUNC_inner>At</FUNC_inner> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>time</ENTITY_noun> <UserDefined>Emperor</UserDefined> <UserDefined>Augustus</UserDefined> <ACTION_verb>ordered</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>census</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <ACTION_verb>taken</ACTION_verb> <FUNC_inner>throughout</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Roman Empire</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -1499,7 +1499,7 @@
                     {
                         "3:1": [
                             [
-                                "<ENTITY_pronoun>It</ENTITY_pronoun> <AUX>was</AUX> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_year>year</TIME_year> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>rule</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_nouny>Emperor</ENTITY_nouny> <UserDefined>Tiberius</UserDefined>"
+                                "<ENTITY_pronoun>It</ENTITY_pronoun> <AUX>was</AUX> <ENTITY_DetPhrase>the fifteenth</ENTITY_DetPhrase> <TIME_year>year</TIME_year> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>rule</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <UserDefined>Emperor</UserDefined> <UserDefined>Tiberius</UserDefined>"
                             ],
                             [
                                 "<ENTITY_oov>Pontius</ENTITY_oov> <UserDefined>Pilate</UserDefined> <AUX>was</AUX> <ENTITY_nouny>governor</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>Judea</ENTITY_oov>"
@@ -13545,7 +13545,7 @@
                                 "<ACTION_verb>Tell</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun>"
                             ],
                             [
-                                "<CLAUSE_YesNoQ>is</CLAUSE_YesNoQ> <ENTITY_pronoun>it</ENTITY_pronoun> <FUNC_inner>against</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>Law</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Roman Emperor</ENTITY_noun>"
+                                "<CLAUSE_YesNoQ>is</CLAUSE_YesNoQ> <ENTITY_pronoun>it</ENTITY_pronoun> <FUNC_inner>against</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>Law</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Roman</ENTITY_noun> <UserDefined>Emperor</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>or</FUNC_conjunction> <FUNC_negation>not</FUNC_negation>"
@@ -13558,7 +13558,7 @@
                                 "<ACTION_verb>Tell</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun>"
                             ],
                             [
-                                "<CLAUSE_YesNoQ>is</CLAUSE_YesNoQ> <ENTITY_pronoun>it</ENTITY_pronoun> <FUNC_inner>against</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>Law</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Roman Emperor</ENTITY_noun>"
+                                "<CLAUSE_YesNoQ>is</CLAUSE_YesNoQ> <ENTITY_pronoun>it</ENTITY_pronoun> <FUNC_inner>against</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>Law</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Roman</ENTITY_noun> <UserDefined>Emperor</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>or</FUNC_conjunction> <FUNC_negation>not</FUNC_negation>"
@@ -13580,7 +13580,9 @@
                                 "<CLAUSE_WhoseQ>Whose</CLAUSE_WhoseQ> <ENTITY_noun>face</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_noun>name</ENTITY_noun> <AUX>are</AUX> <FUNC_determiner>these</FUNC_determiner> <RANGE_locality>on</RANGE_locality> <ENTITY_pronoun>it</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_possessive>Emperor's</ENTITY_possessive>"
+                                "<FUNC_determiner>The</FUNC_determiner> <UserDefined>Emperor</UserDefined>",
+                                "'",
+                                "<ENTITY_oov>s</ENTITY_oov>"
                             ],
                             [
                                 "<ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>answered</ACTION_verb>"
@@ -13596,7 +13598,9 @@
                                 "<CLAUSE_WhoseQ>Whose</CLAUSE_WhoseQ> <ENTITY_noun>face</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_noun>name</ENTITY_noun> <AUX>are</AUX> <FUNC_determiner>these</FUNC_determiner> <RANGE_locality>on</RANGE_locality> <ENTITY_pronoun>it</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_possessive>Emperor's</ENTITY_possessive>"
+                                "<FUNC_determiner>The</FUNC_determiner> <UserDefined>Emperor</UserDefined>",
+                                "'",
+                                "<ENTITY_oov>s</ENTITY_oov>"
                             ],
                             [
                                 "<ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>answered</ACTION_verb>"
@@ -13611,7 +13615,7 @@
                                 "<FUNC_inter>then</FUNC_inter>"
                             ],
                             [
-                                "<ACTION_verb>pay</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Emperor</ENTITY_nouny> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <VerbP>belongs to</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Emperor</ENTITY_nouny>"
+                                "<ACTION_verb>pay</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Emperor</UserDefined> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <VerbP>belongs to</VerbP> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Emperor</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>pay</ACTION_verb> <FUNC_inner>to</FUNC_inner> <UserDefined>God</UserDefined> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <VerbP>belongs to</VerbP> <UserDefined>God</UserDefined>"
@@ -13630,7 +13634,7 @@
                                 "<FUNC_inter>then</FUNC_inter>"
                             ],
                             [
-                                "<ACTION_verb>pay</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Emperor</ENTITY_nouny> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <VerbP>belongs to</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Emperor</ENTITY_nouny>"
+                                "<ACTION_verb>pay</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Emperor</UserDefined> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <VerbP>belongs to</VerbP> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Emperor</UserDefined>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>pay</ACTION_verb> <FUNC_inner>to</FUNC_inner> <UserDefined>God</UserDefined> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <VerbP>belongs to</VerbP> <UserDefined>God</UserDefined>"
@@ -16426,7 +16430,7 @@
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>caught</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>man</ENTITY_nouny> <ENTITY_nouny>misleading</ENTITY_nouny> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>people</ENTITY_noun>"
                             ],
                             [
-                                "<ACTION_verb>telling</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_negation>not</FUNC_negation> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Emperor</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>claiming</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <ENTITY_pronoun>himself</ENTITY_pronoun> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Messiah</ENTITY_nouny>"
+                                "<ACTION_verb>telling</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_negation>not</FUNC_negation> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Emperor</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>claiming</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <ENTITY_pronoun>himself</ENTITY_pronoun> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Messiah</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>king</ENTITY_nouny>"
@@ -16442,7 +16446,7 @@
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>caught</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>man</ENTITY_nouny> <ENTITY_nouny>misleading</ENTITY_nouny> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>people</ENTITY_noun>"
                             ],
                             [
-                                "<ACTION_verb>telling</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_negation>not</FUNC_negation> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Emperor</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>claiming</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <ENTITY_pronoun>himself</ENTITY_pronoun> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Messiah</ENTITY_nouny>"
+                                "<ACTION_verb>telling</ACTION_verb> <ENTITY_pronoun>them</ENTITY_pronoun> <FUNC_negation>not</FUNC_negation> <FUNC_inner>to</FUNC_inner> <ACTION_verb>pay</ACTION_verb> <ENTITY_oov>taxes</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Emperor</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>claiming</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>he</ENTITY_pronoun> <ENTITY_pronoun>himself</ENTITY_pronoun> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>Messiah</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>king</ENTITY_nouny>"
