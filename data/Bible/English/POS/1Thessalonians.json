@@ -6,19 +6,19 @@
                     {
                         "1:1": [
                             [
-                                "<FUNC_inner>From</FUNC_inner> <UserDefined>Paul</UserDefined>"
+                                "<FUNC_inner>From</FUNC_inner> <ENTITY_person>Paul</ENTITY_person>"
                             ],
                             [
-                                "<UserDefined>Silas</UserDefined>"
+                                "<ENTITY_person>Silas</ENTITY_person>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_person>Timothy</ENTITY_person>"
                             ],
                             [
-                                "<FUNC_inner>To</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>people</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>church</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <UserDefined>Thessalonica</UserDefined>"
+                                "<FUNC_inner>To</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>people</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>church</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <LOCATION>Thessalonica</LOCATION>"
                             ],
                             [
-                                "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <VerbP>belong to</VerbP> <UserDefined>God</UserDefined> <FUNC_determiner>the</FUNC_determiner> <ENTITY_pronoun>Father</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <UserDefined>Jesus Christ</UserDefined>"
+                                "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <VerbP>belong to</VerbP> <ENTITY_noun>God</ENTITY_noun> <FUNC_determiner>the</FUNC_determiner> <ENTITY_pronoun>Father</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus Christ</ENTITY_person>"
                             ],
                             [
                                 "<TIME_month>May</TIME_month> <ACTION_verb>grace</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_noun>peace</ENTITY_noun> <AUX>be</AUX> <ENTITY_pronoun>yours</ENTITY_pronoun>"
@@ -28,20 +28,20 @@
                     {
                         "1:2": [
                             [
-                                "<ENTITY_pronoun>We</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>thank</ACTION_verb> <UserDefined>God</UserDefined> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <QUANTIFIER>all</QUANTIFIER> <FUNC_conjunction>and</FUNC_conjunction> <TIME_justtime>always</TIME_justtime> <ACTION_verb>mention</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>prayers</ENTITY_nouny>"
+                                "<ENTITY_pronoun>We</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>thank</ACTION_verb> <ENTITY_noun>God</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <QUANTIFIER>all</QUANTIFIER> <FUNC_conjunction>and</FUNC_conjunction> <TIME_justtime>always</TIME_justtime> <ACTION_verb>mention</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>prayers</ENTITY_nouny>"
                             ]
                         ]
                     },
                     {
                         "1:3": [
                             [
-                                "<FUNC_inner>For</FUNC_inner> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>remember</ACTION_verb> <RANGE_period>before</RANGE_period> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>God</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>Father</ENTITY_pronoun> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>put</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>faith</ENTITY_nouny> <RANGE_locality>into</RANGE_locality> <ENTITY_noun>practice</ENTITY_noun>"
+                                "<FUNC_inner>For</FUNC_inner> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>remember</ACTION_verb> <RANGE_period>before</RANGE_period> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>God</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>Father</ENTITY_pronoun> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>put</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>faith</ENTITY_nouny> <RANGE_locality>into</RANGE_locality> <ENTITY_noun>practice</ENTITY_noun>"
                             ],
                             [
                                 "<ENTITY_nouny>how</ENTITY_nouny> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <ACTION_verb>made</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>work</ACTION_verb> <ModifierP>so hard</ModifierP>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>hope</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus Christ</UserDefined> <AUX>is</AUX> <ENTITY_oov>firm</ENTITY_oov>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>hope</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus Christ</ENTITY_person> <AUX>is</AUX> <ENTITY_oov>firm</ENTITY_oov>"
                             ]
                         ]
                     },
@@ -51,7 +51,7 @@
                                 "<ENTITY_possessive>Our</ENTITY_possessive> <ENTITY_nouny>friends</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <UserDefined>God</UserDefined> <ACTION_verb>loves</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ASPECT>has</ASPECT> <ACTION_verb>chosen</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <MODIFIER>his own</MODIFIER>"
+                                "<ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>God</ENTITY_noun> <ACTION_verb>loves</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ASPECT>has</ASPECT> <ACTION_verb>chosen</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <MODIFIER>his own</MODIFIER>"
                             ]
                         ]
                     },
@@ -64,7 +64,7 @@
                                 "<FUNC_negation>not</FUNC_negation> <FUNC_inner>with</FUNC_inner> <ENTITY_oov>words</ENTITY_oov> <QUANTIFIER>only</QUANTIFIER>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <MODIFIER>also</MODIFIER> <FUNC_inner>with</FUNC_inner> <ENTITY_noun>power</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Holy Spirit</UserDefined>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <MODIFIER>also</MODIFIER> <FUNC_inner>with</FUNC_inner> <ENTITY_noun>power</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Holy Spirit</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_inner>with</FUNC_inner> <MODIFIER>complete</MODIFIER> <ENTITY_nouny>conviction</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>its</ENTITY_possessive> <ENTITY_noun>truth</ENTITY_noun>"
@@ -80,30 +80,30 @@
                     {
                         "1:6": [
                             [
-                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>imitated</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
+                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>imitated</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>even</MODIFIER> <FUNC_inter>though</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>suffered</ACTION_verb> <QUANTIFIER>much</QUANTIFIER>"
                             ],
                             [
-                                "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>received</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>message</ENTITY_noun> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>joy</ENTITY_noun> <FUNC_determiner>that</FUNC_determiner> <VerbP>comes from</VerbP> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Holy Spirit</UserDefined>"
+                                "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>received</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>message</ENTITY_noun> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>joy</ENTITY_noun> <FUNC_determiner>that</FUNC_determiner> <VerbP>comes from</VerbP> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Holy Spirit</ENTITY_noun>"
                             ]
                         ]
                     },
                     {
                         "1:7": [
                             [
-                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>became</ACTION_verb> <FUNC_determiner>an</FUNC_determiner> <ENTITY_nouny>example</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_oov>believers</ENTITY_oov> <RANGE_locality>in</RANGE_locality> <UserDefined>Macedonia</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <UserDefined>Achaia</UserDefined>"
+                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>became</ACTION_verb> <FUNC_determiner>an</FUNC_determiner> <ENTITY_nouny>example</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_oov>believers</ENTITY_oov> <RANGE_locality>in</RANGE_locality> <LOCATION>Macedonia</LOCATION> <FUNC_conjunction>and</FUNC_conjunction> <LOCATION>Achaia</LOCATION>"
                             ]
                         ]
                     },
                     {
                         "1:8": [
                             [
-                                "<FUNC_inner>For</FUNC_inner> <FUNC_negation>not</FUNC_negation> <QUANTIFIER>only</QUANTIFIER> <ACTION_verb>did</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>message</ENTITY_noun> <FUNC_inner>about</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <VerbP>go out</VerbP> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>throughout</FUNC_inner> <UserDefined>Macedonia</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <UserDefined>Achaia</UserDefined>"
+                                "<FUNC_inner>For</FUNC_inner> <FUNC_negation>not</FUNC_negation> <QUANTIFIER>only</QUANTIFIER> <ACTION_verb>did</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>message</ENTITY_noun> <FUNC_inner>about</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <VerbP>go out</VerbP> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>throughout</FUNC_inner> <LOCATION>Macedonia</LOCATION> <FUNC_conjunction>and</FUNC_conjunction> <LOCATION>Achaia</LOCATION>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>news</ENTITY_nouny> <FUNC_inner>about</FUNC_inner> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>faith</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <UserDefined>God</UserDefined> <ASPECT>has</ASPECT> <ACTION_verb>gone</ACTION_verb> <MODIFIER>everywhere</MODIFIER>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>news</ENTITY_nouny> <FUNC_inner>about</FUNC_inner> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>faith</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_noun>God</ENTITY_noun> <ASPECT>has</ASPECT> <ACTION_verb>gone</ACTION_verb> <MODIFIER>everywhere</MODIFIER>"
                             ],
                             [
                                 "<LOCATION>There</LOCATION> <AUX>is</AUX> <FUNC_negation>nothing</FUNC_negation>"
@@ -122,10 +122,10 @@
                                 "<QUANTIFIER>All</QUANTIFIER> <FUNC_determiner>those</FUNC_determiner> <ENTITY_noun>people</ENTITY_noun> <ACTION_verb>speak</ACTION_verb> <FUNC_inner>about</FUNC_inner> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>received</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>visited</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <VerbP>turned away</VerbP> <FUNC_inner>from</FUNC_inner> <ENTITY_oov>idols</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <UserDefined>God</UserDefined>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <VerbP>turned away</VerbP> <FUNC_inner>from</FUNC_inner> <ENTITY_oov>idols</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_inner>to</FUNC_inner> <ACTION_verb>serve</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>true</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>living</MODIFIER> <UserDefined>God</UserDefined>"
+                                "<FUNC_inner>to</FUNC_inner> <ACTION_verb>serve</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>true</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>living</MODIFIER> <ENTITY_noun>God</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -135,7 +135,7 @@
                                 "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_inner>to</FUNC_inner> <ACTION_verb>wait</ACTION_verb> <FUNC_inner>for</FUNC_inner> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_pronoun>Son</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>come from</VerbP> <ENTITY_noun>heaven</ENTITY_noun>"
                             ],
                             [
-                                "<ENTITY_possessive>his</ENTITY_possessive> <ENTITY_pronoun>Son</ENTITY_pronoun> <UserDefined>Jesus</UserDefined>"
+                                "<ENTITY_possessive>his</ENTITY_possessive> <ENTITY_pronoun>Son</ENTITY_pronoun> <ENTITY_person>Jesus</ENTITY_person>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>whom</CLAUSE_WhoQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>raised</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_oov>death</ENTITY_oov> <FUNC_conjunction>and</FUNC_conjunction> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>rescues</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>from</FUNC_inner> <ENTITY_possessive>God's</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <AUX>is</AUX> <ENTITY_nouny>coming</ENTITY_nouny>"
@@ -159,13 +159,13 @@
                     {
                         "2:2": [
                             [
-                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>we</ENTITY_pronoun> <ASPECT>had</ASPECT> <MODIFIER>already</MODIFIER> <AUX>been</AUX> <ACTION_verb>mistreated</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>insulted</ACTION_verb> <RANGE_locality>in</RANGE_locality> <UserDefined>Philippi</UserDefined> <RANGE_period>before</RANGE_period> <ENTITY_pronoun>we</ENTITY_pronoun> <VerbP>came to</VerbP> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <UserDefined>Thessalonica</UserDefined>"
+                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>we</ENTITY_pronoun> <ASPECT>had</ASPECT> <MODIFIER>already</MODIFIER> <AUX>been</AUX> <ACTION_verb>mistreated</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>insulted</ACTION_verb> <RANGE_locality>in</RANGE_locality> <LOCATION>Philippi</LOCATION> <RANGE_period>before</RANGE_period> <ENTITY_pronoun>we</ENTITY_pronoun> <VerbP>came to</VerbP> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <LOCATION>Thessalonica</LOCATION>"
                             ],
                             [
                                 "<FUNC_conjunction>And</FUNC_conjunction> <MODIFIER>even</MODIFIER> <FUNC_inter>though</FUNC_inter> <LOCATION>there</LOCATION> <AUX>was</AUX> <QUANTIFIER>much</QUANTIFIER> <ENTITY_nouny>opposition</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_possessive>our</ENTITY_possessive> <UserDefined>God</UserDefined> <ACTION_verb>gave</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <ENTITY_nouny>courage</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <ACTION_verb>tell</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <VerbP>comes from</VerbP> <ENTITY_pronoun>him</ENTITY_pronoun>"
+                                "<ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>God</ENTITY_noun> <ACTION_verb>gave</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <ENTITY_nouny>courage</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <ACTION_verb>tell</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_determiner>that</FUNC_determiner> <VerbP>comes from</VerbP> <ENTITY_pronoun>him</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -185,7 +185,7 @@
                                 "<FUNC_inter>Instead</FUNC_inter>"
                             ],
                             [
-                                "<ENTITY_pronoun>we</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>speak</ACTION_verb> <FUNC_inner>as</FUNC_inner> <UserDefined>God</UserDefined> <ACTION_verb>wants</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner>"
+                                "<ENTITY_pronoun>we</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>speak</ACTION_verb> <FUNC_inner>as</FUNC_inner> <ENTITY_noun>God</ENTITY_noun> <ACTION_verb>wants</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner>"
                             ],
                             [
                                 "<FUNC_inter>because</FUNC_inter> <ENTITY_pronoun>he</ENTITY_pronoun> <ASPECT>has</ASPECT> <ACTION_verb>judged</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <MODIFIER>worthy</MODIFIER> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <ACTION_verb>entrusted</ACTION_verb> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny>"
@@ -194,7 +194,7 @@
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>do</ACTION_verb> <FUNC_negation>not</FUNC_negation> <ACTION_verb>try</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ACTION_verb>please</ACTION_verb> <ENTITY_noun>people</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <FUNC_inner>to</FUNC_inner> <ACTION_verb>please</ACTION_verb> <UserDefined>God</UserDefined>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <FUNC_inner>to</FUNC_inner> <ACTION_verb>please</ACTION_verb> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>tests</ACTION_verb> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>motives</ENTITY_nouny>"
@@ -210,7 +210,7 @@
                                 "<FUNC_negation>nor</FUNC_negation> <MODAL>did</MODAL> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>use</ACTION_verb> <ENTITY_oov>words</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <VerbP>cover up</VerbP> <ENTITY_noun>greed</ENTITY_noun>"
                             ],
                             [
-                                "<UserDefined>God</UserDefined> <AUX>is</AUX> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>witness</ENTITY_nouny>"
+                                "<ENTITY_noun>God</ENTITY_noun> <AUX>is</AUX> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>witness</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -227,7 +227,7 @@
                     {
                         "2:7": [
                             [
-                                "<MODIFIER>even</MODIFIER> <FUNC_inter>though</FUNC_inter> <FUNC_inner>as</FUNC_inner> <ENTITY_oov>apostles</ENTITY_oov> <FUNC_inner>of</FUNC_inner> <UserDefined>Christ</UserDefined> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>could</MODAL> <ASPECT>have</ASPECT> <ACTION_verb>made</ACTION_verb> <ENTITY_oov>demands</ENTITY_oov> <RANGE_locality>on</RANGE_locality> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<MODIFIER>even</MODIFIER> <FUNC_inter>though</FUNC_inter> <FUNC_inner>as</FUNC_inner> <ENTITY_oov>apostles</ENTITY_oov> <FUNC_inner>of</FUNC_inner> <ENTITY_person>Christ</ENTITY_person> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>could</MODAL> <ASPECT>have</ASPECT> <ACTION_verb>made</ACTION_verb> <ENTITY_oov>demands</ENTITY_oov> <RANGE_locality>on</RANGE_locality> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
                                 "<FUNC_conjunction>But</FUNC_conjunction> <ENTITY_pronoun>we</ENTITY_pronoun> <AUX>were</AUX> <MODIFIER>gentle</MODIFIER> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_pronoun>we</ENTITY_pronoun> <AUX>were</AUX> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
@@ -240,7 +240,7 @@
                     {
                         "2:8": [
                             [
-                                "<FUNC_inter>Because of</FUNC_inter> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ENTITY_pronoun>we</ENTITY_pronoun> <AUX>were</AUX> <MODIFIER>ready</MODIFIER> <FUNC_inner>to</FUNC_inner> <ACTION_verb>share</ACTION_verb> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_negation>not</FUNC_negation> <QUANTIFIER>only</QUANTIFIER> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_inner>from</FUNC_inner> <UserDefined>God</UserDefined> <FUNC_conjunction>but</FUNC_conjunction> <MODIFIER>even</MODIFIER> <MODIFIER>our own</MODIFIER> <ENTITY_nouny>lives</ENTITY_nouny>"
+                                "<FUNC_inter>Because of</FUNC_inter> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ENTITY_pronoun>we</ENTITY_pronoun> <AUX>were</AUX> <MODIFIER>ready</MODIFIER> <FUNC_inner>to</FUNC_inner> <ACTION_verb>share</ACTION_verb> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_negation>not</FUNC_negation> <QUANTIFIER>only</QUANTIFIER> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_inner>from</FUNC_inner> <ENTITY_noun>God</ENTITY_noun> <FUNC_conjunction>but</FUNC_conjunction> <MODIFIER>even</MODIFIER> <MODIFIER>our own</MODIFIER> <ENTITY_nouny>lives</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_pronoun>You</ENTITY_pronoun> <AUX>were</AUX> <ModifierP>so dear</ModifierP> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun>"
@@ -259,7 +259,7 @@
                                 "<ENTITY_nouny>how</ENTITY_nouny> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>worked</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>toiled</ACTION_verb>"
                             ],
                             [
-                                "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>worked</ACTION_verb> <TIME_day>day</TIME_day> <FUNC_conjunction>and</FUNC_conjunction> <TIME_justtime>night</TIME_justtime> <MODIFIER>so</MODIFIER> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>would</MODAL> <FUNC_negation>not</FUNC_negation> <AUX>be</AUX> <QUANTIFIER>any</QUANTIFIER> <ENTITY_noun>trouble</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>as</FUNC_inner> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>preached</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_inner>from</FUNC_inner> <UserDefined>God</UserDefined>"
+                                "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>worked</ACTION_verb> <TIME_day>day</TIME_day> <FUNC_conjunction>and</FUNC_conjunction> <TIME_justtime>night</TIME_justtime> <MODIFIER>so</MODIFIER> <FUNC_determiner>that</FUNC_determiner> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>would</MODAL> <FUNC_negation>not</FUNC_negation> <AUX>be</AUX> <QUANTIFIER>any</QUANTIFIER> <ENTITY_noun>trouble</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>as</FUNC_inner> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>preached</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_inner>from</FUNC_inner> <ENTITY_noun>God</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -269,7 +269,7 @@
                                 "<ENTITY_pronoun>You</ENTITY_pronoun> <AUX>are</AUX> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>witnesses</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>so</MODIFIER> <AUX>is</AUX> <UserDefined>God</UserDefined>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>so</MODIFIER> <AUX>is</AUX> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_determiner>that</FUNC_determiner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>conduct</ENTITY_noun> <FUNC_inner>toward</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ENTITY_oov>believe</ENTITY_oov> <AUX>was</AUX> <MODIFIER>pure</MODIFIER>"
@@ -298,7 +298,7 @@
                                 "<ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>comforted</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>kept</ACTION_verb> <ACTION_verb>urging</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>live</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>kind</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>life</ENTITY_oov> <FUNC_determiner>that</FUNC_determiner> <ACTION_verb>pleases</ACTION_verb> <UserDefined>God</UserDefined>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>kept</ACTION_verb> <ACTION_verb>urging</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>live</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>kind</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_oov>life</ENTITY_oov> <FUNC_determiner>that</FUNC_determiner> <ACTION_verb>pleases</ACTION_verb> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
                                 "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>calls</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>share in</VerbP> <MODIFIER>his own</MODIFIER> <ENTITY_nouny>Kingdom</ENTITY_nouny> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_nouny>glory</ENTITY_nouny>"
@@ -308,7 +308,7 @@
                     {
                         "2:13": [
                             [
-                                "<FUNC_conjunction>And</FUNC_conjunction> <LOCATION>there</LOCATION> <AUX>is</AUX> <MODIFIER>another</MODIFIER> <ENTITY_nouny>reason</ENTITY_nouny> <CLAUSE_WhyQ>why</CLAUSE_WhyQ> <ENTITY_pronoun>we</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>give</ACTION_verb> <ENTITY_oov>thanks</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <UserDefined>God</UserDefined>"
+                                "<FUNC_conjunction>And</FUNC_conjunction> <LOCATION>there</LOCATION> <AUX>is</AUX> <MODIFIER>another</MODIFIER> <ENTITY_nouny>reason</ENTITY_nouny> <CLAUSE_WhyQ>why</CLAUSE_WhyQ> <ENTITY_pronoun>we</ENTITY_pronoun> <TIME_justtime>always</TIME_justtime> <ACTION_verb>give</ACTION_verb> <ENTITY_oov>thanks</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
                                 "<CLAUSE_WhenQ>When</CLAUSE_WhenQ> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>brought</ACTION_verb> <ENTITY_possessive>youGod's</ENTITY_possessive> <ENTITY_noun>message</ENTITY_noun>"
@@ -323,7 +323,7 @@
                                 "<CLAUSE_WhichQ>which</CLAUSE_WhichQ> <MODIFIER>indeed</MODIFIER> <ENTITY_pronoun>it</ENTITY_pronoun> <AUX>is</AUX>"
                             ],
                             [
-                                "<FUNC_inner>For</FUNC_inner> <UserDefined>God</UserDefined> <AUX>is</AUX> <FUNC_inner>at</FUNC_inner> <ENTITY_noun>work</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <ENTITY_pronoun>you</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>believe</ACTION_verb>"
+                                "<FUNC_inner>For</FUNC_inner> <ENTITY_noun>God</ENTITY_noun> <AUX>is</AUX> <FUNC_inner>at</FUNC_inner> <ENTITY_noun>work</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <ENTITY_pronoun>you</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>believe</ACTION_verb>"
                             ]
                         ]
                     },
@@ -333,26 +333,26 @@
                                 "<ENTITY_possessive>Our</ENTITY_possessive> <ENTITY_nouny>friends</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_determiner>the</FUNC_determiner> <MODIFIER>same</MODIFIER> <ENTITY_nouny>things</ENTITY_nouny> <ACTION_verb>happened</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>that</FUNC_determiner> <ACTION_verb>happened</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>churches</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <UserDefined>God</UserDefined> <RANGE_locality>in</RANGE_locality> <LOCATION>Judea</LOCATION>"
+                                "<FUNC_determiner>the</FUNC_determiner> <MODIFIER>same</MODIFIER> <ENTITY_nouny>things</ENTITY_nouny> <ACTION_verb>happened</ACTION_verb> <FUNC_inner>to</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>that</FUNC_determiner> <ACTION_verb>happened</ACTION_verb> <FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>churches</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_noun>God</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <LOCATION>Judea</LOCATION>"
                             ],
                             [
-                                "<FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>people</ENTITY_noun> <LOCATION>there</LOCATION> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <VerbP>belong to</VerbP> <UserDefined>Christ Jesus</UserDefined>"
+                                "<FUNC_inner>to</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>people</ENTITY_noun> <LOCATION>there</LOCATION> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <VerbP>belong to</VerbP> <ENTITY_person>Christ Jesus</ENTITY_person>"
                             ],
                             [
-                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>suffered</ACTION_verb> <ENTITY_pronoun>the</ENTITY_pronoun> <MODIFIER>same</MODIFIER> <ENTITY_nouny>persecutions</ENTITY_nouny> <FUNC_inner>from</FUNC_inner> <MODIFIER>your own</MODIFIER> <ENTITY_noun>people</ENTITY_noun> <ENTITY_pronoun>that</ENTITY_pronoun> <ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>suffered</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>the</ENTITY_pronoun> <UserDefined>Jews</UserDefined>"
+                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ACTION_verb>suffered</ACTION_verb> <ENTITY_pronoun>the</ENTITY_pronoun> <MODIFIER>same</MODIFIER> <ENTITY_nouny>persecutions</ENTITY_nouny> <FUNC_inner>from</FUNC_inner> <MODIFIER>your own</MODIFIER> <ENTITY_noun>people</ENTITY_noun> <ENTITY_pronoun>that</ENTITY_pronoun> <ENTITY_pronoun>they</ENTITY_pronoun> <ACTION_verb>suffered</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>the</ENTITY_pronoun> <ENTITY_noun>Jews</ENTITY_noun>"
                             ]
                         ]
                     },
                     {
                         "2:15": [
                             [
-                                "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>killed</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <UserDefined>Jesus</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>prophets</ENTITY_nouny>"
+                                "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>killed</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus</ENTITY_person> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>prophets</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>persecuted</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun>"
                             ],
                             [
-                                "<CLAUSE_HowQ>How</CLAUSE_HowQ> <ACTION_verb>displeasing</ACTION_verb> <ENTITY_pronoun>they</ENTITY_pronoun> <AUX>are</AUX> <FUNC_inner>to</FUNC_inner> <UserDefined>God</UserDefined>"
+                                "<CLAUSE_HowQ>How</CLAUSE_HowQ> <ACTION_verb>displeasing</ACTION_verb> <ENTITY_pronoun>they</ENTITY_pronoun> <AUX>are</AUX> <FUNC_inner>to</FUNC_inner> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
                                 "<CLAUSE_HowQ>How</CLAUSE_HowQ> <MODIFIER>hostile</MODIFIER> <ENTITY_pronoun>they</ENTITY_pronoun> <AUX>are</AUX> <FUNC_inner>to</FUNC_inner> <ENTITY_oov>everyone</ENTITY_oov>"
@@ -406,7 +406,7 @@
                                 "<ENTITY_pronoun>I</ENTITY_pronoun> <ENTITY_pronoun>myself</ENTITY_pronoun> <ACTION_verb>tried</ACTION_verb> <FUNC_inner>to</FUNC_inner> <VerbP>go back</VerbP> <QUANTIFIER>more</QUANTIFIER> <FUNC_inner>than</FUNC_inner> <MODIFIER>once</MODIFIER>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <UserDefined>Satan</UserDefined> <MODAL>would</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_lightVerb>let</ACTION_lightVerb> <ENTITY_pronoun>us</ENTITY_pronoun>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <ENTITY_person>Satan</ENTITY_person> <MODAL>would</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_lightVerb>let</ACTION_lightVerb> <ENTITY_pronoun>us</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -431,7 +431,7 @@
                                 "<ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>joy</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>reason</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ACTION_verb>boasting</ACTION_verb> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>victory</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>presence</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus</UserDefined> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>comes</ACTION_verb>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>reason</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ACTION_verb>boasting</ACTION_verb> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>victory</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>presence</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus</ENTITY_person> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_pronoun>he</ENTITY_pronoun> <ACTION_verb>comes</ACTION_verb>"
                             ]
                         ]
                     },
@@ -458,7 +458,7 @@
                                 "<ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>could</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>bear</ACTION_verb> <ENTITY_pronoun>it</ENTITY_pronoun> <QUANTIFIER>any</QUANTIFIER> <MODIFIER>longer</MODIFIER>"
                             ],
                             [
-                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>decided</ACTION_verb> <FUNC_inner>to</FUNC_inner> <VerbP>stay on</VerbP> <MODIFIER>alone</MODIFIER> <RANGE_locality>in</RANGE_locality> <UserDefined>Athens</UserDefined>"
+                                "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>decided</ACTION_verb> <FUNC_inner>to</FUNC_inner> <VerbP>stay on</VerbP> <MODIFIER>alone</MODIFIER> <RANGE_locality>in</RANGE_locality> <LOCATION>Athens</LOCATION>"
                             ]
                         ]
                     },
@@ -468,7 +468,7 @@
                                 "<FUNC_inter>while</FUNC_inter> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>sent</ACTION_verb> <ENTITY_person>Timothy</ENTITY_person>"
                             ],
                             [
-                                "<ENTITY_possessive>our</ENTITY_possessive> <ENTITY_pronoun>brother</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>works</ACTION_verb> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>for</FUNC_inner> <UserDefined>God</UserDefined> <RANGE_locality>in</RANGE_locality> <ACTION_verb>preaching</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_inner>about</FUNC_inner> <UserDefined>Christ</UserDefined>"
+                                "<ENTITY_possessive>our</ENTITY_possessive> <ENTITY_pronoun>brother</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>works</ACTION_verb> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>for</FUNC_inner> <ENTITY_noun>God</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <ACTION_verb>preaching</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <MODIFIER>Good</MODIFIER> <ENTITY_nouny>News</ENTITY_nouny> <FUNC_inner>about</FUNC_inner> <ENTITY_person>Christ</ENTITY_person>"
                             ],
                             [
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>sent</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>strengthen</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>help</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>faith</ENTITY_nouny>"
@@ -549,14 +549,14 @@
                     {
                         "3:8": [
                             [
-                                "<FUNC_inter>because</FUNC_inter> <TIME_justtime>now</TIME_justtime> <ENTITY_pronoun>we</ENTITY_pronoun> <MODIFIER>really</MODIFIER> <ACTION_verb>live</ACTION_verb> <FUNC_inter>if</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>stand</ACTION_verb> <ENTITY_oov>firm</ENTITY_oov> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_oov>union</ENTITY_oov> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
+                                "<FUNC_inter>because</FUNC_inter> <TIME_justtime>now</TIME_justtime> <ENTITY_pronoun>we</ENTITY_pronoun> <MODIFIER>really</MODIFIER> <ACTION_verb>live</ACTION_verb> <FUNC_inter>if</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>stand</ACTION_verb> <ENTITY_oov>firm</ENTITY_oov> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_oov>union</ENTITY_oov> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun>"
                             ]
                         ]
                     },
                     {
                         "3:9": [
                             [
-                                "<TIME_justtime>Now</TIME_justtime> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>can</MODAL> <ACTION_verb>give</ACTION_verb> <ENTITY_oov>thanks</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>God</UserDefined> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<TIME_justtime>Now</TIME_justtime> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>can</MODAL> <ACTION_verb>give</ACTION_verb> <ENTITY_oov>thanks</ENTITY_oov> <FUNC_inner>to</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>God</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>thank</ACTION_verb> <ENTITY_pronoun>him</ENTITY_pronoun> <FUNC_inner>for</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>joy</ENTITY_noun> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>have</ACTION_verb> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>presence</ENTITY_nouny> <FUNC_inter>because of</FUNC_inter> <ENTITY_pronoun>you</ENTITY_pronoun>"
@@ -573,14 +573,14 @@
                     {
                         "3:11": [
                             [
-                                "<TIME_month>May</TIME_month> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>God</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>Father</ENTITY_pronoun> <ENTITY_pronoun>himself</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus</UserDefined> <ACTION_verb>prepare</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>come to</VerbP> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<TIME_month>May</TIME_month> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>God</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>Father</ENTITY_pronoun> <ENTITY_pronoun>himself</ENTITY_pronoun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus</ENTITY_person> <ACTION_verb>prepare</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>come to</VerbP> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ]
                         ]
                     },
                     {
                         "3:12": [
                             [
-                                "<TIME_month>May</TIME_month> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <ACTION_verb>make</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_num>one</ENTITY_num> <MODIFIER>another</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_inner>for</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_noun>people</ENTITY_noun> <ACTION_verb>grow</ACTION_verb> <QUANTIFIER>more</QUANTIFIER> <FUNC_conjunction>and</FUNC_conjunction> <QUANTIFIER>more</QUANTIFIER> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>become</ACTION_verb> <FUNC_inner>as</FUNC_inner> <MODIFIER>great</MODIFIER> <FUNC_inner>as</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<TIME_month>May</TIME_month> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ACTION_verb>make</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_num>one</ENTITY_num> <MODIFIER>another</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <FUNC_inner>for</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <ENTITY_noun>people</ENTITY_noun> <ACTION_verb>grow</ACTION_verb> <QUANTIFIER>more</QUANTIFIER> <FUNC_conjunction>and</FUNC_conjunction> <QUANTIFIER>more</QUANTIFIER> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>become</ACTION_verb> <FUNC_inner>as</FUNC_inner> <MODIFIER>great</MODIFIER> <FUNC_inner>as</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -590,7 +590,7 @@
                                 "<RANGE_locality>In</RANGE_locality> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <ENTITY_pronoun>he</ENTITY_pronoun> <MODAL>will</MODAL> <ACTION_verb>strengthen</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>will</MODAL> <AUX>be</AUX> <MODIFIER>perfect</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>holy</MODIFIER> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>presence</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>God</UserDefined> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>Father</ENTITY_pronoun> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus</UserDefined> <ACTION_verb>comes</ACTION_verb> <FUNC_inner>with</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <VerbP>belong to</VerbP> <ENTITY_pronoun>him</ENTITY_pronoun>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>will</MODAL> <AUX>be</AUX> <MODIFIER>perfect</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>holy</MODIFIER> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>presence</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>God</ENTITY_noun> <FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>Father</ENTITY_pronoun> <CLAUSE_WhenQ>when</CLAUSE_WhenQ> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus</ENTITY_person> <ACTION_verb>comes</ACTION_verb> <FUNC_inner>with</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <VerbP>belong to</VerbP> <ENTITY_pronoun>him</ENTITY_pronoun>"
                             ]
                         ]
                     }
@@ -607,7 +607,7 @@
                                 "<ENTITY_possessive>our</ENTITY_possessive> <ENTITY_nouny>friends</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>learned</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>should</MODAL> <VerbP>live in</VerbP> <ENTITY_noun>order</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>please</ACTION_verb> <UserDefined>God</UserDefined>"
+                                "<ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>learned</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>us</ENTITY_pronoun> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>should</MODAL> <VerbP>live in</VerbP> <ENTITY_noun>order</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>please</ACTION_verb> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_determiner>This</FUNC_determiner> <AUX>is</AUX>"
@@ -619,21 +619,21 @@
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>way</ENTITY_nouny> <ENTITY_pronoun>you</ENTITY_pronoun> <ASPECT>have</ASPECT> <AUX>been</AUX> <ACTION_verb>living</ACTION_verb>"
                             ],
                             [
-                                "<FUNC_conjunction>And</FUNC_conjunction> <TIME_justtime>now</TIME_justtime> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>beg</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>urge</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>name</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <UserDefined>Jesus</UserDefined> <FUNC_inner>to</FUNC_inner> <ACTION_verb>do</ACTION_verb> <MODIFIER>even</MODIFIER> <QUANTIFIER>more</QUANTIFIER>"
+                                "<FUNC_conjunction>And</FUNC_conjunction> <TIME_justtime>now</TIME_justtime> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>beg</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>urge</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>name</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus</ENTITY_person> <FUNC_inner>to</FUNC_inner> <ACTION_verb>do</ACTION_verb> <MODIFIER>even</MODIFIER> <QUANTIFIER>more</QUANTIFIER>"
                             ]
                         ]
                     },
                     {
                         "4:2": [
                             [
-                                "<FUNC_inner>For</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>instructions</ENTITY_nouny> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>gave</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>by</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>authority</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <UserDefined>Jesus</UserDefined>"
+                                "<FUNC_inner>For</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>instructions</ENTITY_nouny> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>gave</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>by</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>authority</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus</ENTITY_person>"
                             ]
                         ]
                     },
                     {
                         "4:3": [
                             [
-                                "<UserDefined>God</UserDefined> <ACTION_verb>wants</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <MODIFIER>holy</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>completely</MODIFIER> <ACTION_verb>free</ACTION_verb> <FUNC_inner>from</FUNC_inner> <MODIFIER>sexual</MODIFIER> <ENTITY_nouny>immorality</ENTITY_nouny>"
+                                "<ENTITY_noun>God</ENTITY_noun> <ACTION_verb>wants</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <AUX>be</AUX> <MODIFIER>holy</MODIFIER> <FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>completely</MODIFIER> <ACTION_verb>free</ACTION_verb> <FUNC_inner>from</FUNC_inner> <MODIFIER>sexual</MODIFIER> <ENTITY_nouny>immorality</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -650,7 +650,7 @@
                                 "<FUNC_negation>not</FUNC_negation> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>lustful</MODIFIER> <ENTITY_nouny>desire</ENTITY_nouny>"
                             ],
                             [
-                                "<AUX>like</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>heathen</ENTITY_nouny> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <MODAL>do</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>know</ACTION_verb> <UserDefined>God</UserDefined>"
+                                "<AUX>like</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>heathen</ENTITY_nouny> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <MODAL>do</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>know</ACTION_verb> <ENTITY_noun>God</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -669,14 +669,14 @@
                                 "<ENTITY_pronoun>We</ENTITY_pronoun> <ASPECT>have</ASPECT> <ACTION_verb>told</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>this</FUNC_determiner> <RANGE_period>before</RANGE_period>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>we</ENTITY_pronoun> <MODIFIER>strongly</MODIFIER> <ACTION_verb>warned</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <MODAL>will</MODAL> <ACTION_verb>punish</ACTION_verb> <FUNC_determiner>those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>do</ACTION_verb> <FUNC_determiner>that</FUNC_determiner>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_pronoun>we</ENTITY_pronoun> <MODIFIER>strongly</MODIFIER> <ACTION_verb>warned</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <MODAL>will</MODAL> <ACTION_verb>punish</ACTION_verb> <FUNC_determiner>those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>do</ACTION_verb> <FUNC_determiner>that</FUNC_determiner>"
                             ]
                         ]
                     },
                     {
                         "4:7": [
                             [
-                                "<UserDefined>God</UserDefined> <MODAL>did</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>call</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>live in</VerbP> <ENTITY_nouny>immorality</ENTITY_nouny>"
+                                "<ENTITY_noun>God</ENTITY_noun> <MODAL>did</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>call</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <VerbP>live in</VerbP> <ENTITY_nouny>immorality</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_conjunction>but</FUNC_conjunction> <RANGE_locality>in</RANGE_locality> <ENTITY_nouny>holiness</ENTITY_nouny>"
@@ -692,10 +692,10 @@
                                 "<MODIFIER>whoever</MODIFIER> <ENTITY_nouny>rejects</ENTITY_nouny> <FUNC_determiner>this</FUNC_determiner> <MODIFIER>teaching</MODIFIER> <AUX>is</AUX> <FUNC_negation>not</FUNC_negation> <ACTION_verb>rejecting</ACTION_verb> <FUNC_determiner>a</FUNC_determiner> <MODIFIER>human</MODIFIER> <ENTITY_nouny>being</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <UserDefined>God</UserDefined>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <ENTITY_noun>God</ENTITY_noun>"
                             ],
                             [
-                                "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>gives</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ENTITY_possessive>his</ENTITY_possessive> <UserDefined>Holy Spirit</UserDefined>"
+                                "<CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>gives</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_noun>Holy Spirit</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -705,7 +705,7 @@
                                 "<LOCATION>There</LOCATION> <AUX>is</AUX> <FUNC_negation>no</FUNC_negation> <ENTITY_noun>need</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>write</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>about</FUNC_inner> <ENTITY_noun>love</ENTITY_noun> <FUNC_inner>for</FUNC_inner> <QUANTIFIER>each</QUANTIFIER> <MODIFIER>other</MODIFIER>"
                             ],
                             [
-                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ENTITY_pronoun>yourselves</ENTITY_pronoun> <ASPECT>have</ASPECT> <AUX>been</AUX> <ACTION_verb>taught</ACTION_verb> <FUNC_inner>by</FUNC_inner> <UserDefined>God</UserDefined> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>should</MODAL> <ACTION_verb>love</ACTION_verb> <ENTITY_num>one</ENTITY_num> <MODIFIER>another</MODIFIER>"
+                                "<ENTITY_pronoun>You</ENTITY_pronoun> <ENTITY_pronoun>yourselves</ENTITY_pronoun> <ASPECT>have</ASPECT> <AUX>been</AUX> <ACTION_verb>taught</ACTION_verb> <FUNC_inner>by</FUNC_inner> <ENTITY_noun>God</ENTITY_noun> <CLAUSE_HowQ>how</CLAUSE_HowQ> <ENTITY_pronoun>you</ENTITY_pronoun> <MODAL>should</MODAL> <ACTION_verb>love</ACTION_verb> <ENTITY_num>one</ENTITY_num> <MODIFIER>another</MODIFIER>"
                             ]
                         ]
                     },
@@ -718,7 +718,7 @@
                                 "<RANGE_locality>in</RANGE_locality> <ENTITY_oov>fact</ENTITY_oov>"
                             ],
                             [
-                                "<ACTION_verb>behaved</ACTION_verb> <AUX>like</AUX> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>toward</ENTITY_nouny> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>believers</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>all</QUANTIFIER> <FUNC_inner>of</FUNC_inner> <UserDefined>Macedonia</UserDefined>"
+                                "<ACTION_verb>behaved</ACTION_verb> <AUX>like</AUX> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>toward</ENTITY_nouny> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>believers</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>all</QUANTIFIER> <FUNC_inner>of</FUNC_inner> <LOCATION>Macedonia</LOCATION>"
                             ],
                             [
                                 "<FUNC_inter>So</FUNC_inter> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>beg</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun>"
@@ -776,10 +776,10 @@
                     {
                         "4:14": [
                             [
-                                "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>believe</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <UserDefined>Jesus</UserDefined> <ACTION_verb>died</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>rose</ACTION_verb> <MODIFIER>again</MODIFIER>"
+                                "<ENTITY_pronoun>We</ENTITY_pronoun> <ACTION_verb>believe</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_person>Jesus</ENTITY_person> <ACTION_verb>died</ACTION_verb> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>rose</ACTION_verb> <MODIFIER>again</MODIFIER>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>so</MODIFIER> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>believe</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <UserDefined>God</UserDefined> <MODAL>will</MODAL> <VerbP>take back</VerbP> <FUNC_inner>with</FUNC_inner> <UserDefined>Jesus</UserDefined> <FUNC_determiner>those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ASPECT>have</ASPECT> <ACTION_verb>died</ACTION_verb> <VerbP>believing in</VerbP> <ENTITY_pronoun>him</ENTITY_pronoun>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <MODIFIER>so</MODIFIER> <ENTITY_pronoun>we</ENTITY_pronoun> <ACTION_verb>believe</ACTION_verb> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>God</ENTITY_noun> <MODAL>will</MODAL> <VerbP>take back</VerbP> <FUNC_inner>with</FUNC_inner> <ENTITY_person>Jesus</ENTITY_person> <FUNC_determiner>those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ASPECT>have</ASPECT> <ACTION_verb>died</ACTION_verb> <VerbP>believing in</VerbP> <ENTITY_pronoun>him</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -789,7 +789,7 @@
                                 "<CLAUSE_WhatQ>What</CLAUSE_WhatQ> <ENTITY_pronoun>we</ENTITY_pronoun> <AUX>are</AUX> <ACTION_verb>teaching</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <TIME_justtime>now</TIME_justtime> <AUX>is</AUX> <FUNC_determiner>the</FUNC_determiner> <ENTITY_possessive>Lord's</ENTITY_possessive> <ENTITY_nouny>teaching</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_pronoun>we</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <AUX>are</AUX> <MODIFIER>alive</MODIFIER> <RANGE_locality>on</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <ENTITY_nouny>comes</ENTITY_nouny> <MODAL>will</MODAL> <FUNC_negation>not</FUNC_negation> <VerbP>go ahead</VerbP> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ASPECT>have</ASPECT> <ACTION_verb>died</ACTION_verb>"
+                                "<ENTITY_pronoun>we</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <AUX>are</AUX> <MODIFIER>alive</MODIFIER> <RANGE_locality>on</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <TIME_day>day</TIME_day> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_nouny>comes</ENTITY_nouny> <MODAL>will</MODAL> <FUNC_negation>not</FUNC_negation> <VerbP>go ahead</VerbP> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ASPECT>have</ASPECT> <ACTION_verb>died</ACTION_verb>"
                             ]
                         ]
                     },
@@ -805,20 +805,20 @@
                                 "<FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>sound</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>God's</ENTITY_possessive> <ENTITY_noun>trumpet</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <ENTITY_pronoun>himself</ENTITY_pronoun> <MODAL>will</MODAL> <VerbP>come down</VerbP> <FUNC_inner>from</FUNC_inner> <ENTITY_noun>heaven</ENTITY_noun>"
+                                "<FUNC_conjunction>and</FUNC_conjunction> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_pronoun>himself</ENTITY_pronoun> <MODAL>will</MODAL> <VerbP>come down</VerbP> <FUNC_inner>from</FUNC_inner> <ENTITY_noun>heaven</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_determiner>Those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ASPECT>have</ASPECT> <ACTION_verb>died</ACTION_verb> <VerbP>believing in</VerbP> <UserDefined>Christ</UserDefined> <MODAL>will</MODAL> <VerbP>rise to</VerbP> <ENTITY_oov>life</ENTITY_oov> <MODIFIER>first</MODIFIER>"
+                                "<FUNC_determiner>Those</FUNC_determiner> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ASPECT>have</ASPECT> <ACTION_verb>died</ACTION_verb> <VerbP>believing in</VerbP> <ENTITY_person>Christ</ENTITY_person> <MODAL>will</MODAL> <VerbP>rise to</VerbP> <ENTITY_oov>life</ENTITY_oov> <MODIFIER>first</MODIFIER>"
                             ]
                         ]
                     },
                     {
                         "4:17": [
                             [
-                                "<FUNC_inter>then</FUNC_inter> <ENTITY_pronoun>we</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <AUX>are</AUX> <ACTION_verb>living</ACTION_verb> <FUNC_inner>at</FUNC_inner> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>time</ENTITY_noun> <MODAL>will</MODAL> <AUX>be</AUX> <ACTION_verb>gathered</ACTION_verb> <FUNC_inner>up</FUNC_inner> <RANGE_locality>along</RANGE_locality> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>them</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>clouds</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <ACTION_verb>meet</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>air</ENTITY_noun>"
+                                "<FUNC_inter>then</FUNC_inter> <ENTITY_pronoun>we</ENTITY_pronoun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <AUX>are</AUX> <ACTION_verb>living</ACTION_verb> <FUNC_inner>at</FUNC_inner> <FUNC_determiner>that</FUNC_determiner> <ENTITY_noun>time</ENTITY_noun> <MODAL>will</MODAL> <AUX>be</AUX> <ACTION_verb>gathered</ACTION_verb> <FUNC_inner>up</FUNC_inner> <RANGE_locality>along</RANGE_locality> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>them</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>clouds</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <ACTION_verb>meet</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <RANGE_locality>in</RANGE_locality> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>air</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_conjunction>And</FUNC_conjunction> <MODIFIER>so</MODIFIER> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>will</MODAL> <TIME_justtime>always</TIME_justtime> <AUX>be</AUX> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined>"
+                                "<FUNC_conjunction>And</FUNC_conjunction> <MODIFIER>so</MODIFIER> <ENTITY_pronoun>we</ENTITY_pronoun> <MODAL>will</MODAL> <TIME_justtime>always</TIME_justtime> <AUX>be</AUX> <FUNC_inner>with</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -852,7 +852,7 @@
                     {
                         "5:2": [
                             [
-                                "<FUNC_inner>For</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ENTITY_pronoun>yourselves</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <ModifierP>very well</ModifierP> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <TIME_day>Day</TIME_day> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <MODAL>will</MODAL> <ACTION_verb>come</ACTION_verb> <FUNC_inner>as</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>thief</ENTITY_nouny> <ACTION_verb>comes</ACTION_verb> <FUNC_inner>at</FUNC_inner> <TIME_justtime>night</TIME_justtime>"
+                                "<FUNC_inner>For</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <ENTITY_pronoun>yourselves</ENTITY_pronoun> <ACTION_verb>know</ACTION_verb> <ModifierP>very well</ModifierP> <FUNC_determiner>that</FUNC_determiner> <FUNC_determiner>the</FUNC_determiner> <TIME_day>Day</TIME_day> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <MODAL>will</MODAL> <ACTION_verb>come</ACTION_verb> <FUNC_inner>as</FUNC_inner> <FUNC_determiner>a</FUNC_determiner> <ENTITY_nouny>thief</ENTITY_nouny> <ACTION_verb>comes</ACTION_verb> <FUNC_inner>at</FUNC_inner> <TIME_justtime>night</TIME_justtime>"
                             ]
                         ]
                     },
@@ -946,10 +946,10 @@
                     {
                         "5:9": [
                             [
-                                "<UserDefined>God</UserDefined> <MODAL>did</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>choose</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>suffer</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny>"
+                                "<ENTITY_noun>God</ENTITY_noun> <MODAL>did</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>choose</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>suffer</ACTION_verb> <ENTITY_possessive>his</ENTITY_possessive> <ENTITY_nouny>anger</ENTITY_nouny>"
                             ],
                             [
-                                "<FUNC_conjunction>but</FUNC_conjunction> <FUNC_inner>to</FUNC_inner> <ACTION_verb>possess</ACTION_verb> <ENTITY_nouny>salvation</ENTITY_nouny> <FUNC_inner>through</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus Christ</UserDefined>"
+                                "<FUNC_conjunction>but</FUNC_conjunction> <FUNC_inner>to</FUNC_inner> <ACTION_verb>possess</ACTION_verb> <ENTITY_nouny>salvation</ENTITY_nouny> <FUNC_inner>through</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus Christ</ENTITY_person>"
                             ]
                         ]
                     },
@@ -1051,14 +1051,14 @@
                                 "<CLAUSE_YesNoQ>be</CLAUSE_YesNoQ> <MODIFIER>thankful</MODIFIER> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>all</QUANTIFIER> <ENTITY_oov>circumstances</ENTITY_oov>"
                             ],
                             [
-                                "<FUNC_determiner>This</FUNC_determiner> <AUX>is</AUX> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <UserDefined>God</UserDefined> <ACTION_verb>wants</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_oov>union</ENTITY_oov> <FUNC_inner>with</FUNC_inner> <UserDefined>Christ Jesus</UserDefined>"
+                                "<FUNC_determiner>This</FUNC_determiner> <AUX>is</AUX> <CLAUSE_WhatQ>what</CLAUSE_WhatQ> <ENTITY_noun>God</ENTITY_noun> <ACTION_verb>wants</ACTION_verb> <FUNC_inner>from</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun> <RANGE_locality>in</RANGE_locality> <ENTITY_possessive>your</ENTITY_possessive> <ENTITY_nouny>life</ENTITY_nouny> <RANGE_locality>in</RANGE_locality> <ENTITY_oov>union</ENTITY_oov> <FUNC_inner>with</FUNC_inner> <ENTITY_person>Christ Jesus</ENTITY_person>"
                             ]
                         ]
                     },
                     {
                         "5:19": [
                             [
-                                "<MODAL>Do</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>restrain</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Holy Spirit</UserDefined>"
+                                "<MODAL>Do</MODAL> <FUNC_negation>not</FUNC_negation> <ACTION_verb>restrain</ACTION_verb> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Holy Spirit</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -1089,7 +1089,7 @@
                     {
                         "5:23": [
                             [
-                                "<TIME_month>May</TIME_month> <FUNC_determiner>the</FUNC_determiner> <UserDefined>God</UserDefined> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>gives</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <ENTITY_noun>peace</ENTITY_noun> <ACTION_verb>make</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>holy</MODIFIER> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>every</QUANTIFIER> <ENTITY_oov>way</ENTITY_oov> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>keep</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <MODIFIER>whole</MODIFIER> <ENTITY_nouny>being</ENTITY_nouny>"
+                                "<TIME_month>May</TIME_month> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>God</ENTITY_noun> <CLAUSE_WhoQ>who</CLAUSE_WhoQ> <ACTION_verb>gives</ACTION_verb> <ENTITY_pronoun>us</ENTITY_pronoun> <ENTITY_noun>peace</ENTITY_noun> <ACTION_verb>make</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <MODIFIER>holy</MODIFIER> <RANGE_locality>in</RANGE_locality> <QUANTIFIER>every</QUANTIFIER> <ENTITY_oov>way</ENTITY_oov> <FUNC_conjunction>and</FUNC_conjunction> <ACTION_verb>keep</ACTION_verb> <ENTITY_possessive>your</ENTITY_possessive> <MODIFIER>whole</MODIFIER> <ENTITY_nouny>being</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_noun>spirit</ENTITY_noun>"
@@ -1101,7 +1101,7 @@
                                 "<FUNC_conjunction>and</FUNC_conjunction> <ENTITY_noun>body</ENTITY_noun>"
                             ],
                             [
-                                "<ACTION_verb>free</ACTION_verb> <FUNC_inner>from</FUNC_inner> <QUANTIFIER>every</QUANTIFIER> <ENTITY_noun>fault</ENTITY_noun> <FUNC_inner>at</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>coming</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus Christ</UserDefined>"
+                                "<ACTION_verb>free</ACTION_verb> <FUNC_inner>from</FUNC_inner> <QUANTIFIER>every</QUANTIFIER> <ENTITY_noun>fault</ENTITY_noun> <FUNC_inner>at</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>coming</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus Christ</ENTITY_person>"
                             ]
                         ]
                     },
@@ -1135,14 +1135,14 @@
                     {
                         "5:27": [
                             [
-                                "<ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>urge</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>by</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>authority</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <UserDefined>Lord</UserDefined> <FUNC_inner>to</FUNC_inner> <ACTION_verb>read</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>letter</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>believers</ENTITY_nouny>"
+                                "<ENTITY_pronoun>I</ENTITY_pronoun> <ACTION_verb>urge</ACTION_verb> <ENTITY_pronoun>you</ENTITY_pronoun> <FUNC_inner>by</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>authority</ENTITY_nouny> <FUNC_inner>of</FUNC_inner> <FUNC_determiner>the</FUNC_determiner> <ENTITY_noun>Lord</ENTITY_noun> <FUNC_inner>to</FUNC_inner> <ACTION_verb>read</ACTION_verb> <FUNC_determiner>this</FUNC_determiner> <ENTITY_nouny>letter</ENTITY_nouny> <FUNC_inner>to</FUNC_inner> <QUANTIFIER>all</QUANTIFIER> <FUNC_determiner>the</FUNC_determiner> <ENTITY_nouny>believers</ENTITY_nouny>"
                             ]
                         ]
                     },
                     {
                         "5:28": [
                             [
-                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_noun>grace</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <UserDefined>Lord</UserDefined> <UserDefined>Jesus Christ</UserDefined> <AUX>be</AUX> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
+                                "<FUNC_determiner>The</FUNC_determiner> <ENTITY_noun>grace</ENTITY_noun> <FUNC_inner>of</FUNC_inner> <ENTITY_possessive>our</ENTITY_possessive> <ENTITY_noun>Lord</ENTITY_noun> <ENTITY_person>Jesus Christ</ENTITY_person> <AUX>be</AUX> <FUNC_inner>with</FUNC_inner> <ENTITY_pronoun>you</ENTITY_pronoun>"
                             ]
                         ]
                     }
