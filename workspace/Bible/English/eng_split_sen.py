@@ -46,7 +46,7 @@ def main(jsonFILE):
                             print(senSTR)                        
                             num_protectSTR = re.sub(r"(\d{1,3}(?:,\d{3})+)", lambda n: n.group(1).replace(",", "$"), senSTR) #將數字間的","替換為"$"避免數字被切開
                             print(num_protectSTR)
-                            split_senLIST = [s.replace("$", ",") for s in re.split(r"\?|\!|\.|\,|\:|\;|\、|\"|\)|\(|\—", num_protectSTR) if s ] #將"$"換回","並用標點符號切開句子
+                            split_senLIST = [s.replace("$", ",") for s in re.split(r"\?|\!|\.", num_protectSTR) if s ] #將"$"換回","並用標點符號切開句子
                             split_senLIST = [re.sub(r"^\s", "", s) for s in split_senLIST]
                             print(split_senLIST)
                     
@@ -86,7 +86,7 @@ def to_segment_LIST(segment_folder):
 
 if __name__ == "__main__":
     book_folder = "../../../data/Bible/English/book"
-    segment_folder = "../../../data/Bible/English/segment"
+    segment_folder = "../../../data/Bible/English/segment2"
     os.makedirs(segment_folder, exist_ok=True)
     for json_file in os.listdir(book_folder):
         jsonFILE = os.path.join(book_folder, json_file)
