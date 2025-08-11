@@ -10,7 +10,7 @@ from pprint import pprint
 delPAT = re.compile(r"\([^()]*?（見.?\d+）.*?\)|\([^()]*?\)|（(?:[^\d（）]+?\d+:\d+(?:-?\d*)?)+(?:-\d+(?:,\d+)+:?-?\d+)?）|（\d+:\d+-\d+:\d+）|（.\d+:\d+-\d+,\d+-\d+）|（..\d+）|（（[^（）]*?(?:從前叫|希伯來文)）")   #刪除的內容
 re_delPAT = re.compile(r"\d+-|[\u4e00-\u9fff]+\d+|\d+|22節由本章末段移到此段|詩篇四十二～七十二篇|詩篇七十三～八十九篇|詩篇九十～一零六篇|詩篇一零七～一五零篇|第五卷")    #刪除的內容
 zeroPAT = re.compile(r"○")  #改成國字「零」
-splitPAT = re.compile(r"[？！!。，；：、「」『』（）()─〕……]")  #斷句符號
+splitPAT = re.compile(r"[?？！!。.;；……]")  #斷句符號
 
 def main(jsonFILE):
     """
@@ -71,7 +71,7 @@ def to_segment_LIST(segment_folder):
         with open(jsonFILE, "r", encoding="utf=8") as f:
             segment_LIST.extend(json.load(f))
             
-    filename ="../../../data/Bible/Chinese/segment_all_ChiBible.json"        
+    filename ="../../../data_phase2/Bible/Chinese/segment_all_ChiBible.json"        
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(segment_LIST, f, ensure_ascii=False, indent=4)
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     book_folder = "../../../data/Bible/Chinese/book"
     jsonFILE_LIST = glob(f"{book_folder}/*.json")
     
-    segment_folder = "../../../data/Bible/Chinese/segment"
+    segment_folder = "../../../data_phase2/Bible/Chinese/segment"
     os.makedirs(segment_folder, exist_ok=True)  # 確保資料夾存在
     
     for jsonFILE in jsonFILE_LIST:
