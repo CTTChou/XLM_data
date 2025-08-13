@@ -80,7 +80,7 @@ def to_segment_LIST(segment_folder):
         with open(jsonFILE, "r", encoding="utf=8") as f:
             segment_LIST.extend(json.load(f))
             
-    filename ="../../../data/Bible/English/segment_all_EngBible.json"        
+    filename ="../../../data/Bible/English/segment_all_EngBible2.json"        
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(segment_LIST, f, ensure_ascii=False, indent=4)
 
