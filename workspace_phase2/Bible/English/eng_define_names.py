@@ -78,11 +78,11 @@ def main(jsonFILE, userDefined):
 
 
 if __name__ == "__main__":
-    userDefined = "../../../data/Bible/English/UserDefinedFile.json"    
+    userDefined = "../../../data_phase2/Bible/English/UserDefinedFile.json"    
     
-    all_Bible = "../../../data/Bible/English/POS_all_EngBible.json"  
+    all_Bible = "../../../data_phase2/Bible/English/POS_all_EngBible.json"  
     
-    folderLIST = ["../../../data/Bible/English/POS"]
+    folderLIST = ["../../../data_phase2/Bible/English/POS"]
     
     # 先將 all_Bible 加入 jsonFILE_LIST
     jsonFILE_LIST = [all_Bible]
