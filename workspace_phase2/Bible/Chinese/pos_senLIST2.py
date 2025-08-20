@@ -32,8 +32,8 @@ def main(jsonFILE, filename, articut, userDefined):
     """
     tmpLIST = []    # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
     tmp_index = 0   # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
-    if os.path.exists(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json"):
-        with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
+    if os.path.exists(f"../../../data_phase2/Bible/Chinese/POS/{filename}tmpLIST.json"):
+        with open(f"../../../data_phase2/Bible/Chinese/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
             tmpLIST = json.load(f)
             tmp_index = len(tmpLIST)  # 取得已經處理過的資料的數量            
     
@@ -61,7 +61,7 @@ def main(jsonFILE, filename, articut, userDefined):
                     if parseLIST:                            
                         tmpLIST.append(parseLIST)
                         # 每次處理完後就儲存到 JSON 檔案
-                        with open(f"../../../data/Bible/Chinese/POS/{filename}tmpLIST.json", "w", encoding="utf-8") as f:
+                        with open(f"../../../data_phase2/Bible/Chinese/POS/{filename}tmpLIST.json", "w", encoding="utf-8") as f:
                             json.dump(tmpLIST, f, ensure_ascii=False, indent=4)
                       
         processed_LIST.append(bookDICT)
@@ -101,7 +101,7 @@ def to_POS_LIST(POS_folder):
         with open(jsonFILE, "r", encoding="utf=8") as f:
             POS_LIST.extend(json.load(f))
             
-    filename ="../../../data/Bible/Chinese/POS_all_ChiBible.json"        
+    filename ="../../../data_phase2/Bible/Chinese/POS_all_ChiBible.json"        
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
 
@@ -109,13 +109,13 @@ if __name__ == "__main__":
     #accountDICT = json.load(open("account.info",encoding="utf-8"))
     #articut = Articut(username=accountDICT["username"],apikey=accountDICT["api_key"])
     articut = Articut(url="http://127.0.0.1:8991")
-    userDefined = "../../../data/Bible/Chinese/UserDefinedFile.json"
+    userDefined = "../../../data_phase2/Bible/Chinese/UserDefinedFile.json"
    
-    segment_folder = "../../../data/Bible/Chinese/segment" #read here
+    segment_folder = "../../../data_phase2/Bible/Chinese/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
     sorted_LIST = sorted(jsonFILE_LIST)
     
-    POS_folder = "../../../data/Bible/Chinese/POS"  #write here
+    POS_folder = "../../../data_phase2/Bible/Chinese/POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
     LIST2 = sorted_LIST[-33:]  #last 33 books
@@ -123,7 +123,7 @@ if __name__ == "__main__":
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到中文檔名
         print(f"處理：'{filename}'中")
     
-        output_jsonFILE = f"../../../data/Bible/Chinese/POS/{filename}.json"        
+        output_jsonFILE = f"../../../data_phase2/Bible/Chinese/POS/{filename}.json"        
         if not os.path.exists(output_jsonFILE):
             with open(jsonFILE, "r", encoding="utf-8") as f:
                 processed_LIST = main(jsonFILE, filename, articut, userDefined)
