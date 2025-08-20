@@ -58,8 +58,8 @@ def main(jsonFILE, filename, articutEN):
     # 嘗試讀取已有的 tmpLIST 資料，如果不存在則初始化為空
     tmpLIST = []
     tmp_index = 0  # 預設從頭開始，但會從 tmpLIST 中讀取上次處理的位置
-    if os.path.exists(f"../../../data/Bible//POS/{filename}tmpLIST.json"):
-        with open(f"../../../data/Bible/English/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
+    if os.path.exists(f"../../../data_phase2/Bible//POS/{filename}tmpLIST.json"):
+        with open(f"../../../data_phase2/Bible/English/POS/{filename}tmpLIST.json", "r", encoding="utf-8") as f:
             tmpLIST = json.load(f)
             tmp_index = len(tmpLIST)  # 取得已經處理過的資料的數量            
     
@@ -101,7 +101,7 @@ def main(jsonFILE, filename, articutEN):
                             if parseLIST:
                                 tmpLIST.append(parseLIST)
                                 # 每次處理完後就儲存到 JSON 檔案
-                                with open("../../../data/Bible/English/POS/tmpLIST.json", "w", encoding="utf-8") as f:
+                                with open("../../../data_phase2/Bible/English/POS/tmpLIST.json", "w", encoding="utf-8") as f:
                                     json.dump(tmpLIST, f, ensure_ascii=False, indent=4)                                    
                                                                                 
                             processed_secDICT[secSTR] = parseLIST
@@ -146,7 +146,7 @@ def to_POS_LIST(POS_folder):
         with open(jsonFILE, "r", encoding="utf=8") as f:
             POS_LIST.extend(json.load(f))
             
-    filename ="../../../data/Bible/English/POS_all_EngBible.json"        
+    filename ="../../../data_phase2/Bible/English/POS_all_EngBible.json"        
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(POS_LIST, f, ensure_ascii=False, indent=4)
 
@@ -162,15 +162,15 @@ if __name__ == "__main__":
     #jsonFILE = "../../../data/Bible/English/segment/Ezra.json"    
     #main(jsonFILE, articutEN)
     
-    userDefinedFILE = "../../../data/Bible/English/UserDefinedFile.json"
+    userDefinedFILE = "../../../data_phase2/Bible/English/UserDefinedFile.json"
     with open(userDefinedFILE, "r", encoding="utf-8") as f:
         userDefined =json.load(f) 
     
-    segment_folder = "../../../data/Bible/English/segment" #read here
+    segment_folder = "../../../data_phase2/Bible/English/segment" #read here
     jsonFILE_LIST = glob(f"{segment_folder}/*.json")
     sorted_LIST = sorted(jsonFILE_LIST)
     
-    POS_folder = "../../../data/Bible/English/POS"  #write here
+    POS_folder = "../../../data_phase2/Bible/English/POS"  #write here
     os.makedirs(POS_folder, exist_ok=True)  # 確保資料夾存在    
     
     LIST1 = sorted_LIST[:33]
@@ -178,7 +178,7 @@ if __name__ == "__main__":
         filename = os.path.splitext(os.path.basename(jsonFILE))[0]  # 拿到英文檔名
         print(filename)
     
-        output_jsonFILE = f"../../../data/Bible/English/POS/{filename}.json"        
+        output_jsonFILE = f"../../../data_phase2/Bible/English/POS/{filename}.json"        
         if not os.path.exists(output_jsonFILE):
             with open(jsonFILE, "r", encoding="utf-8") as f:
                 processed_LIST = main(jsonFILE, filename, articutEN)
