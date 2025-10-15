@@ -2021,7 +2021,7 @@
             "<VerbP>帶著</VerbP><ENTITY_nouny>牛群</ENTITY_nouny>"
         ],
         [
-            "<ENTITY_oov>帳棚蜂</ENTITY_oov><ACTION_verb>擁</ACTION_verb><FUNC_inner>而</FUNC_inner><ACTION_verb>來</ACTION_verb>"
+            "<ENTITY_oov>帳棚</ENTITY_oov><MODIFIER>蜂擁</MODIFIER><FUNC_inner>而</FUNC_inner><ACTION_verb>來</ACTION_verb>"
         ],
         [
             "<ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>駱駝</ENTITY_nouny><MODIFIER>也</MODIFIER><MODIFIER>多</MODIFIER><ACTION_verb>得</ACTION_verb><ENTITY_oov>數</ENTITY_oov><MODIFIER>不清</MODIFIER>"
@@ -2523,7 +2523,7 @@
     ],
     [
         [
-            "<FUNC_degreeHead>那麼</FUNC_degreeHead>"
+            "<FUNC_inter>那麼</FUNC_inter>"
         ],
         [
             "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>放</ACTION_verb><ENTITY_classifier>一些</ENTITY_classifier><ENTITY_noun>羊毛</ENTITY_noun><FUNC_inner>在</FUNC_inner><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_lightVerb>打</ACTION_lightVerb><ENTITY_noun>麥子</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nounHead>麥場</ENTITY_nounHead><RANGE_locality>上</RANGE_locality>"
@@ -5747,12 +5747,12 @@
             "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>轉去</ACTION_verb><ACTION_verb>看</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>殺死</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>獅子</ENTITY_noun>"
         ],
         [
-            "<ACTION_verb>想不到</ACTION_verb><MODIFIER>竟</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_noun>獅子</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>屍首</ENTITY_nouny><RANGE_locality>內</RANGE_locality><ACTION_verb>發現</ACTION_verb><ENTITY_classifier>一群</ENTITY_classifier><ENTITY_nouny>蜜蜂</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><ENTITY_classifier>一些</ENTITY_classifier><ENTITY_nouny>蜂蜜</ENTITY_nouny>"
+            "<ACTION_verb>想不到</ACTION_verb><MODIFIER>竟</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_noun>獅子</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>屍首</ENTITY_nouny><RANGE_locality>內</RANGE_locality><ACTION_verb>發現</ACTION_verb><ENTITY_classifier>一群</ENTITY_classifier><ENTITY_nouny>蜜蜂</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><ENTITY_classifier>一些</ENTITY_classifier><ENTITY_noun>蜂蜜</ENTITY_noun>"
         ]
     ],
     [
         [
-            "<ENTITY_pronoun>他</ENTITY_pronoun><VerbP>挖了</VerbP><TIME_justtime>一點</TIME_justtime><ENTITY_oov>蜂蜜</ENTITY_oov><ACTION_verb>放</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>手</ENTITY_nouny><RANGE_locality>上</RANGE_locality>"
+            "<ENTITY_pronoun>他</ENTITY_pronoun><VerbP>挖了</VerbP><TIME_justtime>一點</TIME_justtime><ENTITY_noun>蜂蜜</ENTITY_noun><ACTION_verb>放</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>手</ENTITY_nouny><RANGE_locality>上</RANGE_locality>"
         ],
         [
             "<ENTITY_classifier>一面</ENTITY_classifier><ACTION_verb>走</ACTION_verb><ENTITY_classifier>一面</ENTITY_classifier><ENTITY_nouny>吃</ENTITY_nouny>"
@@ -5761,13 +5761,13 @@
             "<FUNC_inter>然後</FUNC_inter><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>到</ACTION_verb><ENTITY_pronoun>父母</ENTITY_pronoun><LOCATION>那裏</LOCATION>"
         ],
         [
-            "<ACTION_verb>給</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_nouny>蜂蜜</ENTITY_nouny>"
+            "<ACTION_verb>給</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_noun>蜂蜜</ENTITY_noun>"
         ],
         [
             "<ENTITY_pronoun>他們</ENTITY_pronoun><MODIFIER>也</MODIFIER><VerbP>吃了</VerbP>"
         ],
         [
-            "<FUNC_inter>但是</FUNC_inter><UserDefined>參孫</UserDefined><FUNC_negation>沒有</FUNC_negation><ACTION_verb>告訴</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_nouny>蜂蜜</ENTITY_nouny><AUX>是</AUX><FUNC_inner>從</FUNC_inner><ENTITY_noun>獅子</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>屍首</ENTITY_nouny><RANGE_locality>內</RANGE_locality><ACTION_verb>拿出來</ACTION_verb><FUNC_inner>的</FUNC_inner>"
+            "<FUNC_inter>但是</FUNC_inter><UserDefined>參孫</UserDefined><FUNC_negation>沒有</FUNC_negation><ACTION_verb>告訴</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ENTITY_noun>蜂蜜</ENTITY_noun><AUX>是</AUX><FUNC_inner>從</FUNC_inner><ENTITY_noun>獅子</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>屍首</ENTITY_nouny><RANGE_locality>內</RANGE_locality><ACTION_verb>拿出來</ACTION_verb><FUNC_inner>的</FUNC_inner>"
         ]
     ],
     [
@@ -5814,7 +5814,7 @@
             "<ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>說</ACTION_verb>"
         ],
         [
-            "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_nouny>謎語</ENTITY_nouny><ACTION_verb>說</ACTION_verb><ACTION_verb>出來</ACTION_verb><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_quantifiedVerb>聽聽</ACTION_quantifiedVerb><CLAUSE_particle>吧</CLAUSE_particle>"
+            "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_nouny>謎語</ENTITY_nouny><ACTION_verb>說出來</ACTION_verb><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_quantifiedVerb>聽聽</ACTION_quantifiedVerb><CLAUSE_particle>吧</CLAUSE_particle>"
         ]
     ],
     [
@@ -5914,7 +5914,7 @@
             "<ACTION_verb>說</ACTION_verb>"
         ],
         [
-            "<FUNC_conjunction>還有</FUNC_conjunction><CLAUSE_WhatQ>甚麼</CLAUSE_WhatQ><ACTION_verb>比</ACTION_verb><ENTITY_nouny>蜂蜜</ENTITY_nouny><DegreeP>更甜</DegreeP>"
+            "<FUNC_conjunction>還有</FUNC_conjunction><CLAUSE_WhatQ>甚麼</CLAUSE_WhatQ><ACTION_verb>比</ACTION_verb><ENTITY_noun>蜂蜜</ENTITY_noun><DegreeP>更甜</DegreeP>"
         ],
         [
             "<FUNC_conjunction>還有</FUNC_conjunction><CLAUSE_WhatQ>甚麼</CLAUSE_WhatQ><ACTION_verb>比</ACTION_verb><ENTITY_noun>獅子</ENTITY_noun><DegreeP>更強</DegreeP>"
