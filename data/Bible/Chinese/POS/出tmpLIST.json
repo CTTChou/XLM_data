@@ -308,7 +308,7 @@
             "<ENTITY_oov>生</ENTITY_oov><ASPECT>了</ASPECT><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_pronoun>兒子</ENTITY_pronoun>"
         ],
         [
-            "<ENTITY_pronoun>她</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>嬰兒</ENTITY_nouny><FUNC_degreeHead>那麼</FUNC_degreeHead><ENTITY_oov>俊</ENTITY_oov><MODIFIER>美</MODIFIER>"
+            "<ENTITY_pronoun>她</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>嬰兒</ENTITY_nouny><FUNC_inter>那麼</FUNC_inter><ENTITY_oov>俊</ENTITY_oov><MODIFIER>美</MODIFIER>"
         ],
         [
             "<FUNC_inner>就</FUNC_inner><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>藏</ACTION_verb><ASPECT>了</ASPECT><TIME_month>三個月</TIME_month>"
@@ -3264,7 +3264,7 @@
             "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>從</FUNC_inner><ENTITY_noun>爐子</ENTITY_noun><RANGE_locality>裏</RANGE_locality><ACTION_verb>拿</ACTION_verb><ENTITY_classifier>一把</ENTITY_classifier><MODIFIER_color>灰</MODIFIER_color>"
         ],
         [
-            "<FUNC_inner>由</FUNC_inner><UserDefined>摩西</UserDefined><ACTION_verb>當</ACTION_verb><ASPECT>著</ASPECT><ENTITY_noun>國王</ENTITY_noun><ACTION_lightVerb>把</ACTION_lightVerb><FUNC_determiner>這</FUNC_determiner><MODIFIER_color>灰</MODIFIER_color><ACTION_verb>撒</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>空</ENTITY_nouny><RANGE_locality>中</RANGE_locality>"
+            "<FUNC_inner>由</FUNC_inner><UserDefined>摩西</UserDefined><ACTION_verb>當</ACTION_verb><ASPECT>著</ASPECT><ENTITY_noun>國王</ENTITY_noun><ACTION_lightVerb>把</ACTION_lightVerb><FUNC_determiner>這</FUNC_determiner><MODIFIER_color>灰</MODIFIER_color><ACTION_verb>撒</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_noun>空中</ENTITY_noun>"
         ]
     ],
     [
@@ -3289,7 +3289,7 @@
             "<ACTION_verb>到</ACTION_verb><ENTITY_noun>國王</ENTITY_noun><RANGE_locality>面前</RANGE_locality>"
         ],
         [
-            "<UserDefined>摩西</UserDefined><ACTION_lightVerb>把</ACTION_lightVerb><MODIFIER_color>灰</MODIFIER_color><ACTION_verb>撒</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>空</ENTITY_nouny><RANGE_locality>中</RANGE_locality>"
+            "<UserDefined>摩西</UserDefined><ACTION_lightVerb>把</ACTION_lightVerb><MODIFIER_color>灰</MODIFIER_color><ACTION_verb>撒</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_noun>空中</ENTITY_noun>"
         ],
         [
             "<FUNC_determiner>這</FUNC_determiner><MODIFIER_color>灰</MODIFIER_color><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_noun>人</ENTITY_noun><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>牲畜</ENTITY_nouny><QUANTIFIER>都</QUANTIFIER><ENTITY_nouny>起皰</ENTITY_nouny>"
@@ -3932,7 +3932,7 @@
             "<UserDefined>摩西</UserDefined><FUNC_inner>向</FUNC_inner><ENTITY_nouny>天</ENTITY_nouny><ACTION_verb>舉手</ACTION_verb>"
         ],
         [
-            "<MODIFIER>濃</MODIFIER><ENTITY_nounHead>密</ENTITY_nounHead><FUNC_inner>的</FUNC_inner><MODIFIER>黑暗</MODIFIER><ACTION_verb>籠罩</ACTION_verb><ASPECT>了</ASPECT><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>國</ENTITY_nouny><TIME_day>三天</TIME_day><FUNC_inner>之</FUNC_inner><MODIFIER>久</MODIFIER>"
+            "<MODIFIER>濃密</MODIFIER><FUNC_inner>的</FUNC_inner><MODIFIER>黑暗</MODIFIER><ACTION_verb>籠罩</ACTION_verb><ASPECT>了</ASPECT><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>國</ENTITY_nouny><TIME_day>三天</TIME_day><FUNC_inner>之</FUNC_inner><MODIFIER>久</MODIFIER>"
         ]
     ],
     [
@@ -12581,7 +12581,7 @@
     ],
     [
         [
-            "<FUNC_degreeHead>那麼</FUNC_degreeHead>"
+            "<FUNC_inter>那麼</FUNC_inter>"
         ],
         [
             "<ACTION_verb>求</ACTION_verb><ENTITY_pronoun>你</ENTITY_pronoun><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>計劃</ENTITY_nouny><ACTION_verb>指示</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
@@ -12818,7 +12818,7 @@
     ],
     [
         [
-            "<UserDefined>摩西</UserDefined><FUNC_inner>連</FUNC_inner><ACTION_verb>忙</ACTION_verb><ACTION_verb>俯伏</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>地</ENTITY_nouny><RANGE_locality>上</RANGE_locality><ACTION_verb>敬拜</ACTION_verb>"
+            "<UserDefined>摩西</UserDefined><MODIFIER>連忙</MODIFIER><ACTION_verb>俯伏</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>地</ENTITY_nouny><RANGE_locality>上</RANGE_locality><ACTION_verb>敬拜</ACTION_verb>"
         ]
     ],
     [
@@ -12864,7 +12864,7 @@
             "<ENTITY_pronoun>你</ENTITY_pronoun><RANGE_locality>周圍</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_noun>民族</ENTITY_noun><ACTION_verb>要</ACTION_verb><ACTION_verb>看見</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
         ],
         [
-            "<UserDefined>上主</UserDefined><FUNC_inner>的</FUNC_inner><ACTION_verb>作為</ACTION_verb>"
+            "<UserDefined>上主</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>作為</ENTITY_noun>"
         ],
         [
             "<FUNC_inter>因為</FUNC_inter><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>要</ACTION_verb><FUNC_inner>向</FUNC_inner><ENTITY_pronoun>你們</ENTITY_pronoun><MODIFIER>行</MODIFIER><MODAL>可</MODAL><ACTION_verb>畏</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>事</ENTITY_nouny>"
