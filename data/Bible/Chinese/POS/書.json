@@ -4817,7 +4817,7 @@
                                 "<ENTITY_person>約書亞</ENTITY_person><ACTION_verb>佔領</ACTION_verb><ASPECT>了</ASPECT><FUNC_determiner>那</FUNC_determiner><RANGE_locality>一帶</RANGE_locality><QUANTIFIER>所有</QUANTIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>土地</ENTITY_noun>"
                             ],
                             [
-                                "<ACTION_verb>包括</ACTION_verb><LOCATION>北方</LOCATION><FUNC_conjunction>和</FUNC_conjunction><LOCATION>南方</LOCATION><FUNC_inner>的</FUNC_inner><ENTITY_nouny>山</ENTITY_nouny><ENTITY_nounHead>區</ENTITY_nounHead><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>丘陵</ENTITY_nouny>"
+                                "<ACTION_verb>包括</ACTION_verb><ENTITY_nouny>北</ENTITY_nouny><ENTITY_person>方和南</ENTITY_person><MODIFIER>方</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>山</ENTITY_nouny><ENTITY_nounHead>區</ENTITY_nounHead><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>丘陵</ENTITY_nouny>"
                             ],
                             [
                                 "<LOCATION>歌珊</LOCATION><QUANTIFIER>全</QUANTIFIER><ENTITY_nouny>境</ENTITY_nouny><FUNC_conjunction>和</FUNC_conjunction><LOCATION>南方</LOCATION><ACTION_verb>乾</ACTION_verb><ENTITY_nounHead>地</ENTITY_nounHead>"
@@ -5122,7 +5122,7 @@
                     {
                         "12:9": [
                             [
-                                "<ENTITY_noun>以色列人</ENTITY_noun><ACTION_verb>擊敗</ACTION_verb><ASPECT>了</ASPECT><ENTITY_oov>以下</ENTITY_oov><QUANTIFIER>各</QUANTIFIER><ENTITY_nouny>城</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>王</ENTITY_nouny>"
+                                "<ENTITY_noun>以色列人</ENTITY_noun><ACTION_verb>擊敗</ACTION_verb><ASPECT>了</ASPECT><FUNC_inner>以下</FUNC_inner><QUANTIFIER>各</QUANTIFIER><ENTITY_nouny>城</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>王</ENTITY_nouny>"
                             ],
                             [
                                 "<LOCATION>耶利哥</LOCATION>"
@@ -5571,7 +5571,7 @@
                                 "<LOCATION>西比瑪</LOCATION>"
                             ],
                             [
-                                "<ENTITY_oov>谷</ENTITY_oov><LOCATION>中山丘</LOCATION><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><LOCATION>細列哈沙轄</LOCATION>"
+                                "<ENTITY_oov>谷</ENTITY_oov><LOCATION>中山</LOCATION><ENTITY_oov>丘</ENTITY_oov><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><LOCATION>細列哈沙轄</LOCATION>"
                             ]
                         ]
                     },
@@ -10751,7 +10751,7 @@
                                 "<FUNC_inter>如果</FUNC_inter><ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><ACTION_verb>願意</ACTION_verb><ACTION_verb>事奉</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun>"
                             ],
                             [
-                                "<FUNC_degreeHead>那麼</FUNC_degreeHead>"
+                                "<FUNC_inter>那麼</FUNC_inter>"
                             ],
                             [
                                 "<TIME_day>今天</TIME_day><MODAL>必須</MODAL><ACTION_verb>決定</ACTION_verb>"

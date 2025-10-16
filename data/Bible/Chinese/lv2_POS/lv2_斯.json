@@ -758,13 +758,13 @@
                     {
                         "2:22": [
                             [
-                                "<ENTITY_person>末底改</ENTITY_person><VerbP>發現了</VerbP><FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>陰謀</ENTITY_nouny>"
+                                "<ENTITY_person>末底改</ENTITY_person><VerbP>發現了</VerbP><FUNC_determiner>這</FUNC_determiner><ENTITY_noun>陰謀</ENTITY_noun>"
                             ],
                             [
                                 "<FUNC_inner>就</FUNC_inner><ACTION_verb>告訴</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><ENTITY_person>以斯帖</ENTITY_person>"
                             ],
                             [
-                                "<ENTITY_person>以斯帖</ENTITY_person><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_person>末底改</ENTITY_person><ACTION_verb>發現</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_nouny>陰謀</ENTITY_nouny><ACTION_verb>轉告</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny>"
+                                "<ENTITY_person>以斯帖</ENTITY_person><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_person>末底改</ENTITY_person><ACTION_verb>發現</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>陰謀</ENTITY_noun><ACTION_verb>轉告</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -836,7 +836,7 @@
                                 "<FUNC_inner>後來</FUNC_inner>"
                             ],
                             [
-                                "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>私下</ACTION_verb><FUNC_inner>向</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>解釋</ACTION_verb><ACTION_verb>說</ACTION_verb>"
+                                "<ENTITY_pronoun>他</ENTITY_pronoun><MODIFIER>私下</MODIFIER><FUNC_inner>向</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>解釋</ACTION_verb><ACTION_verb>說</ACTION_verb>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><AUX>是</AUX><ENTITY_noun>猶太人</ENTITY_noun>"
@@ -1627,10 +1627,10 @@
                     {
                         "6:2": [
                             [
-                                "<ACTION_verb>記錄</ACTION_verb><RANGE_period>中</RANGE_period><ACTION_verb>有</ACTION_verb><ENTITY_classifier>一段</ENTITY_classifier><ACTION_verb>提到</ACTION_verb><ENTITY_person>末底改</ENTITY_person><CLAUSE_HowQ>怎樣</CLAUSE_HowQ><ACTION_verb>揭發</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><ACTION_verb>暗殺</ACTION_verb><ENTITY_person>亞哈隨魯王</ENTITY_person><FUNC_inner>的</FUNC_inner><ENTITY_nouny>陰謀</ENTITY_nouny>"
+                                "<ACTION_verb>記錄</ACTION_verb><RANGE_period>中</RANGE_period><ACTION_verb>有</ACTION_verb><ENTITY_classifier>一段</ENTITY_classifier><ACTION_verb>提到</ACTION_verb><ENTITY_person>末底改</ENTITY_person><CLAUSE_HowQ>怎樣</CLAUSE_HowQ><ACTION_verb>揭發</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><ACTION_verb>暗殺</ACTION_verb><ENTITY_person>亞哈隨魯王</ENTITY_person><FUNC_inner>的</FUNC_inner><ENTITY_noun>陰謀</ENTITY_noun>"
                             ],
                             [
-                                "<FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>陰謀</ENTITY_nouny><AUX>是</AUX><FUNC_inner>由</FUNC_inner><ENTITY_classifier>兩個</ENTITY_classifier><ACTION_verb>看守</ACTION_verb><ENTITY_nouny>殿門</ENTITY_nouny><FUNC_inner>的</FUNC_inner><FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_oov>監</ENTITY_oov><ENTITY_person>辟探</ENTITY_person><FUNC_conjunction>和</FUNC_conjunction><ENTITY_person>提列</ENTITY_person><ACTION_verb>計劃</ACTION_verb><FUNC_inner>的</FUNC_inner>"
+                                "<FUNC_determiner>這</FUNC_determiner><ENTITY_noun>陰謀</ENTITY_noun><AUX>是</AUX><FUNC_inner>由</FUNC_inner><ENTITY_classifier>兩個</ENTITY_classifier><ACTION_verb>看守</ACTION_verb><ENTITY_nouny>殿門</ENTITY_nouny><FUNC_inner>的</FUNC_inner><FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_oov>監</ENTITY_oov><ENTITY_person>辟探</ENTITY_person><FUNC_conjunction>和</FUNC_conjunction><ENTITY_person>提列</ENTITY_person><ACTION_verb>計劃</ACTION_verb><FUNC_inner>的</FUNC_inner>"
                             ]
                         ]
                     },
@@ -2062,7 +2062,7 @@
                                 "<ENTITY_DetPhrase>這個</ENTITY_DetPhrase><ENTITY_noun>人</ENTITY_noun><MODIFIER>竟</MODIFIER><ACTION_verb>敢</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>王宮</ENTITY_nouny><RANGE_locality>裏</RANGE_locality><VerbP>當著</VerbP><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>面</ENTITY_nouny><ACTION_verb>非禮</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><CLAUSE_YesNoQ>嗎</CLAUSE_YesNoQ>"
                             ],
                             [
-                                "<ENTITY_nouny>王</ENTITY_nouny><ENTITY_num>一</ENTITY_num><ACTION_verb>說</ACTION_verb><ENTITY_nouny>出</ENTITY_nouny><ENTITY_nouny>這話</ENTITY_nouny>"
+                                "<ENTITY_nouny>王</ENTITY_nouny><ENTITY_num>一</ENTITY_num><ACTION_verb>說出</ACTION_verb><ENTITY_nouny>這話</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_degreeHead>太</FUNC_degreeHead><ENTITY_nouny>監們</ENTITY_nouny><TIME_justtime>立刻</TIME_justtime><ACTION_verb>蒙住</ACTION_verb><ENTITY_person>哈曼</ENTITY_person><FUNC_inner>的</FUNC_inner><ENTITY_nouny>臉</ENTITY_nouny>"
@@ -2155,7 +2155,7 @@
                                 "<VerbP>哭著</VerbP><ACTION_verb>哀求</ACTION_verb><ENTITY_nouny>王</ENTITY_nouny>"
                             ],
                             [
-                                "<VerbP>請王</VerbP><ACTION_verb>制止</ACTION_verb><ENTITY_noun>亞甲人</ENTITY_noun><ENTITY_person>哈曼</ENTITY_person><ACTION_verb>要</ACTION_verb><ACTION_verb>滅絕</ACTION_verb><ENTITY_noun>猶太人</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>陰謀</ENTITY_nouny>"
+                                "<VerbP>請王</VerbP><ACTION_verb>制止</ACTION_verb><ENTITY_noun>亞甲人</ENTITY_noun><ENTITY_person>哈曼</ENTITY_person><ACTION_verb>要</ACTION_verb><ACTION_verb>滅絕</ACTION_verb><ENTITY_noun>猶太人</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>陰謀</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -2213,7 +2213,7 @@
                                 "<FUNC_inner>就</FUNC_inner><MODIFIER>這麼</MODIFIER><ACTION_verb>辦</ACTION_verb><CLAUSE_particle>吧</CLAUSE_particle>"
                             ],
                             [
-                                "<VerbP>為了</VerbP><ENTITY_person>哈曼</ENTITY_person><ACTION_verb>殺害</ACTION_verb><ENTITY_noun>猶太人</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>陰謀</ENTITY_nouny>"
+                                "<VerbP>為了</VerbP><ENTITY_person>哈曼</ENTITY_person><ACTION_verb>殺害</ACTION_verb><ENTITY_noun>猶太人</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>陰謀</ENTITY_noun>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ASPECT>已經</ASPECT><VerbP>吊死了</VerbP><ENTITY_pronoun>他</ENTITY_pronoun>"
@@ -2871,7 +2871,7 @@
                                 "<ENTITY_person>末底改</ENTITY_person><ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_DetPhrase>這些</ENTITY_DetPhrase><ENTITY_nouny>事</ENTITY_nouny><QUANTIFIER>都</QUANTIFIER><ACTION_verb>記錄</ACTION_verb><ACTION_verb>下來</ACTION_verb>"
                             ],
                             [
-                                "<ACTION_verb>發送</ACTION_verb><ENTITY_noun>信件</ENTITY_noun><ACTION_verb>給</ACTION_verb><QUANTIFIER>全</QUANTIFIER><ENTITY_person>亞哈隨魯王</ENTITY_person><ENTITY_oov>國</ENTITY_oov><MODIFIER>遠</MODIFIER><QUANTIFIER>近各</QUANTIFIER><ENTITY_nouny>省</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>猶太人</ENTITY_noun>"
+                                "<ACTION_verb>發送</ACTION_verb><ENTITY_noun>信件</ENTITY_noun><ACTION_verb>給</ACTION_verb><QUANTIFIER>全</QUANTIFIER><ENTITY_person>亞哈隨魯王</ENTITY_person><ENTITY_oov>國</ENTITY_oov><MODIFIER>遠近</MODIFIER><MODIFIER>各省</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>猶太人</ENTITY_noun>"
                             ]
                         ]
                     },
@@ -2929,7 +2929,7 @@
                                 "<ENTITY_noun>亞甲人</ENTITY_noun><ENTITY_person>哈米大他</ENTITY_person><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>兒子</ENTITY_pronoun><ENTITY_person>哈曼</ENTITY_person>"
                             ],
                             [
-                                "<ASPECT>曾</ASPECT><ENTITY_oov>陰謀</ENTITY_oov><ACTION_verb>剷除</ACTION_verb><ENTITY_noun>猶太人</ENTITY_noun>"
+                                "<ASPECT>曾</ASPECT><ENTITY_noun>陰謀</ENTITY_noun><ACTION_verb>剷除</ACTION_verb><ENTITY_noun>猶太人</ENTITY_noun>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>用</ACTION_verb><ACTION_verb>抽籤</ACTION_verb>"
