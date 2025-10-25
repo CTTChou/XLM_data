@@ -1120,7 +1120,7 @@
             "<FUNC_inner>在</FUNC_inner><ENTITY_noun>城牆</ENTITY_noun><RANGE_locality>上</RANGE_locality><ACTION_verb>獻給</ACTION_verb><UserDefined>摩押</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>神明</ENTITY_noun>"
         ],
         [
-            "<UserDefined>以色列人</UserDefined><FUNC_degreeHead>非常</FUNC_degreeHead><ENTITY_oov>恐懼</ENTITY_oov>"
+            "<UserDefined>以色列人</UserDefined><MODIFIER>非常</MODIFIER><ENTITY_nounHead>恐懼</ENTITY_nounHead>"
         ],
         [
             "<FUNC_inner>就</FUNC_inner><FUNC_inner>從</FUNC_inner><ENTITY_nouny>城</ENTITY_nouny><RANGE_locality>裏</RANGE_locality><ACTION_verb>撤退</ACTION_verb>"
@@ -1932,7 +1932,7 @@
             "<VerbP>擄來了</VerbP><ENTITY_classifier>一個</ENTITY_classifier><UserDefined>以色列</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>小女孩</ENTITY_nouny>"
         ],
         [
-            "<FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>女孩</ENTITY_nouny><FUNC_inner>後來</FUNC_inner><VerbP>作了</VerbP><UserDefined>乃縵</UserDefined><ENTITY_pronoun>妻子</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>婢女</ENTITY_nouny>"
+            "<FUNC_determiner>這</FUNC_determiner><ENTITY_nouny>女孩</ENTITY_nouny><RANGE_locality>後來</RANGE_locality><VerbP>作了</VerbP><UserDefined>乃縵</UserDefined><ENTITY_pronoun>妻子</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>婢女</ENTITY_nouny>"
         ]
     ],
     [
@@ -3041,7 +3041,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner><ENTITY_possessive>他們</ENTITY_possessive><ENTITY_pronoun>彼</ENTITY_pronoun><FUNC_determiner>此</FUNC_determiner><ACTION_verb>說</ACTION_verb>"
+            "<RANGE_locality>後來</RANGE_locality><ENTITY_possessive>他們</ENTITY_possessive><ENTITY_pronoun>彼</ENTITY_pronoun><FUNC_determiner>此</FUNC_determiner><ACTION_verb>說</ACTION_verb>"
         ],
         [
             "<ENTITY_pronoun>我們</ENTITY_pronoun><FUNC_negation>不</FUNC_negation><MODAL>應該</MODAL><ENTITY_DetPhrase>這樣</ENTITY_DetPhrase><ACTION_verb>做</ACTION_verb>"
@@ -5480,7 +5480,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<UserDefined>約哈斯</UserDefined><ACTION_verb>祈求</ACTION_verb><UserDefined>上主</UserDefined>"
@@ -6810,7 +6810,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<UserDefined>撒縵以色</UserDefined><ACTION_verb>入侵</ACTION_verb><UserDefined>以色列</UserDefined>"
@@ -8525,7 +8525,7 @@
             "<TIME_day>三天之內</TIME_day>"
         ],
         [
-            "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>就</FUNC_inner><MODAL>可以</MODAL><ACTION_verb>上</ACTION_verb><ENTITY_noun>聖殿</ENTITY_noun><ACTION_verb>去</ACTION_verb>"
+            "<ENTITY_pronoun>你</ENTITY_pronoun><FUNC_inner>就</FUNC_inner><MODAL>可</MODAL><RANGE_locality>以上</RANGE_locality><ENTITY_noun>聖殿</ENTITY_noun><ACTION_verb>去</ACTION_verb>"
         ]
     ],
     [
@@ -10116,7 +10116,7 @@
             "<FUNC_determiner>那</FUNC_determiner><TIME_year>年</TIME_year><TIME_month>四月</TIME_month><TIME_day>九日</TIME_day>"
         ],
         [
-            "<ENTITY_oov>城</ENTITY_oov><RANGE_locality>裏</RANGE_locality><ENTITY_oov>饑荒</ENTITY_oov><DegreeP>非常嚴重</DegreeP>"
+            "<ENTITY_oov>城</ENTITY_oov><RANGE_locality>裏</RANGE_locality><ENTITY_oov>饑荒</ENTITY_oov><MODIFIER>非常</MODIFIER><MODIFIER>嚴重</MODIFIER>"
         ],
         [
             "<ENTITY_noun>人民</ENTITY_noun><FUNC_negation>沒有</FUNC_negation><ENTITY_nouny>糧食</ENTITY_nouny>"
@@ -10316,7 +10316,7 @@
             "<ENTITY_classifier>五個</ENTITY_classifier><ACTION_verb>留在</ACTION_verb><ENTITY_nouny>城</ENTITY_nouny><RANGE_locality>裏</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_nouny>王室</ENTITY_nouny><ENTITY_noun>顧問</ENTITY_noun>"
         ],
         [
-            "<ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>專管</ENTITY_nouny><ENTITY_nouny>軍隊文件</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>副指揮官</ENTITY_nouny>"
+            "<ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>專管軍隊</ENTITY_nouny><ENTITY_nounHead>文件</ENTITY_nounHead><FUNC_inner>的</FUNC_inner><ENTITY_nouny>副指揮官</ENTITY_nouny>"
         ],
         [
             "<FUNC_conjunction>和</FUNC_conjunction><ENTITY_classifier>六十個</ENTITY_classifier><ENTITY_noun>地方</ENTITY_noun><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>重要</MODIFIER><ENTITY_noun>人物</ENTITY_noun>"

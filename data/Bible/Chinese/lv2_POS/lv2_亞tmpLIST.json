@@ -101,7 +101,7 @@
             "<MODIFIER>終於</MODIFIER><FUNC_inner>自</FUNC_inner><ENTITY_nouny>食</ENTITY_nouny><ENTITY_nouny>苦果</ENTITY_nouny>"
         ],
         [
-            "<FUNC_inner>後來</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><VerbP>悔改了</VerbP>"
+            "<RANGE_locality>後來</RANGE_locality><ENTITY_pronoun>他們</ENTITY_pronoun><VerbP>悔改了</VerbP>"
         ],
         [
             "<ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>承認</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun>"
@@ -297,7 +297,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner><UserDefined>上主</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><ENTITY_classifier>四個</ENTITY_classifier><ENTITY_nouny>工匠</ENTITY_nouny>"
+            "<RANGE_locality>後來</RANGE_locality><UserDefined>上主</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>讓</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>看見</ACTION_verb><ENTITY_classifier>四個</ENTITY_classifier><ENTITY_nouny>工匠</ENTITY_nouny>"
         ]
     ],
     [
@@ -1264,7 +1264,7 @@
     ],
     [
         [
-            "<FUNC_inner>以下</FUNC_inner><AUX>是</AUX><UserDefined>上主</UserDefined>"
+            "<RANGE_locality>以下</RANGE_locality><AUX>是</AUX><UserDefined>上主</UserDefined>"
         ],
         [
             "<ENTITY_num>萬</ENTITY_num><ENTITY_oov>軍</ENTITY_oov><FUNC_inner>的</FUNC_inner><ENTITY_nouny>統帥</ENTITY_nouny><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
@@ -1317,7 +1317,7 @@
     ],
     [
         [
-            "<FUNC_inner>以下</FUNC_inner><AUX>是</AUX><UserDefined>上主</UserDefined><ACTION_verb>給</ACTION_verb><UserDefined>撒迦利亞</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
+            "<RANGE_locality>以下</RANGE_locality><AUX>是</AUX><UserDefined>上主</UserDefined><ACTION_verb>給</ACTION_verb><UserDefined>撒迦利亞</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
         ],
         [
             "<ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>說</ACTION_verb>"
@@ -1456,7 +1456,7 @@
     ],
     [
         [
-            "<ENTITY_oov>街</ENTITY_oov><RANGE_locality>上</RANGE_locality><MODAL>將</MODAL><MODIFIER>再</MODIFIER><VerbP>擠滿</VerbP><MODIFIER>玩耍</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>男女</ENTITY_nouny><ENTITY_nouny>孩童</ENTITY_nouny>"
+            "<ENTITY_oov>街</ENTITY_oov><RANGE_locality>上</RANGE_locality><MODAL>將</MODAL><MODIFIER>再</MODIFIER><VerbP>擠滿</VerbP><MODIFIER>玩耍</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>男女孩童</ENTITY_nouny>"
         ]
     ],
     [
@@ -2507,7 +2507,7 @@
     ],
     [
         [
-            "<FUNC_inner>以下</FUNC_inner><AUX>是</AUX><UserDefined>上主</UserDefined><FUNC_inner>所</FUNC_inner><ENTITY_nouny>啟示</ENTITY_nouny><ACTION_verb>有關</ACTION_verb><UserDefined>以色列</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
+            "<RANGE_locality>以下</RANGE_locality><AUX>是</AUX><UserDefined>上主</UserDefined><FUNC_inner>所</FUNC_inner><ENTITY_nouny>啟示</ENTITY_nouny><ACTION_verb>有關</ACTION_verb><UserDefined>以色列</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>信息</ENTITY_nouny>"
         ],
         [
             "<UserDefined>上主</UserDefined><ACTION_verb>鋪展</ACTION_verb><ENTITY_nouny>諸天</ENTITY_nouny>"
@@ -3156,7 +3156,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<ACTION_verb>攻打</ACTION_verb><UserDefined>耶路撒冷</UserDefined><ENTITY_DetPhrase>那些</ENTITY_DetPhrase><ENTITY_noun>國家</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>生還者</ENTITY_noun>"
