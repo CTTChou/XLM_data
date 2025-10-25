@@ -214,7 +214,7 @@
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>比</ACTION_verb><ENTITY_pronoun>別人</ENTITY_pronoun><FUNC_degreeHead>更</FUNC_degreeHead><ModifierP>積極地</ModifierP><ACTION_verb>遵行</ACTION_verb><LOCATION>猶太</LOCATION><VerbP>教規</VerbP>"
                             ],
                             [
-                                "<DegreeP>更熱心</DegreeP><ENTITY_nounHead>遵</ENTITY_nounHead><ACTION_verb>奉</ACTION_verb><ENTITY_noun>祖宗</ENTITY_noun><FUNC_inner>的</FUNC_inner><MODIFIER>傳統</MODIFIER><ACTION_verb>教訓</ACTION_verb>"
+                                "<DegreeP>更熱心</DegreeP><ENTITY_nounHead>遵</ENTITY_nounHead><ACTION_verb>奉</ACTION_verb><ENTITY_noun>祖宗</ENTITY_noun><FUNC_inner>的</FUNC_inner><MODIFIER>傳統</MODIFIER><ENTITY_nouny>教訓</ENTITY_nouny>"
                             ]
                         ]
                     },
@@ -302,7 +302,7 @@
                     {
                         "1:21": [
                             [
-                                "<FUNC_inner>後來</FUNC_inner>"
+                                "<RANGE_locality>後來</RANGE_locality>"
                             ],
                             [
                                 "<ENTITY_pronoun>我</ENTITY_pronoun><VerbP>到了</VerbP><LOCATION>敘利亞</LOCATION><FUNC_conjunction>和</FUNC_conjunction><LOCATION>基利家</LOCATION><LOCATION>境內</LOCATION><QUANTIFIER>各</QUANTIFIER><ENTITY_noun>地</ENTITY_noun>"

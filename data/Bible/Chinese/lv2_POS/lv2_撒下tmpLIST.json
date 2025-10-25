@@ -364,7 +364,7 @@
             "<UserDefined>大衛</UserDefined><ACTION_verb>求問</ACTION_verb><UserDefined>上主</UserDefined>"
         ],
         [
-            "<ENTITY_pronoun>我</ENTITY_pronoun><CLAUSE_AnotAQ>可不可以</CLAUSE_AnotAQ><ACTION_verb>上</ACTION_verb><UserDefined>猶大</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>城鎮</ENTITY_nouny><ACTION_verb>去</ACTION_verb>"
+            "<ENTITY_pronoun>我</ENTITY_pronoun><CLAUSE_AnotAQ>可不可</CLAUSE_AnotAQ><RANGE_locality>以上</RANGE_locality><UserDefined>猶大</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>城鎮</ENTITY_nouny><ACTION_verb>去</ACTION_verb>"
         ],
         [
             "<UserDefined>上主</UserDefined><ACTION_verb>回答</ACTION_verb>"
@@ -1640,7 +1640,7 @@
             "<FUNC_inter>但</FUNC_inter><UserDefined>大衛</UserDefined><FUNC_inner>卻</FUNC_inner><VerbP>攻取了</VerbP><ENTITY_pronoun>他們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><UserDefined>錫安</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>堡壘</ENTITY_nouny>"
         ],
         [
-            "<FUNC_determiner>那</FUNC_determiner><AUX>就是</AUX><FUNC_inner>後來</FUNC_inner><ENTITY_nouny>人人</ENTITY_nouny><ACTION_verb>熟悉</ACTION_verb><FUNC_inner>的</FUNC_inner><UserDefined>大衛城</UserDefined>"
+            "<FUNC_determiner>那</FUNC_determiner><AUX>就是</AUX><RANGE_locality>後來</RANGE_locality><ENTITY_nouny>人人</ENTITY_nouny><ACTION_verb>熟悉</ACTION_verb><FUNC_inner>的</FUNC_inner><UserDefined>大衛城</UserDefined>"
         ]
     ],
     [
@@ -2110,7 +2110,7 @@
             "<QUANTIFIER>所有</QUANTIFIER><FUNC_inner>在</FUNC_inner><UserDefined>以色列</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun>"
         ],
         [
-            "<MODIFIER>無論</MODIFIER><ENTITY_nounHead>男女</ENTITY_nounHead>"
+            "<MODIFIER>無論</MODIFIER><ENTITY_noun>男女</ENTITY_noun>"
         ],
         [
             "<QUANTIFIER>每</QUANTIFIER><ENTITY_noun>人</ENTITY_noun><ACTION_verb>得到</ACTION_verb><ENTITY_classifier>一塊</ENTITY_classifier><ENTITY_nouny>餅</ENTITY_nouny>"
@@ -2634,7 +2634,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<UserDefined>大衛</UserDefined><MODIFIER>再</MODIFIER><ACTION_verb>攻擊</ACTION_verb><UserDefined>非利士人</UserDefined>"
@@ -4118,7 +4118,7 @@
             "<FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>她</ENTITY_pronoun><ENTITY_nouny>同房</ENTITY_nouny>"
         ],
         [
-            "<ENTITY_pronoun>她</ENTITY_pronoun><FUNC_inner>後來</FUNC_inner><ENTITY_nouny>生</ENTITY_nouny><ASPECT>了</ASPECT><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_pronoun>兒子</ENTITY_pronoun>"
+            "<ENTITY_pronoun>她</ENTITY_pronoun><RANGE_locality>後來</RANGE_locality><ENTITY_oov>生</ENTITY_oov><ASPECT>了</ASPECT><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_pronoun>兒子</ENTITY_pronoun>"
         ],
         [
             "<UserDefined>大衛</UserDefined><ACTION_verb>給</ACTION_verb><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>取名</ACTION_verb><UserDefined>所羅門</UserDefined>"
@@ -4648,7 +4648,7 @@
             "<UserDefined>大衛</UserDefined><MODIFIER>只</MODIFIER><FUNC_degreeHead>好</FUNC_degreeHead><ACTION_verb>讓</ACTION_verb><UserDefined>暗嫩</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_nouny>王</ENTITY_nouny><MODIFIER>其他</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>兒子</ENTITY_pronoun><FUNC_conjunction>跟</FUNC_conjunction><UserDefined>押沙龍</UserDefined><MODIFIER>一起</MODIFIER><ACTION_verb>去</ACTION_verb>"
         ],
         [
-            "<UserDefined>押沙龍</UserDefined><VerbP>預備了</VerbP><DegreeP>非常豐富</DegreeP><FUNC_inner>的</FUNC_inner><ENTITY_nouny>筵席</ENTITY_nouny>"
+            "<UserDefined>押沙龍</UserDefined><VerbP>預備了</VerbP><MODIFIER>非常</MODIFIER><MODIFIER>豐富</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nouny>筵席</ENTITY_nouny>"
         ]
     ],
     [
@@ -5158,7 +5158,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<ENTITY_nouny>王</ENTITY_nouny><FUNC_inner>對</FUNC_inner><UserDefined>約押</UserDefined><ACTION_verb>說</ACTION_verb>"
@@ -5266,7 +5266,7 @@
             "<ENTITY_pronoun>女兒</ENTITY_pronoun><ACTION_verb>名叫</ACTION_verb><UserDefined>塔瑪</UserDefined>"
         ],
         [
-            "<DegreeP>非常美麗</DegreeP>"
+            "<MODIFIER>非常</MODIFIER><MODIFIER>美麗</MODIFIER>"
         ]
     ],
     [
@@ -7116,7 +7116,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<ACTION_verb>守望</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><FUNC_inner>又</FUNC_inner><ACTION_verb>看到</ACTION_verb><MODIFIER>另</MODIFIER><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_noun>人</ENTITY_noun><ACTION_verb>跑來</ACTION_verb>"
@@ -7761,7 +7761,7 @@
             "<ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>吃</ACTION_verb><ENTITY_pronoun>我</ENTITY_pronoun><ACTION_verb>喝</ACTION_verb><QUANTIFIER>都</QUANTIFIER><ACTION_verb>嘗</ACTION_verb><FUNC_negation>不</FUNC_negation><ENTITY_nouny>出味</ENTITY_nouny><ENTITY_nouny>道</ENTITY_nouny>"
         ],
         [
-            "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>也</MODIFIER><ACTION_verb>聽不見</ACTION_verb><ENTITY_nouny>男女歌手</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_noun>聲音</ENTITY_noun>"
+            "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>也</MODIFIER><ACTION_verb>聽不見</ACTION_verb><ENTITY_noun>男女</ENTITY_noun><ENTITY_noun>歌手</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_noun>聲音</ENTITY_noun>"
         ],
         [
             "<ENTITY_pronoun>我</ENTITY_pronoun><MODIFIER>只</MODIFIER><MODAL>會</MODAL><ACTION_verb>成為</ACTION_verb><ENTITY_pronoun>陛下</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>累贅</ENTITY_nouny><VerbP>罷了</VerbP>"
@@ -7845,7 +7845,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<QUANTIFIER>所有</QUANTIFIER><UserDefined>以色列</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>去</ACTION_verb><VerbP>見王</VerbP>"
@@ -8562,7 +8562,7 @@
             "<ACTION_lightVerb>把</ACTION_lightVerb><ENTITY_pronoun>他</ENTITY_pronoun><VerbP>殺死了</VerbP>"
         ],
         [
-            "<FUNC_inner>後來</FUNC_inner><UserDefined>大衛</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>部屬</ENTITY_noun><ACTION_verb>要求</ACTION_verb><UserDefined>大衛</UserDefined><ACTION_verb>答應</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>說</ACTION_verb>"
+            "<RANGE_locality>後來</RANGE_locality><UserDefined>大衛</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>部屬</ENTITY_noun><ACTION_verb>要求</ACTION_verb><UserDefined>大衛</UserDefined><ACTION_verb>答應</ACTION_verb><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>說</ACTION_verb>"
         ],
         [
             "<ACTION_verb>請</ACTION_verb><FUNC_negation>不要</FUNC_negation><MODIFIER>再</MODIFIER><FUNC_conjunction>跟</FUNC_conjunction><ENTITY_pronoun>我們</ENTITY_pronoun><ACTION_verb>出征</ACTION_verb>"
@@ -8598,7 +8598,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner><FUNC_inner>在</FUNC_inner><UserDefined>迦特</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>有</ACTION_verb><ENTITY_nouny>戰爭</ENTITY_nouny>"
+            "<RANGE_locality>後來</RANGE_locality><FUNC_inner>在</FUNC_inner><UserDefined>迦特</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>有</ACTION_verb><ENTITY_nouny>戰爭</ENTITY_nouny>"
         ],
         [
             "<FUNC_determiner>那</FUNC_determiner><ENTITY_noun>地方</ENTITY_noun><ACTION_verb>有</ACTION_verb><ENTITY_classifier>一個</ENTITY_classifier><ENTITY_nouny>巨人</ENTITY_nouny><MODIFIER>很</MODIFIER><ACTION_verb>喜歡</ACTION_verb><ACTION_verb>打仗</ACTION_verb>"
@@ -8620,7 +8620,7 @@
     ],
     [
         [
-            "<FUNC_inner>以上</FUNC_inner><ENTITY_classifier>四個</ENTITY_classifier><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><AUX>是</AUX><UserDefined>迦特</UserDefined><ENTITY_nouny>巨人</ENTITY_nouny><FUNC_inner>的</FUNC_inner><RANGE_locality>後</RANGE_locality><ENTITY_oov>代</ENTITY_oov>"
+            "<RANGE_locality>以上</RANGE_locality><ENTITY_classifier>四個</ENTITY_classifier><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><AUX>是</AUX><UserDefined>迦特</UserDefined><ENTITY_nouny>巨人</ENTITY_nouny><FUNC_inner>的</FUNC_inner><RANGE_locality>後</RANGE_locality><ENTITY_oov>代</ENTITY_oov>"
         ],
         [
             "<ENTITY_pronoun>他們</ENTITY_pronoun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>死</ACTION_verb><FUNC_inner>在</FUNC_inner><UserDefined>大衛</UserDefined><FUNC_conjunction>和</FUNC_conjunction><ENTITY_pronoun>他</ENTITY_pronoun><ENTITY_noun>部屬</ENTITY_noun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>手</ENTITY_nouny><RANGE_locality>下</RANGE_locality>"
@@ -9147,7 +9147,7 @@
             "<UserDefined>大衛</UserDefined><AUX>為</AUX><UserDefined>以色列</UserDefined><ACTION_verb>作</ACTION_verb><FUNC_degreeHead>很</FUNC_degreeHead><CLAUSE_HowQ>多</CLAUSE_HowQ><MODIFIER>優美</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nounHead>詩</ENTITY_nounHead><ENTITY_nounHead>歌</ENTITY_nounHead>"
         ],
         [
-            "<FUNC_inner>以下</FUNC_inner><ENTITY_DetPhrase>這首</ENTITY_DetPhrase><ENTITY_nounHead>詩</ENTITY_nounHead><AUX>是</AUX><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>遺言</ENTITY_nouny>"
+            "<RANGE_locality>以下</RANGE_locality><ENTITY_DetPhrase>這首</ENTITY_DetPhrase><ENTITY_nounHead>詩</ENTITY_nounHead><AUX>是</AUX><ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>遺言</ENTITY_nouny>"
         ]
     ],
     [
@@ -9261,7 +9261,7 @@
             "<UserDefined>上主</UserDefined><ACTION_lightVerb>使</ACTION_lightVerb><ENTITY_pronoun>他</ENTITY_pronoun><ACTION_verb>大勝</ACTION_verb>"
         ],
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<UserDefined>以色列人</UserDefined><ACTION_verb>回到</ACTION_verb><UserDefined>以利亞撒</UserDefined><LOCATION>那裏</LOCATION>"
@@ -11109,7 +11109,7 @@
             "<FUNC_inner>並</FUNC_inner><ACTION_verb>到</ACTION_verb><QUANTIFIER>所有</QUANTIFIER><UserDefined>希未人</UserDefined><FUNC_conjunction>和</FUNC_conjunction><UserDefined>迦南人</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_nouny>城鎮</ENTITY_nouny>"
         ],
         [
-            "<FUNC_degreeHead>最</FUNC_degreeHead><FUNC_inner>後來</FUNC_inner><ACTION_verb>到</ACTION_verb><UserDefined>猶大</UserDefined><LOCATION>南部</LOCATION><FUNC_inner>的</FUNC_inner><UserDefined>別是巴</UserDefined>"
+            "<FUNC_degreeHead>最</FUNC_degreeHead><RANGE_locality>後來</RANGE_locality><ACTION_verb>到</ACTION_verb><UserDefined>猶大</UserDefined><LOCATION>南部</LOCATION><FUNC_inner>的</FUNC_inner><UserDefined>別是巴</UserDefined>"
         ]
     ],
     [

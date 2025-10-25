@@ -531,7 +531,7 @@
                     {
                         "2:8": [
                             [
-                                "<ENTITY_person>約伯</ENTITY_person><ACTION_verb>去</ACTION_verb><ACTION_verb>坐</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_noun>垃圾</ENTITY_noun><ACTION_verb>堆</ACTION_verb><RANGE_locality>旁邊</RANGE_locality>"
+                                "<ENTITY_person>約伯</ENTITY_person><ACTION_verb>去</ACTION_verb><ACTION_verb>坐</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_noun>垃圾堆</ENTITY_noun><RANGE_locality>旁邊</RANGE_locality>"
                             ],
                             [
                                 "<VerbP>拿了</VerbP><ENTITY_classifier>一塊</ENTITY_classifier><ENTITY_nouny>瓦片</ENTITY_nouny><ACTION_verb>刮</ACTION_verb><ENTITY_pronoun>自己</ENTITY_pronoun><ENTITY_nounHead>身</ENTITY_nounHead><RANGE_locality>上</RANGE_locality><FUNC_inner>的</FUNC_inner><ENTITY_nouny>毒瘡</ENTITY_nouny>"
@@ -1239,7 +1239,7 @@
                                 "<ENTITY_nouny>愚妄人</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>農產物</ENTITY_nouny><ACTION_lightVerb>被</ACTION_lightVerb><ACTION_verb>飢餓</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><VerbP>吃了</VerbP>"
                             ],
                             [
-                                "<FUNC_inner>連</FUNC_inner><ENTITY_DetPhrase>那些</ENTITY_DetPhrase><MODIFIER>長</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_noun>荊棘</ENTITY_noun><RANGE_locality>中</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>也</MODIFIER><ACTION_verb>吃光</ACTION_verb>"
+                                "<FUNC_inner>連</FUNC_inner><ENTITY_DetPhrase>那些</ENTITY_DetPhrase><MODIFIER>長</MODIFIER><FUNC_inner>在</FUNC_inner><ENTITY_noun>荊棘</ENTITY_noun><RANGE_locality>中</RANGE_locality><FUNC_inner>的</FUNC_inner><MODIFIER>也</MODIFIER><ENTITY_nouny>吃光</ENTITY_nouny>"
                             ],
                             [
                                 "<ENTITY_pronoun>他</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>財富</ENTITY_nouny><AUX>為</AUX><ACTION_verb>飢渴</ACTION_verb><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><FUNC_inner>所</FUNC_inner><ACTION_verb>吞</ACTION_verb><FUNC_negation>沒</FUNC_negation>"
@@ -3386,7 +3386,7 @@
                                 "<FUNC_negation>沒有</FUNC_negation><ACTION_verb>比</ACTION_verb><FUNC_negation>不</FUNC_negation><ACTION_verb>上</ACTION_verb><ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_noun>地方</ENTITY_noun>"
                             ],
                             [
-                                "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ACTION_verb>高論</ACTION_verb><CLAUSE_WhoQ>誰</CLAUSE_WhoQ><FUNC_negation>不</FUNC_negation><MODAL>會</MODAL><ACTION_verb>說</ACTION_verb><CLAUSE_particle>呢</CLAUSE_particle>"
+                                "<ENTITY_pronoun>你們</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>高論</ENTITY_nouny><CLAUSE_WhoQ>誰</CLAUSE_WhoQ><FUNC_negation>不</FUNC_negation><MODAL>會</MODAL><ACTION_verb>說</ACTION_verb><CLAUSE_particle>呢</CLAUSE_particle>"
                             ]
                         ]
                     },
@@ -7948,7 +7948,7 @@
                                 "<ENTITY_person>金子</ENTITY_person><FUNC_negation>不</FUNC_negation><MODAL>能</MODAL><ACTION_verb>購買</ACTION_verb><ENTITY_pronoun>它</ENTITY_pronoun>"
                             ],
                             [
-                                "<QUANTIFIER>再多</QUANTIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nounHead>銀子</ENTITY_nounHead><MODIFIER>也</MODIFIER><FUNC_negation>不</FUNC_negation><MODAL>能</MODAL><ACTION_verb>換取</ACTION_verb><ENTITY_pronoun>它</ENTITY_pronoun>"
+                                "<MODIFIER>再</MODIFIER><QUANTIFIER>多</QUANTIFIER><FUNC_inner>的</FUNC_inner><ENTITY_nounHead>銀子</ENTITY_nounHead><MODIFIER>也</MODIFIER><FUNC_negation>不</FUNC_negation><MODAL>能</MODAL><ACTION_verb>換取</ACTION_verb><ENTITY_pronoun>它</ENTITY_pronoun>"
                             ]
                         ]
                     },
@@ -10875,7 +10875,7 @@
                                 "<ENTITY_noun>人</ENTITY_noun><VerbP>聽到了</VerbP><ENTITY_pronoun>他</ENTITY_pronoun><ENTITY_nouny>隆隆</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>吼聲</ENTITY_nouny>"
                             ],
                             [
-                                "<ENTITY_nouny>那雷</ENTITY_nouny><ACTION_verb>轟</ACTION_verb><ENTITY_nouny>威嚴</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ACTION_verb>巨響</ACTION_verb>"
+                                "<ENTITY_nouny>那雷</ENTITY_nouny><ACTION_verb>轟</ACTION_verb><ENTITY_nouny>威嚴</ENTITY_nouny><FUNC_inner>的</FUNC_inner><MODIFIER>巨</MODIFIER><ENTITY_nouny>響</ENTITY_nouny>"
                             ],
                             [
                                 "<FUNC_determiner>那</FUNC_determiner><IDIOM>連續不斷</IDIOM><FUNC_inner>的</FUNC_inner><ENTITY_nouny>閃光</ENTITY_nouny>"

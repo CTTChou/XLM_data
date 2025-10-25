@@ -153,7 +153,7 @@
             "<ACTION_verb>去</ACTION_verb><ACTION_verb>請</ACTION_verb><ENTITY_nouny>王后</ENTITY_nouny><UserDefined>華實蒂</UserDefined><VerbP>戴著</VerbP><ENTITY_oov>后冠</ENTITY_oov><ACTION_verb>進來</ACTION_verb>"
         ],
         [
-            "<ENTITY_oov>王后</ENTITY_oov><AUX>是</AUX><ENTITY_classifier>個</ENTITY_classifier><DegreeP>非常美麗</DegreeP><FUNC_inner>的</FUNC_inner><ENTITY_noun>女人</ENTITY_noun>"
+            "<ENTITY_oov>王后</ENTITY_oov><AUX>是</AUX><ENTITY_classifier>個</ENTITY_classifier><MODIFIER>非常</MODIFIER><MODIFIER>美麗</MODIFIER><FUNC_inner>的</FUNC_inner><ENTITY_noun>女人</ENTITY_noun>"
         ],
         [
             "<ENTITY_nouny>王</ENTITY_nouny><ACTION_verb>想</ACTION_verb><ENTITY_person>向臣民</ENTITY_person><ENTITY_noun>貴賓</ENTITY_noun><ACTION_verb>炫耀</ACTION_verb><ENTITY_pronoun>她</ENTITY_pronoun><FUNC_inner>的</FUNC_inner><ENTITY_nouny>美貌</ENTITY_nouny>"
@@ -345,7 +345,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<ENTITY_nouny>王</ENTITY_nouny><FUNC_inner>的</FUNC_inner><ENTITY_nouny>怒氣</ENTITY_nouny><VerbP>消了</VerbP>"
@@ -559,7 +559,7 @@
             "<UserDefined>末底改</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_pronoun>堂妹</ENTITY_pronoun>"
         ],
         [
-            "<FUNC_inner>後來</FUNC_inner><VerbP>作了</VerbP><UserDefined>末底改</UserDefined><FUNC_inner>的</FUNC_inner><VerbP>養女</VerbP>"
+            "<RANGE_locality>後來</RANGE_locality><VerbP>作了</VerbP><UserDefined>末底改</UserDefined><FUNC_inner>的</FUNC_inner><VerbP>養女</VerbP>"
         ],
         [
             "<QUANTIFIER>每</QUANTIFIER><ENTITY_classifier>一個</ENTITY_classifier><VerbP>見過</VerbP><UserDefined>以斯帖</UserDefined><FUNC_inner>的</FUNC_inner><ENTITY_noun>人</ENTITY_noun><QUANTIFIER>都</QUANTIFIER><ACTION_verb>喜愛</ACTION_verb><ENTITY_pronoun>她</ENTITY_pronoun>"
@@ -724,7 +724,7 @@
             "<FUNC_inter>但</FUNC_inter><ENTITY_pronoun>他</ENTITY_pronoun><TIME_justtime>總是</TIME_justtime><FUNC_negation>不</FUNC_negation><ACTION_verb>聽</ACTION_verb>"
         ],
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<ENTITY_pronoun>他</ENTITY_pronoun><MODIFIER>私下</MODIFIER><FUNC_inner>向</FUNC_inner><ENTITY_pronoun>他們</ENTITY_pronoun><ACTION_verb>解釋</ACTION_verb><ACTION_verb>說</ACTION_verb>"
@@ -886,7 +886,7 @@
             "<ENTITY_oov>指令</ENTITY_oov><ACTION_verb>要</ACTION_verb><FUNC_inner>在</FUNC_inner><UserDefined>亞達月</UserDefined><TIME_day>十三日</TIME_day><FUNC_determiner>這</FUNC_determiner><TIME_day>一天</TIME_day><ACTION_lightVerb>把</ACTION_lightVerb><QUANTIFIER>所有</QUANTIFIER><FUNC_inner>的</FUNC_inner><UserDefined>猶太人</UserDefined>"
         ],
         [
-            "<FUNC_negation>不</FUNC_negation><ACTION_verb>管</ACTION_verb><ENTITY_nouny>男女</ENTITY_nouny><MODIFIER>老幼</MODIFIER>"
+            "<FUNC_negation>不</FUNC_negation><ACTION_verb>管</ACTION_verb><ENTITY_noun>男女</ENTITY_noun><MODIFIER>老幼</MODIFIER>"
         ],
         [
             "<QUANTIFIER>都</QUANTIFIER><ACTION_verb>殺光</ACTION_verb><ACTION_verb>滅盡</ACTION_verb>"
@@ -931,7 +931,7 @@
             "<UserDefined>末底改</UserDefined><VerbP>知道了</VerbP><FUNC_determiner>這</FUNC_determiner><QUANTIFIER>一切</QUANTIFIER><ENTITY_nouny>事</ENTITY_nouny>"
         ],
         [
-            "<FUNC_degreeHead>非常</FUNC_degreeHead><ENTITY_oov>悲痛</ENTITY_oov>"
+            "<MODIFIER>非常</MODIFIER><ENTITY_nounHead>悲痛</ENTITY_nounHead>"
         ],
         [
             "<ACTION_verb>撕裂</ACTION_verb><ENTITY_noun>衣服</ENTITY_noun>"
@@ -1071,7 +1071,7 @@
     ],
     [
         [
-            "<FUNC_negation>不</FUNC_negation><ACTION_verb>分</ACTION_verb><ENTITY_nouny>男女</ENTITY_nouny>"
+            "<FUNC_negation>不</FUNC_negation><ACTION_verb>分</ACTION_verb><ENTITY_noun>男女</ENTITY_noun>"
         ],
         [
             "<MODIFIER>無論</MODIFIER><AUX>是</AUX><CLAUSE_WhoQ>誰</CLAUSE_WhoQ>"
@@ -1879,7 +1879,7 @@
     ],
     [
         [
-            "<FUNC_inner>後來</FUNC_inner>"
+            "<RANGE_locality>後來</RANGE_locality>"
         ],
         [
             "<UserDefined>以斯帖</UserDefined><FUNC_inner>又</FUNC_inner><ACTION_verb>俯伏</ACTION_verb><FUNC_inner>在</FUNC_inner><ENTITY_nouny>王腳</ENTITY_nouny><RANGE_locality>前</RANGE_locality>"

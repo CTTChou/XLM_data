@@ -83,10 +83,12 @@ if __name__ == "__main__":
     all_Bible = "../../../data/Bible/Chinese/POS_all_ChiBible.json"
     lv2_all_Bible = "../../../data/Bible/Chinese/lv2_POS_all_ChiBible.json"    
     
-    folderLIST = ["../../../data/Bible/Chinese/POS", "../../../data/Bible/Chinese/lv2_POS"]
-    
+    #folderLIST = ["../../../data/Bible/Chinese/POS", "../../../data/Bible/Chinese/lv2_POS"]
+    folderLIST = ["../../../data/Bible/Chinese/lv2_POS"]
+
     # 先將 all_Bible 和 lv2_all_Bible 加入 jsonFILE_LIST
-    jsonFILE_LIST = [all_Bible, lv2_all_Bible]
+    #jsonFILE_LIST = [all_Bible, lv2_all_Bible]
+    jsonFILE_LIST = [lv2_all_Bible]
     
     # 然後遍歷 folderLIST，將所有 JSON 檔案加入 jsonFILE_LIST
     for folder in folderLIST:
